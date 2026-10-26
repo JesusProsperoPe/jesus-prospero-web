@@ -1,0 +1,9 @@
+// Configuración de Cloudflare: publica la carpeta _site que genera "npm run build"
+{
+  "name": "jesus-prospero-web",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./_site",
+    "not_found_handling": "404-page"
+  }
+}
