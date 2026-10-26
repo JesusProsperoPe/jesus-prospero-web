@@ -1,0 +1,58 @@
+---
+layout: base.njk
+---
+{% set notas = collections.noticias %}
+{% if notas.length %}
+{% set p = notas[0] %}
+<section class="contenedor portada">
+  <a class="principal" href="{{ p.url }}">
+    {% if p.data.imagen %}
+    <img class="principal-foto" src="{{ p.data.imagen | img(1400) }}" alt="{{ p.data.imagen_texto or '' }}">
+    {% endif %}
+    <div class="principal-texto">
+      <p class="etiqueta">Lo último</p>
+      <h1>{{ p.data.title }}</h1>
+      {% if p.data.resumen %}<p class="principal-resumen">{{ p.data.resumen }}</p>{% endif %}
+      <p class="meta"><time datetime="{{ p.date | fechaIso }}">{{ p.date | fechaHora }}</time></p>
+    </div>
+  </a>
+
+  {% set recientes = notas | desde(1) | limite(4) %}
+  {% if recientes.length %}
+  <aside class="recientes" aria-label="Recientes">
+    <h2 class="seccion-titulo">Recientes</h2>
+    <ol>
+      {% for n in recientes %}
+      <li>
+        <a href="{{ n.url }}">
+          <time datetime="{{ n.date | fechaIso }}">{{ n.date | fechaHora }}</time>
+          <span>{{ n.data.title }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </aside>
+  {% endif %}
+</section>
+
+<div class="contenedor">{% include "apoyo.njk" %}</div>
+
+{% set resto = notas | desde(5) | limite(12) %}
+{% if resto.length %}
+<section class="contenedor seccion">
+  <h2 class="seccion-titulo">Más noticias</h2>
+  <div class="rejilla">
+    {% for n in resto %}{% include "tarjeta.njk" %}{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<p class="contenedor ver-todas"><a class="boton boton-secundario" href="/noticias/">Ver todas las noticias</a></p>
+
+{% else %}
+<section class="contenedor vacio">
+  <h1>Pronto, las primeras noticias</h1>
+  <p>Aquí aparecerán las noticias que publique desde el panel.</p>
+</section>
+<div class="contenedor">{% include "apoyo.njk" %}</div>
+{% endif %}

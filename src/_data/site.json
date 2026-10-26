@@ -1,0 +1,14 @@
+{
+  "nombre": "Jesus Prospero",
+  "lema": "Las noticias del día, contadas a fondo",
+  "descripcion": "Las noticias que publico en Instagram, explicadas con calma y con todos los detalles.",
+  "url": "https://jesusprospero.pages.dev",
+  "instagram": "https://www.instagram.com/TU_USUARIO",
+  "correo": "TU_CORREO@ejemplo.com",
+  "planes": [
+    { "nombre": "Semilla", "monto": 0.1, "texto": "Un pequeño gesto que suma mucho.", "link": "PEGA_AQUI_LINK_PLAN_010", "destacado": false },
+    { "nombre": "Amigo", "monto": 0.5, "texto": "Para quienes quieren estar presentes.", "link": "PEGA_AQUI_LINK_PLAN_050", "destacado": false },
+    { "nombre": "Impulsor", "monto": 5, "texto": "Un apoyo real que hace la diferencia.", "link": "PEGA_AQUI_LINK_PLAN_5", "destacado": true },
+    { "nombre": "Mecenas", "monto": 20, "texto": "Para quienes creen de verdad en este trabajo.", "link": "PEGA_AQUI_LINK_PLAN_20", "destacado": false }
+  ]
+}

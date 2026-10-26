@@ -1,0 +1,59 @@
+---
+layout: base.njk
+title: Suscríbete
+resumen: Apoya a Jesus Prospero con una suscripción mensual. Cobro automático a tu tarjeta, cancelas cuando quieras.
+permalink: /suscribete/
+---
+<section class="contenedor suscribete">
+  <header class="suscribete-cabecera">
+    <p class="etiqueta">Suscripción mensual</p>
+    <h1>Apoya mi trabajo cada mes</h1>
+    <p>Elige el monto que quieras. Se cobra automáticamente cada mes a tu tarjeta y puedes cancelarlo cuando quieras.</p>
+  </header>
+
+  <div class="planes">
+    {% for plan in site.planes %}
+    <div class="plan{% if plan.destacado %} plan-destacado{% endif %}">
+      {% if plan.destacado %}<span class="insignia">Más elegido</span>{% endif %}
+      <h2>{{ plan.nombre }}</h2>
+      <p class="precio">{{ plan.monto | soles }} <small>/ mes</small></p>
+      <p class="plan-texto">{{ plan.texto }}</p>
+      <button type="button" class="boton{% if not plan.destacado %} boton-secundario{% endif %}"
+        data-plan="{{ plan.nombre }}" data-monto="{{ plan.monto | soles }}" data-link="{{ plan.link }}">Suscribirme</button>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="nota-segura">Pagos procesados por Mercado Pago. Nunca vemos los datos de tu tarjeta.</p>
+
+  <div class="pasos">
+    <h2 class="seccion-titulo">Cómo funciona</h2>
+    <ol>
+      <li><strong>Elige un plan.</strong> El monto mensual que prefieras.</li>
+      <li><strong>Regístrate en Mercado Pago.</strong> Entra con tu cuenta o créala con tu correo.</li>
+      <li><strong>Agrega tu tarjeta.</strong> Se cobra hoy y luego automáticamente cada mes.</li>
+    </ol>
+  </div>
+
+  <div class="preguntas">
+    <h2 class="seccion-titulo">Preguntas frecuentes</h2>
+    <details><summary>¿Cada cuánto se cobra?</summary><p>Una vez al mes, de forma automática, a la tarjeta que registres.</p></details>
+    <details><summary>¿Puedo cancelar?</summary><p>Sí, cuando quieras. En tu cuenta de Mercado Pago, en "Suscripciones", puedes cancelar o pausar tu aporte. No hay permanencia mínima.</p></details>
+    <details><summary>¿Qué tarjetas aceptan?</summary><p>Tarjetas de crédito y débito que acepte Mercado Pago en Perú, como Visa y Mastercard.</p></details>
+    <details><summary>¿Puedo cambiar de plan?</summary><p>Sí. Cancela tu suscripción actual y suscríbete al nuevo plan.</p></details>
+  </div>
+</section>
+
+<dialog id="confirmar">
+  <div class="modal">
+    <h2>Confirmar suscripción</h2>
+    <p class="modal-resumen" id="confirmar-resumen"></p>
+    <p>Te llevaremos a Mercado Pago para registrarte (o iniciar sesión) y agregar tu tarjeta.</p>
+    <label class="modal-acepto"><input type="checkbox" id="acepto"> Acepto que se cobre este monto automáticamente cada mes hasta que cancele.</label>
+    <p class="modal-aviso" id="aviso" hidden>Este plan todavía no está disponible. Prueba más tarde.</p>
+    <div class="modal-botones">
+      <button type="button" class="boton boton-secundario" id="volver">Volver</button>
+      <a class="boton" id="ir" href="#" aria-disabled="true">Continuar</a>
+    </div>
+  </div>
+</dialog>
+<script src="/js/suscribete.js"></script>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title %}{{ title }} · {{ site.nombre }}{% else %}{{ site.nombre }} · {{ site.lema }}{% endif %}</title>
+<meta name="description" content="{{ resumen or site.descripcion }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.nombre }}">
+<meta property="og:locale" content="es_PE">
+<meta property="og:type" content="{% if esNoticia %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ title or site.nombre }}">
+<meta property="og:description" content="{{ resumen or site.descripcion }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% if imagen %}<meta property="og:image" content="{{ site.url }}{{ imagen }}">{% endif %}
+<meta name="twitter:card" content="{% if imagen %}summary_large_image{% else %}summary{% endif %}">
+<link rel="icon" href="/img/icono.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Public+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="contenedor cabecera-fila">
+    <a class="marca" href="/">{{ site.nombre }}</a>
+    <nav class="menu" aria-label="Principal">
+      <a href="/noticias/"{% if page.url.startsWith("/noticias/") %} aria-current="page"{% endif %}>Noticias</a>
+      <a href="{{ site.instagram }}" rel="noopener" target="_blank">Instagram</a>
+      <a class="boton boton-chico" href="/suscribete/">Suscríbete</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+{{ content | safe }}
+</main>
+
+<footer class="pie">
+  <div class="contenedor pie-fila">
+    <div>
+      <p class="marca marca-pie">{{ site.nombre }}</p>
+      <p class="pie-lema">{{ site.lema }}</p>
+    </div>
+    <ul class="pie-enlaces">
+      <li><a href="/noticias/">Todas las noticias</a></li>
+      <li><a href="/suscribete/">Suscríbete</a></li>
+      <li><a href="{{ site.instagram }}" rel="noopener" target="_blank">Instagram</a></li>
+      <li>Contacto: {{ site.correo }}</li>
+    </ul>
+  </div>
+  <p class="contenedor pie-legal">© {% anio %} {{ site.nombre }}</p>
+</footer>
+</body>
+</html>

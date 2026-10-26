@@ -1,0 +1,78 @@
+# Panel de administración (Decap CMS)
+backend:
+  name: github
+  repo: JesusProsperoPe/jesus-prospero-web
+  branch: main
+  commit_messages:
+    create: "Nueva noticia: {{slug}}"
+    update: "Editar noticia: {{slug}}"
+    delete: "Borrar noticia: {{slug}}"
+    uploadMedia: "Subir imagen: {{path}}"
+    deleteMedia: "Borrar imagen: {{path}}"
+
+site_url: https://jesusprospero.pages.dev
+display_url: https://jesusprospero.pages.dev
+logo_url: /img/icono.svg
+
+# Dónde se guardan las fotos que subes
+media_folder: src/img/uploads
+public_folder: /img/uploads
+
+# Las fotos del celular se achican y comprimen al subirlas (WebP, máx. 2000 px)
+media_libraries:
+  default:
+    config:
+      max_file_size: 15000000
+      transformations:
+        raster_image:
+          format: webp
+          quality: 82
+          width: 2000
+          height: 2000
+
+collections:
+  - name: noticias
+    label: Noticias
+    label_singular: Noticia
+    description: Escribe y publica tus noticias. Aparecen en el sitio uno o dos minutos después de guardarlas.
+    folder: src/noticias
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} · {{date | date('DD/MM/YYYY HH:mm')}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Titular", name: "title", widget: "string" }
+      - { label: "Fecha y hora", name: "date", widget: "datetime" }
+      - { label: "Bajada (resumen corto)", name: "resumen", widget: "text", required: false,
+          hint: "Una o dos líneas que aparecen bajo el titular y en la portada." }
+      - { label: "Foto principal", name: "imagen", widget: "image", required: false }
+      - { label: "Pie de foto", name: "imagen_texto", widget: "string", required: false,
+          hint: "Qué se ve en la foto y de quién es (créditos)." }
+      - { label: "Texto completo", name: "body", widget: "markdown" }
+
+  - name: ajustes
+    label: Ajustes del sitio
+    editor: { preview: false }
+    files:
+      - name: sitio
+        label: Datos y planes de suscripción
+        file: src/_data/site.json
+        fields:
+          - { label: "Nombre del sitio", name: "nombre", widget: "string" }
+          - { label: "Lema", name: "lema", widget: "string" }
+          - { label: "Descripción (para Google y redes)", name: "descripcion", widget: "text" }
+          - { label: "Dirección del sitio", name: "url", widget: "string",
+              hint: "Ejemplo: https://jesusprospero.com (sin / al final)" }
+          - { label: "Link de Instagram", name: "instagram", widget: "string" }
+          - { label: "Correo de contacto", name: "correo", widget: "string" }
+          - label: "Planes de suscripción"
+            name: "planes"
+            widget: "list"
+            summary: "{{fields.nombre}} · S/ {{fields.monto}}"
+            fields:
+              - { label: "Nombre", name: "nombre", widget: "string" }
+              - { label: "Monto mensual (soles)", name: "monto", widget: "number", value_type: "float", min: 0 }
+              - { label: "Texto", name: "texto", widget: "string" }
+              - { label: "Link del plan en Mercado Pago", name: "link", widget: "string",
+                  hint: "Empieza con https://www.mercadopago.com.pe/subscriptions/..." }
+              - { label: "Destacar este plan", name: "destacado", widget: "boolean", default: false }

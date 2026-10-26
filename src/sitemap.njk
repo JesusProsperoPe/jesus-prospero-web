@@ -1,0 +1,12 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ site.url }}/</loc></url>
+  <url><loc>{{ site.url }}/suscribete/</loc></url>
+  {%- for n in collections.noticias %}
+  <url><loc>{{ site.url }}{{ n.url }}</loc><lastmod>{{ n.date | fechaIso }}</lastmod></url>
+  {%- endfor %}
+</urlset>
