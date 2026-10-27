@@ -4,6 +4,10 @@ const md = markdownIt({ html: false, linkify: true, typographer: false });
 module.exports = function (eleventyConfig) {
   // Para textos largos editados desde el panel (por ejemplo "Mi historia" en Sobre mí)
   eleventyConfig.addFilter("markdown", (texto) => (texto ? md.render(String(texto)) : ""));
+  // Primer párrafo de un texto largo, para mostrarlo como resumen (por ejemplo en la portada)
+  eleventyConfig.addFilter("primerParrafo", (texto) =>
+    texto ? md.renderInline(String(texto).trim().split(/\n\s*\n/)[0]) : ""
+  );
 
   // Archivos que se copian tal cual al sitio final
   eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });

@@ -4,7 +4,9 @@
     <div class="presentacion-texto">
       <p class="etiqueta">Sobre mí</p>
       <h2 id="presentacion-titulo">{{ site.nombre }}</h2>
-      <p class="presentacion-bio">{{ autor.bio }}</p>
+      {# Misma presentación que la página Sobre mí: el primer párrafo de "Mi historia" #}
+      <p class="presentacion-bio">{% if autor.historia %}{{ autor.historia | primerParrafo | safe }}{% else %}{{ autor.bio }}{% endif %}</p>
+      <a class="enlace-flecha enlace-claro" href="/sobre-mi/">Conoce mi historia</a>
 
       <div class="presentacion-apoyo">
         <p class="etiqueta">Aporte mensual voluntario</p>
@@ -12,7 +14,6 @@
         <p>Tu apoyo me ayuda a seguir informando. Todas las noticias seguirán siendo gratuitas: tu suscripción es una forma voluntaria de apoyar este proyecto.</p>
         <div class="botones">
           <a class="boton" href="/suscribete/">Ver cómo apoyar</a>
-          <a class="boton boton-claro" href="{{ site.instagram }}" target="_blank" rel="noopener">Sígueme en Instagram</a>
         </div>
       </div>
     </div>

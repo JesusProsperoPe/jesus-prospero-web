@@ -61,7 +61,7 @@ collections:
           - { label: "Mi foto", name: "foto", widget: "image",
               hint: "Mejor una foto cuadrada. Aparece en la cabecera, en la portada, en cada noticia y en Suscríbete." }
           - { label: "Presentación", name: "bio", widget: "text",
-              hint: "Dos o tres líneas sobre ti. Aparece en la portada y al inicio de la página Sobre mí." }
+              hint: "Solo se usa si 'Mi historia' está vacía. Si tienes historia, la portada muestra su primer párrafo." }
           - { label: "Mi historia (opcional)", name: "historia", widget: "markdown", required: false,
               hint: "Texto largo para la página Sobre mí: quién eres, tu trayectoria, por qué haces este trabajo." }
       - name: sitio

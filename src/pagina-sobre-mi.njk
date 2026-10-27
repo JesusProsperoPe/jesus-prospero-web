@@ -10,9 +10,10 @@ eleventyExcludeFromCollections: true
     <div class="sobre-pagina-texto">
       <p class="etiqueta">Sobre mí</p>
       <h1 class="titulo-pagina">{{ site.nombre }}</h1>
-      <p class="sobre-pagina-bio">{{ autor.bio }}</p>
       {% if autor.historia %}
       <div class="nota-cuerpo sobre-pagina-historia">{{ autor.historia | markdown | safe }}</div>
+      {% else %}
+      <p class="sobre-pagina-bio">{{ autor.bio }}</p>
       {% endif %}
       <div class="sobre-pagina-redes">
         <p class="etiqueta">Sígueme</p>

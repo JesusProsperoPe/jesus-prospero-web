@@ -213,6 +213,7 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .presentacion .etiqueta { color: var(--rojo-claro); }
 .presentacion h2 { font-size: clamp(40px, 5.6vw, 72px); font-stretch: 78%; text-transform: uppercase; line-height: .95; }
 .presentacion-bio { max-width: 52ch; font-family: var(--f-lectura); font-size: 20px; line-height: 1.55; color: var(--blanco-tenue); }
+.enlace-claro { color: var(--rojo-claro); }
 .presentacion-apoyo { display: grid; gap: 12px; margin-top: 14px; padding-top: 28px; border-top: 1px solid var(--linea-oscura); }
 .presentacion-apoyo h3 { font-size: clamp(22px, 2.4vw, 28px); line-height: 1.15; }
 .presentacion-apoyo p:not(.etiqueta) { max-width: 60ch; color: var(--blanco-tenue); }
