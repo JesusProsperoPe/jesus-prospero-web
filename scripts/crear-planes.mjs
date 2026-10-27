@@ -13,7 +13,7 @@ const VOLVER_A = process.env.BACK_URL || "https://jesusprospero.pe/aporte/gracia
 const API = "https://api.mercadopago.com";
 
 const PLANES = [
-  { nombre: "Semilla", monto: 1 },
+  { nombre: "Semilla", monto: 3 },
   { nombre: "Amigo", monto: 5 },
   { nombre: "Impulsor", monto: 10 },
   { nombre: "Mecenas", monto: 20 },

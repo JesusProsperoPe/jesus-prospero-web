@@ -27,7 +27,7 @@ No se guardan correos, nombres ni datos de tarjeta. Solo: id de la suscripción,
 2. En la aplicación, ve a **Credenciales de producción** y actívalas (Mercado Pago pide datos de tu negocio).
 3. Copia el **Access Token de producción**. Es secreto: no lo pegues en el chat ni en archivos del sitio.
 
-## 3 · Crear los 4 planes (S/1, S/5, S/10, S/20)
+## 3 · Crear los 4 planes (S/3, S/5, S/10, S/20)
 
 En PowerShell, dentro de la carpeta `jesus-prospero-web`:
 
@@ -60,7 +60,7 @@ Cloudflare → **Workers & Pages → jesus-prospero-web → Settings → Variabl
 
 ## 6 · Prueba real (la única que confirma que cobra de verdad)
 
-1. Suscríbete tú mismo al plan **Semilla (S/1)** desde `jesusprospero.pe/suscribete/`.
+1. Suscríbete tú mismo al plan **Semilla (S/3)** desde `jesusprospero.pe/suscribete/`.
 2. Al volver, la página debe decir **"¡Gracias! Tu aporte mensual está activo"**.
 3. En D1 → Console: `SELECT * FROM suscripciones;` debe mostrar la suscripción `authorized`.
 4. Cancélala desde Mercado Pago (ver `/aporte/gestionar/`) y confirma que en D1 pase a `cancelled`.
