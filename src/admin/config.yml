@@ -61,13 +61,16 @@ collections:
           - { label: "Mi foto", name: "foto", widget: "image",
               hint: "Mejor una foto cuadrada. Aparece en la cabecera, en la portada, en cada noticia y en Suscríbete." }
           - { label: "Presentación", name: "bio", widget: "text",
-              hint: "Dos o tres líneas sobre ti. Aparece en el recuadro 'Sobre mí' de la portada." }
+              hint: "Dos o tres líneas sobre ti. Aparece en la portada y al inicio de la página Sobre mí." }
+          - { label: "Mi historia (opcional)", name: "historia", widget: "markdown", required: false,
+              hint: "Texto largo para la página Sobre mí: quién eres, tu trayectoria, por qué haces este trabajo." }
       - name: sitio
         label: Datos del sitio
         file: src/_data/site.json
         fields:
           - { label: "Nombre del sitio", name: "nombre", widget: "string" }
-          - { label: "Lema", name: "lema", widget: "string" }
+          - { label: "Lema (opcional)", name: "lema", widget: "string", required: false,
+              hint: "Frase corta bajo tu nombre en la cabecera. Déjalo vacío para no mostrar ninguna." }
           - { label: "Descripción (para Google y redes)", name: "descripcion", widget: "text" }
           - { label: "Dirección del sitio", name: "url", widget: "string",
               hint: "Ejemplo: https://jesusprospero.pe (sin / al final)" }

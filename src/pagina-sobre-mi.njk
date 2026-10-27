@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: Sobre mí
+permalink: /sobre-mi/
+eleventyExcludeFromCollections: true
+---
+<section class="contenedor sobre-pagina">
+  <div class="sobre-pagina-rejilla">
+    <img class="sobre-pagina-foto" src="{{ autor.foto }}" alt="{{ site.nombre }}" width="440" height="440">
+    <div class="sobre-pagina-texto">
+      <p class="etiqueta">Sobre mí</p>
+      <h1 class="titulo-pagina">{{ site.nombre }}</h1>
+      <p class="sobre-pagina-bio">{{ autor.bio }}</p>
+      {% if autor.historia %}
+      <div class="nota-cuerpo sobre-pagina-historia">{{ autor.historia | markdown | safe }}</div>
+      {% endif %}
+      <div class="botones">
+        <a class="boton boton-secundario" href="{{ site.instagram }}" target="_blank" rel="noopener">Sígueme en Instagram</a>
+        <a class="boton boton-secundario" href="/noticias/">Leer mis noticias</a>
+      </div>
+      {% if site.correo %}<p class="sobre-pagina-contacto">Contacto: <strong>{{ site.correo }}</strong></p>{% endif %}
+    </div>
+  </div>
+  {% include "apoyo.njk" %}
+</section>

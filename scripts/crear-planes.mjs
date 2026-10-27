@@ -49,6 +49,9 @@ for (const p of PLANES) {
       reason: razon(p),
       auto_recurring: { frequency: 1, frequency_type: "months", transaction_amount: p.monto, currency_id: "PEN" },
       back_url: VOLVER_A,
+      payment_methods_allowed: {
+        payment_types: [{ id: "credit_card" }, { id: "debit_card" }, { id: "account_money" }],
+      },
     });
     console.log(`+ ${p.nombre}: creado (${plan.id})`);
   }

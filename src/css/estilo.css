@@ -393,6 +393,16 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
 .gestionar-ayuda { display: grid; gap: 10px; max-width: 680px; margin-top: 48px; padding-top: 28px; border-top: 2px solid var(--tinta); }
 .gestionar-ayuda p { color: var(--gris-oscuro); overflow-wrap: anywhere; }
 
+/* ───────── Página Sobre mí ───────── */
+.sobre-pagina { display: grid; gap: 56px; padding-block: 56px 80px; }
+.sobre-pagina-rejilla { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 56px; align-items: start; }
+.sobre-pagina-foto { width: 100%; max-width: 460px; aspect-ratio: 1; object-fit: cover; border-radius: var(--radio); }
+.sobre-pagina-texto { display: grid; gap: 18px; justify-items: start; min-width: 0; }
+.sobre-pagina-bio { max-width: 52ch; font-family: var(--f-lectura); font-size: 22px; line-height: 1.5; color: var(--gris-oscuro); }
+.sobre-pagina-historia { margin-inline: 0; }
+.sobre-pagina-contacto { font-size: 15px; color: var(--tenue); overflow-wrap: anywhere; }
+.sobre-pagina .apoyo { margin: 0; max-width: none; }
+
 /* Estados vacíos y 404 */
 .vacio { display: grid; justify-items: center; gap: 14px; padding-block: 80px; text-align: center; }
 .vacio h1 { font-size: clamp(36px, 5vw, 56px); }
@@ -508,6 +518,10 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
   .estado-caja { padding: 24px 20px; }
   .estado-detalle > div { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .estado-ayuda .boton { flex: 1 1 100%; }
+  .sobre-pagina { gap: 40px; padding-block: 28px 56px; }
+  .sobre-pagina-rejilla { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .sobre-pagina-foto { max-width: 200px; }
+  .sobre-pagina-bio { font-size: 19px; }
   .gestionar { padding-block: 32px 56px; }
   .gestionar-rejilla { grid-template-columns: minmax(0, 1fr); }
   .gestionar-bloque { padding: 22px 20px; }
