@@ -4,35 +4,35 @@
   "descripcion": "Las noticias que publico en Instagram, explicadas con calma y con todos los detalles.",
   "url": "https://jesusprospero.pe",
   "instagram": "https://www.instagram.com/jesusprospero.pe",
-  "correo": "TU_CORREO@ejemplo.com",
+  "correo": "jesusprospero.h@gmail.com",
   "planes": [
     {
-      "nombre": "Semilla",
-      "monto": 0.1,
-      "texto": "Un pequeño gesto que suma mucho.",
+      "destacado": false,
       "link": "PEGA_AQUI_LINK_PLAN_010",
-      "destacado": false
+      "monto": 0.1,
+      "nombre": "Semilla",
+      "texto": "Un pequeño gesto que suma mucho."
     },
     {
-      "nombre": "Amigo",
-      "monto": 0.5,
-      "texto": "Para quienes quieren estar presentes.",
+      "destacado": false,
       "link": "PEGA_AQUI_LINK_PLAN_050",
-      "destacado": false
+      "monto": 0.5,
+      "nombre": "Amigo",
+      "texto": "Para quienes quieren estar presentes."
     },
     {
-      "nombre": "Impulsor",
-      "monto": 5,
-      "texto": "Un apoyo real que hace la diferencia.",
+      "destacado": true,
       "link": "PEGA_AQUI_LINK_PLAN_5",
-      "destacado": true
+      "monto": 5,
+      "nombre": "Impulsor",
+      "texto": "Un apoyo real que hace la diferencia."
     },
     {
-      "nombre": "Mecenas",
-      "monto": 20,
-      "texto": "Para quienes creen de verdad en este trabajo.",
+      "destacado": false,
       "link": "PEGA_AQUI_LINK_PLAN_20",
-      "destacado": false
+      "monto": 20,
+      "nombre": "Mecenas",
+      "texto": "Para quienes creen de verdad en este trabajo."
     }
   ]
 }
