@@ -58,7 +58,8 @@ async function estado(url, env) {
   const plan = s && PLANES.get(s.preapproval_plan_id);
   if (!plan) return json({ estado: "no_encontrado" }, 404);
 
-  await guardarSuscripcion(env, s);
+  // Si el registro falla, igual se muestra el estado real; el webhook volverá a intentarlo
+  try { await guardarSuscripcion(env, s); } catch (e) { console.error(`estado ${id}: no se pudo registrar: ${e.message}`); }
 
   return json({
     estado: s.status,                                   // authorized | pending | paused | cancelled
@@ -90,12 +91,17 @@ async function webhook(request, url, env) {
     if (tipo === "subscription_preapproval") {
       const s = await mp(env, `/preapproval/${encodeURIComponent(dataId)}`);
       if (s && PLANES.has(s.preapproval_plan_id)) await guardarSuscripcion(env, s);
+      else console.log(`webhook ${tipo} ${dataId}: no es una suscripción de esta web, se ignora`);
     } else if (tipo === "subscription_authorized_payment") {
       const p = await mp(env, `/authorized_payments/${encodeURIComponent(dataId)}`);
       if (p) await guardarPago(env, p);
+      else console.log(`webhook ${tipo} ${dataId}: cobro no encontrado, se ignora`);
+    } else {
+      console.log(`webhook ${tipo || "(sin tipo)"} ${dataId}: tipo no usado, se ignora`);
     }
-  } catch {
-    // Error temporal: Mercado Pago reintentará la notificación
+  } catch (e) {
+    // Error temporal (Mercado Pago caído o base de datos): Mercado Pago reintentará la notificación
+    console.error(`webhook ${tipo} ${dataId}: ${e.message}`);
     return json({ ok: false }, 500);
   }
   return json({ ok: true });
@@ -173,8 +179,9 @@ async function mp(env, ruta) {
   const r = await fetch(`${env.MP_API_BASE || MP_API}${ruta}`, {
     headers: { Authorization: `Bearer ${env.MP_ACCESS_TOKEN}` },
   });
-  if (r.status === 404) return null;
-  if (!r.ok) throw new Error(`Mercado Pago respondió ${r.status}`);
+  // 400/404: el recurso no existe o el id no es válido (por ejemplo, en las simulaciones de Mercado Pago)
+  if (r.status === 400 || r.status === 404) return null;
+  if (!r.ok) throw new Error(`Mercado Pago respondió ${r.status} en ${ruta}`);
   return r.json();
 }
 
