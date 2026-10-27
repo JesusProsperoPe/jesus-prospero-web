@@ -95,7 +95,7 @@ h1, h2, h3 {
 
 /* Fotos con zoom suave al pasar el mouse */
 .foto-marco { overflow: hidden; border-radius: var(--radio); background: var(--linea-suave); }
-.foto-marco img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--suave); }
+.foto-marco img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; transition: transform .6s var(--suave); }
 a:hover .foto-marco img { transform: scale(1.035); }
 
 /* Titulares que se subrayan en rojo al pasar el mouse */
