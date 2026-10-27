@@ -14,8 +14,17 @@
 <meta property="og:title" content="{{ title or site.nombre }}">
 <meta property="og:description" content="{{ resumen or site.descripcion }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-{% if imagen %}<meta property="og:image" content="{{ site.url }}{{ imagen }}">{% endif %}
-<meta name="twitter:card" content="{% if imagen %}summary_large_image{% else %}summary{% endif %}">
+{# Imagen al compartir: la foto de la noticia; en las demás páginas, la foto de Jesús #}
+{% if imagen %}
+<meta property="og:image" content="{{ site.url }}{{ imagen }}">
+<meta name="twitter:card" content="summary_large_image">
+{% else %}
+<meta property="og:image" content="{{ site.url }}{{ autor.foto }}">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="{{ site.nombre }}">
+<meta name="twitter:card" content="summary">
+{% endif %}
 <link rel="icon" href="/img/icono-48.png" type="image/png" sizes="48x48">
 <link rel="icon" href="/img/icono.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
