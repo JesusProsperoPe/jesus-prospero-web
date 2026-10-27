@@ -181,8 +181,19 @@ async function mp(env, ruta) {
   });
   // 400/404: el recurso no existe o el id no es válido (por ejemplo, en las simulaciones de Mercado Pago)
   if (r.status === 400 || r.status === 404) return null;
+  // 401/403: Mercado Pago también responde así cuando el recurso no pertenece a esta cuenta.
+  // Se confirma que la llave sigue funcionando; si funciona, el recurso es ajeno y se ignora.
+  if ((r.status === 401 || r.status === 403) && (await llaveValida(env))) return null;
   if (!r.ok) throw new Error(`Mercado Pago respondió ${r.status} en ${ruta}`);
   return r.json();
+}
+
+async function llaveValida(env) {
+  const r = await fetch(`${env.MP_API_BASE || MP_API}/users/me`, {
+    headers: { Authorization: `Bearer ${env.MP_ACCESS_TOKEN}` },
+  });
+  if (!r.ok) console.error(`La llave MP_ACCESS_TOKEN no funciona (Mercado Pago respondió ${r.status} en /users/me)`);
+  return r.ok;
 }
 
 function json(datos, status = 200) {
