@@ -1,12 +1,12 @@
 ---
-title: "Fiscalía confirma que hubo crimen de lesa humanidad y lo archiva porque ya venció"
+title: Fiscalía confirma que hubo crimen de lesa humanidad y lo archiva porque ya venció
 date: 2026-10-27T01:10:00.000-05:00
-resumen: "Un fiscal admite que más de cuatro mil personas fueron esterilizadas sin consentimiento como política de Estado y, en el mismo documento, decide que el delito caducó como yogurt olvidado en la refri."
+resumen: Un fiscal admite que más de cuatro mil personas fueron esterilizadas sin consentimiento como política de Estado y, en el mismo documento, decide que el delito caducó como yogurt olvidado en la refri.
 imagen: /img/uploads/esterilizaciones-forzadas-protesta.jpg
-imagen_texto: "Protesta de víctimas de las esterilizaciones forzadas."
+imagen_texto: Protesta de víctimas de las esterilizaciones forzadas.
 ---
 
-En el Perú hay cosas que nunca vencen. La deuda con Saga, el tío que te pide prestado en cada pollada y las ganas de Keiko de ser presidenta. Pero el crimen de lesa humanidad, según la Fiscalía, sí tiene fecha de caducidad.
+En el Perú hay cosas que nunca vencen. La deuda con Saga, el tío que te pide prestado en cada pollada y las ganas de Keiko de arruinarnos la vida. Pero el crimen de lesa humanidad, según la Fiscalía, sí tiene fecha de caducidad.
 
 El 22 de octubre, el fiscal Jesús Víctor Dávila Rojas, de la Cuarta Fiscalía Supranacional de Derechos Humanos, archivó la investigación por las esterilizaciones forzadas del gobierno de Alberto Fujimori. Lo hizo con la Ley 32107, esa joyita que impide juzgar como lesa humanidad cualquier crimen cometido antes de julio de 2002. Justo la época en que, oh casualidad, gobernaba el papá de la señora K.
 
