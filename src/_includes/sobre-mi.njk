@@ -1,9 +1,20 @@
-<section class="sobre-mi" aria-labelledby="sobre-mi-titulo">
-  <img src="{{ autor.foto }}" alt="{{ site.nombre }}" width="88" height="88" loading="lazy">
-  <div>
-    <p class="etiqueta">Sobre mí</p>
-    <h2 id="sobre-mi-titulo">{{ site.nombre }}</h2>
+<section class="presentacion" aria-labelledby="presentacion-titulo">
+  <div class="contenedor presentacion-rejilla">
+    <img class="presentacion-foto" src="{{ autor.foto }}" alt="{{ site.nombre }}" width="400" height="400" loading="lazy">
+    <div class="presentacion-texto">
+      <p class="etiqueta">Sobre mí</p>
+      <h2 id="presentacion-titulo">{{ site.nombre }}</h2>
+      <p class="presentacion-bio">{{ autor.bio }}</p>
+
+      <div class="presentacion-apoyo">
+        <p class="etiqueta">Apoya este trabajo</p>
+        <h3>Si te sirven estas noticias, ayúdame a seguir publicándolas</h3>
+        <p>Suscríbete con el monto que quieras, desde {{ (site.planes | first).monto | soles }} al mes. Se cobra automáticamente a tu tarjeta y cancelas cuando quieras.</p>
+        <div class="botones">
+          <a class="boton" href="/suscribete/">Ver planes</a>
+          <a class="boton boton-claro" href="{{ site.instagram }}" target="_blank" rel="noopener">Sígueme en Instagram</a>
+        </div>
+      </div>
+    </div>
   </div>
-  <p class="sobre-mi-bio">{{ autor.bio }}</p>
-  <a class="boton boton-secundario boton-chico" href="{{ site.instagram }}" target="_blank" rel="noopener">Sígueme en Instagram</a>
 </section>

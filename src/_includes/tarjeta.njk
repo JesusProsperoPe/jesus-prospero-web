@@ -1,12 +1,13 @@
-<article class="tarjeta">
+{# Tarjeta de noticia. Antes de incluirla, define `variante`: "" (normal), "secundaria" o "destacada". #}
+<article class="tarjeta{% if variante %} tarjeta-{{ variante }}{% endif %}{% if not n.data.imagen %} tarjeta-sinfoto{% endif %}">
   <a class="tarjeta-enlace" href="{{ n.url }}">
     {% if n.data.imagen %}
-    <img class="tarjeta-foto" src="{{ n.data.imagen | img(720) }}" alt="" loading="lazy">
-    {% else %}
-    <div class="tarjeta-foto tarjeta-sinfoto" aria-hidden="true"><span>{{ site.nombre }}</span></div>
+    <div class="foto-marco tarjeta-foto"><img src="{{ n.data.imagen | img(900) }}" alt="" loading="lazy"></div>
     {% endif %}
-    <p class="meta"><time datetime="{{ n.date | fechaIso }}">{{ n.date | fechaHora }}</time></p>
-    <h3>{{ n.data.title }}</h3>
-    {% if n.data.resumen %}<p class="tarjeta-resumen">{{ n.data.resumen }}</p>{% endif %}
+    <div class="tarjeta-texto">
+      <p class="meta"><time datetime="{{ n.date | fechaIso }}">{{ n.date | fechaHora }}</time></p>
+      <h3>{{ n.data.title }}</h3>
+      {% if n.data.resumen and variante != "secundaria" %}<p class="tarjeta-resumen">{{ n.data.resumen }}</p>{% endif %}
+    </div>
   </a>
 </article>

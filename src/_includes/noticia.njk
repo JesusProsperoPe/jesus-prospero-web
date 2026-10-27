@@ -1,9 +1,9 @@
 ---
 layout: base.njk
 ---
-<article class="nota contenedor">
-  <header class="nota-cabecera">
-    <p class="meta"><a href="/noticias/">Noticias</a></p>
+<article class="nota">
+  <header class="contenedor nota-cabecera">
+    <p class="etiqueta"><a href="/noticias/">Noticias</a></p>
     <h1>{{ title }}</h1>
     {% if resumen %}<p class="nota-bajada">{{ resumen }}</p>{% endif %}
     <div class="firma">
@@ -16,34 +16,39 @@ layout: base.njk
   </header>
 
   {% if imagen %}
-  <figure class="nota-foto">
-    <img src="{{ imagen | img(1400) }}" alt="{{ imagen_texto or title }}">
+  <figure class="contenedor nota-foto">
+    <img src="{{ imagen | img(1600) }}" alt="{{ imagen_texto or title }}">
     {% if imagen_texto %}<figcaption>{{ imagen_texto }}</figcaption>{% endif %}
   </figure>
   {% endif %}
 
-  <div class="nota-cuerpo">
-    {{ content | safe }}
-  </div>
+  <div class="contenedor">
+    <div class="nota-cuerpo">
+      {{ content | safe }}
+    </div>
 
-  {% set enlace = site.url + page.url %}
-  <div class="compartir" aria-label="Compartir">
-    <span>Compartir:</span>
-    <a href="https://wa.me/?text={{ (title + ' ' + enlace) | urlencode }}" target="_blank" rel="noopener">WhatsApp</a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ enlace | urlencode }}" target="_blank" rel="noopener">Facebook</a>
-    <a href="https://twitter.com/intent/tweet?url={{ enlace | urlencode }}&amp;text={{ title | urlencode }}" target="_blank" rel="noopener">X</a>
-    <button type="button" id="copiar" data-enlace="{{ enlace }}">Copiar enlace</button>
-  </div>
+    {% set enlace = site.url + page.url %}
+    <div class="compartir" aria-label="Compartir">
+      <span>Compartir</span>
+      <a href="https://wa.me/?text={{ (title + ' ' + enlace) | urlencode }}" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ enlace | urlencode }}" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url={{ enlace | urlencode }}&amp;text={{ title | urlencode }}" target="_blank" rel="noopener">X</a>
+      <button type="button" id="copiar" data-enlace="{{ enlace }}">Copiar enlace</button>
+    </div>
 
-  {% include "apoyo.njk" %}
+    {% include "apoyo.njk" %}
+  </div>
 </article>
 
 {% set otras = collections.noticias | otras(page.url, 3) %}
 {% if otras.length %}
-<section class="contenedor seccion">
-  <h2 class="seccion-titulo">Más noticias</h2>
+<section class="contenedor seccion" aria-labelledby="mas-titulo">
+  <div class="seccion-cabeza">
+    <h2 class="seccion-titulo" id="mas-titulo">Más noticias</h2>
+    <a class="enlace-flecha" href="/noticias/">Ver todas</a>
+  </div>
   <div class="rejilla">
-    {% for n in otras %}{% include "tarjeta.njk" %}{% endfor %}
+    {% for n in otras %}{% set variante = "" %}{% include "tarjeta.njk" %}{% endfor %}
   </div>
 </section>
 {% endif %}

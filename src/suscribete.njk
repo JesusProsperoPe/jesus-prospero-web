@@ -10,26 +10,32 @@ permalink: /suscribete/
       <p class="etiqueta">Suscripción mensual</p>
       <h1>Apoya mi trabajo cada mes</h1>
       <p>Elige el monto que quieras. Se cobra automáticamente cada mes a tu tarjeta y puedes cancelarlo cuando quieras.</p>
+      <a class="enlace-flecha" href="#planes">Ver los planes</a>
     </div>
-    <img class="suscribete-foto" src="{{ autor.foto }}" alt="{{ site.nombre }}" width="320" height="320">
+    <img class="suscribete-foto" src="{{ autor.foto }}" alt="{{ site.nombre }}" width="420" height="420">
   </header>
 
-  <div class="planes">
-    {% for plan in site.planes %}
-    <div class="plan{% if plan.destacado %} plan-destacado{% endif %}">
-      {% if plan.destacado %}<span class="insignia">Más elegido</span>{% endif %}
-      <h2>{{ plan.nombre }}</h2>
-      <p class="precio">{{ plan.monto | soles }} <small>/ mes</small></p>
-      <p class="plan-texto">{{ plan.texto }}</p>
-      <button type="button" class="boton{% if not plan.destacado %} boton-secundario{% endif %}"
-        data-plan="{{ plan.nombre }}" data-monto="{{ plan.monto | soles }}" data-link="{{ plan.link }}">Suscribirme</button>
+  <div class="planes-bloque" id="planes">
+    <div class="planes">
+      {% for plan in site.planes %}
+      <div class="plan{% if plan.destacado %} plan-destacado{% endif %}">
+        {% if plan.destacado %}<span class="insignia">Más elegido</span>{% endif %}
+        <h2>{{ plan.nombre }}</h2>
+        <p class="precio">{{ plan.monto | soles }} <small>/ mes</small></p>
+        <p class="plan-texto">{{ plan.texto }}</p>
+        <button type="button" class="boton{% if not plan.destacado %} boton-secundario{% endif %}"
+          data-plan="{{ plan.nombre }}" data-monto="{{ plan.monto | soles }}" data-link="{{ plan.link }}">Suscribirme</button>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
+    <p class="nota-segura">
+      <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+      Pagos procesados por Mercado Pago. Nunca vemos los datos de tu tarjeta.
+    </p>
   </div>
-  <p class="nota-segura">Pagos procesados por Mercado Pago. Nunca vemos los datos de tu tarjeta.</p>
 
   <div class="pasos">
-    <h2 class="seccion-titulo">Cómo funciona</h2>
+    <div class="seccion-cabeza"><h2 class="seccion-titulo">Cómo funciona</h2></div>
     <ol>
       <li><strong>Elige un plan.</strong> El monto mensual que prefieras.</li>
       <li><strong>Regístrate en Mercado Pago.</strong> Entra con tu cuenta o créala con tu correo.</li>
@@ -38,7 +44,7 @@ permalink: /suscribete/
   </div>
 
   <div class="preguntas">
-    <h2 class="seccion-titulo">Preguntas frecuentes</h2>
+    <div class="seccion-cabeza"><h2 class="seccion-titulo">Preguntas frecuentes</h2></div>
     <details><summary>¿Cada cuánto se cobra?</summary><p>Una vez al mes, de forma automática, a la tarjeta que registres.</p></details>
     <details><summary>¿Puedo cancelar?</summary><p>Sí, cuando quieras. En tu cuenta de Mercado Pago, en "Suscripciones", puedes cancelar o pausar tu aporte. No hay permanencia mínima.</p></details>
     <details><summary>¿Qué tarjetas aceptan?</summary><p>Tarjetas de crédito y débito que acepte Mercado Pago en Perú, como Visa y Mastercard.</p></details>
@@ -48,6 +54,7 @@ permalink: /suscribete/
 
 <dialog id="confirmar">
   <div class="modal">
+    <p class="etiqueta">Suscripción mensual</p>
     <h2>Confirmar suscripción</h2>
     <p class="modal-resumen" id="confirmar-resumen"></p>
     <p>Te llevaremos a Mercado Pago para registrarte (o iniciar sesión) y agregar tu tarjeta.</p>

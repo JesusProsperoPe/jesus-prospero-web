@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if title %}{{ title }} · {{ site.nombre }}{% else %}{{ site.nombre }} · {{ site.lema }}{% endif %}</title>
 <meta name="description" content="{{ resumen or site.descripcion }}">
+<meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.nombre }}">
 <meta property="og:locale" content="es_PE">
@@ -17,7 +18,7 @@
 <link rel="icon" href="/img/icono.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Public+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
@@ -25,12 +26,19 @@
 
 <header class="cabecera">
   <div class="contenedor cabecera-fila">
-    <a class="marca" href="/"><img class="marca-foto" src="{{ autor.foto }}" alt="" width="40" height="40">{{ site.nombre }}</a>
+    <a class="marca" href="/" aria-label="{{ site.nombre }}, ir a la portada">
+      <img class="marca-foto" src="{{ autor.foto }}" alt="" width="40" height="40">
+      <span class="marca-texto">
+        <span class="marca-nombre">{{ site.nombre }}</span>
+        <span class="marca-lema">{{ site.lema }}</span>
+      </span>
+    </a>
     <nav class="menu" aria-label="Principal">
+      <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Portada</a>
       <a href="/noticias/"{% if page.url.startsWith("/noticias/") %} aria-current="page"{% endif %}>Noticias</a>
       <a href="{{ site.instagram }}" rel="noopener" target="_blank">Instagram</a>
-      <a class="boton boton-chico" href="/suscribete/">Suscríbete</a>
     </nav>
+    <a class="boton boton-cabecera" href="/suscribete/"{% if page.url == "/suscribete/" %} aria-current="page"{% endif %}>Suscríbete</a>
   </div>
 </header>
 
@@ -39,19 +47,29 @@
 </main>
 
 <footer class="pie">
-  <div class="contenedor pie-fila">
-    <div>
-      <p class="marca marca-pie">{{ site.nombre }}</p>
+  <div class="contenedor pie-rejilla">
+    <div class="pie-marca">
+      <p class="pie-nombre">{{ site.nombre }}</p>
       <p class="pie-lema">{{ site.lema }}</p>
+      <a class="boton" href="/suscribete/">Suscríbete</a>
     </div>
-    <ul class="pie-enlaces">
-      <li><a href="/noticias/">Todas las noticias</a></li>
-      <li><a href="/suscribete/">Suscríbete</a></li>
-      <li><a href="{{ site.instagram }}" rel="noopener" target="_blank">Instagram</a></li>
-      <li>Contacto: {{ site.correo }}</li>
-    </ul>
+    <div>
+      <p class="pie-titulo">Secciones</p>
+      <ul class="pie-enlaces">
+        <li><a href="/">Portada</a></li>
+        <li><a href="/noticias/">Todas las noticias</a></li>
+        <li><a href="/suscribete/">Suscríbete</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="pie-titulo">Contacto</p>
+      <ul class="pie-enlaces">
+        <li><a href="{{ site.instagram }}" rel="noopener" target="_blank">Instagram</a></li>
+        <li class="pie-correo">{{ site.correo }}</li>
+      </ul>
+    </div>
   </div>
-  <p class="contenedor pie-legal">© {% anio %} {{ site.nombre }}</p>
+  <div class="contenedor"><p class="pie-legal">© {% anio %} {{ site.nombre }}. Todos los derechos reservados.</p></div>
 </footer>
 </body>
 </html>

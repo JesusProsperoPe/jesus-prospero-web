@@ -4,48 +4,66 @@ layout: base.njk
 {% set notas = collections.noticias %}
 {% if notas.length %}
 {% set p = notas[0] %}
-<section class="contenedor portada">
-  <a class="principal" href="{{ p.url }}">
-    {% if p.data.imagen %}
-    <img class="principal-foto" src="{{ p.data.imagen | img(1400) }}" alt="{{ p.data.imagen_texto or '' }}">
-    {% endif %}
-    <div class="principal-texto">
-      <p class="etiqueta">Lo último</p>
-      <h1>{{ p.data.title }}</h1>
-      {% if p.data.resumen %}<p class="principal-resumen">{{ p.data.resumen }}</p>{% endif %}
-      <p class="meta"><time datetime="{{ p.date | fechaIso }}">{{ p.date | fechaHora }}</time></p>
-    </div>
-  </a>
+{% set secundarias = notas | desde(1) | limite(2) %}
 
-  <div class="portada-lateral">
-  {% set recientes = notas | desde(1) | limite(4) %}
-  {% if recientes.length %}
-  <aside class="recientes" aria-label="Recientes">
-    <h2 class="seccion-titulo">Recientes</h2>
-    <ol>
-      {% for n in recientes %}
-      <li>
-        <a href="{{ n.url }}">
-          <time datetime="{{ n.date | fechaIso }}">{{ n.date | fechaHora }}</time>
-          <span>{{ n.data.title }}</span>
-        </a>
-      </li>
-      {% endfor %}
-    </ol>
-  </aside>
-  {% endif %}
-  {% include "sobre-mi.njk" %}
+{# 1. Portada: la noticia más reciente en grande y dos secundarias al lado #}
+<section class="contenedor portada{% if not secundarias.length %} portada-sola{% endif %}" aria-label="Lo último">
+  <article class="principal">
+    <a class="principal-enlace" href="{{ p.url }}">
+      {% if p.data.imagen %}
+      <div class="foto-marco principal-foto">
+        <img src="{{ p.data.imagen | img(1600) }}" alt="{{ p.data.imagen_texto or '' }}">
+      </div>
+      {% endif %}
+      <div class="principal-texto">
+        <p class="etiqueta">Lo último <span class="meta"><time datetime="{{ p.date | fechaIso }}">{{ p.date | fechaHora }}</time></span></p>
+        <h1>{{ p.data.title }}</h1>
+        {% if p.data.resumen %}<p class="principal-resumen">{{ p.data.resumen }}</p>{% endif %}
+        <span class="enlace-flecha" aria-hidden="true">Leer la nota completa</span>
+      </div>
+    </a>
+  </article>
+
+  {% if secundarias.length %}
+  <div class="secundarias">
+    {% for n in secundarias %}{% set variante = "secundaria" %}{% include "tarjeta.njk" %}{% endfor %}
   </div>
+  {% endif %}
 </section>
 
-<div class="contenedor">{% include "apoyo.njk" %}</div>
+{# 2. Titulares rápidos, solo texto #}
+{% set ultimas = notas | desde(3) | limite(4) %}
+{% if ultimas.length %}
+<section class="contenedor ultimas" aria-labelledby="ultimas-titulo">
+  <div class="seccion-cabeza">
+    <h2 class="seccion-titulo" id="ultimas-titulo">Últimas publicadas</h2>
+  </div>
+  <ol class="ultimas-lista">
+    {% for n in ultimas %}
+    <li>
+      <a href="{{ n.url }}">
+        <time datetime="{{ n.date | fechaIso }}">{{ n.date | fechaHora }}</time>
+        <span>{{ n.data.title }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
 
-{% set resto = notas | desde(5) | limite(12) %}
+{# 3. Quién soy + apoyo #}
+{% include "sobre-mi.njk" %}
+
+{# 4. Más noticias, con una destacada #}
+{% set resto = notas | desde(7) | limite(10) %}
 {% if resto.length %}
-<section class="contenedor seccion">
-  <h2 class="seccion-titulo">Más noticias</h2>
+<section class="contenedor seccion" aria-labelledby="mas-titulo">
+  <div class="seccion-cabeza">
+    <h2 class="seccion-titulo" id="mas-titulo">Más noticias</h2>
+    <a class="enlace-flecha" href="/noticias/">Ver todas</a>
+  </div>
   <div class="rejilla">
-    {% for n in resto %}{% include "tarjeta.njk" %}{% endfor %}
+    {% for n in resto %}{% if loop.first %}{% set variante = "destacada" %}{% else %}{% set variante = "" %}{% endif %}{% include "tarjeta.njk" %}{% endfor %}
   </div>
 </section>
 {% endif %}
@@ -57,6 +75,5 @@ layout: base.njk
   <h1>Pronto, las primeras noticias</h1>
   <p>Aquí aparecerán las noticias que publique desde el panel.</p>
 </section>
-<div class="contenedor sobre-mi-suelto">{% include "sobre-mi.njk" %}</div>
-<div class="contenedor">{% include "apoyo.njk" %}</div>
+{% include "sobre-mi.njk" %}
 {% endif %}

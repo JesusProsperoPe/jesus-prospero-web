@@ -8,11 +8,16 @@ pagination:
   generatePageOnEmptyData: true
 permalink: "/noticias/{% if pagination.pageNumber > 0 %}pagina/{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
-<section class="contenedor seccion">
-  <h1 class="titulo-pagina">Noticias</h1>
+<section class="contenedor seccion seccion-archivo">
+  <header class="pagina-cabeza">
+    <p class="etiqueta">Archivo</p>
+    <h1 class="titulo-pagina">Noticias</h1>
+    <p>{{ site.descripcion }}</p>
+  </header>
+
   {% if lista.length %}
   <div class="rejilla">
-    {% for n in lista %}{% include "tarjeta.njk" %}{% endfor %}
+    {% for n in lista %}{% if loop.first and pagination.pageNumber == 0 %}{% set variante = "destacada" %}{% else %}{% set variante = "" %}{% endif %}{% include "tarjeta.njk" %}{% endfor %}
   </div>
   {% else %}
   <p class="vacio">Todavía no hay noticias publicadas.</p>
@@ -20,9 +25,9 @@ permalink: "/noticias/{% if pagination.pageNumber > 0 %}pagina/{{ pagination.pag
 
   {% if pagination.pages.length > 1 %}
   <nav class="paginas" aria-label="Páginas">
-    {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Más recientes</a>{% else %}<span></span>{% endif %}
+    {% if pagination.href.previous %}<a class="boton boton-secundario boton-chico" href="{{ pagination.href.previous }}">← Más recientes</a>{% else %}<span></span>{% endif %}
     <span>Página {{ pagination.pageNumber + 1 }} de {{ pagination.pages.length }}</span>
-    {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Más antiguas →</a>{% else %}<span></span>{% endif %}
+    {% if pagination.href.next %}<a class="boton boton-secundario boton-chico" href="{{ pagination.href.next }}">Más antiguas →</a>{% else %}<span></span>{% endif %}
   </nav>
   {% endif %}
 </section>
