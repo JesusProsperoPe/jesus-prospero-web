@@ -4,35 +4,7 @@
   "descripcion": "Las noticias que publico en Instagram, explicadas con calma y con todos los detalles.",
   "url": "https://jesusprospero.pe",
   "instagram": "https://www.instagram.com/jesusprospero.pe",
-  "correo": "jesusprospero.h@gmail.com",
-  "planes": [
-    {
-      "destacado": false,
-      "link": "PEGA_AQUI_LINK_PLAN_010",
-      "monto": 0.1,
-      "nombre": "Semilla",
-      "texto": "Un pequeño gesto que suma mucho."
-    },
-    {
-      "destacado": false,
-      "link": "PEGA_AQUI_LINK_PLAN_050",
-      "monto": 0.5,
-      "nombre": "Amigo",
-      "texto": "Para quienes quieren estar presentes."
-    },
-    {
-      "destacado": true,
-      "link": "PEGA_AQUI_LINK_PLAN_5",
-      "monto": 5,
-      "nombre": "Impulsor",
-      "texto": "Un apoyo real que hace la diferencia."
-    },
-    {
-      "destacado": false,
-      "link": "PEGA_AQUI_LINK_PLAN_20",
-      "monto": 20,
-      "nombre": "Mecenas",
-      "texto": "Para quienes creen de verdad en este trabajo."
-    }
-  ]
+  "tiktok": "https://www.tiktok.com/@jesus.prospero",
+  "facebook": "https://www.facebook.com/share/1K4P8U8Z3D/",
+  "correo": "jesusprospero.h@gmail.com"
 }

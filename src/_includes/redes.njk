@@ -1,0 +1,9 @@
+{# Links a las redes sociales. Solo muestra las que estén configuradas en Ajustes del sitio. #}
+{% set redes = [
+  { nombre: "Instagram", url: site.instagram },
+  { nombre: "TikTok", url: site.tiktok },
+  { nombre: "Facebook", url: site.facebook }
+] %}
+{% for red in redes %}{% if red.url %}
+<li><a href="{{ red.url }}" target="_blank" rel="noopener">{{ red.nombre }}</a></li>
+{% endif %}{% endfor %}

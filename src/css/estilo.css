@@ -400,6 +400,15 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
 .sobre-pagina-texto { display: grid; gap: 18px; justify-items: start; min-width: 0; }
 .sobre-pagina-bio { max-width: 52ch; font-family: var(--f-lectura); font-size: 22px; line-height: 1.5; color: var(--gris-oscuro); }
 .sobre-pagina-historia { margin-inline: 0; }
+.sobre-pagina-redes { display: grid; gap: 10px; margin-top: 8px; }
+.redes-botones { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.redes-botones a {
+  display: inline-flex; align-items: center; min-height: 42px; padding: 0 18px;
+  border: 1.5px solid var(--tinta); border-radius: var(--radio-boton);
+  font-weight: 700; font-size: 15px; text-decoration: none;
+  transition: background-color .18s ease, color .18s ease;
+}
+.redes-botones a:hover { background: var(--tinta); color: #fff; }
 .sobre-pagina-contacto { font-size: 15px; color: var(--tenue); overflow-wrap: anywhere; }
 .sobre-pagina .apoyo { margin: 0; max-width: none; }
 
@@ -410,7 +419,7 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
 
 /* ───────── Pie de página ───────── */
 .pie { padding-block: 64px 28px; background: var(--tinta); color: var(--blanco-tenue); }
-.pie-rejilla { display: grid; grid-template-columns: minmax(0, 2fr) repeat(2, minmax(0, 1fr)); gap: 40px; }
+.pie-rejilla { display: grid; grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 40px; }
 .pie-marca { display: grid; gap: 10px; justify-items: start; }
 .pie-nombre { font-family: var(--f-titular); font-stretch: 78%; font-weight: 800; font-size: 34px; line-height: 1; text-transform: uppercase; color: #fff; }
 .pie-lema { margin-bottom: 10px; }

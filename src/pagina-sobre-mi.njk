@@ -14,10 +14,13 @@ eleventyExcludeFromCollections: true
       {% if autor.historia %}
       <div class="nota-cuerpo sobre-pagina-historia">{{ autor.historia | markdown | safe }}</div>
       {% endif %}
-      <div class="botones">
-        <a class="boton boton-secundario" href="{{ site.instagram }}" target="_blank" rel="noopener">Sígueme en Instagram</a>
-        <a class="boton boton-secundario" href="/noticias/">Leer mis noticias</a>
+      <div class="sobre-pagina-redes">
+        <p class="etiqueta">Sígueme</p>
+        <ul class="redes-botones">
+          {% include "redes.njk" %}
+        </ul>
       </div>
+      <a class="boton" href="/noticias/">Leer mis noticias</a>
       {% if site.correo %}<p class="sobre-pagina-contacto">Contacto: <strong>{{ site.correo }}</strong></p>{% endif %}
     </div>
   </div>

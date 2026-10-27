@@ -75,6 +75,8 @@ collections:
           - { label: "Dirección del sitio", name: "url", widget: "string",
               hint: "Ejemplo: https://jesusprospero.pe (sin / al final)" }
           - { label: "Link de Instagram", name: "instagram", widget: "string" }
+          - { label: "Link de TikTok", name: "tiktok", widget: "string", required: false }
+          - { label: "Link de Facebook", name: "facebook", widget: "string", required: false }
           - { label: "Correo de contacto", name: "correo", widget: "string" }
       - name: aportes
         label: Planes de aporte mensual
