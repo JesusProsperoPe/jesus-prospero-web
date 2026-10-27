@@ -1,9 +1,22 @@
 // Configuración de Cloudflare: publica la carpeta _site que genera "npm run build"
+// y un Worker pequeño solo para las rutas /api/ (verificación de aportes con Mercado Pago).
 {
   "name": "jesus-prospero-web",
+  "main": "worker/index.js",
   "compatibility_date": "2025-09-01",
   "assets": {
     "directory": "./_site",
-    "not_found_handling": "404-page"
-  }
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jesus-prospero-aportes",
+      "database_id": "9789ba03-8637-4403-8714-1544d5cea743",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "observability": { "enabled": true }
 }
