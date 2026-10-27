@@ -1,8 +1,8 @@
 {
   "planes": [
-    { "nombre": "Semilla", "monto": 3, "link": "" },
-    { "nombre": "Amigo", "monto": 5, "link": "" },
-    { "nombre": "Impulsor", "monto": 10, "link": "" },
-    { "nombre": "Mecenas", "monto": 20, "link": "" }
+    { "nombre": "Semilla", "monto": 3, "link": "https://www.mercadopago.com.pe/subscriptions/checkout?preapproval_plan_id=c32837175568446d8ef1b0ef7fef9575" },
+    { "nombre": "Amigo", "monto": 5, "link": "https://www.mercadopago.com.pe/subscriptions/checkout?preapproval_plan_id=a5dee1f7d11d44a193739f3fcbc47533" },
+    { "nombre": "Impulsor", "monto": 10, "link": "https://www.mercadopago.com.pe/subscriptions/checkout?preapproval_plan_id=b1f378b1730f4214a2762561dc08d223" },
+    { "nombre": "Mecenas", "monto": 20, "link": "https://www.mercadopago.com.pe/subscriptions/checkout?preapproval_plan_id=e2af03e9ada042889b2601acca3846e1" }
   ]
 }
