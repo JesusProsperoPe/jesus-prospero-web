@@ -54,6 +54,14 @@ collections:
     label: Ajustes del sitio
     editor: { preview: false }
     files:
+      - name: autor
+        label: Sobre mí (foto y presentación)
+        file: src/_data/autor.json
+        fields:
+          - { label: "Mi foto", name: "foto", widget: "image",
+              hint: "Mejor una foto cuadrada. Aparece en la cabecera, en la portada, en cada noticia y en Suscríbete." }
+          - { label: "Presentación", name: "bio", widget: "text",
+              hint: "Dos o tres líneas sobre ti. Aparece en el recuadro 'Sobre mí' de la portada." }
       - name: sitio
         label: Datos y planes de suscripción
         file: src/_data/site.json

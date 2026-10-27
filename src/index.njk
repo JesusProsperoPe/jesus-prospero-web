@@ -17,6 +17,7 @@ layout: base.njk
     </div>
   </a>
 
+  <div class="portada-lateral">
   {% set recientes = notas | desde(1) | limite(4) %}
   {% if recientes.length %}
   <aside class="recientes" aria-label="Recientes">
@@ -33,6 +34,8 @@ layout: base.njk
     </ol>
   </aside>
   {% endif %}
+  {% include "sobre-mi.njk" %}
+  </div>
 </section>
 
 <div class="contenedor">{% include "apoyo.njk" %}</div>
@@ -54,5 +57,6 @@ layout: base.njk
   <h1>Pronto, las primeras noticias</h1>
   <p>Aquí aparecerán las noticias que publique desde el panel.</p>
 </section>
+<div class="contenedor sobre-mi-suelto">{% include "sobre-mi.njk" %}</div>
 <div class="contenedor">{% include "apoyo.njk" %}</div>
 {% endif %}

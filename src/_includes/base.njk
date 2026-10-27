@@ -25,7 +25,7 @@
 
 <header class="cabecera">
   <div class="contenedor cabecera-fila">
-    <a class="marca" href="/">{{ site.nombre }}</a>
+    <a class="marca" href="/"><img class="marca-foto" src="{{ autor.foto }}" alt="" width="40" height="40">{{ site.nombre }}</a>
     <nav class="menu" aria-label="Principal">
       <a href="/noticias/"{% if page.url.startsWith("/noticias/") %} aria-current="page"{% endif %}>Noticias</a>
       <a href="{{ site.instagram }}" rel="noopener" target="_blank">Instagram</a>

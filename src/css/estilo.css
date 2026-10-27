@@ -64,7 +64,8 @@ h1, h2, h3 { font-family: var(--f-titular); line-height: 1.15; text-wrap: balanc
 /* Cabecera */
 .cabecera { border-top: 4px solid var(--rojo); background: var(--superficie); border-bottom: 1px solid var(--linea); }
 .cabecera-fila { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-block: 14px; }
-.marca { font-family: var(--f-titular); font-weight: 700; font-size: 28px; letter-spacing: -.01em; text-decoration: none; }
+.marca { display: inline-flex; align-items: center; gap: 12px; font-family: var(--f-titular); font-weight: 700; font-size: 28px; letter-spacing: -.01em; text-decoration: none; }
+.marca-foto { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 2px var(--rojo); }
 .menu { display: flex; align-items: center; gap: 20px; font-weight: 600; font-size: 15px; }
 .menu a:not(.boton) { text-decoration: none; color: var(--tenue); }
 .menu a:not(.boton):hover, .menu a[aria-current="page"] { color: var(--tinta); }
@@ -82,7 +83,25 @@ h1, h2, h3 { font-family: var(--f-titular); line-height: 1.15; text-wrap: balanc
   font-family: var(--f-texto); font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
   padding-bottom: 10px; border-bottom: 2px solid var(--tinta); margin-bottom: 4px;
 }
+.portada-lateral { display: grid; gap: 28px; align-content: start; min-width: 0; }
 .recientes ol { list-style: none; margin: 0; padding: 0; }
+
+/* Sobre mí */
+.sobre-mi {
+  display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 14px 16px;
+  background: var(--superficie); border: 1px solid var(--linea); border-radius: var(--radio); padding: 20px;
+}
+.sobre-mi img { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; }
+.sobre-mi h2 { font-size: 24px; margin-top: 2px; }
+.sobre-mi-bio { grid-column: 1 / -1; margin: 0; color: var(--tenue); font-size: 15px; }
+.sobre-mi .boton { grid-column: 1 / -1; justify-self: start; }
+.sobre-mi-suelto { max-width: 560px; padding-bottom: 16px; }
+
+/* Firma en cada noticia */
+.firma { display: flex; align-items: center; gap: 12px; padding-top: 4px; }
+.firma img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+.firma p { margin: 0; }
+.firma-nombre { font-weight: 700; font-size: 15px; }
 .recientes li { border-bottom: 1px solid var(--linea); }
 .recientes a { display: grid; gap: 4px; padding-block: 14px; text-decoration: none; }
 .recientes time { font-size: 13px; color: var(--rojo); font-weight: 600; font-variant-numeric: tabular-nums; }
@@ -141,9 +160,11 @@ h1, h2, h3 { font-family: var(--f-titular); line-height: 1.15; text-wrap: balanc
 
 /* Suscripción */
 .suscribete { padding-block: 40px; display: grid; gap: 32px; }
-.suscribete-cabecera { display: grid; gap: 12px; max-width: 640px; }
+.suscribete-cabecera { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 32px; }
+.suscribete-texto { display: grid; gap: 12px; max-width: 640px; }
 .suscribete-cabecera h1 { font-size: clamp(34px, 5.5vw, 52px); }
 .suscribete-cabecera p:not(.etiqueta) { margin: 0; font-size: 18px; color: var(--tenue); }
+.suscribete-foto { width: 260px; height: 260px; object-fit: cover; border-radius: var(--radio); box-shadow: 8px 8px 0 var(--rojo); }
 .planes { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
 .plan {
   position: relative; display: flex; flex-direction: column; gap: 10px;
@@ -152,7 +173,7 @@ h1, h2, h3 { font-family: var(--f-titular); line-height: 1.15; text-wrap: balanc
 .plan-destacado { border: 2px solid var(--rojo); }
 .insignia { position: absolute; top: -11px; left: 20px; background: var(--rojo); color: var(--rojo-tinta); font-size: 12px; font-weight: 700; padding: 2px 10px; border-radius: 999px; }
 .plan h2 { font-family: var(--f-texto); font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--tenue); }
-.precio { margin: 0; font-family: var(--f-titular); font-size: 40px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.precio { margin: 0; white-space: nowrap; font-family: var(--f-titular); font-size: clamp(32px, 3.4vw, 40px); font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
 .precio small { font-family: var(--f-texto); font-size: 15px; font-weight: 500; color: var(--tenue); }
 .plan-texto { margin: 0; color: var(--tenue); font-size: 15px; flex: 1; }
 .nota-segura { margin: -16px 0 0; font-size: 14px; color: var(--tenue); }
@@ -189,7 +210,10 @@ dialog::backdrop { background: rgb(0 0 0 / .55); }
 
 @media (max-width: 820px) {
   .portada { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-block: 20px; }
-  .marca { font-size: 24px; }
+  .marca { font-size: 24px; gap: 10px; }
+  .marca-foto { width: 34px; height: 34px; }
+  .suscribete-cabecera { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .suscribete-foto { width: 160px; height: 160px; order: -1; box-shadow: 6px 6px 0 var(--rojo); }
   .menu { gap: 14px; }
   .nota-cuerpo { font-size: 19px; }
   .apoyo { padding: 22px; }
