@@ -6,6 +6,7 @@
 <title>{% if title %}{{ title }} · {{ site.nombre }}{% else %}{{ site.nombre }} · {{ site.lema }}{% endif %}</title>
 <meta name="description" content="{{ resumen or site.descripcion }}">
 <meta name="theme-color" content="#ffffff">
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.nombre }}">
 <meta property="og:locale" content="es_PE">
@@ -59,6 +60,7 @@
         <li><a href="/">Portada</a></li>
         <li><a href="/noticias/">Todas las noticias</a></li>
         <li><a href="/suscribete/">Suscríbete</a></li>
+        <li><a href="/aporte/gestionar/">Consultar o cancelar mi aporte</a></li>
       </ul>
     </div>
     <div>

@@ -1,0 +1,34 @@
+---
+layout: base.njk
+title: Confirmación de tu aporte
+permalink: /aporte/gracias/
+noindex: true
+eleventyExcludeFromCollections: true
+---
+<section class="contenedor estado-aporte">
+  <div class="estado-caja" id="estado" data-estado="verificando" aria-live="polite">
+    <p class="etiqueta">Aporte mensual voluntario</p>
+    <h1 id="estado-titulo">Verificando tu suscripción…</h1>
+    <p id="estado-texto">Estamos consultando el estado con Mercado Pago. Esto toma unos segundos.</p>
+
+    <dl class="estado-detalle" id="estado-detalle" hidden>
+      <div><dt>Aporte</dt><dd id="d-monto"></dd></div>
+      <div><dt>Frecuencia</dt><dd>Mensual, hasta que lo canceles</dd></div>
+      <div id="d-proximo-fila"><dt>Próximo cobro</dt><dd id="d-proximo"></dd></div>
+    </dl>
+  </div>
+
+  <div class="estado-ayuda">
+    <div class="seccion-cabeza"><h2 class="seccion-titulo">Tu aporte</h2></div>
+    <ul>
+      <li>Mercado Pago te envía por correo el detalle de tu suscripción y de cada cobro.</li>
+      <li>El cobro se repite cada mes hasta que lo canceles.</li>
+      <li>Puedes consultar o cancelar tu aporte cuando quieras desde Mercado Pago. <a href="/aporte/gestionar/">Ver los pasos</a>.</li>
+    </ul>
+    <div class="botones">
+      <a class="boton" href="/">Ir a las noticias</a>
+      <a class="boton boton-secundario" href="/aporte/gestionar/">Consultar o cancelar mi aporte</a>
+    </div>
+  </div>
+</section>
+<script src="/js/gracias.js"></script>

@@ -63,24 +63,27 @@ collections:
           - { label: "Presentación", name: "bio", widget: "text",
               hint: "Dos o tres líneas sobre ti. Aparece en el recuadro 'Sobre mí' de la portada." }
       - name: sitio
-        label: Datos y planes de suscripción
+        label: Datos del sitio
         file: src/_data/site.json
         fields:
           - { label: "Nombre del sitio", name: "nombre", widget: "string" }
           - { label: "Lema", name: "lema", widget: "string" }
           - { label: "Descripción (para Google y redes)", name: "descripcion", widget: "text" }
           - { label: "Dirección del sitio", name: "url", widget: "string",
-              hint: "Ejemplo: https://jesusprospero.com (sin / al final)" }
+              hint: "Ejemplo: https://jesusprospero.pe (sin / al final)" }
           - { label: "Link de Instagram", name: "instagram", widget: "string" }
           - { label: "Correo de contacto", name: "correo", widget: "string" }
-          - label: "Planes de suscripción"
+      - name: aportes
+        label: Planes de aporte mensual
+        file: src/_data/aportes.json
+        fields:
+          - label: "Planes"
             name: "planes"
             widget: "list"
-            summary: "{{fields.nombre}} · S/ {{fields.monto}}"
+            summary: "{{fields.nombre}} · S/{{fields.monto}} al mes"
+            hint: "El monto debe coincidir con el del plan creado en Mercado Pago."
             fields:
               - { label: "Nombre", name: "nombre", widget: "string" }
-              - { label: "Monto mensual (soles)", name: "monto", widget: "number", value_type: "float", min: 0 }
-              - { label: "Texto", name: "texto", widget: "string" }
-              - { label: "Link del plan en Mercado Pago", name: "link", widget: "string",
-                  hint: "Empieza con https://www.mercadopago.com.pe/subscriptions/..." }
-              - { label: "Destacar este plan", name: "destacado", widget: "boolean", default: false }
+              - { label: "Monto mensual (soles)", name: "monto", widget: "number", value_type: "float", min: 1 }
+              - { label: "Link del plan en Mercado Pago", name: "link", widget: "string", required: false,
+                  hint: "El link de suscripción del plan. Debe contener preapproval_plan_id=…" }

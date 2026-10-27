@@ -1,0 +1,8 @@
+{
+  "planes": [
+    { "nombre": "Semilla", "monto": 1, "link": "" },
+    { "nombre": "Amigo", "monto": 5, "link": "" },
+    { "nombre": "Impulsor", "monto": 10, "link": "" },
+    { "nombre": "Mecenas", "monto": 20, "link": "" }
+  ]
+}

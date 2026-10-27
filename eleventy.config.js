@@ -21,6 +21,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("desde", (lista, n) => (lista || []).slice(n));
   eleventyConfig.addFilter("otras", (lista, url, n) => (lista || []).filter((x) => x.url !== url).slice(0, n));
   eleventyConfig.addFilter("soles", (monto) => "S/ " + Number(monto).toFixed(2));
+  // "S/1", "S/5", "S/0.50": para textos y botones de aporte
+  eleventyConfig.addFilter("solesCorto", (monto) => {
+    const n = Number(monto);
+    return "S/" + (Number.isInteger(n) ? n : n.toFixed(2));
+  });
 
   // Las fotos ya llegan comprimidas desde el panel (ver src/admin/config.yml).
   // Este filtro queda como punto único por si luego se usa un servicio de imágenes.

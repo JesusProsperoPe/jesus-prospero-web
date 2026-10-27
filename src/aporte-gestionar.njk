@@ -1,0 +1,39 @@
+---
+layout: base.njk
+title: Consulta o cancela tu aporte
+resumen: Cómo consultar el estado de tu aporte mensual o cancelar los próximos cobros desde Mercado Pago.
+permalink: /aporte/gestionar/
+eleventyExcludeFromCollections: true
+---
+<section class="contenedor gestionar">
+  <header class="pagina-cabeza">
+    <p class="etiqueta">Aporte mensual voluntario</p>
+    <h1 class="titulo-pagina">Consulta o cancela tu aporte</h1>
+    <p>Tu suscripción queda registrada en Mercado Pago, que es quien hace los cobros. Desde ahí puedes ver su estado y cancelarla cuando quieras. No necesitas una cuenta en esta web.</p>
+  </header>
+
+  <div class="gestionar-rejilla">
+    <div class="gestionar-bloque">
+      <h2>Si pagaste con tu cuenta de Mercado Pago</h2>
+      <ol>
+        <li>Entra a la app o a la web de Mercado Pago con tu cuenta.</li>
+        <li>Busca la sección <strong>Suscripciones</strong> en tu perfil o en el menú.</li>
+        <li>Elige la suscripción de <strong>{{ site.nombre }}</strong> para ver su estado y sus cobros.</li>
+        <li>Para dejar de aportar, pulsa <strong>Cancelar suscripción</strong>. No se harán más cobros.</li>
+      </ol>
+    </div>
+    <div class="gestionar-bloque">
+      <h2>Si pagaste sin cuenta</h2>
+      <ol>
+        <li>Busca en tu correo el mensaje de Mercado Pago sobre tu suscripción.</li>
+        <li>Sigue el enlace del correo para ver o administrar tu suscripción.</li>
+        <li>Si no encuentras el correo, revisa la carpeta de spam o promociones.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="gestionar-ayuda">
+    <h2>¿No encuentras tu suscripción?</h2>
+    <p>Escríbeme a <strong>{{ site.correo }}</strong> indicando la fecha y el monto de tu aporte, y te ayudo a ubicarla. Nunca te pediré los datos de tu tarjeta.</p>
+  </div>
+</section>

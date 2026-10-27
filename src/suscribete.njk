@@ -1,68 +1,76 @@
 ---
 layout: base.njk
-title: Suscríbete
-resumen: Apoya a Jesus Prospero con una suscripción mensual. Cobro automático a tu tarjeta, cancelas cuando quieras.
+title: Apoya el periodismo independiente
+resumen: Si valoras mi trabajo, puedes apoyarme desde S/1 al mes con un aporte mensual voluntario. Todas las noticias siguen siendo gratuitas.
 permalink: /suscribete/
 ---
+{% set minimo = (aportes.planes | first).monto | solesCorto %}
 <section class="contenedor suscribete">
   <header class="suscribete-cabecera">
     <div class="suscribete-texto">
-      <p class="etiqueta">Suscripción mensual</p>
-      <h1>Apoya mi trabajo cada mes</h1>
-      <p>Elige el monto que quieras. Se cobra automáticamente cada mes a tu tarjeta y puedes cancelarlo cuando quieras.</p>
-      <a class="enlace-flecha" href="#planes">Ver los planes</a>
+      <p class="etiqueta">Aporte mensual voluntario</p>
+      <h1>Apoya el periodismo independiente</h1>
+      <p>Si valoras mi trabajo, puedes apoyarme desde {{ minimo }} al mes. Tu contribución me ayuda a seguir informando y creando contenido.</p>
+      <a class="enlace-flecha" href="#planes">Elegir un monto</a>
     </div>
     <img class="suscribete-foto" src="{{ autor.foto }}" alt="{{ site.nombre }}" width="420" height="420">
   </header>
 
   <div class="planes-bloque" id="planes">
     <div class="planes">
-      {% for plan in site.planes %}
-      <div class="plan{% if plan.destacado %} plan-destacado{% endif %}">
-        {% if plan.destacado %}<span class="insignia">Más elegido</span>{% endif %}
+      {% for plan in aportes.planes %}
+      {% set monto = plan.monto | solesCorto %}
+      <div class="plan">
         <h2>{{ plan.nombre }}</h2>
-        <p class="precio">{{ plan.monto | soles }} <small>/ mes</small></p>
-        <p class="plan-texto">{{ plan.texto }}</p>
-        <button type="button" class="boton{% if not plan.destacado %} boton-secundario{% endif %}"
-          data-plan="{{ plan.nombre }}" data-monto="{{ plan.monto | soles }}" data-link="{{ plan.link }}">Suscribirme</button>
+        <p class="precio">{{ monto }} <small>al mes</small></p>
+        <p class="plan-texto">Cobro mensual automático. Cancelas cuando quieras.</p>
+        <button type="button" class="boton boton-secundario"
+          data-plan="{{ plan.nombre }}" data-monto="{{ monto }}" data-link="{{ plan.link }}">Apoyar con {{ monto }} al mes</button>
       </div>
       {% endfor %}
     </div>
-    <p class="nota-segura">
-      <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
-      Pagos procesados por Mercado Pago. Nunca vemos los datos de tu tarjeta.
-    </p>
+
+    <ul class="aviso-aporte">
+      <li>El cobro se repite cada mes, en la misma fecha, hasta que lo canceles.</li>
+      <li>Todas las noticias seguirán siendo gratuitas. Tu suscripción es una forma voluntaria de apoyar este proyecto.</li>
+      <li>
+        <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+        El pago se hace en Mercado Pago. Esta web nunca recibe ni guarda los datos de tu tarjeta.
+      </li>
+    </ul>
   </div>
 
   <div class="pasos">
     <div class="seccion-cabeza"><h2 class="seccion-titulo">Cómo funciona</h2></div>
     <ol>
-      <li><strong>Elige un plan.</strong> El monto mensual que prefieras.</li>
-      <li><strong>Regístrate en Mercado Pago.</strong> Entra con tu cuenta o créala con tu correo.</li>
-      <li><strong>Agrega tu tarjeta.</strong> Se cobra hoy y luego automáticamente cada mes.</li>
+      <li><strong>Elige el monto.</strong> Todos los planes tienen el mismo propósito: apoyar este trabajo.</li>
+      <li><strong>Paga en Mercado Pago.</strong> Te pedirá tu correo y tu tarjeta. No necesitas crear una cuenta en esta web.</li>
+      <li><strong>Listo.</strong> Verás la confirmación aquí y Mercado Pago te enviará el detalle a tu correo.</li>
     </ol>
   </div>
 
   <div class="preguntas">
     <div class="seccion-cabeza"><h2 class="seccion-titulo">Preguntas frecuentes</h2></div>
-    <details><summary>¿Cada cuánto se cobra?</summary><p>Una vez al mes, de forma automática, a la tarjeta que registres.</p></details>
-    <details><summary>¿Puedo cancelar?</summary><p>Sí, cuando quieras. En tu cuenta de Mercado Pago, en "Suscripciones", puedes cancelar o pausar tu aporte. No hay permanencia mínima.</p></details>
+    <details><summary>¿Necesito crear una cuenta en esta web?</summary><p>No. Solo eliges el monto y completas el pago en Mercado Pago.</p></details>
+    <details><summary>¿Cada cuánto se cobra?</summary><p>Una vez al mes, de forma automática, a la tarjeta que registres. El cobro se repite hasta que canceles la suscripción.</p></details>
+    <details><summary>¿Cómo consulto o cancelo mi aporte?</summary><p>Desde Mercado Pago, que es donde queda registrada tu suscripción. <a href="/aporte/gestionar/">Mira aquí los pasos</a>.</p></details>
+    <details><summary>¿Las noticias seguirán siendo gratuitas?</summary><p>Sí. Todas las noticias son y seguirán siendo de acceso libre. El aporte es voluntario y no da acceso a contenido distinto.</p></details>
     <details><summary>¿Qué tarjetas aceptan?</summary><p>Tarjetas de crédito y débito que acepte Mercado Pago en Perú, como Visa y Mastercard.</p></details>
-    <details><summary>¿Puedo cambiar de plan?</summary><p>Sí. Cancela tu suscripción actual y suscríbete al nuevo plan.</p></details>
+    <details><summary>¿Puedo cambiar el monto?</summary><p>Sí. Cancela tu suscripción actual en Mercado Pago y elige el nuevo monto aquí.</p></details>
   </div>
 </section>
 
 <dialog id="confirmar">
   <div class="modal">
-    <p class="etiqueta">Suscripción mensual</p>
-    <h2>Confirmar suscripción</h2>
+    <p class="etiqueta">Aporte mensual voluntario</p>
+    <h2>Confirma tu aporte</h2>
     <p class="modal-resumen" id="confirmar-resumen"></p>
-    <p>Te llevaremos a Mercado Pago para registrarte (o iniciar sesión) y agregar tu tarjeta.</p>
-    <label class="modal-acepto"><input type="checkbox" id="acepto"> Acepto que se cobre este monto automáticamente cada mes hasta que cancele.</label>
+    <p>El cobro se repetirá automáticamente cada mes hasta que lo canceles. Te llevaremos a Mercado Pago para completar el pago de forma segura.</p>
+    <label class="modal-acepto"><input type="checkbox" id="acepto"> <span id="acepto-texto">Entiendo que este monto se cobrará cada mes hasta que cancele.</span></label>
     <p class="modal-aviso" id="aviso" hidden>Este plan todavía no está disponible. Prueba más tarde.</p>
     <div class="modal-botones">
       <button type="button" class="boton boton-secundario" id="volver">Volver</button>
-      <a class="boton" id="ir" href="#" aria-disabled="true">Continuar</a>
+      <a class="boton" id="ir" href="#" aria-disabled="true">Continuar a Mercado Pago</a>
     </div>
   </div>
 </dialog>

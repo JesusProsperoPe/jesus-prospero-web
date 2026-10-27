@@ -7,11 +7,11 @@
       <p class="presentacion-bio">{{ autor.bio }}</p>
 
       <div class="presentacion-apoyo">
-        <p class="etiqueta">Apoya este trabajo</p>
-        <h3>Si te sirven estas noticias, ayúdame a seguir publicándolas</h3>
-        <p>Suscríbete con el monto que quieras, desde {{ (site.planes | first).monto | soles }} al mes. Se cobra automáticamente a tu tarjeta y cancelas cuando quieras.</p>
+        <p class="etiqueta">Aporte mensual voluntario</p>
+        <h3>¿Valoras mi trabajo? Puedes apoyarme desde {{ (aportes.planes | first).monto | solesCorto }} al mes.</h3>
+        <p>Tu apoyo me ayuda a seguir informando. Todas las noticias seguirán siendo gratuitas: tu suscripción es una forma voluntaria de apoyar este proyecto.</p>
         <div class="botones">
-          <a class="boton" href="/suscribete/">Ver planes</a>
+          <a class="boton" href="/suscribete/">Ver cómo apoyar</a>
           <a class="boton boton-claro" href="{{ site.instagram }}" target="_blank" rel="noopener">Sígueme en Instagram</a>
         </div>
       </div>
