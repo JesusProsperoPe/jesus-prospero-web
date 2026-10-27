@@ -81,7 +81,8 @@ async function webhook(request, url, env) {
   try { body = await request.json(); } catch { /* cuerpo vacío o inválido */ }
 
   const dataId = String(url.searchParams.get("data.id") ?? body?.data?.id ?? "");
-  const tipo = url.searchParams.get("type") ?? body?.type ?? "";
+  // El tipo del cuerpo es el documentado; la dirección puede traer otro distinto (pasa en las simulaciones)
+  const tipo = body?.type ?? url.searchParams.get("type") ?? "";
 
   if (!ID_VALIDO.test(dataId) || !(await firmaValida(request, dataId, env.MP_WEBHOOK_SECRET))) {
     return json({ ok: false }, 401);
@@ -188,12 +189,18 @@ async function mp(env, ruta) {
   return r.json();
 }
 
+// Consulta los propios planes de suscripción: una llave de suscripciones siempre tiene permiso para esto
 async function llaveValida(env) {
-  const r = await fetch(`${env.MP_API_BASE || MP_API}/users/me`, {
-    headers: { Authorization: `Bearer ${env.MP_ACCESS_TOKEN}` },
-  });
-  if (!r.ok) console.error(`La llave MP_ACCESS_TOKEN no funciona (Mercado Pago respondió ${r.status} en /users/me)`);
-  return r.ok;
+  const estados = [];
+  for (const ruta of ["/preapproval_plan/search?limit=1", "/preapproval/search?limit=1"]) {
+    const r = await fetch(`${env.MP_API_BASE || MP_API}${ruta}`, {
+      headers: { Authorization: `Bearer ${env.MP_ACCESS_TOKEN}` },
+    });
+    if (r.ok) return true;
+    estados.push(`${r.status} en ${ruta}`);
+  }
+  console.error(`La llave MP_ACCESS_TOKEN no funciona (Mercado Pago respondió ${estados.join(", ")})`);
+  return false;
 }
 
 function json(datos, status = 200) {
