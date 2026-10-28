@@ -2,8 +2,8 @@
 title: "El Congreso se aumentó 356 millones, te devuelve 303 y quiere aplausos"
 date: 2026-10-27T22:20:00.000-05:00
 resumen: "Miki Torres anuncia que \"ordenó la casa\". Se olvida de contar que la desordenó su propio partido."
-imagen: /img/uploads/miki-torres-presidente-congreso.jpg
-imagen_texto: "Miki Torres, presidente del Congreso, de Fuerza Popular."
+imagen: /img/uploads/miki-torres-presidente-congreso-ia.jpg
+imagen_texto: "Miki Torres, presidente del Congreso, de Fuerza Popular. Imagen generada con inteligencia artificial."
 ---
 
 Hay un personaje que todo peruano conoce. Es el cobrador de combi que te cobra cinco soles por un pasaje de dos, te da un sol de vuelto y te dice "ahí tienes tu ahorro, causa". **Hoy ese cobrador tiene cuenta verificada en X y se llama Miki Torres.**
