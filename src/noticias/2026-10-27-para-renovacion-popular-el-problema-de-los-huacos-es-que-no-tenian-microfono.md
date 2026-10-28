@@ -3,12 +3,13 @@ title: "Para Renovación Popular el problema de los huacos es que no tenían mic
 date: 2026-10-27T13:45:00.000-05:00
 resumen: "La senadora Jáuregui quiere esconder la cerámica mochica para proteger a los niños. Su líder, mientras tanto, se moría de risa en Lurín con un chiste de \"morrocoy por el poto\" y una fila de chiquitos atrás."
 imagen: /img/uploads/lopez-aliaga-carlos-alvarez-lurin.jpg
-imagen_texto: "Rafael López Aliaga y Carlos Álvarez en el escenario de Lurín, durante la transmisión en vivo."
+imagen_texto: "Rafael López Aliaga y Carlos Álvarez en el escenario de Lurín."
+imagen_fuente: "Fuente: Transmisión del mitin en Lurín del 25 de octubre de 2026."
 ---
 
 El lunes, la senadora Milagros Jáuregui de Aguayo le pidió al ministro de Cultura **sacar los huacos eróticos de los espacios públicos.** Dijo que los niños "no están capacitados neurológicamente" para verlos. Y que, si los ven, sea en un museo y "acompañados de profesores o tutores".
 
-![La senadora Milagros Jáuregui de Aguayo, de Renovación Popular](/img/uploads/milagros-jauregui-senadora.jpg)
+![La senadora Milagros Jáuregui de Aguayo, de Renovación Popular](/img/uploads/milagros-jauregui-senadora.jpg "La senadora Milagros Jáuregui de Aguayo, de Renovación Popular.")
 
 Hay que reconocer que su partido le hizo caso enseguida. En Lurín los niños estaban acompañados **nada menos que del probable futuro alcalde de Lima.**
 

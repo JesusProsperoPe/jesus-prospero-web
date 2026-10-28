@@ -14,7 +14,7 @@ Lo fino está en la letra chica. **El propio fiscal reconoce que las operaciones
 
 Los números no tienen gracia. **Son 4,172 víctimas por lesiones graves y cinco mujeres muertas**, entre ellas María Mamérita Mestanza. En 1996 el Ministerio de Salud repartía cuotas de operaciones por región, como metas de venta de Herbalife, y armaba unos "Festivales de la Salud" cuyo nombre hoy suena a burla. En 1997 el ministro Marino Costa Bauer le reportaba a Fujimori **38,624 intervenciones solo hasta mayo.** Una productividad que ya quisiera la Línea 2.
 
-![Intervención en el Pleno del Congreso de la República](/img/uploads/congreso-pleno.jpg)
+![Intervención en el Pleno del Congreso de la República](/img/uploads/congreso-pleno.jpg "Intervención en el Pleno del Congreso de la República.")
 
 Entre los 52 beneficiados está **Alejandro Aguinaga, exministro de Salud y hoy senador fujimorista.** La ley la presentó Fernando Rospigliosi y la dictaminó Martha Moyano en la Comisión de Constitución, ambos de Fuerza Popular. **El partido escribe la ley, la ley salva al partido y el partido aplaude.** Economía circular, que le dicen.
 
