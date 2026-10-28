@@ -34,6 +34,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/img": "img" });
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
+  eleventyConfig.addPassthroughCopy({ "src/ads.txt": "ads.txt" });
 
   // Todas las noticias, de la más nueva a la más antigua
   eleventyConfig.addCollection("noticias", (api) =>
