@@ -9,6 +9,26 @@ module.exports = function (eleventyConfig) {
     texto ? md.renderInline(String(texto).trim().split(/\n\s*\n/)[0]) : ""
   );
 
+  // Una foto sola en su párrafo con título — ![texto](foto.jpg "Fuente: …") —
+  // sale como <figure> con ese título como pie (la fuente de la imagen)
+  eleventyConfig.amendLibrary("md", (lib) => {
+    lib.core.ruler.push("figura_con_fuente", (state) => {
+      const t = state.tokens;
+      for (let i = 0; i + 2 < t.length; i++) {
+        const hijos = t[i + 1].children || [];
+        if (t[i].type !== "paragraph_open" || hijos.length !== 1 || hijos[0].type !== "image") continue;
+        const fuente = hijos[0].attrGet("title");
+        if (!fuente) continue;
+        hijos[0].attrs = hijos[0].attrs.filter(([nombre]) => nombre !== "title");
+        const pie = new state.Token("html_inline", "", 0);
+        pie.content = "<figcaption>" + lib.utils.escapeHtml(fuente) + "</figcaption>";
+        hijos.push(pie);
+        t[i].tag = t[i + 2].tag = "figure";
+        t[i].attrSet("class", "nota-figura");
+      }
+    });
+  });
+
   // Archivos que se copian tal cual al sitio final
   eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
   eleventyConfig.addPassthroughCopy({ "src/img": "img" });

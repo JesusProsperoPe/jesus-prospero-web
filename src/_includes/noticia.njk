@@ -18,7 +18,7 @@ layout: base.njk
   {% if imagen %}
   <figure class="contenedor nota-foto">
     <img src="{{ imagen | img(1600) }}" alt="{{ imagen_texto or title }}">
-    {% if imagen_texto %}<figcaption>{{ imagen_texto }}</figcaption>{% endif %}
+    {% if imagen_texto or imagen_fuente %}<figcaption>{{ imagen_texto }}{% if imagen_fuente %} <span class="credito">{{ imagen_fuente }}</span>{% endif %}</figcaption>{% endif %}
   </figure>
   {% endif %}
 

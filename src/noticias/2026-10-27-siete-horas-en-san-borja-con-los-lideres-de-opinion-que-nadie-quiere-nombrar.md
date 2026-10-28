@@ -10,7 +10,7 @@ En el Perú uno sabe quién fue al baby shower de la prima, quién no puso para 
 
 El lunes 26 de octubre, el presidente del Consejo de Ministros, Luis Galarreta, tuvo una reunión en San Borja que **empezó a las 8:03 de la mañana y terminó a las 3 de la tarde.** Lo registra la agenda oficial de la PCM, que no es un chisme de Magaly sino un documento del Estado. El asunto fue "ver los alcances de la Comisión Multisectorial de Alto Nivel para Recuperar la Seguridad y el Orden Público". Los asistentes fueron **ministros de Estado, directores de medios de comunicación, líderes de opinión y periodistas en streaming.**
 
-![Agenda oficial de la PCM del lunes 26 de octubre: reunión de 8:03 a 15:00 en San Borja](/img/uploads/agenda-pcm-26-octubre.jpg)
+![Agenda oficial de la PCM del lunes 26 de octubre: reunión de 8:03 a 15:00 en San Borja](/img/uploads/agenda-pcm-26-octubre.jpg "Fuente: Registro de la agenda oficial de la Presidencia del Consejo de Ministros (PCM), lunes 26 de octubre de 2026.")
 
 **Así, en plural y sin apellidos. Ni uno.**
 

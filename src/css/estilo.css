@@ -285,6 +285,11 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .nota-cuerpo h2 { font-size: 32px; margin-top: 1.5em; margin-bottom: .5em; }
 .nota-cuerpo h3 { font-size: 25px; margin-top: 1.3em; margin-bottom: .4em; }
 .nota-cuerpo img { border-radius: var(--radio); margin-block: 1.4em; }
+.nota-figura { margin-block: 1.4em; }
+.nota-figura img { margin-block: 0; }
+.nota-figura figcaption, .credito { font-family: var(--f-texto); font-size: 14px; line-height: 1.5; color: var(--tenue); }
+.nota-figura figcaption { margin-top: 8px; }
+.credito { display: block; margin-top: 2px; }
 .nota-cuerpo a { color: var(--rojo); text-underline-offset: 3px; }
 .nota-cuerpo blockquote {
   margin: 1.6em 0; padding-left: 22px; border-left: 3px solid var(--rojo);

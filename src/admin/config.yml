@@ -47,7 +47,9 @@ collections:
           hint: "Una o dos líneas que aparecen bajo el titular y en la portada." }
       - { label: "Foto principal", name: "imagen", widget: "image", required: false }
       - { label: "Pie de foto", name: "imagen_texto", widget: "string", required: false,
-          hint: "Qué se ve en la foto y de quién es (créditos)." }
+          hint: "Qué se ve en la foto." }
+      - { label: "Fuente de la foto", name: "imagen_fuente", widget: "string", required: false,
+          hint: "De dónde viene. Ejemplos: «Foto: Andina», «Captura de X», «Imagen referencial»." }
       - { label: "Texto completo", name: "body", widget: "markdown" }
 
   - name: ajustes
