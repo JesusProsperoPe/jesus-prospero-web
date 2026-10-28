@@ -26,6 +26,8 @@ Torres dijo que esa plata alcanza para más de 1,350 patrulleros. Qué bonito. *
 
 Lo de "racionalización de personal" merece su propio aplauso. Es la palabra que usan los políticos cuando no quieren decir cuántos, ni quiénes, ni desde cuándo. Ordenaron la casa, sí. **La misma casa que su partido llenó de cachivaches y que ahora barren con la cámara prendida,** como el niño que rompe el florero y luego pide propina por recoger los vidrios.
 
+![Fernando Rospigliosi y Miki Torres, los dos de Fuerza Popular: uno subió el presupuesto y el otro anuncia el ahorro](/img/uploads/rospigliosi-miki-torres-fuerza-popular.jpg)
+
 El final es de telenovela. **La plata sale de un Congreso presidido por Fuerza Popular y llega a un gobierno presidido por Fuerza Popular.** Keiko Fujimori salió a saludar el gesto como tía en la actuación del nido. Es el mismo dinero dando la vuelta entre bolsillos del mismo color, y nos lo venden como si fuera un regalo para el país.
 
 No, Miki. No ordenaste la casa. **Te comiste media torta, devolviste las migajas en un táper y ahora quieres que te aplaudan por compartir.**
