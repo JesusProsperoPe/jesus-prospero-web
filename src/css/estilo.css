@@ -231,30 +231,27 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .apoyo p:not(.etiqueta) { color: var(--blanco-tenue); }
 
 /* Yape al final de cada noticia */
-.yape {
-  display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 32px; align-items: center;
-  max-width: 720px; margin: 48px auto 0; padding: 32px;
-  border: 2px solid var(--tinta); border-radius: var(--radio); background: #fff;
-}
-.yape-qr { width: 100%; height: auto; }
-.yape-texto { display: grid; gap: 12px; justify-items: start; min-width: 0; }
+.apoyo-final { display: grid; gap: 16px; max-width: 720px; margin: 48px auto 0; }
+.yape, .mensual { display: grid; gap: 10px; padding: 28px 32px; border-radius: var(--radio); }
+.yape { border: 2px solid var(--tinta); background: var(--superficie); }
 .yape .etiqueta { color: var(--rojo); }
 .yape h2 { font-size: clamp(24px, 3vw, 30px); line-height: 1.1; }
-.yape-texto p:not(.etiqueta) { color: var(--tenue); }
-.yape-texto strong { color: var(--tinta); }
-.yape-numero { display: grid; gap: 2px; justify-items: inherit; font-size: 18px; }
-.yape-numero p { color: var(--tinta) !important; }
-.yape-numero .yape-nombre { font-size: 14px; color: var(--tenue) !important; }
-.yape-numero .boton { margin-top: 8px; }
-.yape-descargar { margin-top: 4px; }
-.yape-ayuda { font-size: 14px; }
-.yape-mensual {
-  grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px;
-  padding-top: 24px; border-top: 1px solid var(--linea);
+.yape-bajada { color: var(--tenue); }
+.yape-bajada strong { color: var(--tinta); }
+.yape-pago {
+  display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px; align-items: center;
+  margin-top: 8px; padding-top: 20px; border-top: 1px solid var(--linea);
 }
-.yape-mensual > div { display: grid; gap: 4px; flex: 1 1 300px; min-width: 0; }
-.yape-mensual-titulo { font-family: var(--f-titular); font-weight: 800; font-size: 20px; line-height: 1.15; }
-.yape-mensual p:not(.yape-mensual-titulo) { color: var(--tenue); }
+.yape-qr { width: 100%; height: auto; }
+.yape-datos { display: grid; gap: 2px; justify-items: start; }
+.yape-numero { font-family: var(--f-titular); font-weight: 800; font-size: 28px; line-height: 1.1; }
+.yape-nombre { font-size: 14px; color: var(--tenue); }
+.yape-datos .boton { margin-top: 12px; }
+.yape-descargar { margin-top: 10px; font-size: 14px; font-weight: 600; color: var(--tinta); text-underline-offset: 3px; }
+.mensual { background: var(--linea-suave); justify-items: start; }
+.mensual h2 { font-size: 22px; line-height: 1.15; }
+.mensual p { color: var(--gris-oscuro); }
+.mensual .boton { margin-top: 6px; }
 
 /* ───────── Archivo de noticias ───────── */
 .seccion-archivo { padding-top: 48px; }
@@ -547,12 +544,11 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
   .nota-cuerpo blockquote { font-size: 21px; }
   .apoyo { padding: 26px 22px; margin-top: 36px; }
   .apoyo .boton { width: 100%; }
-  .yape { grid-template-columns: minmax(0, 1fr); gap: 20px; padding: 24px 20px; margin-top: 36px; justify-items: center; }
-  .yape-qr { max-width: 220px; }
-  .yape-texto { text-align: center; justify-items: center; }
-  .yape-descargar { width: 100%; }
-  .yape-mensual { text-align: center; justify-content: center; }
-  .yape-mensual .boton { width: 100%; }
+  .apoyo-final { margin-top: 36px; }
+  .yape, .mensual { padding: 22px 20px; }
+  .yape-pago { grid-template-columns: 112px minmax(0, 1fr); gap: 16px; }
+  .yape-numero { font-size: 24px; }
+  .mensual .boton { width: 100%; }
 
   .suscribete { gap: 56px; padding-block: 32px 64px; }
   .suscribete-cabecera { grid-template-columns: minmax(0, 1fr); gap: 28px; }
