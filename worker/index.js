@@ -1,11 +1,18 @@
 // Backend mínimo de aportes mensuales (Cloudflare Worker).
-// - GET  /api/aporte/estado?preapproval_id=…  → consulta a Mercado Pago el estado REAL de una suscripción.
+// - GET  /api/aporte/estado?preapproval_id=…  → consulta a Mercado Pago el estado REAL de una suscripción
+//                                               (si está activa, deja al lector con acceso a las notas exclusivas).
 // - POST /api/mercadopago/webhook             → recibe notificaciones firmadas de Mercado Pago.
+// - GET  /acceso/?t=…                         → enlace personal de acceso del suscriptor.
+// - POST /api/acceso/correo                   → envía ese enlace al correo de una suscripción activa.
+// - /noticias/…                               → a suscriptores (y a Google) les completa las notas exclusivas.
 // Todo lo demás lo sirve el sitio estático (carpeta _site).
 //
 // Variables secretas (se configuran en Cloudflare, nunca en el código):
 //   MP_ACCESS_TOKEN     Access Token de producción de tu aplicación de Mercado Pago.
 //   MP_WEBHOOK_SECRET   Clave secreta de las notificaciones (webhooks) de esa aplicación.
+//   ACCESO_SECRET       (opcional) Clave para firmar los enlaces de acceso. Si falta, se deriva de MP_ACCESS_TOKEN.
+//   RESEND_API_KEY      (opcional) Para enviar el enlace de acceso por correo. Sin ella, ese envío queda apagado.
+// Variable normal: CORREO_REMITENTE, por ejemplo "Jesus Prospero <acceso@jesusprospero.pe>".
 // Base de datos: D1 con el nombre de enlace DB (ver migrations/0001_aportes.sql).
 //
 // No se guardan correos, nombres ni datos de tarjeta: solo identificadores, montos, estados y fechas.
@@ -36,11 +43,162 @@ export default {
       if (request.method !== "POST") return json({ error: "Método no permitido" }, 405);
       return webhook(request, url, env);
     }
+    if (url.pathname === "/api/acceso/correo") {
+      if (request.method !== "POST") return json({ error: "Método no permitido" }, 405);
+      return accesoPorCorreo(request, url, env);
+    }
     if (url.pathname.startsWith("/api/")) return json({ error: "No encontrado" }, 404);
+    if (url.pathname === "/acceso/" || url.pathname === "/acceso") return acceso(url, env);
+    // El resto de las notas exclusivas solo sale insertado en la nota, nunca suelto
+    if (url.pathname.startsWith("/_premium/")) {
+      const p = await env.ASSETS.fetch(new Request(new URL("/404.html", url)));
+      return new Response(p.body, { status: 404, headers: { "content-type": "text/html; charset=utf-8" } });
+    }
+    if (url.pathname.startsWith("/noticias/") && url.pathname.endsWith("/") && request.method === "GET") {
+      return noticia(request, url, env);
+    }
 
     return env.ASSETS.fetch(request);
   },
 };
+
+// ───────── Notas exclusivas ─────────
+
+const COOKIE = "jp_acceso";
+const UN_ANIO = 60 * 60 * 24 * 365;
+
+async function noticia(request, url, env) {
+  const lector = esGoogle(request) ? "google" : await suscriptorDeCookie(request, env);
+  if (!lector) return env.ASSETS.fetch(request);
+
+  const resto = await env.ASSETS.fetch(new Request(new URL(`/_premium${url.pathname}resto.html`, url)));
+  if (!resto.ok) return env.ASSETS.fetch(request);   // no es una nota exclusiva
+
+  // Sin cabeceras condicionales: el navegador podría tener guardada la versión cortada
+  const pagina = await env.ASSETS.fetch(new Request(url, { headers: { accept: "text/html" } }));
+  if (!pagina.ok) return pagina;
+  const html = `<div class="nota-exclusiva">${await resto.text()}</div>`;
+
+  const r = new HTMLRewriter().on("#muro", { element(el) { el.replace(html, { html: true }); } }).transform(pagina);
+  const h = new Headers(r.headers);
+  h.set("cache-control", "private, no-store");
+  h.set("vary", "Cookie");
+  h.delete("etag");
+  return new Response(r.body, { status: 200, headers: h });
+}
+
+// Google lee la nota completa para indexarla. Se confirma que viene de la red de Google (AS15169),
+// no solo por el nombre que dice tener.
+function esGoogle(request) {
+  const ua = request.headers.get("user-agent") || "";
+  return /Googlebot|Google-InspectionTool|Mediapartners-Google|Storebot-Google/i.test(ua) && request.cf?.asn === 15169;
+}
+
+async function suscriptorDeCookie(request, env) {
+  const m = (request.headers.get("cookie") || "").match(new RegExp(`(?:^|;\\s*)${COOKIE}=([^;]+)`));
+  const id = m && (await idDeFicha(env, decodeURIComponent(m[1])));
+  return id && (await suscripcionActiva(env, id)) ? id : null;
+}
+
+// Enlace personal: /acceso/?t=<ficha>&volver=/noticias/…/
+async function acceso(url, env) {
+  const ficha = url.searchParams.get("t") || "";
+  const id = await idDeFicha(env, ficha);
+  const volver = rutaSegura(url.searchParams.get("volver"));
+  if (!id || !(await suscripcionActiva(env, id))) {
+    return Response.redirect(new URL("/acceso/invalido/", url), 302);
+  }
+  return new Response(null, {
+    status: 302,
+    headers: { location: volver, "set-cookie": cookieAcceso(ficha), "cache-control": "no-store" },
+  });
+}
+
+async function accesoPorCorreo(request, url, env) {
+  if (!env.RESEND_API_KEY || !env.MP_ACCESS_TOKEN) return json({ ok: false }, 503);
+  let datos = {};
+  try { datos = await request.json(); } catch { /* cuerpo inválido */ }
+  const correo = String(datos.correo || "").trim().toLowerCase();
+  if (!/^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,}$/.test(correo)) return json({ ok: false }, 400);
+  const volver = rutaSegura(datos.volver);
+
+  try {
+    const r = await mp(env, `/preapproval/search?status=authorized&payer_email=${encodeURIComponent(correo)}`);
+    const s = (r?.results || []).find((x) => PLANES.has(x.preapproval_plan_id) && x.status === "authorized");
+    if (s) {
+      const enlace = new URL("/acceso/", url);
+      enlace.searchParams.set("t", await fichaDe(env, s.id));
+      enlace.searchParams.set("volver", volver);
+      await enviarCorreo(env, correo, enlace.href);
+    }
+  } catch (e) {
+    console.error(`acceso por correo: ${e.message}`);
+    return json({ ok: false }, 502);
+  }
+  // Misma respuesta haya o no suscripción: así nadie puede averiguar quién está suscrito
+  return json({ ok: true });
+}
+
+async function enviarCorreo(env, para, enlace) {
+  const r = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, "content-type": "application/json" },
+    body: JSON.stringify({
+      from: env.CORREO_REMITENTE || "Jesus Prospero <acceso@jesusprospero.pe>",
+      to: [para],
+      subject: "Tu enlace para leer las notas exclusivas",
+      text: `Hola:\n\nEste es tu enlace para leer las notas exclusivas de jesusprospero.pe:\n\n${enlace}\n\nÁbrelo en el celular o la computadora donde quieras leer. Es personal: no lo compartas.\n\nGracias por apoyar este trabajo.\nJesus Prospero`,
+    }),
+  });
+  if (!r.ok) throw new Error(`Resend respondió ${r.status}`);
+}
+
+// La suscripción tiene que seguir activa: se mira el registro (al día gracias al webhook)
+// y, si no está, se pregunta a Mercado Pago.
+async function suscripcionActiva(env, id) {
+  if (env.DB) {
+    const fila = await env.DB.prepare("SELECT estado FROM suscripciones WHERE id = ?1").bind(id).first();
+    if (fila) return fila.estado === "authorized";
+  }
+  if (!env.MP_ACCESS_TOKEN) return false;
+  try {
+    const s = await mp(env, `/preapproval/${encodeURIComponent(id)}`);
+    if (!s || !PLANES.has(s.preapproval_plan_id)) return false;
+    try { await guardarSuscripcion(env, s); } catch { /* se registrará con el webhook */ }
+    return s.status === "authorized";
+  } catch {
+    return false;
+  }
+}
+
+// Ficha de acceso = id de la suscripción + firma. Sin la clave nadie puede fabricar una.
+async function fichaDe(env, id) {
+  return `${id}.${await firma(env, id)}`;
+}
+
+async function idDeFicha(env, ficha) {
+  const [id, f] = String(ficha).split(".");
+  if (!id || !f || !ID_VALIDO.test(id)) return null;
+  return igualSeguro(await firma(env, id), f) ? id : null;
+}
+
+async function firma(env, id) {
+  const secreto = env.ACCESO_SECRET || `acceso:${env.MP_ACCESS_TOKEN || ""}`;
+  if (secreto === "acceso:") throw new Error("Falta ACCESO_SECRET o MP_ACCESS_TOKEN");
+  const clave = await crypto.subtle.importKey(
+    "raw", new TextEncoder().encode(secreto), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]
+  );
+  const s = await crypto.subtle.sign("HMAC", clave, new TextEncoder().encode(`acceso:${id}`));
+  return hex(s).slice(0, 32);
+}
+
+function cookieAcceso(ficha) {
+  return `${COOKIE}=${encodeURIComponent(ficha)}; Max-Age=${UN_ANIO}; Path=/; HttpOnly; Secure; SameSite=Lax`;
+}
+
+function rutaSegura(ruta) {
+  return typeof ruta === "string" && /^\/noticias\/[a-z0-9-]+\/$/.test(ruta) ? ruta : "/noticias/";
+}
 
 // ───────── Estado de una suscripción (página de confirmación) ─────────
 
@@ -61,7 +219,7 @@ async function estado(url, env) {
   // Si el registro falla, igual se muestra el estado real; el webhook volverá a intentarlo
   try { await guardarSuscripcion(env, s); } catch (e) { console.error(`estado ${id}: no se pudo registrar: ${e.message}`); }
 
-  return json({
+  const datos = {
     estado: s.status,                                   // authorized | pending | paused | cancelled
     plan: plan.nombre,
     monto: s.auto_recurring?.transaction_amount ?? null,
@@ -69,7 +227,15 @@ async function estado(url, env) {
     frecuencia: s.auto_recurring?.frequency ?? null,
     tipo_frecuencia: s.auto_recurring?.frequency_type ?? null,
     proximo_cobro: s.next_payment_date ?? null,
-  });
+  };
+  if (s.status !== "authorized") return json(datos);
+
+  // Suscripción activa: este navegador queda con acceso y el lector recibe su enlace personal
+  const ficha = await fichaDe(env, s.id);
+  datos.acceso = new URL(`/acceso/?t=${encodeURIComponent(ficha)}`, url).href;
+  const r = json(datos);
+  r.headers.append("set-cookie", cookieAcceso(ficha));
+  return r;
 }
 
 // ───────── Webhook de Mercado Pago ─────────

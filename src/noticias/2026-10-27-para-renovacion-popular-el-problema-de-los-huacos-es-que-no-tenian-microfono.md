@@ -4,6 +4,7 @@ date: 2026-10-27T13:45:00.000-05:00
 resumen: "La senadora Jáuregui quiere esconder la cerámica mochica para proteger a los niños. Su líder, mientras tanto, se moría de risa en Lurín con un chiste de \"morrocoy por el poto\" y una fila de chiquitos atrás."
 imagen: /img/uploads/lopez-aliaga-carlos-alvarez-lurin.jpg
 imagen_texto: "Rafael López Aliaga y Carlos Álvarez en el escenario de Lurín."
+exclusivo: true
 imagen_fuente: "Fuente: Transmisión del mitin en Lurín del 25 de octubre de 2026."
 ---
 

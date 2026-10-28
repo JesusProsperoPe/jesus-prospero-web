@@ -1,0 +1,10 @@
+---
+pagination:
+  data: collections.exclusivas
+  size: 1
+  alias: nota
+permalink: "/_premium{{ nota.url }}resto.html"
+eleventyExcludeFromCollections: true
+---
+{# Resto de cada nota exclusiva. No es una página: el Worker la inserta en la nota (ver worker/index.js) #}
+{{ nota.templateContent | restoExclusivo | safe }}

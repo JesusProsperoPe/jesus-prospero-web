@@ -253,6 +253,45 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .mensual p { color: var(--gris-oscuro); }
 .mensual .boton { margin-top: 6px; }
 
+/* Notas exclusivas para suscriptores */
+.sello-exclusivo {
+  display: inline-block; margin-right: 8px; padding: 2px 8px; border-radius: 3px;
+  background: var(--tinta); color: #fff; font-family: var(--f-texto); font-size: 11px; font-weight: 700;
+  letter-spacing: .06em; text-transform: uppercase; vertical-align: middle;
+}
+.nota-cabecera .etiqueta .sello-exclusivo { margin: 0 0 0 10px; }
+.muro {
+  position: relative; display: grid; gap: 12px; justify-items: start;
+  margin-top: 8px; padding: 28px 32px; border-top: 3px solid var(--rojo); background: var(--superficie);
+  font-family: var(--f-texto); font-size: 17px; line-height: 1.55;
+}
+/* Desvanece el último párrafo gratis, como un texto que sigue */
+.muro::before {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 100%; height: 120px; pointer-events: none;
+  background: linear-gradient(to bottom, rgb(251 250 247 / 0), var(--fondo));
+}
+.nota-cuerpo .muro > * { margin: 0; }
+.muro .etiqueta { color: var(--rojo); }
+.muro h2 { font-family: var(--f-titular); font-size: clamp(24px, 3vw, 30px); line-height: 1.1; }
+.muro p { color: var(--gris-oscuro); }
+.muro .boton { margin-top: 4px; }
+.nota-cuerpo .muro a.boton { color: #fff; text-decoration: none; }
+.muro-ingreso { width: 100%; margin-top: 8px; padding-top: 16px; border-top: 1px solid var(--linea); }
+.muro-ingreso summary { cursor: pointer; font-weight: 700; color: var(--tinta); }
+.muro-ingreso form { display: grid; gap: 10px; margin-top: 12px; }
+.muro-ingreso label { font-size: 15px; color: var(--tenue); }
+.muro-fila { display: flex; flex-wrap: wrap; gap: 8px; }
+.muro-fila input {
+  flex: 1 1 220px; min-width: 0; padding: 10px 12px; font: inherit; font-size: 16px;
+  border: 1px solid var(--linea); border-radius: var(--radio-boton); background: #fff;
+}
+.muro-aviso { font-size: 15px; }
+.estado-acceso { display: grid; gap: 10px; justify-items: start; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--linea); }
+.estado-acceso h2 { font-size: 22px; line-height: 1.15; }
+.estado-acceso .muro-fila { width: 100%; }
+.estado-acceso input { flex: 1 1 220px; min-width: 0; padding: 10px 12px; font: inherit; font-size: 14px; border: 1px solid var(--linea); border-radius: var(--radio-boton); background: #fff; }
+.muro-aviso:empty { display: none; }
+
 /* ───────── Archivo de noticias ───────── */
 .seccion-archivo { padding-top: 48px; }
 .pagina-cabeza { display: grid; gap: 12px; padding-bottom: 28px; margin-bottom: 40px; border-bottom: 2px solid var(--tinta); }
@@ -549,6 +588,8 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
   .yape-pago { grid-template-columns: 112px minmax(0, 1fr); gap: 16px; }
   .yape-numero { font-size: 24px; }
   .mensual .boton { width: 100%; }
+  .muro { padding: 24px 20px; }
+  .muro .boton, .muro-fila .boton { width: 100%; }
 
   .suscribete { gap: 56px; padding-block: 32px 64px; }
   .suscribete-cabecera { grid-template-columns: minmax(0, 1fr); gap: 28px; }

@@ -40,6 +40,23 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("noticias", (api) =>
     api.getFilteredByTag("noticia").sort((a, b) => b.date - a.date)
   );
+  eleventyConfig.addCollection("exclusivas", (api) =>
+    api.getFilteredByTag("noticia").filter((n) => n.data.exclusivo)
+  );
+
+  // Notas exclusivas: la página pública trae solo los primeros párrafos.
+  // El resto se publica aparte en /_premium/… y el Worker lo inserta solo para suscriptores (y Google).
+  const PARRAFOS_GRATIS = 2;
+  const corte = (html) => {
+    let i = -1;
+    for (let k = 0; k < PARRAFOS_GRATIS; k++) {
+      i = html.indexOf("</p>", i + 1);
+      if (i < 0) return html.length;
+    }
+    return i + 4;
+  };
+  eleventyConfig.addFilter("inicioGratis", (html) => String(html).slice(0, corte(String(html))));
+  eleventyConfig.addFilter("restoExclusivo", (html) => String(html).slice(corte(String(html))));
 
   const zona = "America/Lima";
   const fmtFecha = new Intl.DateTimeFormat("es-PE", { day: "numeric", month: "long", year: "numeric", timeZone: zona });

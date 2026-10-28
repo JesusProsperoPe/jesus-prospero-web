@@ -8,7 +8,7 @@
     "directory": "./_site",
     "binding": "ASSETS",
     "not_found_handling": "404-page",
-    "run_worker_first": ["/api/*"]
+    "run_worker_first": ["/api/*", "/acceso", "/acceso/", "/noticias/*", "/_premium/*"]
   },
   "d1_databases": [
     {

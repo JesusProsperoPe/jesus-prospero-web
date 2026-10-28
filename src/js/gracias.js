@@ -31,6 +31,27 @@
       "Si completaste el pago, Mercado Pago te enviará la confirmación a tu correo. También puedes revisarla en tu cuenta de Mercado Pago.");
   }
 
+  // Enlace personal para las notas exclusivas y, si venía de una, el botón para volver a ella
+  function mostrarAcceso(enlace) {
+    var campo = document.getElementById("acceso-enlace");
+    var copiar = document.getElementById("acceso-copiar");
+    campo.value = enlace;
+    copiar.addEventListener("click", function () {
+      navigator.clipboard.writeText(enlace).then(function () {
+        copiar.textContent = "Enlace copiado";
+        setTimeout(function () { copiar.textContent = "Copiar enlace"; }, 2000);
+      }).catch(function () { campo.select(); });
+    });
+    var volver = null;
+    try { volver = localStorage.getItem("jp-volver"); localStorage.removeItem("jp-volver"); } catch (e) {}
+    if (volver && /^\/noticias\/[a-z0-9-]+\/$/.test(volver)) {
+      var boton = document.getElementById("acceso-volver");
+      boton.href = volver;
+      boton.hidden = false;
+    }
+    document.getElementById("estado-acceso").hidden = false;
+  }
+
   if (!/^[A-Za-z0-9_-]{6,64}$/.test(id)) { sinVerificar(); return; }
 
   function consultar() {
@@ -46,6 +67,7 @@
           if (proximo) document.getElementById("d-proximo").textContent = proximo;
           else document.getElementById("d-proximo-fila").hidden = true;
           detalle.hidden = false;
+          if (d.acceso) mostrarAcceso(d.acceso);
         } else if (d.estado === "pending") {
           if (intentos < 4) {
             mostrar("verificando", "Mercado Pago está procesando tu suscripción…", "Esto puede tardar unos segundos.");

@@ -3,7 +3,7 @@ layout: base.njk
 ---
 <article class="nota">
   <header class="contenedor nota-cabecera">
-    <p class="etiqueta"><a href="/noticias/">Noticias</a></p>
+    <p class="etiqueta"><a href="/noticias/">Noticias</a>{% if exclusivo %}<span class="sello-exclusivo">Solo para suscriptores</span>{% endif %}</p>
     <h1>{{ title }}</h1>
     {% if resumen %}<p class="nota-bajada">{{ resumen }}</p>{% endif %}
     <div class="firma">
@@ -24,7 +24,29 @@ layout: base.njk
 
   <div class="contenedor">
     <div class="nota-cuerpo">
+      {% if exclusivo %}
+      {{ content | inicioGratis | safe }}
+      {# El Worker reemplaza este muro por el resto de la nota cuando lee un suscriptor #}
+      <div class="muro" id="muro">
+        <p class="etiqueta">Solo para suscriptores</p>
+        <h2>Esta nota es exclusiva para suscriptores</h2>
+        <p>Suscríbete desde {{ (aportes.planes | first).monto | solesCorto }} al mes y lee completas todas las notas exclusivas. Lo cancelas cuando quieras.</p>
+        <a class="boton" href="/suscribete/" id="muro-suscribir">Suscribirme</a>
+        <details class="muro-ingreso">
+          <summary>¿Ya eres suscriptor? Ingresa</summary>
+          <form id="muro-form">
+            <label for="muro-correo">Escribe el correo con el que te suscribiste en Mercado Pago y te enviaremos un enlace para entrar.</label>
+            <div class="muro-fila">
+              <input type="email" id="muro-correo" name="correo" required autocomplete="email" placeholder="tucorreo@ejemplo.com">
+              <button type="submit" class="boton boton-secundario">Enviar enlace</button>
+            </div>
+            <p class="muro-aviso" id="muro-aviso" aria-live="polite"></p>
+          </form>
+        </details>
+      </div>
+      {% else %}
       {{ content | safe }}
+      {% endif %}
     </div>
 
     {% set enlace = site.url + page.url %}
@@ -53,6 +75,48 @@ layout: base.njk
 </section>
 {% endif %}
 
+{% if exclusivo %}
+<script type="application/ld+json">
+{{ {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": title,
+  "datePublished": date | fechaIso,
+  "author": { "@type": "Person", "name": site.nombre },
+  "isAccessibleForFree": false,
+  "hasPart": { "@type": "WebPageElement", "isAccessibleForFree": false, "cssSelector": ".nota-exclusiva" }
+} | dump | safe }}
+</script>
+<script>
+  (function () {
+    var form = document.getElementById("muro-form");
+    if (!form) return;
+    var suscribir = document.getElementById("muro-suscribir");
+    // Para volver a esta nota después de suscribirse
+    suscribir.addEventListener("click", function () {
+      try { localStorage.setItem("jp-volver", location.pathname); } catch (e) {}
+    });
+    var aviso = document.getElementById("muro-aviso");
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var boton = form.querySelector("button");
+      boton.disabled = true;
+      aviso.textContent = "Enviando…";
+      fetch("/api/acceso/correo", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ correo: form.correo.value, volver: location.pathname }),
+      }).then(function (r) {
+        aviso.textContent = r.ok
+          ? "Listo. Si ese correo tiene una suscripción activa, te llegará un enlace en unos minutos. Revisa también spam o promociones."
+          : "No pudimos enviar el enlace. Escríbeme a {{ site.correo }} y te ayudo a entrar.";
+      }).catch(function () {
+        aviso.textContent = "No pudimos enviar el enlace. Escríbeme a {{ site.correo }} y te ayudo a entrar.";
+      }).finally(function () { boton.disabled = false; });
+    });
+  })();
+</script>
+{% endif %}
 <script>
   document.getElementById("copiar").addEventListener("click", function () {
     var b = this;

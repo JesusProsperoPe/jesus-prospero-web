@@ -16,6 +16,16 @@ eleventyExcludeFromCollections: true
       <div><dt>Frecuencia</dt><dd>Mensual, hasta que lo canceles</dd></div>
       <div id="d-proximo-fila"><dt>Próximo cobro</dt><dd id="d-proximo"></dd></div>
     </dl>
+
+    <div class="estado-acceso" id="estado-acceso" hidden>
+      <h2>Ya puedes leer las notas exclusivas</h2>
+      <p>En este navegador ya tienes acceso. Para entrar desde otro celular o computadora, guarda este enlace personal (no lo compartas):</p>
+      <div class="muro-fila">
+        <input type="text" id="acceso-enlace" readonly aria-label="Tu enlace de acceso">
+        <button type="button" class="boton boton-secundario" id="acceso-copiar">Copiar enlace</button>
+      </div>
+      <a class="boton" id="acceso-volver" href="/noticias/" hidden>Seguir leyendo la nota</a>
+    </div>
   </div>
 
   <div class="estado-ayuda">
