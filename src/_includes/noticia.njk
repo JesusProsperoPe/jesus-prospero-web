@@ -36,7 +36,7 @@ layout: base.njk
       <button type="button" id="copiar" data-enlace="{{ enlace }}">Copiar enlace</button>
     </div>
 
-    {% include "apoyo.njk" %}
+    {% include "yape.njk" %}
   </div>
 </article>
 
@@ -60,5 +60,13 @@ layout: base.njk
       b.textContent = "Enlace copiado";
       setTimeout(function () { b.textContent = "Copiar enlace"; }, 2000);
     }).catch(function () { window.prompt("Copia este enlace:", b.dataset.enlace); });
+  });
+  var yape = document.getElementById("copiar-yape");
+  if (yape) yape.addEventListener("click", function () {
+    var b = this;
+    navigator.clipboard.writeText(b.dataset.numero).then(function () {
+      b.textContent = "Número copiado";
+      setTimeout(function () { b.textContent = "Copiar número"; }, 2000);
+    }).catch(function () { window.prompt("Copia este número:", b.dataset.numero); });
   });
 </script>

@@ -1,0 +1,24 @@
+<aside class="yape" aria-labelledby="yape-titulo">
+  <img class="yape-qr" src="/img/yape-qr.jpg" alt="Código QR de Yape de {{ site.nombre }}" width="826" height="792" loading="lazy">
+  <div class="yape-texto">
+    <p class="etiqueta">Apoyo con Yape</p>
+    <h2 id="yape-titulo">¿Te sirvió esta nota? Invítame un café.</h2>
+    <p>Escanea el código desde la app de Yape. Un sol, cinco o lo que puedas: <strong>cada yapeo me ayuda a seguir publicando lo que otros callan.</strong></p>
+    {% if site.yape_numero %}
+    <div class="yape-numero">
+      <p>Yape: <strong>{{ site.yape_numero }}</strong></p>
+      {% if site.yape_nombre %}<p class="yape-nombre">A nombre de {{ site.yape_nombre }}</p>{% endif %}
+      <button type="button" class="boton boton-secundario boton-chico" id="copiar-yape" data-numero="{{ site.yape_numero | replace(' ', '') }}">Copiar número</button>
+    </div>
+    {% endif %}
+    <a class="boton boton-secundario yape-descargar" href="/img/yape-qr.jpg" download="yape-jesus-prospero.jpg">Guardar QR en mi celular</a>
+    <p class="yape-ayuda">¿Lees desde el celular? Guarda el QR y en Yape elige <em>Escanear QR → Subir imagen</em>.</p>
+  </div>
+  <div class="yape-mensual">
+    <div>
+      <p class="yape-mensual-titulo">¿Prefieres apoyar mensualmente?</p>
+      <p>Aporte mensual voluntario desde {{ (aportes.planes | first).monto | solesCorto }}, con tarjeta o Mercado Pago. Lo cancelas cuando quieras.</p>
+    </div>
+    <a class="boton" href="/suscribete/">Apoyar mensualmente</a>
+  </div>
+</aside>
