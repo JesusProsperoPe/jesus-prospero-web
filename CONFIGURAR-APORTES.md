@@ -65,6 +65,21 @@ Cloudflare → **Workers & Pages → jesus-prospero-web → Settings → Variabl
 3. En D1 → Console: `SELECT * FROM suscripciones;` debe mostrar la suscripción `authorized`.
 4. Cancélala desde Mercado Pago (ver `/aporte/gestionar/`) y confirma que en D1 pase a `cancelled`.
 
+## 7 · Notas exclusivas: enlace de acceso por correo (Resend)
+
+Sin esto, las notas exclusivas funcionan igual: quien se suscribe queda con acceso en ese navegador
+y recibe su enlace personal. Esto solo activa el botón "¿Ya eres suscriptor? Ingresa".
+
+1. Crea una cuenta gratis en **resend.com** (3 000 correos al mes).
+2. **Domains → Add domain** → `jesusprospero.pe` → usa **Connect with Cloudflare** para que agregue los registros DNS solo.
+   Espera a que diga **Verified**.
+3. **API Keys → Create API key** (permiso: *Sending access*, dominio `jesusprospero.pe`). Cópiala; es secreta.
+4. Cloudflare → **Workers & Pages → jesus-prospero-web → Settings → Variables and Secrets → Add**:
+   tipo **Secret**, nombre `RESEND_API_KEY`, valor: la clave. Guarda.
+5. Prueba: en una nota exclusiva, "¿Ya eres suscriptor? Ingresa" con el correo de tu suscripción de Mercado Pago.
+
+Los correos salen de `acceso@jesusprospero.pe`. Para cambiarlo, agrega la variable normal `CORREO_REMITENTE`.
+
 Para revisar los aportes más adelante: D1 → Console:
 
 ```sql
