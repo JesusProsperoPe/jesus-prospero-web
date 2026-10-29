@@ -137,6 +137,9 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .menu a:hover, .menu a[aria-current="page"] { color: var(--tinta); }
 .menu a:hover::after, .menu a[aria-current="page"]::after { transform: scaleX(1); }
 .boton-cabecera { min-height: 42px; padding: 0 20px; }
+/* Ingresar / Mi cuenta: botón con borde, al lado de Suscríbete */
+.boton-cuenta { margin-right: -16px; padding: 0 16px; }
+.boton-cuenta[aria-current="page"] { background: var(--tinta); color: #fff; }
 
 /* ───────── Portada ───────── */
 .portada {
@@ -317,6 +320,7 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .boton:disabled { opacity: .5; cursor: wait; }
 .ingreso-o { display: flex; align-items: center; gap: 12px; margin: 4px 0 12px; color: var(--tenue); font-size: 14px; }
 .ingreso-o::before, .ingreso-o::after { content: ""; flex: 1; height: 1px; background: var(--linea); }
+.ingreso-nota { margin-top: 8px; text-align: center; font-size: 13px; color: var(--tenue); }
 .ingreso-planes { text-align: center; font-size: 15px; color: var(--gris-oscuro); }
 .ingreso-planes a, .ingreso-acepto a { color: var(--rojo); font-weight: 700; }
 .ingreso-acepto { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; }
@@ -599,8 +603,13 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
   .menu a:first-child { padding-left: 0; }
   .menu a::after { left: 14px; right: 14px; bottom: 0; }
   .menu a:first-child::after { left: 0; }
-  .menu .menu-cuenta { margin-left: auto; padding-right: 0; }
-  .menu .menu-cuenta::after { right: 0; }
+  /* En el celular, Ingresar queda como un círculo con el ícono, junto a Suscríbete */
+  .boton-cuenta { margin: 0 -4px 0 auto; width: 38px; padding: 0; border-radius: 50%; }
+  .boton-cuenta span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .boton-cuenta + .boton-cabecera { margin-left: 0; }
+  .cabecera-fila { gap: 0 8px; }
+  .marca { flex: 0 1 auto; gap: 8px; }
+  .marca-nombre { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
   .ingreso { padding-block: 20px 48px; }
   .ingreso-caja { padding: 28px 20px; }
@@ -696,6 +705,11 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
   .pie-marca { grid-column: 1 / -1; }
 }
 
+@media (max-width: 420px) {
+  .marca-nombre { font-size: 18px; }
+  .boton-cabecera { padding: 0 12px; }
+  .boton-cuenta { padding: 0; }
+}
 @media (max-width: 520px) {
   .planes { grid-template-columns: minmax(0, 1fr); }
   .plan:hover { transform: none; }

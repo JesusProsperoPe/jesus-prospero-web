@@ -81,7 +81,8 @@
       document.getElementById("seguir-navegando").href = volver || "/";
       var menu = document.getElementById("menu-cuenta");
       menu.href = "/mi-cuenta/";
-      menu.textContent = "Mi cuenta";
+      menu.setAttribute("aria-label", "Mi cuenta");
+      document.getElementById("menu-cuenta-texto").textContent = "Mi cuenta";
       mostrar("paso-bienvenida");
     }).catch(function () {});
   });
