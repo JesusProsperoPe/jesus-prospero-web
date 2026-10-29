@@ -12,7 +12,7 @@ backend:
 
 site_url: https://jesusprospero.pages.dev
 display_url: https://jesusprospero.pages.dev
-logo_url: /img/icono.svg
+logo_url: /img/icono-192.png
 
 # Dónde se guardan las fotos que subes
 media_folder: src/img/uploads

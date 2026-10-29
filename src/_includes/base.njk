@@ -26,7 +26,8 @@
 <meta name="twitter:card" content="summary">
 {% endif %}
 <link rel="icon" href="/img/icono-48.png" type="image/png" sizes="48x48">
-<link rel="icon" href="/img/icono.svg" type="image/svg+xml">
+<link rel="icon" href="/img/icono-96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/img/icono-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +51,7 @@
   "@context": "https://schema.org",
   "@graph": [
     persona,
-    { "@type": "WebSite", "@id": site.url + "/#web", "name": site.nombre, "alternateName": "jesusprospero.pe", "url": site.url + "/", "inLanguage": "es-PE", "publisher": { "@id": site.url + "/#persona" } },
+    { "@type": "WebSite", "@id": site.url + "/#web", "name": site.nombre, "image": site.url + "/img/icono-512.png", "alternateName": "jesusprospero.pe", "url": site.url + "/", "inLanguage": "es-PE", "publisher": { "@id": site.url + "/#persona" } },
     { "@type": ("ProfilePage" if page.url == "/sobre-mi/" else "WebPage"), "url": site.url + page.url, "name": (title or site.nombre), "isPartOf": { "@id": site.url + "/#web" }, "mainEntity": { "@id": site.url + "/#persona" } }
   ]
 } | dump | safe }}
