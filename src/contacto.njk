@@ -1,0 +1,40 @@
+---
+layout: base.njk
+title: Contacto
+titulo_seo: "Contacto · Jesus Prospero"
+resumen: "Cómo escribirle a Jesus Prospero: datos para notas, correcciones, publicidad y ayuda con tu suscripción."
+permalink: /contacto/
+eleventyExcludeFromCollections: true
+---
+<section class="contenedor gestionar">
+  <header class="pagina-cabeza">
+    <p class="etiqueta">Contacto</p>
+    <h1 class="titulo-pagina">Escríbeme</h1>
+    <p>Leo todos los correos. Para que te responda más rápido, pon en el asunto el motivo de tu mensaje.</p>
+  </header>
+
+  <div class="gestionar-rejilla">
+    <div class="gestionar-bloque">
+      <h2>Datos y denuncias</h2>
+      <p>¿Tienes un documento, un dato o una historia que debería contarse? Escríbeme con el asunto <strong>«Dato»</strong>. Si lo pides, protejo tu identidad.</p>
+    </div>
+    <div class="gestionar-bloque">
+      <h2>Correcciones</h2>
+      <p>Si encontraste un error en una nota, escríbeme con el asunto <strong>«Corrección»</strong>, el enlace de la nota y lo que está mal. Si corresponde, la corrijo y lo indico en la misma nota.</p>
+    </div>
+    <div class="gestionar-bloque">
+      <h2>Suscripción y pagos</h2>
+      <p>Para problemas con tu cuenta, un cobro o el acceso a las notas exclusivas, usa el asunto <strong>«Suscripción»</strong>. Nunca te pediré los datos de tu tarjeta. También puedes revisar <a href="/aporte/gestionar/">cobros y cancelación</a>.</p>
+    </div>
+    <div class="gestionar-bloque">
+      <h2>Prensa y colaboraciones</h2>
+      <p>Entrevistas, invitaciones a programas o propuestas de trabajo: asunto <strong>«Colaboración»</strong>.</p>
+    </div>
+  </div>
+
+  <div class="gestionar-ayuda">
+    <h2>Correo</h2>
+    <p><a href="mailto:{{ site.correo }}"><strong>{{ site.correo }}</strong></a></p>
+    <p>También estoy en <a href="{{ site.instagram }}" rel="noopener">Instagram</a>, <a href="{{ site.tiktok }}" rel="noopener">TikTok</a> y <a href="{{ site.facebook }}" rel="noopener">Facebook</a>.</p>
+  </div>
+</section>

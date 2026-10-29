@@ -5,7 +5,11 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>{{ site.url }}/</loc></url>
+  <url><loc>{{ site.url }}/noticias/</loc></url>
+  <url><loc>{{ site.url }}/sobre-mi/</loc></url>
   <url><loc>{{ site.url }}/suscribete/</loc></url>
+  <url><loc>{{ site.url }}/contacto/</loc></url>
+  <url><loc>{{ site.url }}/privacidad/</loc></url>
   {%- for n in collections.noticias %}
   <url><loc>{{ site.url }}{{ n.url }}</loc><lastmod>{{ n.date | fechaIso }}</lastmod></url>
   {%- endfor %}
