@@ -18,5 +18,9 @@
       "migrations_dir": "migrations"
     }
   ],
+  // Variables públicas (los secretos van en Cloudflare: MP_ACCESS_TOKEN, MP_WEBHOOK_SECRET, RESEND_API_KEY, GOOGLE_CLIENT_SECRET)
+  "vars": {
+    "GOOGLE_CLIENT_ID": "435787639140-uh85r7a0et0iht3bpcbmikjhri6cnps5.apps.googleusercontent.com"
+  },
   "observability": { "enabled": true }
 }
