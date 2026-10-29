@@ -50,6 +50,9 @@ collections:
           hint: "Qué se ve en la foto." }
       - { label: "Fuente de la foto", name: "imagen_fuente", widget: "string", required: false,
           hint: "De dónde viene. Ejemplos: «Foto: Andina», «Captura de X», «Imagen referencial»." }
+      - { label: "Tipo de texto", name: "tipo", widget: "select", required: false, default: "Columna",
+          options: ["Columna", "Análisis", "Opinión", "Noticia"],
+          hint: "Se muestra como etiqueta. Columna: con humor y opinión. Noticia: solo hechos." }
       - { label: "Solo para suscriptores", name: "exclusivo", widget: "boolean", required: false, default: false,
           hint: "Si lo marcas, todos ven los 2 primeros párrafos y el resto solo los suscriptores." }
       - { label: "Texto completo", name: "body", widget: "markdown" }

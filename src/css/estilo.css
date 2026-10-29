@@ -256,6 +256,14 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .mensual p { color: var(--gris-oscuro); }
 .mensual .boton { margin-top: 6px; }
 
+/* Tipo de texto: Columna, Análisis, Opinión, Noticia */
+.tipo-nota {
+  display: inline-block; margin-right: 8px; padding: 1px 7px; border: 1px solid currentColor; border-radius: 3px;
+  color: var(--rojo); font-family: var(--f-texto); font-size: 11px; font-weight: 700; line-height: 1.5;
+  letter-spacing: .06em; text-transform: uppercase; vertical-align: middle;
+}
+.etiqueta .tipo-nota { margin: 0 0 0 10px; }
+
 /* Notas exclusivas para suscriptores */
 .sello-exclusivo {
   display: inline-block; margin-right: 8px; padding: 2px 8px; border-radius: 3px;

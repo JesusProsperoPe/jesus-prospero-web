@@ -1,5 +1,8 @@
 ---
 layout: base.njk
+# Lo que Google muestra cuando alguien busca "Jesus Prospero"
+titulo_seo: "Jesus Prospero | Noticias y columnas de política peruana"
+resumen: "Columnas y noticias de política peruana por Jesus Prospero: el Congreso, el Gobierno, la Fiscalía y el poder, contados con contexto, humor y sin filtro."
 ---
 {% set notas = collections.noticias %}
 {% if notas.length %}
@@ -16,7 +19,7 @@ layout: base.njk
       </div>
       {% endif %}
       <div class="principal-texto">
-        <p class="etiqueta">Lo último <span class="meta"><time datetime="{{ p.date | fechaIso }}">{{ p.date | fechaHora }}</time></span></p>
+        <p class="etiqueta">Lo último{% if p.data.tipo %}<span class="tipo-nota">{{ p.data.tipo }}</span>{% endif %} <span class="meta"><time datetime="{{ p.date | fechaIso }}">{{ p.date | fechaHora }}</time></span></p>
         <h1>{{ p.data.title }}</h1>
         {% if p.data.resumen %}<p class="principal-resumen">{{ p.data.resumen }}</p>{% endif %}
         <span class="enlace-flecha" aria-hidden="true">Leer la nota completa</span>

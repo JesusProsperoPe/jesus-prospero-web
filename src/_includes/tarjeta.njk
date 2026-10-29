@@ -5,7 +5,7 @@
     <div class="foto-marco tarjeta-foto"><img src="{{ n.data.imagen | img(900) }}" alt="" loading="lazy"></div>
     {% endif %}
     <div class="tarjeta-texto">
-      <p class="meta">{% if n.data.exclusivo %}<span class="sello-exclusivo">Suscriptores</span>{% endif %}<time datetime="{{ n.date | fechaIso }}">{{ n.date | fechaHora }}</time></p>
+      <p class="meta">{% if n.data.tipo %}<span class="tipo-nota">{{ n.data.tipo }}</span>{% endif %}{% if n.data.exclusivo %}<span class="sello-exclusivo">Suscriptores</span>{% endif %}<time datetime="{{ n.date | fechaIso }}">{{ n.date | fechaHora }}</time></p>
       <h3>{{ n.data.title }}</h3>
       {% if n.data.resumen and variante != "secundaria" %}<p class="tarjeta-resumen">{{ n.data.resumen }}</p>{% endif %}
     </div>
