@@ -1,25 +1,35 @@
 <div class="apoyo-final">
   <aside class="yape" aria-labelledby="yape-titulo">
-    <p class="etiqueta">Apoyo con Yape</p>
-    <h2 id="yape-titulo">¿Te sirvió esta nota? Invítame un café.</h2>
-    <p class="yape-bajada">Un sol, cinco o lo que puedas: <strong>cada yapeo me ayuda a seguir publicando lo que otros callan.</strong></p>
+    <div class="yape-cabeza">
+      <p class="yape-gracias">¡Gracias!</p>
+      <h2 id="yape-titulo">Si mis videos, análisis y trabajo informativo <span>te aportan…</span></h2>
+      <p class="yape-bajada">Puedes apoyar mi trabajo con un Yape. <strong>¡Todo suma!</strong></p>
+    </div>
     <div class="yape-pago">
-      <img class="yape-qr" src="/img/yape-qr.jpg" alt="Código QR de Yape de {{ site.nombre }}" width="826" height="792" loading="lazy">
+      <div class="yape-qr-marco">
+        <img class="yape-qr" src="/img/yape-qr.jpg" alt="Código QR de Yape de {{ site.nombre }}" width="826" height="792" loading="lazy">
+      </div>
       <div class="yape-datos">
         {% if site.yape_numero %}
+        <p class="yape-marca">Yape</p>
         <p class="yape-numero">{{ site.yape_numero }}</p>
         {% if site.yape_nombre %}<p class="yape-nombre">{{ site.yape_nombre }}</p>{% endif %}
-        <button type="button" class="boton boton-secundario boton-chico" id="copiar-yape" data-numero="{{ site.yape_numero | replace(' ', '') }}">Copiar número</button>
+        <div class="yape-acciones">
+          <button type="button" class="boton boton-yape" id="copiar-yape" data-numero="{{ site.yape_numero | replace(' ', '') }}">Copiar número</button>
+          <a class="boton boton-secundario" href="/img/yape-qr.jpg" download="yape-jesus-prospero.jpg">Guardar QR</a>
+        </div>
         {% endif %}
-        <a class="yape-descargar" href="/img/yape-qr.jpg" download="yape-jesus-prospero.jpg">Guardar QR</a>
-        <p class="yape-ayuda">¿Lees desde el celular? Copia el número y yapea a ese número desde tu app.</p>
+        <p class="yape-ayuda">Desde el celular: copia el número y yapéalo en tu app, o guarda el QR y escanéalo desde tu galería.</p>
       </div>
     </div>
+    <p class="yape-pie">¡Gracias por tu apoyo!</p>
   </aside>
 
   <aside class="mensual" aria-labelledby="mensual-titulo">
-    <h2 id="mensual-titulo">¿Prefieres apoyar mensualmente?</h2>
-    <p>Suscríbete desde {{ (aportes.planes | first).monto | solesCorto }} al mes con tu tarjeta y lee también las notas exclusivas. Lo cancelas cuando quieras.</p>
-    <a class="boton" href="/suscribete/">Apoyar mensualmente</a>
+    <div class="mensual-texto">
+      <h2 id="mensual-titulo">¿Prefieres apoyar cada mes?</h2>
+      <p>Suscríbete desde {{ (aportes.planes | first).monto | solesCorto }} al mes con tu tarjeta y lee también las notas exclusivas. Lo cancelas cuando quieras.</p>
+    </div>
+    <a class="boton" href="/suscribete/">Suscribirme</a>
   </aside>
 </div>
