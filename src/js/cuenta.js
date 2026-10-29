@@ -45,6 +45,7 @@
       if (s.estado === "authorized" && s.proximo_cobro) document.getElementById("s-proximo").textContent = fecha(s.proximo_cobro);
       else document.getElementById("s-proximo-fila").hidden = true;
       document.getElementById("con-suscripcion").hidden = false;
+      document.getElementById("fila-cancelar").hidden = s.estado !== "authorized";
       if (s.estado !== "authorized") document.getElementById("sin-suscripcion").hidden = false;
     } else {
       document.getElementById("sin-suscripcion").hidden = false;
@@ -65,6 +66,17 @@
     post("olvide", { correo: correo }).then(function () { avisar("Te enviamos un enlace a tu correo para elegir la contraseña nueva."); })
       .catch(function (e) { avisar(e.message); }).finally(function () { b.disabled = false; });
   });
+
+  document.getElementById("cancelar").addEventListener("click", function () {
+    if (!confirm("¿Cancelar tu suscripción? No se harán más cobros y dejarás de ver las notas exclusivas desde ahora.")) return;
+    var b = this;
+    b.disabled = true;
+    fetch("/api/suscripcion/cancelar", { method: "POST", headers: { "content-type": "application/json" }, body: "{}" })
+      .then(function (r) { return r.json().then(function (d) { if (!r.ok) throw new Error(d.error || "Algo falló."); }); })
+      .then(function () { location.replace("/mi-cuenta/?cancelada=si"); })
+      .catch(function (e) { avisar(e.message); b.disabled = false; });
+  });
+  if (params.get("cancelada") === "si") avisar("Listo, tu suscripción quedó cancelada. No se harán más cobros. Puedes volver cuando quieras.");
 
   document.getElementById("salir").addEventListener("click", function () {
     post("salir").finally(function () { location.replace("/"); });

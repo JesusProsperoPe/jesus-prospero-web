@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: true
         </ul>
       </div>
       <a class="boton" href="/noticias/">Leer mis noticias</a>
-      {% if site.correo %}<p class="sobre-pagina-contacto">Contacto: <strong>{{ site.correo }}</strong></p>{% endif %}
+      {% if site.correo %}<p class="sobre-pagina-contacto">Contacto: <a href="mailto:{{ site.correo }}"><strong>{{ site.correo }}</strong></a></p>{% endif %}
     </div>
   </div>
   {% include "apoyo.njk" %}

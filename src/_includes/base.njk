@@ -32,6 +32,30 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <link rel="stylesheet" href="/css/estilo.css">
+{# Para que Google relacione la web con la persona y sus redes cuando alguien busca "Jesus Prospero" #}
+{% if page.url == "/" or page.url == "/sobre-mi/" %}
+{% set persona = {
+  "@type": "Person",
+  "@id": site.url + "/#persona",
+  "name": site.nombre,
+  "alternateName": ["Jesús Próspero", "Jesus Prospero Huaman"],
+  "url": site.url + "/",
+  "image": site.url + autor.foto,
+  "jobTitle": "Comunicador político",
+  "description": site.descripcion,
+  "sameAs": [site.instagram, site.tiktok, site.facebook]
+} %}
+<script type="application/ld+json">
+{{ {
+  "@context": "https://schema.org",
+  "@graph": [
+    persona,
+    { "@type": "WebSite", "@id": site.url + "/#web", "name": site.nombre, "alternateName": "jesusprospero.pe", "url": site.url + "/", "inLanguage": "es-PE", "publisher": { "@id": site.url + "/#persona" } },
+    { "@type": ("ProfilePage" if page.url == "/sobre-mi/" else "WebPage"), "url": site.url + page.url, "name": (title or site.nombre), "isPartOf": { "@id": site.url + "/#web" }, "mainEntity": { "@id": site.url + "/#persona" } }
+  ]
+} | dump | safe }}
+</script>
+{% endif %}
 <meta name="google-adsense-account" content="ca-pub-4024662288990496">
 {# Los suscriptores leen sin anuncios: la cookie la pone el servidor cuando la suscripción está activa #}
 <script>
@@ -101,7 +125,7 @@
     <div>
       <p class="pie-titulo">Contacto</p>
       <ul class="pie-enlaces">
-        <li class="pie-correo">{{ site.correo }}</li>
+        <li class="pie-correo"><a href="mailto:{{ site.correo }}">{{ site.correo }}</a></li>
       </ul>
     </div>
   </div>

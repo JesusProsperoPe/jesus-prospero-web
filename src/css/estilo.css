@@ -365,6 +365,9 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .moderar-texto { margin: 8px 0; padding: 16px 18px; border-left: 4px solid var(--rojo); background: var(--fondo); font-family: var(--f-lectura); font-size: 18px; white-space: pre-line; overflow-wrap: anywhere; }
 .moderar a { color: var(--rojo); }
 
+.yape-ayuda { font-size: 13px; color: var(--tenue); line-height: 1.4; }
+.pie-correo a { color: inherit; }
+
 /* Pago con tarjeta */
 .pagar { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 40px; align-items: start; padding-block: 48px 80px; }
 .pagar-resumen { display: grid; gap: 14px; }

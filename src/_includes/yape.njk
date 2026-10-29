@@ -12,13 +12,14 @@
         <button type="button" class="boton boton-secundario boton-chico" id="copiar-yape" data-numero="{{ site.yape_numero | replace(' ', '') }}">Copiar número</button>
         {% endif %}
         <a class="yape-descargar" href="/img/yape-qr.jpg" download="yape-jesus-prospero.jpg">Guardar QR</a>
+        <p class="yape-ayuda">¿Lees desde el celular? Copia el número y yapea a ese número desde tu app.</p>
       </div>
     </div>
   </aside>
 
   <aside class="mensual" aria-labelledby="mensual-titulo">
     <h2 id="mensual-titulo">¿Prefieres apoyar mensualmente?</h2>
-    <p>Aporte mensual voluntario desde {{ (aportes.planes | first).monto | solesCorto }}, con tarjeta o Mercado Pago. Lo cancelas cuando quieras.</p>
+    <p>Suscríbete desde {{ (aportes.planes | first).monto | solesCorto }} al mes con tu tarjeta y lee también las notas exclusivas. Lo cancelas cuando quieras.</p>
     <a class="boton" href="/suscribete/">Apoyar mensualmente</a>
   </aside>
 </div>

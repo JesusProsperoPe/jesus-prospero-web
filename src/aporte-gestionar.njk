@@ -1,39 +1,39 @@
 ---
 layout: base.njk
-title: Consulta o cancela tu aporte
-resumen: Cómo consultar el estado de tu aporte mensual o cancelar los próximos cobros desde Mercado Pago.
+title: Cobros y cancelación de tu suscripción
+resumen: Cómo se cobra tu suscripción, cómo cancelarla y qué pasa con tu acceso a las notas exclusivas.
 permalink: /aporte/gestionar/
 eleventyExcludeFromCollections: true
 ---
 <section class="contenedor gestionar">
   <header class="pagina-cabeza">
-    <p class="etiqueta">Aporte mensual voluntario</p>
-    <h1 class="titulo-pagina">Consulta o cancela tu aporte</h1>
-    <p>Tu suscripción queda registrada en Mercado Pago, que es quien hace los cobros. Desde ahí puedes ver su estado y cancelarla cuando quieras. No necesitas una cuenta en esta web.</p>
+    <p class="etiqueta">Suscripción mensual</p>
+    <h1 class="titulo-pagina">Cobros y cancelación</h1>
+    <p>Hay dos cuentas distintas: tu <strong>cuenta en esta web</strong>, con la que lees las notas exclusivas, y <strong>Mercado Pago</strong>, que procesa los cobros con tu tarjeta. No necesitas una cuenta de Mercado Pago.</p>
   </header>
 
   <div class="gestionar-rejilla">
     <div class="gestionar-bloque">
-      <h2>Si pagaste con tu cuenta de Mercado Pago</h2>
+      <h2>Cancelar desde Mi cuenta</h2>
       <ol>
-        <li>Entra a la app o a la web de Mercado Pago con tu cuenta.</li>
-        <li>Busca la sección <strong>Suscripciones</strong> en tu perfil o en el menú.</li>
-        <li>Elige la suscripción de <strong>{{ site.nombre }}</strong> para ver su estado y sus cobros.</li>
-        <li>Para dejar de aportar, pulsa <strong>Cancelar suscripción</strong>. No se harán más cobros.</li>
+        <li>Entra a <a href="/mi-cuenta/">Mi cuenta</a> con tu correo o con Google.</li>
+        <li>En <strong>Mi suscripción</strong>, toca <strong>Cancelar mi suscripción</strong> y confirma.</li>
+        <li>Listo: Mercado Pago no hará más cobros. Puedes volver a suscribirte cuando quieras.</li>
       </ol>
     </div>
     <div class="gestionar-bloque">
-      <h2>Si pagaste sin cuenta</h2>
+      <h2>Condiciones</h2>
       <ol>
-        <li>Busca en tu correo el mensaje de Mercado Pago sobre tu suscripción.</li>
-        <li>Sigue el enlace del correo para ver o administrar tu suscripción.</li>
-        <li>Si no encuentras el correo, revisa la carpeta de spam o promociones.</li>
+        <li><strong>Renovación:</strong> el cobro se repite cada mes, en la misma fecha, hasta que canceles.</li>
+        <li><strong>Pago fallido:</strong> si un cobro no pasa, Mercado Pago lo reintenta. Si no se logra, la suscripción se pausa o cancela y el acceso exclusivo se detiene.</li>
+        <li><strong>Al cancelar:</strong> no hay más cobros y el acceso a las notas exclusivas termina en ese momento. Las notas gratuitas y tu cuenta siguen igual.</li>
+        <li><strong>Devoluciones:</strong> si te cobraron por error, escríbeme y lo reviso contigo.</li>
       </ol>
     </div>
   </div>
 
   <div class="gestionar-ayuda">
-    <h2>¿No encuentras tu suscripción?</h2>
-    <p>Escríbeme a <strong>{{ site.correo }}</strong> indicando la fecha y el monto de tu aporte, y te ayudo a ubicarla. Nunca te pediré los datos de tu tarjeta.</p>
+    <h2>¿Te suscribiste antes de tener cuenta o pagaste en la web de Mercado Pago?</h2>
+    <p>Busca en tu correo el mensaje de Mercado Pago sobre tu suscripción y sigue su enlace para cancelarla, o escríbeme a <a href="mailto:{{ site.correo }}"><strong>{{ site.correo }}</strong></a> con la fecha y el monto, y te ayudo. Nunca te pediré los datos de tu tarjeta.</p>
   </div>
 </section>

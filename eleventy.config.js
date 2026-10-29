@@ -60,7 +60,7 @@ module.exports = function (eleventyConfig) {
 
   const zona = "America/Lima";
   const fmtFecha = new Intl.DateTimeFormat("es-PE", { day: "numeric", month: "long", year: "numeric", timeZone: zona });
-  const fmtFechaHora = new Intl.DateTimeFormat("es-PE", { day: "numeric", month: "long", hour: "numeric", minute: "2-digit", timeZone: zona });
+  const fmtFechaHora = new Intl.DateTimeFormat("es-PE", { day: "numeric", month: "long", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: zona });
 
   eleventyConfig.addFilter("fecha", (d) => fmtFecha.format(new Date(d)));
   eleventyConfig.addFilter("fechaHora", (d) => fmtFechaHora.format(new Date(d)));

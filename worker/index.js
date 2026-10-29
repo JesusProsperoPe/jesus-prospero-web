@@ -54,6 +54,10 @@ export default {
       if (request.method !== "POST") return json({ error: "Método no permitido" }, 405);
       return crearSuscripcion(request, url, env);
     }
+    if (url.pathname === "/api/suscripcion/cancelar") {
+      if (request.method !== "POST") return json({ error: "Método no permitido" }, 405);
+      return cancelarSuscripcion(request, url, env);
+    }
     if (url.pathname.startsWith("/api/cuenta/")) return rutasCuenta(request, url, env, ctx);
     if (url.pathname === "/api/comentarios" || url.pathname.startsWith("/api/comentarios/")) {
       return rutasComentarios(request, url, env, ctx);
@@ -254,6 +258,36 @@ async function crearSuscripcion(request, url, env) {
     res.headers.append("set-cookie", cookieAcceso(await fichaDe(env, s.id)));
     res.headers.append("set-cookie", `jp_sin_anuncios=1; Max-Age=${60 * 60 * 24 * 180}; Path=/; Secure; SameSite=Lax`);
   }
+  return res;
+}
+
+// Cancelar desde Mi cuenta: Mercado Pago deja de cobrar y el acceso exclusivo termina
+async function cancelarSuscripcion(request, url, env) {
+  if (!mismoOrigen(request, url)) return json({ error: "Origen no permitido" }, 403);
+  if (!env.MP_ACCESS_TOKEN || !env.DB) return json({ error: "No se puede cancelar por ahora. Prueba en unos minutos." }, 503);
+  const cuenta = await cuentaDeSesion(request, env);
+  if (!cuenta) return json({ error: "Inicia sesión otra vez." }, 401);
+  const fila = await env.DB.prepare("SELECT id FROM suscripciones WHERE cuenta_id = ?1 AND estado = 'authorized' LIMIT 1")
+    .bind(cuenta.id).first();
+  if (!fila) return json({ error: "No tienes una suscripción activa." }, 404);
+
+  const r = await fetch(`${env.MP_API_BASE || MP_API}/preapproval/${encodeURIComponent(fila.id)}`, {
+    method: "PUT",
+    headers: { Authorization: `Bearer ${env.MP_ACCESS_TOKEN}`, "content-type": "application/json" },
+    body: JSON.stringify({ status: "cancelled" }),
+  });
+  const s = await r.json().catch(() => ({}));
+  if (!r.ok) {
+    console.error(`cancelar ${fila.id}: Mercado Pago respondió ${r.status}: ${s.message || ""}`);
+    return json({ error: "Mercado Pago no pudo cancelar la suscripción. Prueba en unos minutos." }, 502);
+  }
+  // Se guarda el estado devuelto; si no vino completo, se marca cancelada igual
+  if (s.id) await guardarSuscripcion(env, s);
+  await env.DB.prepare("UPDATE suscripciones SET estado = 'cancelled', actualizada_en = ?1 WHERE id = ?2")
+    .bind(new Date().toISOString(), fila.id).run();
+  const res = json({ ok: true });
+  res.headers.append("set-cookie", "jp_sin_anuncios=; Max-Age=0; Path=/");
+  res.headers.append("set-cookie", `${COOKIE_ACCESO}=; Max-Age=0; Path=/`);
   return res;
 }
 
