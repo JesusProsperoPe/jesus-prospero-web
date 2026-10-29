@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: Completa tu suscripción
+permalink: /suscribete/pagar/
+noindex: true
+eleventyExcludeFromCollections: true
+---
+<section class="contenedor pagar" id="pagar" data-planes="{{ aportes.planes | dump }}" data-clave="{{ aportes.public_key }}">
+  <header class="pagar-resumen">
+    <p class="etiqueta">Suscripción mensual</p>
+    <h1>Completa tu suscripción</h1>
+    <dl class="estado-detalle">
+      <div><dt>Plan</dt><dd id="p-plan">…</dd></div>
+      <div><dt>Monto</dt><dd id="p-monto">…</dd></div>
+      <div><dt>Cobro</dt><dd>Cada mes, hasta que lo canceles</dd></div>
+    </dl>
+  </header>
+
+  <div class="pagar-tarjeta">
+    <p class="pagar-seguro">
+      <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+      Los datos de tu tarjeta van directo a Mercado Pago. Esta web nunca los ve ni los guarda.
+    </p>
+    <div id="brick-tarjeta"><p class="meta" id="pagar-cargando">Cargando el formulario de pago…</p></div>
+    <p class="ingreso-aviso" id="pagar-aviso" role="alert"></p>
+    <p class="pagar-otra">¿Prefieres pagar en la web de Mercado Pago? <a id="pagar-mp" href="/suscribete/">Paga allá</a></p>
+  </div>
+</section>
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+<script src="/js/pagar.js"></script>

@@ -25,7 +25,10 @@
       }
       resumen.textContent = "Plan " + b.dataset.plan + ": " + b.dataset.monto + " cada mes";
       aceptoTexto.textContent = "Entiendo que se cobrará " + b.dataset.monto + " cada mes hasta que cancele.";
-      ir.href = b.dataset.link || "#";
+      // El pago se hace en esta web; el link de Mercado Pago solo sirve para saber el plan
+      ir.href = linkValido(b.dataset.link)
+        ? "/suscribete/pagar/?plan=" + encodeURIComponent(new URL(b.dataset.link).searchParams.get("preapproval_plan_id"))
+        : "#";
       ir.textContent = textoIr;
       acepto.checked = false;
       ir.setAttribute("aria-disabled", "true");
@@ -41,11 +44,11 @@
   ir.addEventListener("click", function (e) {
     if (!acepto.checked || ir.dataset.enviando) { e.preventDefault(); return; }
     // Los planes sin link de Mercado Pago todavía no se pueden pagar
-    if (!linkValido(ir.getAttribute("href"))) { e.preventDefault(); aviso.hidden = false; return; }
+    if (ir.getAttribute("href") === "#") { e.preventDefault(); aviso.hidden = false; return; }
     // Evita abrir dos veces el pago por un doble clic
     ir.dataset.enviando = "1";
     ir.setAttribute("aria-disabled", "true");
-    ir.textContent = "Abriendo Mercado Pago…";
+    ir.textContent = "Abriendo el pago…";
     setTimeout(function () { delete ir.dataset.enviando; ir.textContent = textoIr; ir.setAttribute("aria-disabled", acepto.checked ? "false" : "true"); }, 8000);
   });
 

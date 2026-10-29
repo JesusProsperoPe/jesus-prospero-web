@@ -20,7 +20,7 @@
 // Nunca se guardan datos de tarjeta. De los lectores con cuenta: nombre, correo y la contraseña cifrada.
 
 import aportes from "../src/_data/aportes.json";
-import { json, hex, igualSeguro, fichaDe, idDeFicha, leerCookie, COOKIE_ACCESO } from "./util.js";
+import { json, hex, igualSeguro, fichaDe, idDeFicha, leerCookie, COOKIE_ACCESO, mismoOrigen, leerJson, CORREO_VALIDO } from "./util.js";
 import { rutasCuenta, cuentaDeSesion, cuentaSuscrita, vincularSuscripcion } from "./cuentas.js";
 import { rutasComentarios } from "./comentarios.js";
 import { prepararBase } from "./base.js";
@@ -49,6 +49,10 @@ export default {
     if (url.pathname === "/api/mercadopago/webhook") {
       if (request.method !== "POST") return json({ error: "Método no permitido" }, 405);
       return webhook(request, url, env);
+    }
+    if (url.pathname === "/api/suscripcion/crear") {
+      if (request.method !== "POST") return json({ error: "Método no permitido" }, 405);
+      return crearSuscripcion(request, url, env);
     }
     if (url.pathname.startsWith("/api/cuenta/")) return rutasCuenta(request, url, env, ctx);
     if (url.pathname === "/api/comentarios" || url.pathname.startsWith("/api/comentarios/")) {
@@ -201,6 +205,70 @@ async function estado(request, url, env) {
   return r;
 }
 
+// ───────── Suscripción pagada dentro de la web (formulario de tarjeta de Mercado Pago) ─────────
+
+const MAX_INTENTOS_PAGO = 5;   // por cuenta y por hora: frena a quien prueba tarjetas robadas
+
+async function crearSuscripcion(request, url, env) {
+  if (!mismoOrigen(request, url)) return json({ error: "Origen no permitido" }, 403);
+  if (!env.MP_ACCESS_TOKEN || !env.DB) return json({ error: "Los pagos no están disponibles por ahora." }, 503);
+  const cuenta = await cuentaDeSesion(request, env);
+  if (!cuenta) return json({ error: "Inicia sesión para suscribirte." }, 401);
+
+  const datos = await leerJson(request);
+  const planId = String(datos.plan || "");
+  const token = String(datos.token || "");
+  const correo = String(datos.email || "").trim().toLowerCase();
+  if (!PLANES.has(planId)) return json({ error: "Ese plan no existe." }, 400);
+  if (!/^[A-Za-z0-9]{10,100}$/.test(token)) return json({ error: "Revisa los datos de tu tarjeta." }, 400);
+  if (await cuentaSuscrita(env, cuenta.id)) return json({ error: "Ya tienes una suscripción activa. Puedes verla en Mi cuenta." }, 409);
+
+  const hora = new Date(Date.now() - 3600000).toISOString();
+  const previos = await env.DB.prepare("SELECT COUNT(*) AS n FROM intentos_pago WHERE cuenta_id = ?1 AND creado_en > ?2")
+    .bind(cuenta.id, hora).first();
+  if (previos.n >= MAX_INTENTOS_PAGO) return json({ error: "Hiciste muchos intentos de pago. Espera una hora o paga en la web de Mercado Pago." }, 429);
+  await env.DB.prepare("INSERT INTO intentos_pago (cuenta_id, creado_en) VALUES (?1, ?2)").bind(cuenta.id, new Date().toISOString()).run();
+
+  const r = await fetch(`${env.MP_API_BASE || MP_API}/preapproval`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${env.MP_ACCESS_TOKEN}`, "content-type": "application/json" },
+    body: JSON.stringify({
+      preapproval_plan_id: planId,
+      card_token_id: token,
+      payer_email: CORREO_VALIDO.test(correo) ? correo : cuenta.correo,
+      external_reference: cuenta.id,
+      back_url: new URL("/aporte/gracias/", url).href,
+      status: "authorized",
+    }),
+  });
+  const s = await r.json().catch(() => ({}));
+  if (!r.ok || !s.id) {
+    console.error(`suscripción ${cuenta.id}: Mercado Pago respondió ${r.status}: ${s.message || s.error || ""} ${JSON.stringify(s.cause || "")}`);
+    return json({ error: motivoRechazo(s) }, 402);
+  }
+
+  await guardarSuscripcion(env, s);
+  await vincularSuscripcion(env, s.id, cuenta.id);
+  const res = json({ ok: true, id: s.id, estado: s.status });
+  if (s.status === "authorized") {
+    res.headers.append("set-cookie", cookieAcceso(await fichaDe(env, s.id)));
+    res.headers.append("set-cookie", `jp_sin_anuncios=1; Max-Age=${60 * 60 * 24 * 180}; Path=/; Secure; SameSite=Lax`);
+  }
+  return res;
+}
+
+// Mensajes de Mercado Pago traducidos a algo que el lector entienda
+function motivoRechazo(s) {
+  const t = `${s.message || ""} ${JSON.stringify(s.cause || "")}`.toLowerCase();
+  if (/high_risk|fraud|blacklist/.test(t)) return "Mercado Pago rechazó el pago por seguridad. Prueba con otra tarjeta o paga en la web de Mercado Pago.";
+  if (/insufficient/.test(t)) return "La tarjeta no tiene fondos suficientes.";
+  if (/security_code|cvv/.test(t)) return "El código de seguridad (CVV) no es correcto.";
+  if (/expir|date/.test(t)) return "Revisa la fecha de vencimiento de la tarjeta.";
+  if (/call_for_authorize|authorize/.test(t)) return "Tu banco pide que autorices este pago. Llama a tu banco y vuelve a intentarlo.";
+  if (/disabled|card_disabled/.test(t)) return "Esa tarjeta está desactivada. Prueba con otra.";
+  return "No se pudo completar el pago. Revisa los datos de tu tarjeta o prueba con otra.";
+}
+
 // ───────── Webhook de Mercado Pago ─────────
 
 async function webhook(request, url, env) {
@@ -268,11 +336,12 @@ async function guardarSuscripcion(env, s) {
   if (!env.DB) return;
   const ahora = new Date().toISOString();
   await env.DB.prepare(
-    `INSERT INTO suscripciones (id, plan_id, monto, moneda, estado, proximo_cobro, creada_en, actualizada_en)
-     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)
+    `INSERT INTO suscripciones (id, plan_id, monto, moneda, estado, proximo_cobro, creada_en, actualizada_en, cuenta_id)
+     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)
      ON CONFLICT(id) DO UPDATE SET
        estado = excluded.estado, monto = excluded.monto, moneda = excluded.moneda,
-       proximo_cobro = excluded.proximo_cobro, actualizada_en = excluded.actualizada_en
+       proximo_cobro = excluded.proximo_cobro, actualizada_en = excluded.actualizada_en,
+       cuenta_id = COALESCE(suscripciones.cuenta_id, excluded.cuenta_id)
      WHERE excluded.actualizada_en >= suscripciones.actualizada_en`
   ).bind(
     s.id,
@@ -282,7 +351,9 @@ async function guardarSuscripcion(env, s) {
     s.status ?? "desconocido",
     s.next_payment_date ?? null,
     s.date_created ?? ahora,
-    s.last_modified ?? ahora
+    s.last_modified ?? ahora,
+    // Las suscripciones pagadas dentro de la web llevan el id de la cuenta
+    /^[0-9a-f-]{36}$/.test(s.external_reference || "") ? s.external_reference : null
   ).run();
 }
 

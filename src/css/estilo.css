@@ -365,6 +365,16 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .moderar-texto { margin: 8px 0; padding: 16px 18px; border-left: 4px solid var(--rojo); background: var(--fondo); font-family: var(--f-lectura); font-size: 18px; white-space: pre-line; overflow-wrap: anywhere; }
 .moderar a { color: var(--rojo); }
 
+/* Pago con tarjeta */
+.pagar { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 40px; align-items: start; padding-block: 48px 80px; }
+.pagar-resumen { display: grid; gap: 14px; }
+.pagar-resumen h1 { font-size: clamp(32px, 5vw, 48px); line-height: 1; }
+.pagar-tarjeta { display: grid; gap: 14px; }
+.pagar-seguro { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--tenue); }
+.pagar-otra { font-size: 14px; color: var(--tenue); }
+.pagar-otra a { color: var(--rojo); }
+#brick-tarjeta { min-height: 120px; }
+
 .privacidad-texto { display: grid; gap: 14px; max-width: 760px; color: var(--gris-oscuro); }
 .privacidad-texto h2 { margin-top: 18px; font-size: 24px; color: var(--tinta); }
 .privacidad-texto ul { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
@@ -616,6 +626,7 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
   .cuenta { padding-block: 32px 56px; }
   .comentarios { margin-block: 40px 32px; }
   .comentarios-pie .boton { width: 100%; }
+  .pagar { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-block: 28px 56px; }
 
   .portada { padding-block: 0 40px; gap: 28px; }
   .principal-foto { margin-inline: -16px; border-radius: 0; }

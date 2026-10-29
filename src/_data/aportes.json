@@ -1,4 +1,5 @@
 {
+  "public_key": "APP_USR-ec9dcb80-708f-41e3-8cbe-ed29836fe5de",
   "planes": [
     { "nombre": "Semilla", "monto": 3, "link": "https://www.mercadopago.com.pe/subscriptions/checkout?preapproval_plan_id=c32837175568446d8ef1b0ef7fef9575" },
     { "nombre": "Amigo", "monto": 5, "link": "https://www.mercadopago.com.pe/subscriptions/checkout?preapproval_plan_id=a5dee1f7d11d44a193739f3fcbc47533" },
