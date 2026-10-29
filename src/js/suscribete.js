@@ -18,6 +18,11 @@
 
   document.querySelectorAll("[data-plan]").forEach(function (b) {
     b.addEventListener("click", function () {
+      // La suscripción queda guardada en la cuenta: primero hay que iniciar sesión
+      if (!/(?:^|;\s*)jp_hola=/.test(document.cookie)) {
+        location.href = "/ingresar/?motivo=suscribirse&volver=/suscribete/";
+        return;
+      }
       resumen.textContent = "Plan " + b.dataset.plan + ": " + b.dataset.monto + " cada mes";
       aceptoTexto.textContent = "Entiendo que se cobrará " + b.dataset.monto + " cada mes hasta que cancele.";
       ir.href = b.dataset.link || "#";

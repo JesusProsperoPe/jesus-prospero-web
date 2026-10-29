@@ -32,8 +32,14 @@
   }
 
   // Enlace personal para las notas exclusivas y, si venía de una, el botón para volver a ella
-  function mostrarAcceso(enlace) {
+  function mostrarAcceso(enlace, enCuenta) {
     var campo = document.getElementById("acceso-enlace");
+    if (enCuenta) {
+      // Con cuenta no hace falta el enlace personal: basta con iniciar sesión
+      document.getElementById("acceso-texto").textContent =
+        "Tu suscripción quedó guardada en tu cuenta. Para leer desde otro celular o computadora, solo inicia sesión.";
+      campo.parentNode.hidden = true;
+    }
     var copiar = document.getElementById("acceso-copiar");
     campo.value = enlace;
     copiar.addEventListener("click", function () {
@@ -67,7 +73,7 @@
           if (proximo) document.getElementById("d-proximo").textContent = proximo;
           else document.getElementById("d-proximo-fila").hidden = true;
           detalle.hidden = false;
-          if (d.acceso) mostrarAcceso(d.acceso);
+          if (d.acceso) mostrarAcceso(d.acceso, d.cuenta);
         } else if (d.estado === "pending") {
           if (intentos < 4) {
             mostrar("verificando", "Mercado Pago está procesando tu suscripción…", "Esto puede tardar unos segundos.");

@@ -3,21 +3,27 @@
 //                                               (si está activa, deja al lector con acceso a las notas exclusivas).
 // - POST /api/mercadopago/webhook             → recibe notificaciones firmadas de Mercado Pago.
 // - GET  /acceso/?t=…                         → enlace personal de acceso del suscriptor.
-// - POST /api/acceso/correo                   → envía ese enlace al correo de una suscripción activa.
-// - /noticias/…                               → a suscriptores (y a Google) les completa las notas exclusivas.
+// - /api/cuenta/…                             → cuentas de lectores (ver cuentas.js).
+// - /api/comentarios…                         → comentarios moderados (ver comentarios.js).
+// - /noticias/…                             → a suscriptores (y a Google) les completa las notas exclusivas.
 // Todo lo demás lo sirve el sitio estático (carpeta _site).
 //
 // Variables secretas (se configuran en Cloudflare, nunca en el código):
 //   MP_ACCESS_TOKEN     Access Token de producción de tu aplicación de Mercado Pago.
 //   MP_WEBHOOK_SECRET   Clave secreta de las notificaciones (webhooks) de esa aplicación.
 //   ACCESO_SECRET       (opcional) Clave para firmar los enlaces de acceso. Si falta, se deriva de MP_ACCESS_TOKEN.
-//   RESEND_API_KEY      (opcional) Para enviar el enlace de acceso por correo. Sin ella, ese envío queda apagado.
-// Variable normal: CORREO_REMITENTE, por ejemplo "Jesus Prospero <acceso@jesusprospero.pe>".
-// Base de datos: D1 con el nombre de enlace DB (ver migrations/0001_aportes.sql).
+//   RESEND_API_KEY      Para los correos (verificación, contraseña, moderación).
+//   GOOGLE_CLIENT_SECRET (opcional) Ingreso con Google, junto con la variable normal GOOGLE_CLIENT_ID.
+// Variables normales: CORREO_REMITENTE ("Jesus Prospero <acceso@jesusprospero.pe>") y MODERADOR_CORREO.
+// Base de datos: D1 con el nombre de enlace DB (ver migrations/).
 //
-// No se guardan correos, nombres ni datos de tarjeta: solo identificadores, montos, estados y fechas.
+// Nunca se guardan datos de tarjeta. De los lectores con cuenta: nombre, correo y la contraseña cifrada.
 
 import aportes from "../src/_data/aportes.json";
+import { json, hex, igualSeguro, fichaDe, idDeFicha, leerCookie, COOKIE_ACCESO } from "./util.js";
+import { rutasCuenta, cuentaDeSesion, cuentaSuscrita, vincularSuscripcion } from "./cuentas.js";
+import { rutasComentarios } from "./comentarios.js";
+import { prepararBase } from "./base.js";
 
 const MP_API = "https://api.mercadopago.com";
 const ID_VALIDO = /^[A-Za-z0-9_-]{6,64}$/;
@@ -32,20 +38,21 @@ const PLANES = new Map(
 );
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    await prepararBase(env);
 
     if (url.pathname === "/api/aporte/estado") {
       if (request.method !== "GET") return json({ error: "Método no permitido" }, 405);
-      return estado(url, env);
+      return estado(request, url, env);
     }
     if (url.pathname === "/api/mercadopago/webhook") {
       if (request.method !== "POST") return json({ error: "Método no permitido" }, 405);
       return webhook(request, url, env);
     }
-    if (url.pathname === "/api/acceso/correo") {
-      if (request.method !== "POST") return json({ error: "Método no permitido" }, 405);
-      return accesoPorCorreo(request, url, env);
+    if (url.pathname.startsWith("/api/cuenta/")) return rutasCuenta(request, url, env, ctx);
+    if (url.pathname === "/api/comentarios" || url.pathname.startsWith("/api/comentarios/")) {
+      return rutasComentarios(request, url, env, ctx);
     }
     if (url.pathname.startsWith("/api/")) return json({ error: "No encontrado" }, 404);
     if (url.pathname === "/acceso/" || url.pathname === "/acceso") return acceso(url, env);
@@ -64,11 +71,11 @@ export default {
 
 // ───────── Notas exclusivas ─────────
 
-const COOKIE = "jp_acceso";
 const UN_ANIO = 60 * 60 * 24 * 365;
 
 async function noticia(request, url, env) {
-  const lector = esGoogle(request) ? "google" : await suscriptorDeCookie(request, env);
+  const lector = esGoogle(request) ? "google"
+    : (await suscriptorDeCookie(request, env)) || (await suscriptorDeCuenta(request, env));
   if (!lector) return env.ASSETS.fetch(request);
 
   const resto = await env.ASSETS.fetch(new Request(new URL(`/_premium${url.pathname}resto.html`, url)));
@@ -95,9 +102,15 @@ function esGoogle(request) {
 }
 
 async function suscriptorDeCookie(request, env) {
-  const m = (request.headers.get("cookie") || "").match(new RegExp(`(?:^|;\\s*)${COOKIE}=([^;]+)`));
-  const id = m && (await idDeFicha(env, decodeURIComponent(m[1])));
+  const ficha = leerCookie(request, COOKIE_ACCESO);
+  const id = ficha && (await idDeFicha(env, ficha));
   return id && (await suscripcionActiva(env, id)) ? id : null;
+}
+
+async function suscriptorDeCuenta(request, env) {
+  if (!leerCookie(request, "jp_sesion")) return null;
+  const cuenta = await cuentaDeSesion(request, env);
+  return cuenta && (await cuentaSuscrita(env, cuenta.id)) ? cuenta.id : null;
 }
 
 // Enlace personal: /acceso/?t=<ficha>&volver=/noticias/…/
@@ -112,45 +125,6 @@ async function acceso(url, env) {
     status: 302,
     headers: { location: volver, "set-cookie": cookieAcceso(ficha), "cache-control": "no-store" },
   });
-}
-
-async function accesoPorCorreo(request, url, env) {
-  if (!env.RESEND_API_KEY || !env.MP_ACCESS_TOKEN) return json({ ok: false }, 503);
-  let datos = {};
-  try { datos = await request.json(); } catch { /* cuerpo inválido */ }
-  const correo = String(datos.correo || "").trim().toLowerCase();
-  if (!/^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,}$/.test(correo)) return json({ ok: false }, 400);
-  const volver = rutaSegura(datos.volver);
-
-  try {
-    const r = await mp(env, `/preapproval/search?status=authorized&payer_email=${encodeURIComponent(correo)}`);
-    const s = (r?.results || []).find((x) => PLANES.has(x.preapproval_plan_id) && x.status === "authorized");
-    if (s) {
-      const enlace = new URL("/acceso/", url);
-      enlace.searchParams.set("t", await fichaDe(env, s.id));
-      enlace.searchParams.set("volver", volver);
-      await enviarCorreo(env, correo, enlace.href);
-    }
-  } catch (e) {
-    console.error(`acceso por correo: ${e.message}`);
-    return json({ ok: false }, 502);
-  }
-  // Misma respuesta haya o no suscripción: así nadie puede averiguar quién está suscrito
-  return json({ ok: true });
-}
-
-async function enviarCorreo(env, para, enlace) {
-  const r = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, "content-type": "application/json" },
-    body: JSON.stringify({
-      from: env.CORREO_REMITENTE || "Jesus Prospero <acceso@jesusprospero.pe>",
-      to: [para],
-      subject: "Tu enlace para leer las notas exclusivas",
-      text: `Hola:\n\nEste es tu enlace para leer las notas exclusivas de jesusprospero.pe:\n\n${enlace}\n\nÁbrelo en el celular o la computadora donde quieras leer. Es personal: no lo compartas.\n\nGracias por apoyar este trabajo.\nJesus Prospero`,
-    }),
-  });
-  if (!r.ok) throw new Error(`Resend respondió ${r.status}`);
 }
 
 // La suscripción tiene que seguir activa: se mira el registro (al día gracias al webhook)
@@ -171,29 +145,8 @@ async function suscripcionActiva(env, id) {
   }
 }
 
-// Ficha de acceso = id de la suscripción + firma. Sin la clave nadie puede fabricar una.
-async function fichaDe(env, id) {
-  return `${id}.${await firma(env, id)}`;
-}
-
-async function idDeFicha(env, ficha) {
-  const [id, f] = String(ficha).split(".");
-  if (!id || !f || !ID_VALIDO.test(id)) return null;
-  return igualSeguro(await firma(env, id), f) ? id : null;
-}
-
-async function firma(env, id) {
-  const secreto = env.ACCESO_SECRET || `acceso:${env.MP_ACCESS_TOKEN || ""}`;
-  if (secreto === "acceso:") throw new Error("Falta ACCESO_SECRET o MP_ACCESS_TOKEN");
-  const clave = await crypto.subtle.importKey(
-    "raw", new TextEncoder().encode(secreto), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]
-  );
-  const s = await crypto.subtle.sign("HMAC", clave, new TextEncoder().encode(`acceso:${id}`));
-  return hex(s).slice(0, 32);
-}
-
 function cookieAcceso(ficha) {
-  return `${COOKIE}=${encodeURIComponent(ficha)}; Max-Age=${UN_ANIO}; Path=/; HttpOnly; Secure; SameSite=Lax`;
+  return `${COOKIE_ACCESO}=${encodeURIComponent(ficha)}; Max-Age=${UN_ANIO}; Path=/; HttpOnly; Secure; SameSite=Lax`;
 }
 
 function rutaSegura(ruta) {
@@ -202,7 +155,7 @@ function rutaSegura(ruta) {
 
 // ───────── Estado de una suscripción (página de confirmación) ─────────
 
-async function estado(url, env) {
+async function estado(request, url, env) {
   const id = url.searchParams.get("preapproval_id") || "";
   if (!ID_VALIDO.test(id)) return json({ estado: "invalido" }, 400);
   if (!env.MP_ACCESS_TOKEN) return json({ estado: "no_configurado" }, 503);
@@ -228,6 +181,15 @@ async function estado(url, env) {
     tipo_frecuencia: s.auto_recurring?.frequency_type ?? null,
     proximo_cobro: s.next_payment_date ?? null,
   };
+  // Con la sesión iniciada, la suscripción queda guardada en la cuenta
+  try {
+    const cuenta = await cuentaDeSesion(request, env);
+    if (cuenta) {
+      await vincularSuscripcion(env, s.id, cuenta.id);
+      datos.cuenta = true;
+    }
+  } catch (e) { console.error(`estado ${id}: no se pudo vincular a la cuenta: ${e.message}`); }
+
   if (s.status !== "authorized") return json(datos);
 
   // Suscripción activa: este navegador queda con acceso y el lector recibe su enlace personal
@@ -235,6 +197,7 @@ async function estado(url, env) {
   datos.acceso = new URL(`/acceso/?t=${encodeURIComponent(ficha)}`, url).href;
   const r = json(datos);
   r.headers.append("set-cookie", cookieAcceso(ficha));
+  if (datos.cuenta) r.headers.append("set-cookie", `jp_sin_anuncios=1; Max-Age=${60 * 60 * 24 * 180}; Path=/; Secure; SameSite=Lax`);
   return r;
 }
 
@@ -367,26 +330,4 @@ async function llaveValida(env) {
   }
   console.error(`La llave MP_ACCESS_TOKEN no funciona (Mercado Pago respondió ${estados.join(", ")})`);
   return false;
-}
-
-function json(datos, status = 200) {
-  return new Response(JSON.stringify(datos), {
-    status,
-    headers: {
-      "content-type": "application/json; charset=utf-8",
-      "cache-control": "no-store",
-      "x-content-type-options": "nosniff",
-    },
-  });
-}
-
-function hex(buffer) {
-  return [...new Uint8Array(buffer)].map((b) => b.toString(16).padStart(2, "0")).join("");
-}
-
-function igualSeguro(a, b) {
-  if (a.length !== b.length) return false;
-  let dif = 0;
-  for (let i = 0; i < a.length; i++) dif |= a.charCodeAt(i) ^ b.charCodeAt(i);
-  return dif === 0;
 }

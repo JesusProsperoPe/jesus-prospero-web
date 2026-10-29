@@ -291,6 +291,79 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 .estado-acceso .muro-fila { width: 100%; }
 .estado-acceso input { flex: 1 1 220px; min-width: 0; padding: 10px 12px; font: inherit; font-size: 14px; border: 1px solid var(--linea); border-radius: var(--radio-boton); background: #fff; }
 .muro-aviso:empty { display: none; }
+.muro-ingreso a { color: var(--rojo); font-weight: 700; }
+
+/* ───────── Cuentas: ingreso, bienvenida, Mi cuenta ───────── */
+.ingreso { display: grid; justify-items: center; padding-block: 48px 80px; }
+.ingreso-caja {
+  width: 100%; max-width: 480px; padding: 36px 32px;
+  background: var(--superficie); border: 1px solid var(--linea); border-top: 4px solid var(--rojo); border-radius: 8px;
+}
+.ingreso-paso { display: grid; gap: 16px; }
+.ingreso-paso[hidden] { display: none; }
+.ingreso-paso h1 { font-size: clamp(26px, 4vw, 34px); line-height: 1.1; text-align: center; }
+.ingreso-bajada { color: var(--gris-oscuro); text-align: center; overflow-wrap: anywhere; }
+.ingreso-paso form { display: grid; gap: 14px; }
+.campo { display: grid; gap: 6px; }
+.campo span { font-size: 14px; font-weight: 700; }
+.campo small { font-size: 13px; color: var(--tenue); }
+.campo input, .comentarios-form textarea {
+  width: 100%; padding: 12px 14px; font: inherit; font-size: 16px;
+  border: 1px solid var(--linea); border-radius: var(--radio-boton); background: #fff; color: var(--tinta);
+}
+.campo input:focus, .comentarios-form textarea:focus { outline: 2px solid var(--tinta); outline-offset: 1px; border-color: transparent; }
+.boton-ancho { width: 100%; }
+.boton-google { gap: 10px; }
+.boton:disabled { opacity: .5; cursor: wait; }
+.ingreso-o { display: flex; align-items: center; gap: 12px; margin: 4px 0 12px; color: var(--tenue); font-size: 14px; }
+.ingreso-o::before, .ingreso-o::after { content: ""; flex: 1; height: 1px; background: var(--linea); }
+.ingreso-planes { text-align: center; font-size: 15px; color: var(--gris-oscuro); }
+.ingreso-planes a, .ingreso-acepto a { color: var(--rojo); font-weight: 700; }
+.ingreso-acepto { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; }
+.ingreso-acepto input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--rojo); }
+.enlace-boton { padding: 0; border: 0; background: none; font: inherit; color: var(--rojo); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.ingreso-paso > p:has(.enlace-boton) { text-align: center; }
+.ingreso-aviso { margin-top: 16px; padding: 12px 14px; border-radius: var(--radio-boton); background: #fdecee; color: var(--rojo-hover); font-size: 15px; }
+.ingreso-aviso:empty { display: none; }
+.ingreso-bienvenida { justify-items: center; }
+.ingreso-foto { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid var(--rojo); }
+
+.cuenta { padding-block: 48px 80px; }
+.cuenta .titulo-pagina { font-size: clamp(36px, 6vw, 64px); overflow-wrap: anywhere; }
+.cuenta-mensaje { margin-bottom: 24px; padding: 14px 16px; border-left: 4px solid var(--rojo); background: var(--superficie); font-weight: 600; }
+.cuenta .gestionar-bloque p { color: var(--gris-oscuro); }
+.cuenta .gestionar-bloque a:not(.boton) { color: var(--rojo); text-underline-offset: 3px; }
+
+/* ───────── Comentarios ───────── */
+.comentarios { display: grid; gap: 20px; max-width: 760px; margin-block: 56px 48px; }
+.comentarios .seccion-cabeza { margin-bottom: 0; }
+.comentarios-lista { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; }
+.comentario { display: grid; gap: 6px; padding-block: 18px; border-bottom: 1px solid var(--linea); }
+.comentario:first-child { padding-top: 0; }
+.comentario-cabeza { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.comentario-cabeza .sello-exclusivo { margin: 0; }
+.comentario-texto { font-family: var(--f-lectura); font-size: 18px; line-height: 1.55; white-space: pre-line; overflow-wrap: anywhere; }
+.comentario-pendiente { opacity: .75; }
+.comentario-espera { font-size: 13px; font-weight: 700; color: var(--tenue); }
+.comentarios-vacio { color: var(--tenue); }
+.comentarios-ingresa { display: grid; gap: 12px; justify-items: start; padding: 24px; background: var(--superficie); border: 1px solid var(--linea); border-radius: 8px; }
+.comentarios-form { display: grid; gap: 10px; }
+.comentarios-form[hidden] { display: none; }
+.comentarios-form textarea { resize: vertical; min-height: 110px; font-family: var(--f-lectura); font-size: 17px; }
+.comentarios-pie { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.comentarios-pie small { color: var(--tenue); font-size: 13px; }
+.comentarios-pie a, #comentario-aviso a { color: var(--rojo); }
+
+/* Moderación (página que arma el servidor) */
+.moderar { max-width: 720px; padding-block: 40px; }
+.moderar-caja { gap: 12px; }
+.moderar-mensaje { padding: 12px 14px; background: var(--linea-suave); font-weight: 700; }
+.moderar-texto { margin: 8px 0; padding: 16px 18px; border-left: 4px solid var(--rojo); background: var(--fondo); font-family: var(--f-lectura); font-size: 18px; white-space: pre-line; overflow-wrap: anywhere; }
+.moderar a { color: var(--rojo); }
+
+.privacidad-texto { display: grid; gap: 14px; max-width: 760px; color: var(--gris-oscuro); }
+.privacidad-texto h2 { margin-top: 18px; font-size: 24px; color: var(--tinta); }
+.privacidad-texto ul { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
 
 /* ───────── Archivo de noticias ───────── */
 .seccion-archivo { padding-top: 48px; }
@@ -526,6 +599,14 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
   .menu a:first-child { padding-left: 0; }
   .menu a::after { left: 14px; right: 14px; bottom: 0; }
   .menu a:first-child::after { left: 0; }
+  .menu .menu-cuenta { margin-left: auto; padding-right: 0; }
+  .menu .menu-cuenta::after { right: 0; }
+
+  .ingreso { padding-block: 20px 48px; }
+  .ingreso-caja { padding: 28px 20px; }
+  .cuenta { padding-block: 32px 56px; }
+  .comentarios { margin-block: 40px 32px; }
+  .comentarios-pie .boton { width: 100%; }
 
   .portada { padding-block: 0 40px; gap: 28px; }
   .principal-foto { margin-inline: -16px; border-radius: 0; }

@@ -1,0 +1,47 @@
+---
+layout: base.njk
+title: Mi cuenta
+permalink: /mi-cuenta/
+noindex: true
+eleventyExcludeFromCollections: true
+---
+<section class="contenedor cuenta" id="cuenta" data-planes="{{ aportes.planes | dump }}" hidden>
+  <header class="pagina-cabeza">
+    <p class="etiqueta">Mi cuenta</p>
+    <h1 class="titulo-pagina" id="cuenta-nombre"></h1>
+    <p id="cuenta-correo"></p>
+  </header>
+
+  <p class="cuenta-mensaje" id="cuenta-mensaje" role="status" hidden></p>
+
+  <div class="gestionar-rejilla">
+    <div class="gestionar-bloque" id="bloque-suscripcion">
+      <h2>Mi suscripción</h2>
+      <div id="sin-suscripcion" hidden>
+        <p>Todavía no tienes una suscripción. Suscríbete desde {{ (aportes.planes | first).monto | solesCorto }} al mes y lee completas todas las notas exclusivas, sin anuncios.</p>
+        <p><a class="boton" href="/suscribete/">Ver planes de suscripción</a></p>
+      </div>
+      <div id="con-suscripcion" hidden>
+        <dl class="estado-detalle">
+          <div><dt>Plan</dt><dd id="s-plan"></dd></div>
+          <div><dt>Estado</dt><dd id="s-estado"></dd></div>
+          <div id="s-proximo-fila"><dt>Próximo cobro</dt><dd id="s-proximo"></dd></div>
+        </dl>
+        <p><a href="/aporte/gestionar/">Cómo cancelar o cambiar el monto</a></p>
+      </div>
+    </div>
+
+    <div class="gestionar-bloque">
+      <h2>Mis datos</h2>
+      <div id="sin-verificar" hidden>
+        <p>Confirma tu correo para poder comentar. Te enviamos un enlace al crear tu cuenta.</p>
+        <p><button type="button" class="boton boton-secundario" id="reenviar">Enviar el correo otra vez</button></p>
+      </div>
+      <p id="verificada" hidden>Tu correo está confirmado.</p>
+      <p id="con-google" hidden>Puedes entrar con Google.</p>
+      <p><button type="button" class="enlace-boton" id="cambiar-clave">Cambiar mi contraseña</button></p>
+      <p><button type="button" class="boton boton-secundario" id="salir">Cerrar sesión</button></p>
+    </div>
+  </div>
+</section>
+<script src="/js/cuenta.js"></script>

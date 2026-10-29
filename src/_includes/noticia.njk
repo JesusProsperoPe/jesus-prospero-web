@@ -32,17 +32,7 @@ layout: base.njk
         <h2>Esta nota es exclusiva para suscriptores</h2>
         <p>Suscríbete desde {{ (aportes.planes | first).monto | solesCorto }} al mes y lee completas todas las notas exclusivas. Lo cancelas cuando quieras.</p>
         <a class="boton" href="/suscribete/" id="muro-suscribir">Suscribirme</a>
-        <details class="muro-ingreso">
-          <summary>¿Ya eres suscriptor? Ingresa</summary>
-          <form id="muro-form">
-            <label for="muro-correo">Escribe el correo con el que te suscribiste en Mercado Pago y te enviaremos un enlace para entrar.</label>
-            <div class="muro-fila">
-              <input type="email" id="muro-correo" name="correo" required autocomplete="email" placeholder="tucorreo@ejemplo.com">
-              <button type="submit" class="boton boton-secundario">Enviar enlace</button>
-            </div>
-            <p class="muro-aviso" id="muro-aviso" aria-live="polite"></p>
-          </form>
-        </details>
+        <p class="muro-ingreso" id="muro-ingreso">¿Ya eres suscriptor? <a href="/ingresar/?volver={{ page.url | urlencode }}">Inicia sesión</a></p>
       </div>
       {% else %}
       {{ content | safe }}
@@ -59,8 +49,28 @@ layout: base.njk
     </div>
 
     {% include "yape.njk" %}
+
+    <section class="comentarios" id="comentarios" data-nota="{{ page.url }}" aria-labelledby="comentarios-titulo">
+      <div class="seccion-cabeza"><h2 class="seccion-titulo" id="comentarios-titulo">Comentarios</h2></div>
+      <ol class="comentarios-lista" id="comentarios-lista"></ol>
+      <p class="comentarios-vacio" id="comentarios-vacio" hidden>Todavía no hay comentarios. Sé el primero.</p>
+      <div class="comentarios-ingresa" id="comentarios-ingresa">
+        <p>Inicia sesión o crea tu cuenta gratis para comentar.</p>
+        <a class="boton boton-secundario" href="/ingresar/?motivo=comentar&amp;volver={{ page.url | urlencode }}">Ingresar para comentar</a>
+      </div>
+      <form class="comentarios-form" id="comentarios-form" hidden novalidate>
+        <label for="comentario-texto">Comenta como <strong id="comentario-nombre"></strong></label>
+        <textarea id="comentario-texto" name="texto" rows="4" maxlength="1500" required placeholder="Escribe tu comentario"></textarea>
+        <div class="comentarios-pie">
+          <small>Los comentarios se revisan antes de publicarse. <a href="/privacidad/#comentarios">Reglas</a>.</small>
+          <button type="submit" class="boton">Publicar</button>
+        </div>
+        <p class="muro-aviso" id="comentario-aviso" role="status"></p>
+      </form>
+    </section>
   </div>
 </article>
+<script src="/js/comentarios.js" defer></script>
 
 {% set otras = collections.noticias | otras(page.url, 3) %}
 {% if otras.length %}
@@ -89,31 +99,14 @@ layout: base.njk
 </script>
 <script>
   (function () {
-    var form = document.getElementById("muro-form");
-    if (!form) return;
     var suscribir = document.getElementById("muro-suscribir");
+    if (!suscribir) return;
     // Para volver a esta nota después de suscribirse
     suscribir.addEventListener("click", function () {
       try { localStorage.setItem("jp-volver", location.pathname); } catch (e) {}
     });
-    var aviso = document.getElementById("muro-aviso");
-    form.addEventListener("submit", function (ev) {
-      ev.preventDefault();
-      var boton = form.querySelector("button");
-      boton.disabled = true;
-      aviso.textContent = "Enviando…";
-      fetch("/api/acceso/correo", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ correo: form.correo.value, volver: location.pathname }),
-      }).then(function (r) {
-        aviso.textContent = r.ok
-          ? "Listo. Si ese correo tiene una suscripción activa, te llegará un enlace en unos minutos. Revisa también spam o promociones."
-          : "No pudimos enviar el enlace. Escríbeme a {{ site.correo }} y te ayudo a entrar.";
-      }).catch(function () {
-        aviso.textContent = "No pudimos enviar el enlace. Escríbeme a {{ site.correo }} y te ayudo a entrar.";
-      }).finally(function () { boton.disabled = false; });
-    });
+    // Con sesión iniciada ya no hace falta el "Inicia sesión"
+    if (/(?:^|;\s*)jp_hola=/.test(document.cookie)) document.getElementById("muro-ingreso").hidden = true;
   })();
 </script>
 {% endif %}

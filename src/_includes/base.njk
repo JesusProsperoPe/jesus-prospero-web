@@ -32,8 +32,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <link rel="stylesheet" href="/css/estilo.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4024662288990496"
-     crossorigin="anonymous"></script>
+<meta name="google-adsense-account" content="ca-pub-4024662288990496">
+{# Los suscriptores leen sin anuncios: la cookie la pone el servidor cuando la suscripción está activa #}
+<script>
+  if (!/(?:^|;\s*)jp_sin_anuncios=1/.test(document.cookie)) {
+    var ads = document.createElement("script");
+    ads.async = true;
+    ads.crossOrigin = "anonymous";
+    ads.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4024662288990496";
+    document.head.appendChild(ads);
+  }
+</script>
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -51,6 +60,7 @@
       <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Inicio</a>
       <a href="/noticias/"{% if page.url.startsWith("/noticias/") %} aria-current="page"{% endif %}>Noticias</a>
       <a href="/sobre-mi/"{% if page.url == "/sobre-mi/" %} aria-current="page"{% endif %}>Sobre mí</a>
+      <a href="/ingresar/" class="menu-cuenta" id="menu-cuenta"{% if page.url == "/ingresar/" or page.url == "/mi-cuenta/" %} aria-current="page"{% endif %}>Ingresar</a>
     </nav>
     <a class="boton boton-cabecera" href="/suscribete/"{% if page.url == "/suscribete/" %} aria-current="page"{% endif %}>Suscríbete</a>
   </div>
@@ -74,7 +84,9 @@
         <li><a href="/noticias/">Todas las noticias</a></li>
         <li><a href="/sobre-mi/">Sobre mí</a></li>
         <li><a href="/suscribete/">Suscríbete</a></li>
+        <li><a href="/mi-cuenta/">Mi cuenta</a></li>
         <li><a href="/aporte/gestionar/">Consultar o cancelar mi aporte</a></li>
+        <li><a href="/privacidad/">Política de privacidad</a></li>
       </ul>
     </div>
     <div>
@@ -92,5 +104,15 @@
   </div>
   <div class="contenedor"><p class="pie-legal">© {% anio %} {{ site.nombre }}. Todos los derechos reservados.</p></div>
 </footer>
+<script>
+  // Con la sesión iniciada, la cabecera lleva a "Mi cuenta"
+  (function () {
+    var m = document.cookie.match(/(?:^|;\s*)jp_hola=([^;]+)/);
+    if (!m) return;
+    var a = document.getElementById("menu-cuenta");
+    a.href = "/mi-cuenta/";
+    a.textContent = "Mi cuenta";
+  })();
+</script>
 </body>
 </html>
