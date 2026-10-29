@@ -55,6 +55,8 @@ collections:
           hint: "Se muestra como etiqueta. Columna: con humor y opinión. Noticia: solo hechos." }
       - { label: "Solo para suscriptores", name: "exclusivo", widget: "boolean", required: false, default: false,
           hint: "Si lo marcas, todos ven los 2 primeros párrafos y el resto solo los suscriptores." }
+      - { label: "Enlace corto (opcional)", name: "corto", widget: "string", required: false,
+          hint: "Una o dos palabras, por ejemplo holguin: la nota se comparte como jesusprospero.pe/n/holguin. Si lo dejas vacío, se crea uno solo." }
       - { label: "Texto completo", name: "body", widget: "markdown" }
 
   - name: ajustes

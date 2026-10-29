@@ -6,6 +6,7 @@
 // - /api/cuenta/…                             → cuentas de lectores (ver cuentas.js).
 // - /api/comentarios…                         → comentarios moderados (ver comentarios.js).
 // - /noticias/…                             → a suscriptores (y a Google) les completa las notas exclusivas.
+// - /n/<código>                               → enlace corto de una nota (ver src/cortos.njk).
 // Todo lo demás lo sirve el sitio estático (carpeta _site).
 //
 // Variables secretas (se configuran en Cloudflare, nunca en el código):
@@ -72,10 +73,26 @@ export default {
     if (url.pathname.startsWith("/noticias/") && url.pathname.endsWith("/") && request.method === "GET") {
       return noticia(request, url, env);
     }
+    if (url.pathname.startsWith("/n/")) return enlaceCorto(url, env);
 
     return env.ASSETS.fetch(request);
   },
 };
+
+// ───────── Enlaces cortos ─────────
+
+// jesusprospero.pe/n/<código> → la nota (el mapa lo genera Eleventy en /cortos.json)
+async function enlaceCorto(url, env) {
+  const codigo = url.pathname.slice(3).replace(/\/+$/, "").toLowerCase();
+  const r = await env.ASSETS.fetch(new Request(new URL("/cortos.json", url)));
+  const mapa = r.ok ? await r.json() : {};
+  const destino = Object.hasOwn(mapa, codigo) ? mapa[codigo] : null;
+  if (!destino) {
+    const p = await env.ASSETS.fetch(new Request(new URL("/404.html", url)));
+    return new Response(p.body, { status: 404, headers: { "content-type": "text/html; charset=utf-8" } });
+  }
+  return Response.redirect(new URL(destino + url.search, url).toString(), 301);
+}
 
 // ───────── Notas exclusivas ─────────
 

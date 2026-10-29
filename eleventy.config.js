@@ -42,6 +42,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("noticias", (api) =>
     api.getFilteredByTag("noticia").sort((a, b) => b.date - a.date)
   );
+  // Enlaces cortos jesusprospero.pe/n/<código>: dos notas no pueden compartir código
+  eleventyConfig.addCollection("cortos", (api) => {
+    const vistos = new Map();
+    for (const n of api.getFilteredByTag("noticia")) {
+      const c = n.data.enlaceCorto;
+      if (vistos.has(c)) throw new Error(`El enlace corto "${c}" se repite en ${vistos.get(c)} y ${n.url}`);
+      vistos.set(c, n.url);
+    }
+    return [...vistos].map(([codigo, url]) => ({ codigo, url }));
+  });
   eleventyConfig.addCollection("exclusivas", (api) =>
     api.getFilteredByTag("noticia").filter((n) => n.data.exclusivo)
   );
