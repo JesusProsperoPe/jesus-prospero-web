@@ -3,7 +3,7 @@ layout: base.njk
 ---
 <article class="nota">
   <header class="contenedor nota-cabecera">
-    <p class="etiqueta"><a href="/noticias/">Noticias</a>{% if tipo %}<span class="tipo-nota">{{ tipo }}</span>{% endif %}{% if exclusivo %}<span class="sello-exclusivo">Solo para suscriptores</span>{% endif %}</p>
+    <p class="etiqueta">{% if tipo == "Noticia" %}<a href="/noticias/">Noticias</a>{% else %}<a href="/columnas/">Columnas</a>{% endif %}{% if tipo %}<span class="tipo-nota">{{ tipo }}</span>{% endif %}{% if exclusivo %}<span class="sello-exclusivo">Solo para suscriptores</span>{% endif %}</p>
     <h1>{{ title }}</h1>
     {% if resumen %}<p class="nota-bajada">{{ resumen }}</p>{% endif %}
     <div class="firma">

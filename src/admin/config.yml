@@ -56,7 +56,7 @@ collections:
           hint: "De dónde viene. Ejemplos: «Foto: Andina», «Captura de X», «Imagen referencial»." }
       - { label: "Tipo de texto", name: "tipo", widget: "select", required: false, default: "Columna",
           options: ["Columna", "Análisis", "Opinión", "Noticia"],
-          hint: "Se muestra como etiqueta. Columna: con humor y opinión. Noticia: solo hechos." }
+          hint: "Noticia (solo hechos) va a la sección Noticias. Columna, Análisis y Opinión van a la sección Columnas." }
       - { label: "Solo para suscriptores", name: "exclusivo", widget: "boolean", required: false, default: false,
           hint: "Si lo marcas, todos ven los 2 primeros párrafos y el resto solo los suscriptores." }
       - { label: "Enlace corto (opcional)", name: "corto", widget: "string", required: false,
@@ -87,6 +87,38 @@ collections:
           hint: "Una o dos palabras, por ejemplo moda-ambiental: se comparte como jesusprospero.pe/n/moda-ambiental. Si lo dejas vacío, se crea uno solo." }
       - { label: "Texto (opcional)", name: "body", widget: "markdown", required: false,
           hint: "Un comentario corto que aparece debajo de la viñeta." }
+
+  - name: mentiras
+    label: Contador de Keiko
+    label_singular: Caso
+    description: "Cada caso suma al contador de la portada. Solo los marcados como «Falso» cuentan como mentira; los demás se muestran aparte. Pon siempre el enlace de lo que dijo y la prueba."
+    folder: src/mentiras
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{categoria}} · {{title}} · {{date | date('DD/MM/YYYY')}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Lo que dijo (frase textual)", name: "title", widget: "string",
+          hint: "Copia la frase tal cual, sin comillas. Ejemplo: No hemos subido ningún impuesto." }
+      - { label: "Fecha en que lo dijo", name: "date", widget: "datetime" }
+      - { label: "Dónde lo dijo", name: "donde", widget: "string",
+          hint: "Ejemplo: Mensaje a la Nación, entrevista en RPP, conferencia en Palacio." }
+      - { label: "Enlace a lo que dijo", name: "fuente_url", widget: "string",
+          hint: "Video, nota o publicación donde se le escucha o se le lee." }
+      - { label: "Categoría", name: "categoria", widget: "select", default: "En revisión",
+          options: ["Falso", "Engañoso", "Se contradijo", "En revisión"],
+          hint: "Falso: hay prueba de que no es cierto (es lo único que suma al contador). Engañoso: verdad a medias. Se contradijo: antes dijo lo contrario. En revisión: hay sospecha pero todavía no hay prueba." }
+      - { label: "Lo cierto", name: "body", widget: "markdown",
+          hint: "Explica en 2 o 3 líneas qué es lo verdadero y por qué lo que dijo no lo es." }
+      - label: "Pruebas"
+        name: "pruebas"
+        widget: "list"
+        required: false
+        summary: "{{fields.texto}}"
+        hint: "Documentos, cifras oficiales, videos anteriores. Una prueba por línea."
+        fields:
+          - { label: "Qué es", name: "texto", widget: "string", hint: "Ejemplo: Reporte de la SUNAT de setiembre 2026" }
+          - { label: "Enlace", name: "url", widget: "string", required: false }
 
   - name: ajustes
     label: Ajustes del sitio

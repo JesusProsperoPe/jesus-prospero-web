@@ -7,7 +7,7 @@
 <meta name="description" content="{{ resumen or site.descripcion }}">
 <meta name="theme-color" content="#ffffff">
 {# Mientras no haya viñetas, Google no indexa la sección vacía #}
-{% if noindex or (page.url == "/vinetas/" and not collections.vinetas.length) %}<meta name="robots" content="noindex">
+{% if noindex or (page.url == "/vinetas/" and not collections.vinetas.length) or (page.url == "/noticias/" and not collections.soloNoticias.length) %}<meta name="robots" content="noindex">
 {# Permite que Google muestre las fotos en grande (Discover) #}
 {% else %}<meta name="robots" content="max-image-preview:large">{% endif %}
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
@@ -89,7 +89,10 @@
     </a>
     <nav class="menu" aria-label="Principal">
       <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Inicio</a>
-      <a href="/noticias/"{% if page.url.startsWith("/noticias/") %} aria-current="page"{% endif %}>Noticias</a>
+      {# Las columnas viven en /noticias/… pero se marcan en "Columnas" #}
+      {% set esColumna = page.url.startsWith("/columnas/") or (page.url.startsWith("/noticias/2") and tipo != "Noticia") %}
+      <a href="/noticias/"{% if page.url.startsWith("/noticias/") and not esColumna %} aria-current="page"{% endif %}>Noticias</a>
+      <a href="/columnas/"{% if esColumna %} aria-current="page"{% endif %}>Columnas</a>
       <a href="/vinetas/"{% if page.url.startsWith("/vinetas/") %} aria-current="page"{% endif %}>Viñetas</a>
       <a href="/sobre-mi/"{% if page.url == "/sobre-mi/" %} aria-current="page"{% endif %}>Sobre mí</a>
     </nav>
@@ -116,8 +119,10 @@
       <p class="pie-titulo">Secciones</p>
       <ul class="pie-enlaces">
         <li><a href="/">Inicio</a></li>
-        <li><a href="/noticias/">Todas las noticias</a></li>
+        <li><a href="/noticias/">Noticias</a></li>
+        <li><a href="/columnas/">Columnas</a></li>
         <li><a href="/vinetas/">Viñetas</a></li>
+        <li><a href="/contador-keiko/">Contador de mentiras de Keiko</a></li>
         <li><a href="/sobre-mi/">Sobre mí</a></li>
         <li><a href="/suscribete/">Suscríbete</a></li>
         <li><a href="/mi-cuenta/">Mi cuenta</a></li>

@@ -5,7 +5,10 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>{{ site.url }}/</loc></url>
+  {%- if collections.soloNoticias.length %}
   <url><loc>{{ site.url }}/noticias/</loc></url>
+  {%- endif %}
+  <url><loc>{{ site.url }}/columnas/</loc></url>
   <url><loc>{{ site.url }}/sobre-mi/</loc></url>
   <url><loc>{{ site.url }}/suscribete/</loc></url>
   <url><loc>{{ site.url }}/contacto/</loc></url>
@@ -18,6 +21,9 @@ eleventyExcludeFromCollections: true
   {%- for v in collections.vinetas %}
   <url><loc>{{ site.url }}{{ v.url }}</loc><lastmod>{{ v.date | fechaIso }}</lastmod></url>
   {%- endfor %}
+  {%- endif %}
+  {%- if collections.mentiras.length %}
+  <url><loc>{{ site.url }}/contador-keiko/</loc><lastmod>{{ collections.mentiras[0].date | fechaIso }}</lastmod></url>
   {%- endif %}
   {%- for t in collections.temas %}
   <url><loc>{{ site.url }}/temas/{{ t.slug }}/</loc><lastmod>{{ t.items[0].date | fechaIso }}</lastmod></url>

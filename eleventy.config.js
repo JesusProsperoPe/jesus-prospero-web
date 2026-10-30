@@ -42,6 +42,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("noticias", (api) =>
     api.getFilteredByTag("noticia").sort((a, b) => b.date - a.date)
   );
+  // Secciones del menú: "Noticias" solo lleva las de tipo Noticia; "Columnas", todo lo de opinión
+  // (Columna, Análisis, Opinión). Las direcciones siguen siendo /noticias/… para no romper enlaces.
+  eleventyConfig.addCollection("soloNoticias", (api) =>
+    api.getFilteredByTag("noticia").filter((n) => n.data.tipo === "Noticia").sort((a, b) => b.date - a.date)
+  );
+  eleventyConfig.addCollection("columnas", (api) =>
+    api.getFilteredByTag("noticia").filter((n) => n.data.tipo !== "Noticia").sort((a, b) => b.date - a.date)
+  );
   // Viñetas (humor gráfico), de la más nueva a la más antigua
   eleventyConfig.addCollection("vinetas", (api) =>
     api.getFilteredByTag("vineta").sort((a, b) => b.date - a.date)
@@ -73,6 +81,10 @@ module.exports = function (eleventyConfig) {
       .map((t) => ({ ...t, items: t.items.sort((a, b) => b.date - a.date) }))
       .sort((a, b) => b.items.length - a.items.length || a.nombre.localeCompare(b.nombre, "es"));
   });
+  // Casos del contador de Keiko, del más nuevo al más antiguo
+  eleventyConfig.addCollection("mentiras", (api) =>
+    api.getFilteredByTag("mentira").sort((a, b) => b.date - a.date)
+  );
   // Publicaciones de las últimas 48 horas, para el mapa de Google Noticias
   eleventyConfig.addCollection("recientes", (api) => {
     const limite = Date.now() - 48 * 3600 * 1000;
@@ -105,6 +117,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("fecha", (d) => fmtFecha.format(new Date(d)));
   eleventyConfig.addFilter("fechaHora", (d) => fmtFechaHora.format(new Date(d)));
   eleventyConfig.addFilter("fechaIso", (d) => new Date(d).toISOString());
+  // Casos del contador de una categoría ("Falso", "Engañoso", …)
+  eleventyConfig.addFilter("porCategoria", (casos, categoria) =>
+    (casos || []).filter((c) => c.data.categoria === categoria)
+  );
   eleventyConfig.addFilter("combinar", (a, b) => ({ ...a, ...b }));
   // Temas de una nota que tienen página propia: [{ nombre, slug }]
   eleventyConfig.addFilter("temasConPagina", (nombres, todos) => {

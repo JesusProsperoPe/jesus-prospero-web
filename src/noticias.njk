@@ -1,10 +1,10 @@
 ---
 layout: base.njk
 title: Noticias
-titulo_seo: "Columnas y noticias de política peruana · Jesus Prospero"
-resumen: "Todas las columnas y noticias de Jesus Prospero sobre el Congreso, el Gobierno y la política peruana."
+titulo_seo: "Noticias de política peruana · Jesus Prospero"
+resumen: "Las noticias de política peruana de Jesus Prospero: el Congreso, el Gobierno y el poder, con los hechos y su contexto."
 pagination:
-  data: collections.noticias
+  data: collections.soloNoticias
   size: 24
   alias: lista
   generatePageOnEmptyData: true
@@ -14,7 +14,7 @@ permalink: "/noticias/{% if pagination.pageNumber > 0 %}pagina/{{ pagination.pag
   <header class="pagina-cabeza">
     <p class="etiqueta">Archivo</p>
     <h1 class="titulo-pagina">Noticias</h1>
-    <p>{{ site.descripcion }}</p>
+    <p>Los hechos de la política peruana, con su contexto.</p>
   </header>
 
   {% if lista.length %}
@@ -22,7 +22,10 @@ permalink: "/noticias/{% if pagination.pageNumber > 0 %}pagina/{{ pagination.pag
     {% for n in lista %}{% if loop.first and pagination.pageNumber == 0 %}{% set variante = "destacada" %}{% else %}{% set variante = "" %}{% endif %}{% include "tarjeta.njk" %}{% endfor %}
   </div>
   {% else %}
-  <p class="vacio">Todavía no hay noticias publicadas.</p>
+  <div class="vacio">
+    <p>Pronto, las primeras noticias. Mientras tanto, lee mis columnas.</p>
+    <p><a class="boton boton-secundario" href="/columnas/">Ver las columnas</a></p>
+  </div>
   {% endif %}
 
   {% if pagination.pages.length > 1 %}

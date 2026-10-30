@@ -4,6 +4,9 @@ layout: base.njk
 titulo_seo: "Jesus Prospero | Noticias y columnas de política peruana"
 resumen: "Columnas y noticias de política peruana por Jesus Prospero: el Congreso, el Gobierno, la Fiscalía y el poder, contados con contexto y humor."
 ---
+{# 0. Contador de Keiko: lo primero de la portada, cuando ya hay casos #}
+{% if collections.mentiras.length %}{% set enPortada = true %}{% include "contador-keiko.njk" %}{% endif %}
+
 {% set notas = collections.noticias %}
 {% if notas.length %}
 {% set p = notas[0] %}
@@ -76,8 +79,8 @@ resumen: "Columnas y noticias de política peruana por Jesus Prospero: el Congre
 {% if resto.length %}
 <section class="contenedor seccion" aria-labelledby="mas-titulo">
   <div class="seccion-cabeza">
-    <h2 class="seccion-titulo" id="mas-titulo">Más noticias</h2>
-    <a class="enlace-flecha" href="/noticias/">Ver todas</a>
+    <h2 class="seccion-titulo" id="mas-titulo">Más publicaciones</h2>
+    <a class="enlace-flecha" href="/columnas/">Ver columnas</a>
   </div>
   <div class="rejilla">
     {% for n in resto %}{% if loop.first %}{% set variante = "destacada" %}{% else %}{% set variante = "" %}{% endif %}{% include "tarjeta.njk" %}{% endfor %}
@@ -85,7 +88,10 @@ resumen: "Columnas y noticias de política peruana por Jesus Prospero: el Congre
 </section>
 {% endif %}
 
-<p class="contenedor ver-todas"><a class="boton boton-secundario" href="/noticias/">Ver todas las noticias</a></p>
+<p class="contenedor ver-todas">
+  <a class="boton boton-secundario" href="/columnas/">Ver todas las columnas</a>
+  {% if collections.soloNoticias.length %}<a class="boton boton-secundario" href="/noticias/">Ver todas las noticias</a>{% endif %}
+</p>
 
 {% else %}
 <section class="contenedor vacio">

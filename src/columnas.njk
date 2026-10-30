@@ -1,0 +1,35 @@
+---
+layout: base.njk
+title: Columnas
+titulo_seo: "Columnas de opinión sobre política peruana · Jesus Prospero"
+resumen: "Las columnas de Jesus Prospero sobre el Congreso, el Gobierno y la política peruana, con datos, contexto y humor."
+pagination:
+  data: collections.columnas
+  size: 24
+  alias: lista
+  generatePageOnEmptyData: true
+permalink: "/columnas/{% if pagination.pageNumber > 0 %}pagina/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+<section class="contenedor seccion seccion-archivo">
+  <header class="pagina-cabeza">
+    <p class="etiqueta">Opinión</p>
+    <h1 class="titulo-pagina">Columnas</h1>
+    <p>La política peruana con datos, contexto y humor.</p>
+  </header>
+
+  {% if lista.length %}
+  <div class="rejilla">
+    {% for n in lista %}{% if loop.first and pagination.pageNumber == 0 %}{% set variante = "destacada" %}{% else %}{% set variante = "" %}{% endif %}{% include "tarjeta.njk" %}{% endfor %}
+  </div>
+  {% else %}
+  <p class="vacio">Todavía no hay columnas publicadas.</p>
+  {% endif %}
+
+  {% if pagination.pages.length > 1 %}
+  <nav class="paginas" aria-label="Páginas">
+    {% if pagination.href.previous %}<a class="boton boton-secundario boton-chico" href="{{ pagination.href.previous }}">← Más recientes</a>{% else %}<span></span>{% endif %}
+    <span>Página {{ pagination.pageNumber + 1 }} de {{ pagination.pages.length }}</span>
+    {% if pagination.href.next %}<a class="boton boton-secundario boton-chico" href="{{ pagination.href.next }}">Más antiguas →</a>{% else %}<span></span>{% endif %}
+  </nav>
+  {% endif %}
+</section>

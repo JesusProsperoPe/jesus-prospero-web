@@ -1,0 +1,54 @@
+---
+layout: base.njk
+permalink: /contador-keiko/
+title: Contador de mentiras de Keiko Fujimori
+titulo_seo: "Contador de mentiras de Keiko Fujimori en el gobierno · Jesus Prospero"
+resumen: "Las afirmaciones falsas, engañosas y contradictorias de Keiko Fujimori desde que asumió el gobierno, cada una con su prueba. Se actualiza con cada caso nuevo."
+---
+{% set enPortada = false %}
+{% include "contador-keiko.njk" %}
+
+<section class="contenedor seccion casos-seccion">
+  {% if collections.mentiras.length %}
+  <div class="seccion-cabeza">
+    <h2 class="seccion-titulo">Todos los casos</h2>
+    <span class="meta">Del más reciente al más antiguo</span>
+  </div>
+  <ol class="casos">
+    {% for c in collections.mentiras %}
+    <li class="caso" id="{{ c.page.fileSlug }}">
+      <p class="caso-meta">
+        <span class="caso-sello caso-{{ c.data.categoria | slugify }}">{{ c.data.categoria }}</span>
+        <time datetime="{{ c.date | fechaIso }}">{{ c.date | fecha }}</time>{% if c.data.donde %}<span>{{ c.data.donde }}</span>{% endif %}
+      </p>
+      <blockquote class="caso-frase">
+        <p>«{{ c.data.title }}»</p>
+        {% if c.data.fuente_url %}<a href="{{ c.data.fuente_url }}" target="_blank" rel="noopener">Ver dónde lo dijo</a>{% endif %}
+      </blockquote>
+      <div class="caso-cierto">
+        <p class="caso-etiqueta">Lo cierto</p>
+        {{ c.content | safe }}
+      </div>
+      {% if c.data.pruebas and c.data.pruebas.length %}
+      <ul class="caso-pruebas">
+        {% for p in c.data.pruebas %}<li>{% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.texto }}</a>{% else %}{{ p.texto }}{% endif %}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="vacio">Pronto, los primeros casos verificados.</p>
+  {% endif %}
+
+  <aside class="metodo" id="como-verificamos">
+    <h2>Cómo se cuenta</h2>
+    <ul>
+      <li><strong>Falso:</strong> hay una prueba pública de que lo que dijo no es cierto. <strong>Solo estos casos suman al contador.</strong></li>
+      <li><strong>Engañoso:</strong> mezcla algo cierto con algo falso, o le falta un dato clave que cambia el sentido.</li>
+      <li><strong>Se contradijo:</strong> antes dijo lo contrario, y está registrado.</li>
+      <li><strong>En revisión:</strong> hay dudas razonables, pero todavía no hay prueba. No cuenta como mentira.</li>
+    </ul>
+    <p>Cada caso enlaza a lo que dijo y a la prueba. Si encuentras un error o tienes una prueba nueva, escríbeme a <a href="mailto:{{ site.correo }}">{{ site.correo }}</a> y lo corrijo.</p>
+  </aside>
+</section>

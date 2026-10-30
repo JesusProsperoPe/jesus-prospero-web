@@ -1,0 +1,42 @@
+{# Contador de Keiko: número de afirmaciones falsas probadas + tiempo en el gobierno (corre en vivo).
+   Antes de incluirlo, define `enPortada` (true en la portada: lleva botón a la página completa). #}
+{% set casos = collections.mentiras %}
+{% set falsas = casos | porCategoria("Falso") %}
+{% set ultimo = falsas[0] or casos[0] %}
+<section class="contador" aria-labelledby="contador-titulo">
+  <div class="contenedor contador-rejilla">
+    <div class="contador-texto">
+      <p class="contador-vivo"><span aria-hidden="true"></span>En vivo</p>
+      {% if enPortada %}<h2 class="contador-titulo" id="contador-titulo">Contador de mentiras de {{ contador.persona }}</h2>
+      {% else %}<h1 class="contador-titulo" id="contador-titulo">Contador de mentiras de {{ contador.persona }}</h1>{% endif %}
+      <p class="contador-bajada">Afirmaciones probadas como falsas desde que asumió el gobierno. Cada caso tiene su prueba.</p>
+
+      <p class="contador-reloj-titulo">Tiempo en el gobierno</p>
+      <div class="contador-reloj" data-inicio="{{ contador.inicio_gobierno }}" aria-live="off">
+        <div><strong data-u="d">–</strong><span>Días</span></div>
+        <div><strong data-u="h">–</strong><span>Horas</span></div>
+        <div><strong data-u="m">–</strong><span>Minutos</span></div>
+        <div><strong data-u="s">–</strong><span>Segundos</span></div>
+      </div>
+    </div>
+
+    <div class="contador-numero">
+      <strong>{{ falsas.length }}</strong>
+      <span>{% if falsas.length == 1 %}mentira probada{% else %}mentiras probadas{% endif %}</span>
+    </div>
+
+    <ul class="contador-otros" aria-label="Otros casos">
+      <li><strong>{{ (casos | porCategoria("Engañoso")).length }}</strong> engañosas</li>
+      <li><strong>{{ (casos | porCategoria("Se contradijo")).length }}</strong> contradicciones</li>
+      <li><strong>{{ (casos | porCategoria("En revisión")).length }}</strong> en revisión</li>
+    </ul>
+
+    {% if enPortada %}
+    <div class="contador-pie">
+      {% if ultimo %}<p class="contador-ultimo"><span>Último caso</span> «{{ ultimo.data.title }}» <time datetime="{{ ultimo.date | fechaIso }}">{{ ultimo.date | fecha }}</time></p>{% endif %}
+      <a class="boton" href="/contador-keiko/">Ver todos los casos y sus pruebas</a>
+    </div>
+    {% endif %}
+  </div>
+</section>
+<script src="/js/contador.js" defer></script>

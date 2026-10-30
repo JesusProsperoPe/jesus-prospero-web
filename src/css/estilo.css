@@ -793,6 +793,86 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
   .plan:hover { transform: none; }
 }
 
+/* ───────── Contador de mentiras de Keiko ───────── */
+.contador { background: var(--tinta); color: #fff; border-bottom: 4px solid var(--rojo); }
+.contador-rejilla {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px 48px; align-items: center;
+  padding-block: 40px;
+}
+.contador-vivo {
+  display: inline-flex; align-items: center; gap: 8px; margin: 0 0 10px;
+  font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--rojo-claro);
+}
+.contador-vivo span { width: 9px; height: 9px; border-radius: 50%; background: var(--rojo-claro); animation: latido 1.4s ease-in-out infinite; }
+@keyframes latido { 50% { opacity: .25; } }
+.contador-titulo {
+  margin: 0; font-family: var(--f-titular); font-stretch: 80%; font-weight: 900; text-transform: uppercase;
+  font-size: clamp(30px, 4.4vw, 56px); line-height: .95; letter-spacing: -.01em;
+}
+.contador-bajada { margin: 12px 0 0; max-width: 560px; color: var(--blanco-tenue); font-size: 16px; }
+.contador-reloj-titulo { margin: 22px 0 8px; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--blanco-tenue); }
+.contador-reloj { display: flex; gap: 8px; }
+.contador-reloj div {
+  display: grid; justify-items: center; min-width: 72px; padding: 8px 10px 6px;
+  border-radius: var(--radio); background: rgb(255 255 255 / .1); border: 1px solid var(--linea-oscura);
+}
+.contador-reloj strong { font-family: var(--f-titular); font-stretch: 85%; font-size: 34px; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }
+.contador-reloj span { margin-top: 4px; font-size: 11px; color: var(--blanco-tenue); }
+.contador-numero {
+  grid-row: span 2; display: grid; justify-items: center; align-content: center;
+  min-width: 260px; padding: 26px 32px; border-radius: var(--radio); background: var(--rojo); text-align: center;
+}
+.contador-numero strong { font-family: var(--f-titular); font-stretch: 80%; font-weight: 900; font-size: clamp(88px, 11vw, 150px); line-height: .85; font-variant-numeric: tabular-nums; }
+.contador-numero span { margin-top: 10px; font-size: 15px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.contador-otros { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 0; padding: 0; list-style: none; color: var(--blanco-tenue); font-size: 15px; }
+.contador-otros strong { color: #fff; font-size: 20px; margin-right: 4px; }
+.contador-pie {
+  grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px;
+  padding-top: 20px; border-top: 1px solid var(--linea-oscura);
+}
+.contador-ultimo { margin: 0; flex: 1 1 380px; font-family: var(--f-lectura); font-size: 18px; }
+.contador-ultimo span { display: block; margin-bottom: 4px; font-family: var(--f-texto); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--rojo-claro); }
+.contador-ultimo time { margin-left: 6px; font-family: var(--f-texto); font-size: 13px; color: var(--blanco-tenue); }
+
+/* Casos del contador */
+.casos-seccion { padding-top: 48px; }
+.casos { display: grid; gap: 20px; max-width: 820px; margin: 0; padding: 0; list-style: none; }
+.caso { padding: 24px 26px; border: 1px solid var(--linea); border-radius: var(--radio); background: var(--superficie); scroll-margin-top: 90px; }
+.caso-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0 0 12px; font-size: 13px; color: var(--tenue); }
+.caso-sello { padding: 3px 8px; border-radius: 3px; font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #fff; background: var(--tenue); }
+.caso-falso { background: var(--rojo); }
+.caso-enganoso { background: #c75a00; }
+.caso-se-contradijo { background: #5b3b8c; }
+.caso-frase { margin: 0; }
+.caso-frase p { margin: 0; font-family: var(--f-titular); font-stretch: 88%; font-weight: 800; font-size: 24px; line-height: 1.15; }
+.caso-frase a { display: inline-block; margin-top: 6px; font-size: 14px; font-weight: 600; color: var(--rojo); }
+.caso-cierto { margin-top: 16px; padding-left: 14px; border-left: 3px solid var(--rojo); font-family: var(--f-lectura); font-size: 18px; line-height: 1.55; }
+.caso-cierto > * { margin: 0 0 .6em; }
+.caso-cierto > :last-child { margin-bottom: 0; }
+.caso-etiqueta { margin-bottom: 4px !important; font-family: var(--f-texto); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--tenue); }
+.caso-pruebas { margin: 14px 0 0; padding-left: 20px; font-size: 15px; }
+.caso-pruebas li + li { margin-top: 4px; }
+.metodo { max-width: 820px; margin-top: 40px; padding: 24px 26px; border-radius: var(--radio); background: var(--linea-suave); font-size: 16px; }
+.metodo h2 { margin: 0 0 10px; font-size: 20px; }
+.metodo ul { margin: 0 0 12px; padding-left: 20px; }
+.metodo li + li { margin-top: 6px; }
+.metodo p { margin: 0; }
+
+@media (max-width: 760px) {
+  .contador-rejilla { grid-template-columns: minmax(0, 1fr); padding-block: 28px; gap: 20px; }
+  .contador-numero { grid-row: auto; min-width: 0; padding: 20px; }
+  .contador-reloj div { min-width: 0; flex: 1; padding-inline: 4px; }
+  .contador-reloj strong { font-size: 28px; }
+  .contador-pie .boton { width: 100%; }
+  .caso { padding: 20px 18px; }
+  .casos-seccion .seccion-cabeza .meta { display: none; }
+  /* Con 5 secciones, el menú del celular va más apretado y nunca parte una palabra */
+  .menu { overflow-x: auto; scrollbar-width: none; }
+  .menu a { white-space: nowrap; padding-inline: 9px; }
+  .menu a::after { left: 9px; right: 9px; }
+  .caso-frase p { font-size: 21px; }
+}
+
 /* Viñetas: 3 columnas en tablet y 2 en el celular, siempre con la imagen arriba */
 @media (max-width: 1000px) {
   .rejilla-vinetas { grid-template-columns: repeat(3, minmax(0, 1fr)); }
