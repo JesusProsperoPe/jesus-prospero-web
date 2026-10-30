@@ -4,4 +4,5 @@ module.exports = {
   tags: ["mentira"],
   permalink: false,
   categoria: "En revisión",   // Falso | Engañoso | Se contradijo | En revisión (se elige en el panel)
+  quien: "Keiko Fujimori, presidenta",   // o el ministro / premier que lo dijo
 };

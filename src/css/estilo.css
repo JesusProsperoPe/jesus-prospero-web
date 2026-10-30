@@ -845,6 +845,8 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
 .caso-se-contradijo { background: #5b3b8c; }
 .caso-frase { margin: 0; }
 .caso-frase p { margin: 0; font-family: var(--f-titular); font-stretch: 88%; font-weight: 800; font-size: 24px; line-height: 1.15; }
+.caso-quien { display: block; margin-top: 6px; font-style: normal; font-size: 14px; font-weight: 700; color: var(--gris-oscuro); }
+.caso-quien::before { content: "— "; }
 .caso-frase a { display: inline-block; margin-top: 6px; font-size: 14px; font-weight: 600; color: var(--rojo); }
 .caso-cierto { margin-top: 16px; padding-left: 14px; border-left: 3px solid var(--rojo); font-family: var(--f-lectura); font-size: 18px; line-height: 1.55; }
 .caso-cierto > * { margin: 0 0 .6em; }

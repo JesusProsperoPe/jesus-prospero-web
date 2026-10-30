@@ -91,7 +91,7 @@ collections:
   - name: mentiras
     label: Contador de Keiko
     label_singular: Caso
-    description: "Cada caso suma al contador de la portada. Solo los marcados como «Falso» cuentan como mentira; los demás se muestran aparte. Pon siempre el enlace de lo que dijo y la prueba."
+    description: "Declaraciones de la presidenta, el premier y los ministros. Falso, Engañoso y Se contradijo suman al contador; En revisión no. Pon siempre el enlace de lo que dijo y la prueba."
     folder: src/mentiras
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -100,6 +100,8 @@ collections:
     fields:
       - { label: "Lo que dijo (frase textual)", name: "title", widget: "string",
           hint: "Copia la frase tal cual, sin comillas. Ejemplo: No hemos subido ningún impuesto." }
+      - { label: "Quién lo dijo", name: "quien", widget: "string", default: "Keiko Fujimori, presidenta",
+          hint: "Nombre y cargo. Ejemplo: Luis Galarreta, premier · Elmer Cuba, ministro de Economía." }
       - { label: "Fecha en que lo dijo", name: "date", widget: "datetime" }
       - { label: "Dónde lo dijo", name: "donde", widget: "string",
           hint: "Ejemplo: Mensaje a la Nación, entrevista en RPP, conferencia en Palacio." }
@@ -107,7 +109,7 @@ collections:
           hint: "Video, nota o publicación donde se le escucha o se le lee." }
       - { label: "Categoría", name: "categoria", widget: "select", default: "En revisión",
           options: ["Falso", "Engañoso", "Se contradijo", "En revisión"],
-          hint: "Falso: hay prueba de que no es cierto (es lo único que suma al contador). Engañoso: verdad a medias. Se contradijo: antes dijo lo contrario. En revisión: hay sospecha pero todavía no hay prueba." }
+          hint: "Falso: hay prueba de que no es cierto. Engañoso: verdad a medias u omite lo clave. Se contradijo: el gobierno dijo o hizo lo contrario. En revisión: hay sospecha pero todavía no hay prueba (no suma)." }
       - { label: "Lo cierto", name: "body", widget: "markdown",
           hint: "Explica en 2 o 3 líneas qué es lo verdadero y por qué lo que dijo no lo es." }
       - label: "Pruebas"

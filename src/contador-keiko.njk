@@ -1,9 +1,9 @@
 ---
 layout: base.njk
 permalink: /contador-keiko/
-title: Contador de mentiras de Keiko Fujimori
-titulo_seo: "Contador de mentiras de Keiko Fujimori en el gobierno · Jesus Prospero"
-resumen: "Las afirmaciones falsas, engañosas y contradictorias de Keiko Fujimori desde que asumió el gobierno, cada una con su prueba. Se actualiza con cada caso nuevo."
+title: Contador de mentiras del gobierno de Keiko Fujimori
+titulo_seo: "Contador de mentiras del gobierno de Keiko Fujimori · Jesus Prospero"
+resumen: "Las afirmaciones falsas, engañosas y contradictorias de Keiko Fujimori, su premier y sus ministros desde que asumió el gobierno, cada una con su prueba. Se actualiza todos los días."
 ---
 {% set enPortada = false %}
 {% include "contador-keiko.njk" %}
@@ -23,6 +23,7 @@ resumen: "Las afirmaciones falsas, engañosas y contradictorias de Keiko Fujimor
       </p>
       <blockquote class="caso-frase">
         <p>«{{ c.data.title }}»</p>
+        <cite class="caso-quien">{{ c.data.quien }}</cite>
         {% if c.data.fuente_url %}<a href="{{ c.data.fuente_url }}" target="_blank" rel="noopener">Ver dónde lo dijo</a>{% endif %}
       </blockquote>
       <div class="caso-cierto">
@@ -43,11 +44,12 @@ resumen: "Las afirmaciones falsas, engañosas y contradictorias de Keiko Fujimor
 
   <aside class="metodo" id="como-verificamos">
     <h2>Cómo se cuenta</h2>
+    <p>Cuentan las declaraciones de la presidenta, del premier y de los ministros desde el 28 de julio de 2026. Cada caso dice quién lo dijo y de qué tipo es:</p>
     <ul>
-      <li><strong>Falso:</strong> hay una prueba pública de que lo que dijo no es cierto. <strong>Solo estos casos suman al contador.</strong></li>
-      <li><strong>Engañoso:</strong> mezcla algo cierto con algo falso, o le falta un dato clave que cambia el sentido.</li>
-      <li><strong>Se contradijo:</strong> antes dijo lo contrario, y está registrado.</li>
-      <li><strong>En revisión:</strong> hay dudas razonables, pero todavía no hay prueba. No cuenta como mentira.</li>
+      <li><strong>Falso:</strong> hay una prueba pública de que lo que dijo no es cierto.</li>
+      <li><strong>Engañoso:</strong> mezcla algo cierto con algo falso, o calla un dato clave que cambia el sentido (por ejemplo, atribuirse un logro y omitir lo que de verdad lo explica).</li>
+      <li><strong>Se contradijo:</strong> prometió o dijo una cosa y después el propio gobierno dijo o hizo lo contrario.</li>
+      <li><strong>En revisión:</strong> hay dudas serias, pero todavía no hay prueba. No suma al contador.</li>
     </ul>
     <p>Cada caso enlaza a lo que dijo y a la prueba. Si encuentras un error o tienes una prueba nueva, escríbeme a <a href="mailto:{{ site.correo }}">{{ site.correo }}</a> y lo corrijo.</p>
   </aside>
