@@ -4,9 +4,8 @@ titulo_seo: "Bernie Navarro pide a universidades peruanas dejar los Institutos C
 temas: ["Bernie Navarro", "Estados Unidos", "China", "Universidades"]
 date: 2026-10-30T12:00:00.000-05:00
 resumen: "En una columna publicada en La República, Bernie Navarro revela que se reunió con rectores de la PUCP y de la Universidad Católica de Santa María. Además, advierte que Washington no colabora con casas de estudio que mantengan Institutos Confucio."
-imagen: /img/uploads/bernie-navarro-rubio-keiko-palacio.jpg
-imagen_texto: "La presidenta Keiko Fujimori y el secretario de Estado de EE. UU., Marco Rubio, en Palacio de Gobierno el 10 de setiembre. A la derecha, el embajador Bernie Navarro; a la izquierda, el canciller Carlos Espá."
-imagen_fuente: "Foto: Freddie Everett / Departamento de Estado de EE. UU. (dominio público)"
+imagen: /img/uploads/bernie-navarro-embajador-discurso.jpg
+imagen_texto: "Bernie Navarro, embajador de Estados Unidos en el Perú, durante un discurso."
 tipo: Noticia
 corto: "navarro-confucio"
 ---
@@ -47,6 +46,8 @@ El episodio se suma a una serie de intervenciones de Navarro desde que presentó
 Ya en febrero, el columnista Mirko Lauer [advertía en La República](https://larepublica.pe/opinion/2026/02/18/el-embajador-del-miedo-por-mirko-lauer-hnews-491292) que para Navarro «no vale eso de que un embajador no debe inmiscuirse en la política interna del país que lo acoge».
 
 El nuevo mensaje llega en un momento de acercamiento entre el gobierno de Keiko Fujimori y Washington. En julio, Navarro [saludó a la entonces presidenta electa](https://gestion.pe/peru/politica/embajador-bernie-navarro-de-estados-unidos-saluda-a-keiko-fujimori-y-nombre-de-donald-trump-dice-que-trabajaran-unidos-en-seguridad-regional-y-comercio-noticia/) y expresó la expectativa de su país de mantener la colaboración.
+
+![La presidenta Keiko Fujimori, el secretario de Estado Marco Rubio y el embajador Bernie Navarro saludan en la puerta de Palacio de Gobierno](/img/uploads/bernie-navarro-rubio-keiko-palacio.jpg "La presidenta Keiko Fujimori y el secretario de Estado de EE. UU., Marco Rubio, en Palacio de Gobierno el 10 de setiembre. A la derecha, el embajador Bernie Navarro; a la izquierda, el canciller Carlos Espá. Foto: Freddie Everett / Departamento de Estado de EE. UU. (dominio público).")
 
 ## Las preguntas que quedan
 
