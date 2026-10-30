@@ -11,7 +11,14 @@ layout: base.njk
   <figure class="contenedor vineta-foto">
     <img src="{{ imagen | img(1600) }}" alt="{{ imagen_texto or title }}">
     {% if imagen_fuente %}<figcaption><span class="credito">{{ imagen_fuente }}</span></figcaption>{% endif %}
+    {# Se descarga con la marca de agua del sitio (la pone js/descargar-vineta.js) #}
+    <a class="boton vineta-descargar" id="descargar-vineta" href="{{ imagen }}" download="jesusprospero-{{ page.fileSlug }}.jpg"
+       data-imagen="{{ imagen }}" data-archivo="jesusprospero-{{ page.fileSlug }}.jpg" data-marca="{{ site.url | replace('https://', '') }}">
+      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+      Descargar viñeta
+    </a>
   </figure>
+  <script src="/js/descargar-vineta.js" defer></script>
 
   <div class="contenedor">
     {% if content | trim %}<div class="nota-cuerpo">{{ content | safe }}</div>{% endif %}
