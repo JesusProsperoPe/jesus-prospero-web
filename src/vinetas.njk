@@ -1,0 +1,35 @@
+---
+layout: base.njk
+title: Viñetas
+titulo_seo: "Viñetas de política peruana · Jesus Prospero"
+resumen: "Viñetas y caricaturas sobre el Congreso, el Gobierno y la política peruana, en jesusprospero.pe."
+pagination:
+  data: collections.vinetas
+  size: 24
+  alias: lista
+  generatePageOnEmptyData: true
+permalink: "/vinetas/{% if pagination.pageNumber > 0 %}pagina/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+<section class="contenedor seccion seccion-archivo">
+  <header class="pagina-cabeza">
+    <p class="etiqueta">Humor gráfico</p>
+    <h1 class="titulo-pagina">Viñetas</h1>
+    <p>La política peruana en una sola imagen.</p>
+  </header>
+
+  {% if lista.length %}
+  <div class="rejilla rejilla-vinetas">
+    {% for v in lista %}{% include "tarjeta-vineta.njk" %}{% endfor %}
+  </div>
+  {% else %}
+  <p class="vacio">Pronto, las primeras viñetas.</p>
+  {% endif %}
+
+  {% if pagination.pages.length > 1 %}
+  <nav class="paginas" aria-label="Páginas">
+    {% if pagination.href.previous %}<a class="boton boton-secundario boton-chico" href="{{ pagination.href.previous }}">← Más recientes</a>{% else %}<span></span>{% endif %}
+    <span>Página {{ pagination.pageNumber + 1 }} de {{ pagination.pages.length }}</span>
+    {% if pagination.href.next %}<a class="boton boton-secundario boton-chico" href="{{ pagination.href.next }}">Más antiguas →</a>{% else %}<span></span>{% endif %}
+  </nav>
+  {% endif %}
+</section>

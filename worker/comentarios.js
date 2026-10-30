@@ -9,7 +9,7 @@ import site from "../src/_data/site.json";
 import { json, firmar, igualSeguro, mismoOrigen, leerJson, enviarCorreo, escapar, pagina } from "./util.js";
 import { cuentaDeSesion } from "./cuentas.js";
 
-const NOTA_VALIDA = /^\/noticias\/[a-z0-9-]+\/$/;
+const NOTA_VALIDA = /^\/(noticias|vinetas)\/[a-z0-9-]+\/$/;
 const MAX_TEXTO = 1500;
 const MAX_POR_HORA = 10;
 

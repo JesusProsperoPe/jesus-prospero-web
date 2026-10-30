@@ -175,7 +175,7 @@ function cookieAcceso(ficha) {
 }
 
 function rutaSegura(ruta) {
-  return typeof ruta === "string" && /^\/noticias\/[a-z0-9-]+\/$/.test(ruta) ? ruta : "/noticias/";
+  return typeof ruta === "string" && /^\/(noticias|vinetas)\/[a-z0-9-]+\/$/.test(ruta) ? ruta : "/noticias/";
 }
 
 // ───────── Estado de una suscripción (página de confirmación) ─────────

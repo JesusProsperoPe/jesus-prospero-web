@@ -59,6 +59,29 @@ collections:
           hint: "Una o dos palabras, por ejemplo holguin: la nota se comparte como jesusprospero.pe/n/holguin. Si lo dejas vacío, se crea uno solo." }
       - { label: "Texto completo", name: "body", widget: "markdown" }
 
+  - name: vinetas
+    label: Viñetas
+    label_singular: Viñeta
+    description: Sube una viñeta o caricatura. Aparece en la sección Viñetas y en la portada uno o dos minutos después de guardarla.
+    folder: src/vinetas
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} · {{date | date('DD/MM/YYYY HH:mm')}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Fecha y hora", name: "date", widget: "datetime" }
+      - { label: "Viñeta", name: "imagen", widget: "image",
+          hint: "La imagen completa. Se muestra entera, sin recortes." }
+      - { label: "Qué se ve en la viñeta", name: "imagen_texto", widget: "string", required: false,
+          hint: "Una frase que describa la imagen. Sirve para Google y para quienes no pueden verla." }
+      - { label: "Autor o fuente", name: "imagen_fuente", widget: "string", required: false,
+          hint: "Ejemplos: «Viñeta: Jesus Prospero», «Ilustración: Carlín». Déjalo vacío si no corresponde." }
+      - { label: "Enlace corto (opcional)", name: "corto", widget: "string", required: false,
+          hint: "Una o dos palabras, por ejemplo moda-ambiental: se comparte como jesusprospero.pe/n/moda-ambiental. Si lo dejas vacío, se crea uno solo." }
+      - { label: "Texto (opcional)", name: "body", widget: "markdown", required: false,
+          hint: "Un comentario corto que aparece debajo de la viñeta." }
+
   - name: ajustes
     label: Ajustes del sitio
     editor: { preview: false }

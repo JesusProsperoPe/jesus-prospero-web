@@ -1,0 +1,80 @@
+---
+layout: base.njk
+---
+<article class="nota vineta">
+  <header class="contenedor nota-cabecera">
+    <p class="etiqueta"><a href="/vinetas/">Viñetas</a></p>
+    <h1>{{ title }}</h1>
+    <p class="meta"><time datetime="{{ date | fechaIso }}">{{ date | fechaHora }}</time></p>
+  </header>
+
+  <figure class="contenedor vineta-foto">
+    <img src="{{ imagen | img(1600) }}" alt="{{ imagen_texto or title }}">
+    {% if imagen_fuente %}<figcaption><span class="credito">{{ imagen_fuente }}</span></figcaption>{% endif %}
+  </figure>
+
+  <div class="contenedor">
+    {% if content | trim %}<div class="nota-cuerpo">{{ content | safe }}</div>{% endif %}
+
+    {% set enlace = site.url + "/n/" + enlaceCorto %}
+    <div class="compartir" aria-label="Compartir">
+      <span>Compartir</span>
+      <a href="https://wa.me/?text={{ (title + ' ' + enlace) | urlencode }}" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ enlace | urlencode }}" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url={{ enlace | urlencode }}&amp;text={{ title | urlencode }}" target="_blank" rel="noopener">X</a>
+      <button type="button" id="copiar" data-enlace="{{ enlace }}">Copiar enlace</button>
+    </div>
+
+    {% include "yape.njk" %}
+
+    <section class="comentarios" id="comentarios" data-nota="{{ page.url }}" aria-labelledby="comentarios-titulo">
+      <div class="seccion-cabeza"><h2 class="seccion-titulo" id="comentarios-titulo">Comentarios</h2></div>
+      <ol class="comentarios-lista" id="comentarios-lista"></ol>
+      <p class="comentarios-vacio" id="comentarios-vacio" hidden>Todavía no hay comentarios. Sé el primero.</p>
+      <div class="comentarios-ingresa" id="comentarios-ingresa">
+        <p>Inicia sesión o crea tu cuenta gratis para comentar.</p>
+        <a class="boton boton-secundario" href="/ingresar/?motivo=comentar&amp;volver={{ page.url | urlencode }}">Ingresar para comentar</a>
+      </div>
+      <form class="comentarios-form" id="comentarios-form" hidden novalidate>
+        <label for="comentario-texto">Comenta como <strong id="comentario-nombre"></strong></label>
+        <textarea id="comentario-texto" name="texto" rows="4" maxlength="1500" required placeholder="Escribe tu comentario"></textarea>
+        <div class="comentarios-pie">
+          <small>Los comentarios se revisan antes de publicarse. <a href="/privacidad/#comentarios">Reglas</a>.</small>
+          <button type="submit" class="boton">Publicar</button>
+        </div>
+        <p class="muro-aviso" id="comentario-aviso" role="status"></p>
+      </form>
+    </section>
+  </div>
+</article>
+<script src="/js/comentarios.js" defer></script>
+
+{% set otras = collections.vinetas | otras(page.url, 3) %}
+{% if otras.length %}
+<section class="contenedor seccion" aria-labelledby="mas-titulo">
+  <div class="seccion-cabeza">
+    <h2 class="seccion-titulo" id="mas-titulo">Más viñetas</h2>
+    <a class="enlace-flecha" href="/vinetas/">Ver todas</a>
+  </div>
+  <div class="rejilla rejilla-vinetas">
+    {% for v in otras %}{% include "tarjeta-vineta.njk" %}{% endfor %}
+  </div>
+</section>
+{% endif %}
+<script>
+  document.getElementById("copiar").addEventListener("click", function () {
+    var b = this;
+    navigator.clipboard.writeText(b.dataset.enlace).then(function () {
+      b.textContent = "Enlace copiado";
+      setTimeout(function () { b.textContent = "Copiar enlace"; }, 2000);
+    }).catch(function () { window.prompt("Copia este enlace:", b.dataset.enlace); });
+  });
+  var yape = document.getElementById("copiar-yape");
+  if (yape) yape.addEventListener("click", function () {
+    var b = this;
+    navigator.clipboard.writeText(b.dataset.numero).then(function () {
+      b.textContent = "Número copiado";
+      setTimeout(function () { b.textContent = "Copiar número"; }, 2000);
+    }).catch(function () { window.prompt("Copia este número:", b.dataset.numero); });
+  });
+</script>

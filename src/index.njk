@@ -54,6 +54,20 @@ resumen: "Columnas y noticias de política peruana por Jesus Prospero: el Congre
 </section>
 {% endif %}
 
+{# Viñetas: las 4 más recientes, solo si ya hay alguna #}
+{% set vinetas = collections.vinetas | limite(4) %}
+{% if vinetas.length %}
+<section class="contenedor seccion" aria-labelledby="vinetas-titulo">
+  <div class="seccion-cabeza">
+    <h2 class="seccion-titulo" id="vinetas-titulo">Viñetas</h2>
+    <a class="enlace-flecha" href="/vinetas/">Ver todas</a>
+  </div>
+  <div class="rejilla rejilla-vinetas">
+    {% for v in vinetas %}{% include "tarjeta-vineta.njk" %}{% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {# 3. Quién soy + apoyo #}
 {% include "sobre-mi.njk" %}
 

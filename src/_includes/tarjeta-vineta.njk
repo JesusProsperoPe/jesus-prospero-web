@@ -1,0 +1,10 @@
+{# Tarjeta de viñeta: la imagen entera, sin recortar. Antes de incluirla, define `v`. #}
+<article class="tarjeta tarjeta-vineta">
+  <a class="tarjeta-enlace" href="{{ v.url }}">
+    <div class="vineta-marco"><img src="{{ v.data.imagen | img(900) }}" alt="{{ v.data.imagen_texto or v.data.title }}" loading="lazy"></div>
+    <div class="tarjeta-texto">
+      <p class="meta"><time datetime="{{ v.date | fechaIso }}">{{ v.date | fecha }}</time></p>
+      <h3>{{ v.data.title }}</h3>
+    </div>
+  </a>
+</article>

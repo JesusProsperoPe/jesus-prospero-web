@@ -42,10 +42,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("noticias", (api) =>
     api.getFilteredByTag("noticia").sort((a, b) => b.date - a.date)
   );
-  // Enlaces cortos jesusprospero.pe/n/<código>: dos notas no pueden compartir código
+  // Viñetas (humor gráfico), de la más nueva a la más antigua
+  eleventyConfig.addCollection("vinetas", (api) =>
+    api.getFilteredByTag("vineta").sort((a, b) => b.date - a.date)
+  );
+  // Enlaces cortos jesusprospero.pe/n/<código>: dos notas o viñetas no pueden compartir código
   eleventyConfig.addCollection("cortos", (api) => {
     const vistos = new Map();
-    for (const n of api.getFilteredByTag("noticia")) {
+    for (const n of [...api.getFilteredByTag("noticia"), ...api.getFilteredByTag("vineta")]) {
       const c = n.data.enlaceCorto;
       if (vistos.has(c)) throw new Error(`El enlace corto "${c}" se repite en ${vistos.get(c)} y ${n.url}`);
       vistos.set(c, n.url);

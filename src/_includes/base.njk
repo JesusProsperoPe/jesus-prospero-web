@@ -6,7 +6,8 @@
 <title>{% if titulo_seo %}{{ titulo_seo }}{% elif title %}{{ title }} · {{ site.nombre }}{% else %}{{ site.nombre }}{% if site.lema %} · {{ site.lema }}{% endif %}{% endif %}</title>
 <meta name="description" content="{{ resumen or site.descripcion }}">
 <meta name="theme-color" content="#ffffff">
-{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+{# Mientras no haya viñetas, Google no indexa la sección vacía #}
+{% if noindex or (page.url == "/vinetas/" and not collections.vinetas.length) %}<meta name="robots" content="noindex">{% endif %}
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.nombre }}">
 <meta property="og:locale" content="es_PE">
@@ -85,6 +86,7 @@
     <nav class="menu" aria-label="Principal">
       <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Inicio</a>
       <a href="/noticias/"{% if page.url.startsWith("/noticias/") %} aria-current="page"{% endif %}>Noticias</a>
+      <a href="/vinetas/"{% if page.url.startsWith("/vinetas/") %} aria-current="page"{% endif %}>Viñetas</a>
       <a href="/sobre-mi/"{% if page.url == "/sobre-mi/" %} aria-current="page"{% endif %}>Sobre mí</a>
     </nav>
     <a class="boton boton-secundario boton-cabecera boton-cuenta" id="menu-cuenta" href="/ingresar/"{% if page.url == "/ingresar/" or page.url == "/mi-cuenta/" %} aria-current="page"{% endif %}>
@@ -111,6 +113,7 @@
       <ul class="pie-enlaces">
         <li><a href="/">Inicio</a></li>
         <li><a href="/noticias/">Todas las noticias</a></li>
+        <li><a href="/vinetas/">Viñetas</a></li>
         <li><a href="/sobre-mi/">Sobre mí</a></li>
         <li><a href="/suscribete/">Suscríbete</a></li>
         <li><a href="/mi-cuenta/">Mi cuenta</a></li>

@@ -169,6 +169,19 @@ a:hover .principal-texto h1, .tarjeta-enlace:hover h3, .ultimas-lista a:hover sp
 }
 .seccion-titulo::before { content: ""; width: 10px; height: 10px; flex: none; background: var(--rojo); }
 
+/* Viñetas: la imagen siempre entera, sobre un fondo suave */
+.rejilla-vinetas { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 28px; }
+.rejilla-vinetas { align-items: start; }
+.vineta-marco { overflow: hidden; border-radius: var(--radio); background: var(--linea-suave); }
+.vineta-marco img { display: block; width: 100%; height: auto; transition: transform .6s var(--suave); }
+a:hover .vineta-marco img { transform: scale(1.03); }
+.tarjeta-vineta h3 { font-size: 20px; }
+.vineta .nota-cabecera { text-align: center; }
+.vineta .nota-cabecera .etiqueta { justify-content: center; }
+.vineta-foto { max-width: 960px; margin: 0 auto 36px; text-align: center; }
+.vineta-foto img { display: block; max-width: 100%; max-height: 88vh; margin-inline: auto; border-radius: var(--radio); }
+.vineta-foto figcaption { margin-top: 10px; font-size: 14px; color: var(--tenue); }
+
 /* Titulares rápidos */
 .ultimas { padding-bottom: 64px; }
 .ultimas-lista { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
@@ -766,6 +779,19 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
 @media (max-width: 520px) {
   .planes { grid-template-columns: minmax(0, 1fr); }
   .plan:hover { transform: none; }
+}
+
+/* Viñetas: 3 columnas en tablet y 2 en el celular, siempre con la imagen arriba */
+@media (max-width: 1000px) {
+  .rejilla-vinetas { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .rejilla-vinetas { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 16px; }
+  .rejilla-vinetas .tarjeta { padding: 0; border-bottom: 0; }
+  .rejilla-vinetas .tarjeta-enlace { grid-template-columns: minmax(0, 1fr) !important; gap: 10px; }
+  .rejilla-vinetas h3 { font-size: 17px !important; }
+  .vineta-foto { padding-inline: 0; }
+  .vineta-foto img { border-radius: 0; max-height: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

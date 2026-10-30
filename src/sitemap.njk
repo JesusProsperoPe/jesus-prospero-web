@@ -13,4 +13,10 @@ eleventyExcludeFromCollections: true
   {%- for n in collections.noticias %}
   <url><loc>{{ site.url }}{{ n.url }}</loc><lastmod>{{ n.date | fechaIso }}</lastmod></url>
   {%- endfor %}
+  {%- if collections.vinetas.length %}
+  <url><loc>{{ site.url }}/vinetas/</loc></url>
+  {%- for v in collections.vinetas %}
+  <url><loc>{{ site.url }}{{ v.url }}</loc><lastmod>{{ v.date | fechaIso }}</lastmod></url>
+  {%- endfor %}
+  {%- endif %}
 </urlset>
