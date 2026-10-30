@@ -5,7 +5,8 @@ temas: ["Bernie Navarro", "Estados Unidos", "China", "Universidades"]
 date: 2026-10-30T12:00:00.000-05:00
 resumen: "En una columna publicada en La República, Bernie Navarro revela que se reunió con rectores de la PUCP y de la Universidad Católica de Santa María. Además, advierte que Washington no colabora con casas de estudio que mantengan Institutos Confucio."
 imagen: /img/uploads/bernie-navarro-embajador-discurso.jpg
-imagen_texto: "Bernie Navarro, embajador de Estados Unidos en el Perú, durante un discurso."
+imagen_texto: "Ilustración de Bernie Navarro, embajador de Estados Unidos en el Perú, durante un discurso."
+imagen_fuente: "Imagen generada con inteligencia artificial (referencial)"
 tipo: Noticia
 corto: "navarro-confucio"
 ---
