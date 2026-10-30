@@ -1,5 +1,7 @@
 ---
 title: "Siete horas en San Borja con los \"líderes de opinión\" que nadie quiere nombrar"
+titulo_seo: "Luis Galarreta se reunió siete horas con medios y streamers en San Borja y la PCM no da los nombres"
+temas: ["Gobierno", "Luis Galarreta", "Prensa"]
 date: 2026-10-27T09:20:00.000-05:00
 resumen: "El premier Galarreta pasó el lunes reunido con ministros, directores de medios y periodistas de streaming. La agenda oficial lo dice. Los nombres, en cambio, se los guardan como receta de la abuela."
 imagen: /img/uploads/luis-galarreta-premier.jpg

@@ -1,5 +1,7 @@
 ---
 title: "El Congreso se aumentó 356 millones, te devuelve 303 y quiere aplausos"
+titulo_seo: "Miki Torres y los 356 millones del Congreso: devuelve 303 y pide aplausos"
+temas: ["Congreso", "Fuerza Popular", "Miki Torres"]
 date: 2026-10-27T22:20:00.000-05:00
 resumen: "Miki Torres anuncia que \"ordenó la casa\". Se olvida de contar que la desordenó su propio partido."
 imagen: /img/uploads/miki-torres-presidente-congreso-ia.jpg

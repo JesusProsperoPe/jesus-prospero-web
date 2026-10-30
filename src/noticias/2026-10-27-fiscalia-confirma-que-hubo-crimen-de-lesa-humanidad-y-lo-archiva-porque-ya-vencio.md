@@ -1,5 +1,7 @@
 ---
 title: Fiscalía confirma que hubo crimen de lesa humanidad y lo archiva porque ya venció
+titulo_seo: "Esterilizaciones forzadas: la Fiscalía reconoce lesa humanidad y archiva el caso por la Ley 32107"
+temas: ["Esterilizaciones forzadas", "Derechos humanos", "Leyes de impunidad", "Alberto Fujimori"]
 date: 2026-10-27T01:10:00.000-05:00
 resumen: Un fiscal admite que más de cuatro mil personas fueron esterilizadas sin consentimiento como política de Estado y, en el mismo documento, decide que el delito caducó como yogurt olvidado en la refri.
 imagen: /img/uploads/esterilizaciones-forzadas-protesta.jpg

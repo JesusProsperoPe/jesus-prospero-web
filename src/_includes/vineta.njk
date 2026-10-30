@@ -23,6 +23,8 @@ layout: base.njk
   <div class="contenedor">
     {% if content | trim %}<div class="nota-cuerpo">{{ content | safe }}</div>{% endif %}
 
+    {% include "temas-nota.njk" %}
+
     {% set enlace = site.url + "/n/" + enlaceCorto %}
     <div class="compartir" aria-label="Compartir">
       <span>Compartir</span>
@@ -55,6 +57,7 @@ layout: base.njk
   </div>
 </article>
 <script src="/js/comentarios.js" defer></script>
+{% include "ficha-noticia.njk" %}
 
 {% set otras = collections.vinetas | otras(page.url, 3) %}
 {% if otras.length %}

@@ -1,5 +1,7 @@
 ---
 title: "Piden inhabilitar hasta por 10 años a Rospigliosi por perseguir a los jueces que no aplican sus leyes de impunidad"
+titulo_seo: "Denuncia constitucional contra Fernando Rospigliosi: piden inhabilitarlo hasta por 10 años"
+temas: ["Fernando Rospigliosi", "Leyes de impunidad", "Poder Judicial", "Senado", "Fuerza Popular"]
 date: 2026-10-29T12:50:00.000-05:00
 resumen: "Mirtha Vásquez, Jaime Quito e Indira Huilca lo denunciaron ante la Comisión de Acusaciones Constitucionales. El hombre que quería barrer el Poder Judicial ahora tiene que explicar para qué compró tantas escobas."
 imagen: /img/uploads/denuncia-constitucional-rospigliosi.jpg

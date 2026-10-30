@@ -3,3 +3,4 @@ Allow: /
 Disallow: /admin/
 
 Sitemap: https://jesusprospero.pe/sitemap.xml
+Sitemap: https://jesusprospero.pe/sitemap-noticias.xml

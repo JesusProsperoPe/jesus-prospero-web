@@ -1,5 +1,7 @@
 ---
 title: "El presidente de la Comisión de Ambiente dice que cuidar el ambiente es una moda"
+titulo_seo: "Arturo Alegría, presidente de la Comisión de Ambiente, dice que la crisis climática fue una moda"
+temas: ["Arturo Alegría", "Medio ambiente", "Amazonía", "Fuerza Popular", "Congreso"]
 date: 2026-10-29T19:25:00.000-05:00
 resumen: "Arturo Alegría, diputado de Fuerza Popular, llamó \"romanticismo\" a la crisis climática y dijo que las políticas ambientales no sirvieron para nada. Su historial ayuda a entender por qué."
 imagen: /img/uploads/arturo-alegria-ambiente.jpg

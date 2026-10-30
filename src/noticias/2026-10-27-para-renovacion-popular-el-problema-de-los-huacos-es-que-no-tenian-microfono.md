@@ -1,5 +1,7 @@
 ---
 title: "Para Renovación Popular el problema de los huacos es que no tenían micrófono"
+titulo_seo: "Huacos eróticos: Milagros Jáuregui pide retirarlos y López Aliaga celebra un chiste en Lurín"
+temas: ["Renovación Popular", "Rafael López Aliaga", "Milagros Jáuregui", "Senado"]
 date: 2026-10-27T13:45:00.000-05:00
 resumen: "La senadora Jáuregui quiere esconder la cerámica mochica para proteger a los niños. Su líder, mientras tanto, se moría de risa en Lurín con un chiste de \"morrocoy por el poto\" y una fila de chiquitos atrás."
 imagen: /img/uploads/lopez-aliaga-carlos-alvarez-lurin.jpg

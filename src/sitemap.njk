@@ -19,4 +19,7 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}{{ v.url }}</loc><lastmod>{{ v.date | fechaIso }}</lastmod></url>
   {%- endfor %}
   {%- endif %}
+  {%- for t in collections.temas %}
+  <url><loc>{{ site.url }}/temas/{{ t.slug }}/</loc><lastmod>{{ t.items[0].date | fechaIso }}</lastmod></url>
+  {%- endfor %}
 </urlset>

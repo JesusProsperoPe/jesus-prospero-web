@@ -485,6 +485,17 @@ a:hover .vineta-marco img { transform: scale(1.03); }
 .compartir a:hover, .compartir button:hover { border-color: var(--tinta); background: var(--tinta); color: #fff; }
 .nota + .seccion { padding-top: 64px; }
 
+/* Temas de la nota: llevan a /temas/<tema>/ */
+.temas { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; max-width: 720px; margin: 40px auto 0; }
+.temas span { margin-right: 6px; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--tenue); }
+.temas a {
+  padding: 6px 12px; border-radius: var(--radio); background: var(--linea-suave);
+  font-size: 14px; font-weight: 600; color: var(--tinta); text-decoration: none; transition: background .18s ease, color .18s ease;
+}
+.temas a:hover { background: var(--rojo); color: #fff; }
+.temas + .compartir { margin-top: 20px; }
+.temas-pie { max-width: none; margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--linea); }
+
 /* ───────── Suscripción ───────── */
 .suscribete { display: grid; gap: 72px; padding-block: 56px 80px; }
 .suscribete-cabecera { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 56px; align-items: center; }

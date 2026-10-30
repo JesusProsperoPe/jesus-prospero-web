@@ -42,6 +42,10 @@ collections:
     sortable_fields: ["date", "title"]
     fields:
       - { label: "Titular", name: "title", widget: "string" }
+      - { label: "Titular para Google (opcional)", name: "titulo_seo", widget: "string", required: false,
+          hint: "Lo que aparece en Google. Pon el nombre que la gente busca, por ejemplo «Arturo Alegría dice que la crisis climática fue una moda». En la web y en redes se sigue viendo el titular de arriba." }
+      - { label: "Temas", name: "temas", widget: "list", required: false,
+          hint: "Personajes, partidos o asuntos de la nota, separados por coma. Ejemplo: Congreso, Fuerza Popular, Keiko Fujimori. Escríbelos siempre igual para que se junten en la misma página." }
       - { label: "Fecha y hora", name: "date", widget: "datetime" }
       - { label: "Bajada (resumen corto)", name: "resumen", widget: "text", required: false,
           hint: "Una o dos líneas que aparecen bajo el titular y en la portada." }
@@ -70,6 +74,8 @@ collections:
     sortable_fields: ["date", "title"]
     fields:
       - { label: "Título", name: "title", widget: "string" }
+      - { label: "Temas", name: "temas", widget: "list", required: false,
+          hint: "Personajes, partidos o asuntos de la viñeta, separados por coma. Ejemplo: Keiko Fujimori, Fuerza Popular." }
       - { label: "Fecha y hora", name: "date", widget: "datetime" }
       - { label: "Viñeta", name: "imagen", widget: "image",
           hint: "La imagen completa. Se muestra entera, sin recortes." }

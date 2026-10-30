@@ -1,0 +1,8 @@
+{# Enlaces a los temas de la nota que ya tienen página propia #}
+{% set temasNota = temas | temasConPagina(collections.temas) %}
+{% if temasNota.length %}
+<nav class="temas" aria-label="Temas">
+  <span>Temas</span>
+  {% for t in temasNota %}<a href="/temas/{{ t.slug }}/">{{ t.nombre }}</a>{% endfor %}
+</nav>
+{% endif %}

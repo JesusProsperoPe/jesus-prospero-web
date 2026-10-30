@@ -56,6 +56,30 @@ module.exports = function (eleventyConfig) {
     }
     return [...vistos].map(([codigo, url]) => ({ codigo, url }));
   });
+  // Páginas por tema (/temas/<tema>/): solo los temas con 2 o más publicaciones,
+  // para no crear páginas casi vacías
+  eleventyConfig.addCollection("temas", (api) => {
+    const slugify = eleventyConfig.getFilter("slugify");
+    const temas = new Map();
+    for (const item of [...api.getFilteredByTag("noticia"), ...api.getFilteredByTag("vineta")]) {
+      for (const nombre of item.data.temas || []) {
+        const slug = slugify(nombre);
+        if (!temas.has(slug)) temas.set(slug, { nombre, slug, items: [] });
+        temas.get(slug).items.push(item);
+      }
+    }
+    return [...temas.values()]
+      .filter((t) => t.items.length >= 2)
+      .map((t) => ({ ...t, items: t.items.sort((a, b) => b.date - a.date) }))
+      .sort((a, b) => b.items.length - a.items.length || a.nombre.localeCompare(b.nombre, "es"));
+  });
+  // Publicaciones de las últimas 48 horas, para el mapa de Google Noticias
+  eleventyConfig.addCollection("recientes", (api) => {
+    const limite = Date.now() - 48 * 3600 * 1000;
+    return [...api.getFilteredByTag("noticia"), ...api.getFilteredByTag("vineta")]
+      .filter((n) => n.date.getTime() >= limite)
+      .sort((a, b) => b.date - a.date);
+  });
   eleventyConfig.addCollection("exclusivas", (api) =>
     api.getFilteredByTag("noticia").filter((n) => n.data.exclusivo)
   );
@@ -81,6 +105,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("fecha", (d) => fmtFecha.format(new Date(d)));
   eleventyConfig.addFilter("fechaHora", (d) => fmtFechaHora.format(new Date(d)));
   eleventyConfig.addFilter("fechaIso", (d) => new Date(d).toISOString());
+  eleventyConfig.addFilter("combinar", (a, b) => ({ ...a, ...b }));
+  // Temas de una nota que tienen página propia: [{ nombre, slug }]
+  eleventyConfig.addFilter("temasConPagina", (nombres, todos) => {
+    const slugify = eleventyConfig.getFilter("slugify");
+    const conPagina = new Set((todos || []).map((t) => t.slug));
+    return (nombres || []).map((nombre) => ({ nombre, slug: slugify(nombre) })).filter((t) => conPagina.has(t.slug));
+  });
   eleventyConfig.addFilter("limite", (lista, n) => (lista || []).slice(0, n));
   eleventyConfig.addFilter("desde", (lista, n) => (lista || []).slice(n));
   eleventyConfig.addFilter("otras", (lista, url, n) => (lista || []).filter((x) => x.url !== url).slice(0, n));

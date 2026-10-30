@@ -7,12 +7,16 @@
 <meta name="description" content="{{ resumen or site.descripcion }}">
 <meta name="theme-color" content="#ffffff">
 {# Mientras no haya viñetas, Google no indexa la sección vacía #}
-{% if noindex or (page.url == "/vinetas/" and not collections.vinetas.length) %}<meta name="robots" content="noindex">{% endif %}
+{% if noindex or (page.url == "/vinetas/" and not collections.vinetas.length) %}<meta name="robots" content="noindex">
+{# Permite que Google muestre las fotos en grande (Discover) #}
+{% else %}<meta name="robots" content="max-image-preview:large">{% endif %}
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.nombre }}">
 <meta property="og:locale" content="es_PE">
 <meta property="og:type" content="{% if esNoticia %}article{% else %}website{% endif %}">
-<meta property="og:title" content="{{ titulo_seo or title or site.nombre }}">
+{# En redes, las notas se comparten con su titular de siempre; el "titular para Google" va solo en <title> #}
+<meta property="og:title" content="{% if esNoticia %}{{ title }}{% else %}{{ titulo_seo or title or site.nombre }}{% endif %}">
+{% if esNoticia %}<meta property="article:published_time" content="{{ date | fechaIso }}">{% endif %}
 <meta property="og:description" content="{{ resumen or site.descripcion }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 {# Imagen al compartir: la foto de la noticia; en las demás páginas, la foto de Jesús #}

@@ -1,0 +1,34 @@
+---
+layout: base.njk
+pagination:
+  data: collections.temas
+  size: 1
+  alias: tema
+permalink: "/temas/{{ tema.slug }}/"
+eleventyComputed:
+  title: "{{ tema.nombre }}"
+  titulo_seo: "{{ tema.nombre }}: noticias, columnas y viñetas · Jesus Prospero"
+  resumen: "Todo lo que Jesus Prospero ha publicado sobre {{ tema.nombre }}: columnas, noticias y viñetas de política peruana."
+---
+<section class="contenedor seccion seccion-archivo">
+  <header class="pagina-cabeza">
+    <p class="etiqueta">Tema</p>
+    <h1 class="titulo-pagina">{{ tema.nombre }}</h1>
+    <p>{{ tema.items.length }} publicaciones sobre {{ tema.nombre }}, de la más reciente a la más antigua.</p>
+  </header>
+
+  <div class="rejilla">
+    {% for n in tema.items %}
+      {% if "vineta" in n.data.tags %}{% set v = n %}{% include "tarjeta-vineta.njk" %}
+      {% else %}{% if loop.first %}{% set variante = "destacada" %}{% else %}{% set variante = "" %}{% endif %}{% include "tarjeta.njk" %}{% endif %}
+    {% endfor %}
+  </div>
+
+  {% set otros = collections.temas | reject("equalto", tema) %}
+  {% if otros.length %}
+  <nav class="temas temas-pie" aria-label="Otros temas">
+    <span>Otros temas</span>
+    {% for t in otros %}<a href="/temas/{{ t.slug }}/">{{ t.nombre }}</a>{% endfor %}
+  </nav>
+  {% endif %}
+</section>

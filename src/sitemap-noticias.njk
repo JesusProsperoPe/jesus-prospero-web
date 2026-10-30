@@ -1,0 +1,18 @@
+---
+permalink: /sitemap-noticias.xml
+eleventyExcludeFromCollections: true
+---
+{# Mapa para Google Noticias: solo lo publicado en las últimas 48 horas (se regenera en cada publicación) #}
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  {%- for n in collections.recientes %}
+  <url>
+    <loc>{{ site.url }}{{ n.url }}</loc>
+    <news:news>
+      <news:publication><news:name>{{ site.nombre }}</news:name><news:language>es</news:language></news:publication>
+      <news:publication_date>{{ n.date | fechaIso }}</news:publication_date>
+      <news:title>{{ (n.data.titulo_seo or n.data.title) | escape }}</news:title>
+    </news:news>
+  </url>
+  {%- endfor %}
+</urlset>

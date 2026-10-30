@@ -1,0 +1,25 @@
+{# Ficha para Google (NewsArticle): ayuda a salir en Discover, Noticias y Búsqueda.
+   Las notas exclusivas avisan que parte del texto es solo para suscriptores. #}
+{% set ficha = {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": (titulo_seo or title) | truncate(110, true, "…"),
+  "description": resumen or imagen_texto or site.descripcion,
+  "datePublished": date | fechaIso,
+  "dateModified": date | fechaIso,
+  "mainEntityOfPage": site.url + page.url,
+  "image": [site.url + imagen] if imagen else [site.url + autor.foto],
+  "inLanguage": "es-PE",
+  "keywords": temas or [],
+  "author": { "@type": "Person", "name": site.nombre, "url": site.url + "/sobre-mi/" },
+  "publisher": { "@type": "Person", "name": site.nombre, "url": site.url + "/", "image": site.url + autor.foto }
+} %}
+{% if exclusivo %}
+{% set ficha = ficha | combinar({
+  "isAccessibleForFree": false,
+  "hasPart": { "@type": "WebPageElement", "isAccessibleForFree": false, "cssSelector": ".nota-exclusiva" }
+}) %}
+{% endif %}
+<script type="application/ld+json">
+{{ ficha | dump | safe }}
+</script>

@@ -1,5 +1,7 @@
 ---
 title: "Un diputado renuncia por coherencia y el Congreso pide prueba de ADN"
+titulo_seo: "César Holguín renuncia a la vocería de Ahora Nación por no apoyar las facultades al Gobierno"
+temas: ["César Holguín", "Ahora Nación", "Congreso", "Gobierno"]
 date: 2026-10-29T07:45:00.000-05:00
 resumen: "César Holguín dejó la vocería de Ahora Nación por no estar de acuerdo con darle facultades al gobierno ni con salvar al ministro del Interior. En un Parlamento donde todo se negocia, alguien acaba de pagar su cuenta sin preguntar."
 imagen: /img/uploads/cesar-holguin-ahora-nacion.jpg

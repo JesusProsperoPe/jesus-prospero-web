@@ -39,6 +39,8 @@ layout: base.njk
       {% endif %}
     </div>
 
+    {% include "temas-nota.njk" %}
+
     {# Al compartir se usa el enlace corto: jesusprospero.pe/n/<código> #}
     {% set enlace = site.url + "/n/" + enlaceCorto %}
     <div class="compartir" aria-label="Compartir">
@@ -86,18 +88,8 @@ layout: base.njk
 </section>
 {% endif %}
 
+{% include "ficha-noticia.njk" %}
 {% if exclusivo %}
-<script type="application/ld+json">
-{{ {
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": title,
-  "datePublished": date | fechaIso,
-  "author": { "@type": "Person", "name": site.nombre },
-  "isAccessibleForFree": false,
-  "hasPart": { "@type": "WebPageElement", "isAccessibleForFree": false, "cssSelector": ".nota-exclusiva" }
-} | dump | safe }}
-</script>
 <script>
   (function () {
     var suscribir = document.getElementById("muro-suscribir");
