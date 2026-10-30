@@ -15,6 +15,10 @@ const TABLAS = [
   `CREATE INDEX IF NOT EXISTS idx_comentarios_cuenta ON comentarios (cuenta_id, creado_en)`,
   `CREATE TABLE IF NOT EXISTS intentos_pago (id INTEGER PRIMARY KEY AUTOINCREMENT, cuenta_id TEXT NOT NULL, creado_en TEXT NOT NULL)`,
   `CREATE INDEX IF NOT EXISTS idx_intentos_pago ON intentos_pago (cuenta_id, creado_en)`,
+  `CREATE TABLE IF NOT EXISTS pistas (id INTEGER PRIMARY KEY AUTOINCREMENT, que_dijo TEXT NOT NULL, quien TEXT, donde TEXT,
+     enlace TEXT, nombre TEXT, contacto TEXT, origen TEXT NOT NULL, estado TEXT NOT NULL DEFAULT 'nueva', nota TEXT, creado_en TEXT NOT NULL)`,
+  `CREATE INDEX IF NOT EXISTS idx_pistas_estado ON pistas (estado, creado_en)`,
+  `CREATE INDEX IF NOT EXISTS idx_pistas_origen ON pistas (origen, creado_en)`,
 ];
 
 let lista = null;

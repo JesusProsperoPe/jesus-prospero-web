@@ -42,6 +42,43 @@ resumen: "Las afirmaciones falsas, engañosas y contradictorias de Keiko Fujimor
   <p class="vacio">Pronto, los primeros casos verificados.</p>
   {% endif %}
 
+  <section class="pista" id="enviar" aria-labelledby="pista-titulo">
+    <p class="etiqueta">Tu aporte</p>
+    <h2 id="pista-titulo">¿Escuchaste o viste una mentira del gobierno?</h2>
+    <p>Cuéntame qué dijo la presidenta, el premier o algún ministro. Reviso cada mensaje, lo contrasto con los hechos y, si se comprueba, lo agrego al contador. No hace falta que tengas la prueba: basta con que me digas dónde buscar.</p>
+    <form id="pista-form" novalidate>
+      <label for="pista-que">Qué dijo <span>(obligatorio)</span></label>
+      <textarea id="pista-que" name="que_dijo" rows="4" maxlength="1500" required placeholder="Ejemplo: El ministro dijo que el incendio se apagó gracias al Gobierno, pero fue la lluvia."></textarea>
+      <div class="pista-fila">
+        <div>
+          <label for="pista-quien">Quién lo dijo</label>
+          <input id="pista-quien" name="quien" maxlength="120" placeholder="Ejemplo: Keiko Fujimori">
+        </div>
+        <div>
+          <label for="pista-donde">Dónde y cuándo</label>
+          <input id="pista-donde" name="donde" maxlength="300" placeholder="Ejemplo: entrevista en RPP, 28 de octubre">
+        </div>
+      </div>
+      <label for="pista-enlace">Enlace al video, la nota o la publicación</label>
+      <input id="pista-enlace" name="enlace" type="url" maxlength="500" placeholder="https://…">
+      <div class="pista-fila">
+        <div>
+          <label for="pista-nombre">Tu nombre <span>(opcional)</span></label>
+          <input id="pista-nombre" name="nombre" maxlength="80">
+        </div>
+        <div>
+          <label for="pista-contacto">Correo o celular <span>(opcional, por si necesito preguntarte algo)</span></label>
+          <input id="pista-contacto" name="contacto" maxlength="120">
+        </div>
+      </div>
+      {# Campo trampa contra robots: no se ve #}
+      <div class="pista-trampa" aria-hidden="true"><label for="pista-web">Web</label><input id="pista-web" name="web" tabindex="-1" autocomplete="off"></div>
+      <button type="submit" class="boton">Enviar</button>
+      <p class="pista-aviso" id="pista-aviso" role="status"></p>
+      <p class="pista-privacidad">Tu nombre y tus datos de contacto no se publican.</p>
+    </form>
+  </section>
+
   <aside class="metodo" id="como-verificamos">
     <h2>Cómo se cuenta</h2>
     <p>Cuentan las declaraciones de la presidenta, del premier y de los ministros desde el 28 de julio de 2026. Cada caso dice quién lo dijo y de qué tipo es:</p>
@@ -51,6 +88,7 @@ resumen: "Las afirmaciones falsas, engañosas y contradictorias de Keiko Fujimor
       <li><strong>Se contradijo:</strong> prometió o dijo una cosa y después el propio gobierno dijo o hizo lo contrario.</li>
       <li><strong>En revisión:</strong> hay dudas serias, pero todavía no hay prueba. No suma al contador.</li>
     </ul>
-    <p>Cada caso enlaza a lo que dijo y a la prueba. Si encuentras un error o tienes una prueba nueva, escríbeme a <a href="mailto:{{ site.correo }}">{{ site.correo }}</a> y lo corrijo.</p>
+    <p>Cada caso enlaza a lo que se dijo y a la prueba. Los aportes de los lectores pasan por la misma verificación antes de publicarse. Si encuentras un error o tienes una prueba nueva, escríbeme a <a href="mailto:{{ site.correo }}">{{ site.correo }}</a> y lo corrijo.</p>
   </aside>
 </section>
+<script src="/js/pistas.js" defer></script>

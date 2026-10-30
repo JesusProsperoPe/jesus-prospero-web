@@ -1,17 +1,33 @@
 {# Contador del gobierno de Keiko: mentiras (falsas + engañosas + contradicciones) y tiempo en el gobierno (corre en vivo).
-   Antes de incluirlo, define `enPortada` (true en la portada: lleva botón a la página completa). #}
+   Antes de incluirlo, define `enPortada`: true = tarjeta compacta para la portada; false = cabecera completa de /contador-keiko/. #}
 {% set casos = collections.mentiras %}
 {% set falsas = casos | porCategoria("Falso") %}
 {% set enganosas = casos | porCategoria("Engañoso") %}
 {% set contradicciones = casos | porCategoria("Se contradijo") %}
 {% set total = falsas.length + enganosas.length + contradicciones.length %}
 {% set ultimo = casos[0] %}
+{% if enPortada %}
+{# Portada: una tarjeta compacta que lleva a la página completa #}
+<section class="contenedor contador-mini-marco" aria-label="Contador de mentiras del gobierno">
+  <a class="contador-mini" href="/contador-keiko/">
+    <div class="contador-mini-texto">
+      <p class="contador-vivo"><span aria-hidden="true"></span>En vivo</p>
+      <h2 class="contador-mini-titulo">Contador de mentiras del gobierno de {{ contador.persona }}</h2>
+      <p class="contador-mini-reloj contador-reloj" data-inicio="{{ contador.inicio_gobierno }}">
+        Día <strong data-u="d">–</strong> de gobierno · <strong data-u="h">–</strong>:<strong data-u="m">–</strong>:<strong data-u="s">–</strong>
+      </p>
+    </div>
+    <div class="contador-mini-numero"><strong>{{ total }}</strong><span>{% if total == 1 %}mentira{% else %}mentiras{% endif %}</span></div>
+    <span class="contador-mini-ver" aria-hidden="true">Ver casos →</span>
+  </a>
+</section>
+<script src="/js/contador.js" defer></script>
+{% else %}
 <section class="contador" aria-labelledby="contador-titulo">
   <div class="contenedor contador-rejilla">
     <div class="contador-texto">
       <p class="contador-vivo"><span aria-hidden="true"></span>En vivo</p>
-      {% if enPortada %}<h2 class="contador-titulo" id="contador-titulo">Contador de mentiras del gobierno de {{ contador.persona }}</h2>
-      {% else %}<h1 class="contador-titulo" id="contador-titulo">Contador de mentiras del gobierno de {{ contador.persona }}</h1>{% endif %}
+      <h1 class="contador-titulo" id="contador-titulo">Contador de mentiras del gobierno de {{ contador.persona }}</h1>
       <p class="contador-bajada">Lo que dicen la presidenta, su premier y sus ministros, contrastado con los hechos. Cada caso tiene su prueba.</p>
 
       <p class="contador-reloj-titulo">Tiempo en el gobierno</p>
@@ -36,12 +52,11 @@
       {% if enRevision %}<li><strong>{{ enRevision }}</strong> en revisión</li>{% endif %}
     </ul>
 
-    {% if enPortada %}
     <div class="contador-pie">
-      {% if ultimo %}<p class="contador-ultimo"><span>Último caso · {{ ultimo.data.quien }}</span> «{{ ultimo.data.title }}» <time datetime="{{ ultimo.date | fechaIso }}">{{ ultimo.date | fecha }}</time></p>{% endif %}
-      <a class="boton" href="/contador-keiko/">Ver todos los casos y sus pruebas</a>
+      <p class="contador-ultimo">¿Escuchaste o viste una mentira del gobierno?</p>
+      <a class="boton" href="#enviar">Envíamela</a>
     </div>
-    {% endif %}
   </div>
 </section>
 <script src="/js/contador.js" defer></script>
+{% endif %}

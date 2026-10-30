@@ -5,6 +5,7 @@
 // - GET  /acceso/?t=…                         → enlace personal de acceso del suscriptor.
 // - /api/cuenta/…                             → cuentas de lectores (ver cuentas.js).
 // - /api/comentarios…                         → comentarios moderados (ver comentarios.js).
+// - POST /api/pistas                          → pistas de lectores para el contador (ver pistas.js).
 // - /noticias/…                             → a suscriptores (y a Google) les completa las notas exclusivas.
 // - /n/<código>                               → enlace corto de una nota (ver src/cortos.njk).
 // Todo lo demás lo sirve el sitio estático (carpeta _site).
@@ -24,6 +25,7 @@ import aportes from "../src/_data/aportes.json";
 import { json, hex, igualSeguro, fichaDe, idDeFicha, leerCookie, COOKIE_ACCESO, mismoOrigen, leerJson, CORREO_VALIDO } from "./util.js";
 import { rutasCuenta, cuentaDeSesion, cuentaSuscrita, vincularSuscripcion } from "./cuentas.js";
 import { rutasComentarios } from "./comentarios.js";
+import { rutasPistas } from "./pistas.js";
 import { prepararBase } from "./base.js";
 
 const MP_API = "https://api.mercadopago.com";
@@ -63,6 +65,7 @@ export default {
     if (url.pathname === "/api/comentarios" || url.pathname.startsWith("/api/comentarios/")) {
       return rutasComentarios(request, url, env, ctx);
     }
+    if (url.pathname === "/api/pistas") return rutasPistas(request, url, env);
     if (url.pathname.startsWith("/api/")) return json({ error: "No encontrado" }, 404);
     if (url.pathname === "/acceso/" || url.pathname === "/acceso") return acceso(url, env);
     // El resto de las notas exclusivas solo sale insertado en la nota, nunca suelto
