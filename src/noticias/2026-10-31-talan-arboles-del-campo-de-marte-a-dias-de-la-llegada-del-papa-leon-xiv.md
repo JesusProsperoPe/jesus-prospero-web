@@ -15,6 +15,12 @@ El Campo de Marte sigue perdiendo árboles. Durante los trabajos de la obra que 
 
 Según Felicia Bravo, vecina y representante del Movimiento Ciudadano Ambiental Campo de Marte, **uno de los árboles retirados tenía brotes nuevos**. «A pesar de eso, lo talaron, lo cargaron y se lo llevaron», [denunció en RPP](https://rpp.pe/lima/actualidad/jesus-maria-vecinos-realizan-planton-para-denunciar-tala-de-arboles-en-obra-del-campo-de-marte-noticia-1715293). Para ella, eso «es delito ambiental». «Tenemos todo grabado», advirtió.
 
+![Trabajadores con casco junto a troncos recién cortados y ramas con hojas verdes en el suelo del parque](/img/uploads/tala-campo-de-marte-troncos.jpg "Trabajadores de la obra junto a los troncos de los árboles talados. Captura de un video publicado por Campo de Marte MCA en TikTok, con calidad mejorada con inteligencia artificial.")
+
+![Un trabajador con motosierra junto a un tocón recién cortado, detrás de una malla naranja](/img/uploads/tala-campo-de-marte-motosierra.jpg "Un trabajador con motosierra junto al tocón de uno de los árboles. Captura de un video publicado por Campo de Marte MCA en TikTok, con calidad mejorada con inteligencia artificial.")
+
+![Un árbol con un corte en la base, rodeado de troncos cortados y una malla naranja](/img/uploads/tala-campo-de-marte-corte.jpg "Un árbol con el corte de la motosierra en la base. Captura de un video publicado por Campo de Marte MCA en TikTok, con calidad mejorada con inteligencia artificial.")
+
 ## Contra el reloj del papa
 
 La tala ocurre en plena carrera contra el tiempo. Invermet, el fondo de inversiones de la Municipalidad de Lima, [se comprometió a terminar la obra](https://www.actualidadambiental.pe/remodelacion-de-campo-de-marte-culminaria-antes-de-la-llegada-del-papa-leon-xiv-asegura-municipalidad-de-lima/) antes de la llegada del papa León XIV, que estará en el Perú [del 11 al 17 de noviembre](https://www.ewtnnews.com/es/vaticano/leon-xiv-visitara-uruguay-argentina-y-peru-del-6-al-17-de-noviembre). Quedan menos de dos semanas.
