@@ -4,9 +4,9 @@ titulo_seo: "Keiko Fujimori prometió 2.000 colegios: en tres meses, cero constr
 temas: ["Keiko Fujimori", "Gobierno", "Luis Galarreta", "Educación"]
 date: 2026-10-31T13:00:00.000-05:00
 resumen: "En tres meses el gobierno ya tiene su primera cifra exacta. Prometió dos mil colegios nuevos y por ahora lleva cuatro destruidos. Al menos en algo va adelantado."
-imagen: /img/uploads/keiko-fujimori-octubre-2026.jpg
-imagen_texto: "La presidenta Keiko Fujimori durante un acto público, el 7 de octubre de 2026."
-imagen_fuente: "Foto: Ministerio de la Producción, vía Wikimedia Commons (dominio público)"
+imagen: /img/uploads/keiko-5-mil-colegios-portada.jpg
+imagen_texto: "Ilustración de Keiko Fujimori mostrando cinco dedos frente a un colegio, con el texto «¿5 mil colegios nuevos?»."
+imagen_fuente: "Diseño: Jesus Prospero"
 tipo: Columna
 corto: "cero-colegios"
 ---
@@ -26,6 +26,8 @@ El segundo está en Villa El Salvador. En el colegio José Carlos Mariátegui [s
 El tercero es en Ate. En el colegio Hermanas Misioneras de Nuestra Señora del Perpetuo Socorro, en Santa Clara, [colapsó una pared](https://larepublica.pe/sociedad/2026/09/03/ate-pared-de-colegio-colapsa-y-pone-en-riesgo-a-150-ninos-de-inicial-y-primaria-en-santa-clara-188310) y más de 150 niños de inicial y primaria quedaron expuestos. Son chicos que todavía están aprendiendo a escribir y ya aprendieron la primera lección de educación cívica. **En el Perú hasta las paredes del Estado se caen antes que los ministros.**
 
 El cuarto tiene su propio humor negro. En Huancayo [se desplomó un techo durante las obras del colegio Politécnico Regional del Centro](https://andina.pe/agencia/noticia-huancayo-cuatro-heridos-tras-colapso-techo-construccion-colegio-politecnico-1095092.aspx) y dejó cuatro trabajadores heridos. Es el único colegio en construcción que aparece en esta cuenta, y se cayó mientras lo construían. **Es la eficiencia fujimorista, que ahorra tiempo y destruye la obra antes de inaugurarla.**
+
+![La presidenta Keiko Fujimori habla con un micrófono en un acto público](/img/uploads/keiko-fujimori-octubre-2026.jpg "La presidenta Keiko Fujimori durante un acto público, el 7 de octubre de 2026. Foto: Ministerio de la Producción, vía Wikimedia Commons (dominio público).")
 
 El gobierno [anunció 6.000 millones de soles para colegios](https://diariocorreo.pe/politica/keiko-fujimori-anuncia-s-6000-millones-para-construir-colegios-en-peru-durante-2027-noticia/) el próximo año. Es una buena noticia. Solo falta saber si con esa plata van a construir aulas o un helipuerto en cada escuela, para que el premier pueda aterrizar sin desordenar a nadie.
 
