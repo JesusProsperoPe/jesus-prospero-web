@@ -4,9 +4,8 @@ titulo_seo: "Amnistía para Pedro Castillo: lo que propone el proyecto de Cather
 temas: ["Pedro Castillo", "Congreso", "Protestas", "Amnistía"]
 date: 2026-10-31T10:00:00.000-05:00
 resumen: "La iniciativa de la diputada Catherin Palomino suma 43 coautores y se apoya en un pronunciamiento de la ONU que calificó como arbitraria la detención del expresidente. Su aprobación extinguiría la condena por el mensaje del 7 de diciembre de 2022."
-imagen: /img/uploads/pedro-castillo-presidente-2022.jpg
-imagen_texto: "Pedro Castillo, entonces presidente, durante una reunión de trabajo en Porto Velho (Brasil), el 3 de febrero de 2022."
-imagen_fuente: "Foto: Alan Santos / Presidencia de Brasil, vía Wikimedia Commons (CC BY 2.0)"
+imagen: /img/uploads/pedro-castillo-congreso-montaje.jpg
+imagen_texto: "Montaje: Pedro Castillo con un micrófono, sobre una imagen del hemiciclo del Congreso."
 tipo: Noticia
 corto: "amnistia-castillo"
 ---
@@ -22,6 +21,8 @@ El proyecto plantea dos amnistías. La primera alcanza a quienes participaron en
 De aprobarse, se extinguirían la acción penal y la pena, **incluso cuando la sentencia aún no esté firme**. También quedarían sin efecto los mandatos de detención y de prisión preventiva, las requisitorias y los antecedentes policiales, judiciales y penales vinculados a esos hechos.
 
 El principal beneficiado sería Castillo, [condenado en primera instancia](https://larepublica.pe/politica/2026/10/22/pedro-castillo-seguira-en-prision-preventiva-hasta-marzo-de-2027-pj-rechazo-pedido-para-revocarla-hnews-1497936) a 11 años, 5 meses y 15 días de prisión por conspiración para la rebelión. La misma sentencia impuso igual pena a Betssy Chávez, hoy asilada en México, y a Willy Huerta, y 6 años y 8 meses a Aníbal Torres. A Huerta y a Torres se les suspendió la ejecución de la pena hasta la revisión en segunda instancia.
+
+![Pedro Castillo, con sombrero blanco, habla ante un micrófono](/img/uploads/pedro-castillo-presidente-2022.jpg "Pedro Castillo, entonces presidente, durante una reunión de trabajo en Porto Velho (Brasil), el 3 de febrero de 2022. Foto: Alan Santos / Presidencia de Brasil, vía Wikimedia Commons (CC BY 2.0).")
 
 ## La ONU y la detención arbitraria
 
