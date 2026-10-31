@@ -5,7 +5,8 @@ temas: ["Pedro Castillo", "Congreso", "Protestas", "Amnistía"]
 date: 2026-10-31T10:00:00.000-05:00
 resumen: "La iniciativa de la diputada Catherin Palomino suma 43 coautores y se apoya en un pronunciamiento de la ONU que calificó como arbitraria la detención del expresidente. Su aprobación extinguiría la condena por el mensaje del 7 de diciembre de 2022."
 imagen: /img/uploads/pedro-castillo-congreso-montaje.jpg
-imagen_texto: "Montaje: Pedro Castillo con un micrófono, sobre una imagen del hemiciclo del Congreso."
+imagen_texto: "Ilustración de Pedro Castillo con un micrófono, sobre el hemiciclo del Congreso."
+imagen_fuente: "Imagen generada con inteligencia artificial (referencial)"
 tipo: Noticia
 corto: "amnistia-castillo"
 ---
