@@ -4,9 +4,9 @@ titulo_seo: "Campo de Marte: vecinos denuncian tala de árboles en la obra de la
 temas: ["Campo de Marte", "Municipalidad de Lima", "Medio ambiente", "Papa León XIV"]
 date: 2026-10-31T16:00:00.000-05:00
 resumen: "Vecinos grabaron cómo trabajadores de la obra cortaban y se llevaban cuatro árboles. Uno tenía brotes nuevos. Es el último golpe a un parque que ya perdió decenas de ejemplares en menos de un año."
-imagen: /img/uploads/arboles-campo-de-marte.jpg
-imagen_texto: "Árboles del parque Campo de Marte, en Jesús María, en 2014, antes de la obra de la Municipalidad de Lima."
-imagen_fuente: "Foto: Art DiNo / Wikimedia Commons (CC BY-SA 2.0)"
+imagen: /img/uploads/tala-campo-de-marte-troncos.jpg
+imagen_texto: "Trabajadores junto a los troncos de árboles talados y ramas en el Campo de Marte."
+imagen_fuente: "Captura de un video publicado por Campo de Marte MCA en TikTok, con calidad mejorada con inteligencia artificial."
 tipo: Noticia
 corto: "campo-de-marte"
 ---
