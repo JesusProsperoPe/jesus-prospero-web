@@ -6,7 +6,7 @@ donde: "Publicación del Ministerio de Defensa en X (@MindefPeru) y anuncio del 
 fuente_url: "https://andina.pe/agencia/noticia-peru-registra-cero-incendios-forestales-activos-tras-semanas-emergencia-1097085.aspx"
 categoria: Engañoso
 pruebas:
-  - texto: "Andina (agencia del Estado): «Las lluvias registradas en las últimas horas terminaron de extinguir el fuego»"
+  - texto: "Agencia estatal Andina: «Las lluvias registradas en las últimas horas terminaron de extinguir el fuego»"
     url: "https://andina.pe/agencia/noticia-peru-registra-cero-incendios-forestales-activos-tras-semanas-emergencia-1097085.aspx"
   - texto: "EFE: «Lluvias en los Andes y selva de Perú ayudaron a extinguir decenas de incendios forestales»"
     url: "https://www.swissinfo.ch/spa/lluvias-en-los-andes-y-selva-de-per%C3%BA-ayudaron-a-extinguir-decenas-de-incendios-forestales/92266054"
@@ -16,4 +16,6 @@ pruebas:
     url: "https://andina.pe/agencia/noticia-escenario-sequia-prolongada-obliga-a-reforzar-los-equipos-ante-incendios-forestales-1097109.aspx"
 ---
 
-El Gobierno presentó el fin de los incendios como el resultado de semanas de «lucha». El ministro de Desarrollo Agrario, Marco Vinelli, anunció ese mismo día que ya no quedaban incendios activos y aprovechó para presentar la compra de 19 helibaldes. Ninguno de los dos mencionó la lluvia, aunque **su propia agencia de noticias, Andina, informó que «las lluvias registradas en las últimas horas terminaron de extinguir el fuego»**. En Satipo, los bomberos celebraron la lluvia tras 19 días de pelea contra el fuego. El país tenía solo tres helibaldes propios.
+**Lo que terminó de apagar los incendios fue la lluvia, no el Gobierno.** Ese mismo 23 de octubre, la agencia estatal Andina informó que «las lluvias registradas en las últimas horas terminaron de extinguir el fuego», y EFE reportó que las lluvias en los Andes y la selva central «han ayudado a extinguir los incendios». En Satipo, los bomberos celebraron la lluvia después de 19 días peleando contra el fuego.
+
+Aun así, el Gobierno se atribuyó el resultado. El Ministerio de Defensa lo presentó como el final de «varias semanas luchando», y el ministro Vinelli anunció que ya no quedaban incendios activos mientras presentaba la compra de 19 helibaldes. **Ninguno de los dos mencionó la lluvia.** El país tenía solo tres helibaldes propios.
