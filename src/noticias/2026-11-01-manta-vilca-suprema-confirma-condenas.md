@@ -4,9 +4,9 @@ titulo_seo: "Manta y Vilca: Corte Suprema confirma condenas a siete exmilitares 
 temas: ["Manta y Vilca", "Corte Suprema", "Derechos humanos", "Ley de amnistía"]
 date: 2026-11-01T14:04:03-05:00
 resumen: "Más de cuarenta años después de los crímenes, la justicia ratificó su carácter de lesa humanidad. Según el abogado Carlos Rivera, solo dos de los condenados habían sido detenidos al conocerse el fallo."
-imagen: /img/uploads/manta-portada-palacio-justicia-4k.jpg
-imagen_texto: "Palacio de Justicia de Lima, sede de la Corte Suprema. Fotografía de archivo de 2019, en resolución original de 4208 × 2368 píxeles."
-imagen_fuente: "Foto: YusmarBlanco / Wikimedia Commons (CC BY-SA 4.0). Original sin modificaciones."
+imagen: /img/uploads/manta-base-portada-ia-4k.jpg
+imagen_texto: "Recreación editorial de la antigua base militar de Manta, Huancavelica."
+imagen_fuente: "Imagen generada con inteligencia artificial (referencial), basada en una fotografía atribuida al Archivo del Lugar de la Memoria, difundida por Convoca."
 tipo: Noticia
 exclusivo: false
 corto: "manta-vilca"
@@ -70,4 +70,4 @@ Las mujeres de Manta y Vilca esperaron más de cuarenta años para que la justic
 
 **Fuentes:** [La República, 31 de octubre de 2026](https://larepublica.pe/politica/2026/10/31/caso-manta-y-vilca-corte-suprema-confirma-condena-a-siete-militares-por-violaciones-sexuales-contra-mujeres-hnews-986544) · [Infobae](https://www.infobae.com/peru/2026/10/31/caso-manta-corte-suprema-inaplica-leyes-procrimen-y-confirma-condenas-contra-exmilitares-por-crimenes-sexuales/) · [LP Derecho y resolución judicial](https://lpderecho.pe/caso-manta-vilca-suprema-rechaza-pedido-prescripcion-accion-penal-confirma-condena-exmilitares-abusos-sexuales/) · [América Noticias, cobertura de la primera instancia](https://www.americatv.com.pe/noticias/actualidad/poder-judicial-condeno-militares-caso-manta-y-vilca-n493356).
 
-**Crédito de portada:** YusmarBlanco / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Palacio_de_Justicia_de_Lima,_Per%C3%BA.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Fotografía de archivo del 18 de noviembre de 2019, publicada en su resolución original de 4208 × 2368 píxeles, sin modificaciones.
+**Crédito de portada:** Imagen generada con inteligencia artificial (referencial), basada en una fotografía de la base militar de Manta atribuida al Archivo del Lugar de la Memoria y [difundida por Convoca](https://convoca.pe/en/node/3462). Recreación editorial exportada a 3840 × 2160 píxeles; los detalles sintetizados no constituyen evidencia documental de la base ni de los hechos.
