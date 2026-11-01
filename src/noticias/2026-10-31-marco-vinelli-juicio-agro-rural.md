@@ -4,8 +4,8 @@ titulo_seo: "Marco Vinelli: Poder Judicial dispone juicio oral por el caso Agro 
 temas: ["Marco Vinelli", "Agro Rural", "Poder Judicial", "Huánuco"]
 date: 2026-10-31T19:51:02-05:00
 resumen: "El ministro de Desarrollo Agrario y Riego afrontará un juicio por hechos de su anterior gestión en Agro Rural. La Fiscalía solicita hasta cinco años y cuatro meses de prisión. Su abogado informó que impugnó la decisión."
-imagen: /img/uploads/agro-rural-juicio-ilustracion.jpg
-imagen_texto: "Ilustración conceptual de un canal de riego, expedientes y una balanza de justicia. No representa la obra investigada."
+imagen: /img/uploads/marco-vinelli-agro-rural-portada-v2.jpg
+imagen_texto: "Retrato referencial de Marco Vinelli en una composición editorial sobre el caso Agro Rural y la infraestructura de riego."
 imagen_fuente: "Imagen generada con inteligencia artificial (referencial)."
 tipo: Noticia
 exclusivo: false
@@ -24,11 +24,15 @@ El [Ministerio Público confirmó el pase a juicio de 13 acusados](https://www.g
 
 El comunicado oficial señala que la acusación comprende colusión simple y, alternativamente, negociación incompatible, con un pedido de hasta cinco años y cuatro meses de prisión. La fiscalía a cargo de Diana Paico Guevara informó, además, que fueron rechazados 16 recursos que buscaban el archivo y que se admitieron testimonios, documentos y peritajes para el juicio.
 
+![Gráfico institucional de la Fiscalía sobre el pase a juicio de 13 acusados en el caso Agro Rural](/img/uploads/fiscalia-agro-rural-oficial.jpg "Gráfico difundido por el Ministerio Público el 30 de octubre de 2026 sobre el caso de la obra de riego en Tomaykichwa. Fuente: Ministerio Público / Gob.pe.")
+
 ## La respuesta del ministro
 
 Vinelli ha negado haber coordinado con los representantes de las empresas involucradas. [Infobae recoge sus declaraciones previas a Exitosa y Cuarto Poder](https://www.infobae.com/peru/2026/10/31/pj-ordena-que-ministro-marco-vinelli-vaya-a-juicio-por-presunta-corrupcion-fiscalia-pide-mas-de-5-anos-de-prision/), en las que rechazó contactos, reuniones y comunicaciones con los contratistas señalados por la Fiscalía.
 
 Su defensa, por su parte, dijo a El Comercio que la decisión judicial está impugnada y evitó ampliar sus comentarios por la reserva del caso.
+
+![Ilustración de un canal de riego junto a expedientes y una balanza de justicia](/img/uploads/agro-rural-juicio-ilustracion.jpg "Ilustración conceptual sobre infraestructura de riego y revisión judicial de contratos públicos. No es una fotografía de la obra investigada. Imagen generada con inteligencia artificial (referencial).")
 
 ## El pase a juicio no es una condena
 
