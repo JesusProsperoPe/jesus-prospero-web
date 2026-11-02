@@ -1,0 +1,8 @@
+# Cabeceras de Cloudflare para archivos estáticos.
+# Guiones de carrusel: texto en UTF-8 (para que las tildes se lean bien) y fuera de Google.
+/carrusel.txt
+  Content-Type: text/plain; charset=utf-8
+  X-Robots-Tag: noindex
+/carrusel/*
+  Content-Type: text/plain; charset=utf-8
+  X-Robots-Tag: noindex
