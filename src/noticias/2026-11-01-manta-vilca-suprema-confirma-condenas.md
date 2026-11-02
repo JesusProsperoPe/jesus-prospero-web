@@ -4,9 +4,9 @@ titulo_seo: "Manta y Vilca: Corte Suprema confirma condenas a siete exmilitares 
 temas: ["Manta y Vilca", "Corte Suprema", "Derechos humanos", "Ley de amnistía"]
 date: 2026-11-01T14:04:03-05:00
 resumen: "Más de cuarenta años después de los crímenes, la justicia ratificó su carácter de lesa humanidad. Según el abogado Carlos Rivera, solo dos de los condenados habían sido detenidos al conocerse el fallo."
-imagen: "/img/uploads/manta-base-captura-real.jpg"
-imagen_texto: "Detalle de la identificación de la base del Ejército en Manta, en una captura de archivo difundida por Wayka."
-imagen_fuente: "Fuente: Wayka / Wikimedia Commons, CC BY 3.0. Captura auténtica contenida en un marco horizontal; sin reconstrucción ni ampliación."
+imagen: "/img/uploads/manta-base-editorial-ia-4k.jpg"
+imagen_texto: "Reconstrucción editorial referencial con IA de la antigua base de Manta, basada en imágenes históricas del lugar. No es una nueva fotografía documental."
+imagen_fuente: "Imagen generada con inteligencia artificial (referencial), basada en archivos del lugar. Referencias: LUM vía Convoca y Wayka / Wikimedia Commons (CC BY 3.0). Exportación 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "manta-vilca"
@@ -127,4 +127,4 @@ Las mujeres de Manta y Vilca esperaron más de cuarenta años para que la justic
 
 
 
-**Procedencia de la portada:** [Archivo original de la base de Manta](https://commons.wikimedia.org/wiki/File:Base_del_Ej%C3%A9rcito_del_Per%C3%BA_en_Manta.png), procedente del [video de Wayka](https://www.youtube.com/watch?v=HWUDKgvx2B4), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Se conserva su calidad de archivo: no se inventan detalles del edificio.
+**Procedencia de la portada:** Reconstrucción editorial con IA a partir de la imagen histórica del lugar difundida por LUM / [Convoca](https://convoca.pe/agenda-propia/las-sobrevivientes-de-manta-y-vilca-en-busca-de-justicia-frente-una-posible-amnistia) y del [archivo de Wayka](https://commons.wikimedia.org/wiki/File:Base_del_Ej%C3%A9rcito_del_Per%C3%BA_en_Manta.png), CC BY 3.0. Es referencial: los detalles reconstruidos no constituyen evidencia documental. No muestra víctimas ni recrea los delitos.

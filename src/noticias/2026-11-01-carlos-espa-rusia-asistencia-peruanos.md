@@ -4,9 +4,9 @@ titulo_seo: "Carlos Espá viajará a Rusia: reuniones en Moscú serán del 7 al 
 temas: ["Carlos Espá", "Cancillería", "Rusia"]
 date: 2026-11-01T19:15:53-05:00
 resumen: "El Gobierno amplió la gira del canciller hasta el 11 de noviembre. La resolución busca asistencia para los connacionales e información para sus familias, pero no anuncia repatriaciones."
-imagen: "/img/uploads/espa-foto-real-portada.jpg"
+imagen: "/img/uploads/espa-foto-real-portada-exportacion-4k.jpg"
 imagen_texto: "Carlos Espá durante una intervención pública el 31 de julio de 2026. Fotografía de archivo."
-imagen_fuente: "Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons, CC BY-SA 4.0. Recorte y compresión."
+imagen_fuente: "Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons, CC BY-SA 4.0. Recorte y compresión. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 tipo: Noticia
 exclusivo: false
 corto: "espa-rusia"

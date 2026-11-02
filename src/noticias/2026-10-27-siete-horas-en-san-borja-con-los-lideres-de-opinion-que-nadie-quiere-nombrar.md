@@ -4,9 +4,9 @@ titulo_seo: "Luis Galarreta se reunió siete horas con medios y streamers en San
 temas: ["Gobierno", "Luis Galarreta", "Prensa"]
 date: 2026-10-27T09:20:00.000-05:00
 resumen: "El premier Galarreta pasó el lunes reunido con ministros, directores de medios y periodistas de streaming. La agenda oficial lo dice. Los nombres, en cambio, se los guardan como receta de la abuela."
-imagen: "/img/uploads/galarreta-foto-real-archivo.jpg"
+imagen: "/img/uploads/galarreta-foto-real-archivo-exportacion-4k.jpg"
 imagen_texto: "Luis Galarreta interviene en el Congreso, en una fotografía de archivo de octubre de 2010."
-imagen_fuente: "Foto: Congreso de la República del Perú / Wikimedia Commons, CC BY 2.0. Recorte y compresión."
+imagen_fuente: "Foto: Congreso de la República del Perú / Wikimedia Commons, CC BY 2.0. Recorte y compresión. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 ---
 
 En el Perú uno sabe quién fue al baby shower de la prima, quién no puso para la chancha del cumpleaños y quién se llevó el táper de la tía sin devolverlo. Lo que no sabemos es **qué influencers y qué dueños de medios se pasaron siete horas con el gobierno.**

@@ -4,7 +4,7 @@ titulo_seo: "Esterilizaciones forzadas: la Fiscalía reconoce lesa humanidad y a
 temas: ["Esterilizaciones forzadas", "Derechos humanos", "Leyes de impunidad", "Alberto Fujimori"]
 date: 2026-10-27T01:10:00.000-05:00
 resumen: Un fiscal admite que más de cuatro mil personas fueron esterilizadas sin consentimiento como política de Estado y, en el mismo documento, decide que el delito caducó como yogurt olvidado en la refri.
-imagen: /img/uploads/esterilizaciones-forzadas-protesta.jpg
+imagen: "/img/uploads/esterilizaciones-forzadas-protesta-exportacion-4k.jpg"
 imagen_texto: Protesta de víctimas de las esterilizaciones forzadas.
 ---
 

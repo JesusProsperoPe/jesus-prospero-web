@@ -4,9 +4,9 @@ titulo_seo: "JNE denuncia a Rafael López Aliaga y Carlos Álvarez por expresion
 temas: ["JNE", "Rafael López Aliaga", "Carlos Álvarez", "Roberto Burneo", "Elecciones"]
 date: 2026-11-01T11:49:57-05:00
 resumen: "El procurador Ronald Angulo confirmó la presentación de una denuncia ante la Fiscalía de Lurín. La institución sostiene que las expresiones contra su presidente excedieron la crítica electoral. Se trata de una denuncia, no de una condena."
-imagen: "/img/uploads/jne-lurin-captura-real.jpg"
+imagen: "/img/uploads/jne-lurin-captura-real-exportacion-4k.jpg"
 imagen_texto: "Rafael López Aliaga y Carlos Álvarez durante la actividad pública en Lurín del 25 de octubre de 2026. Captura real de la transmisión."
-imagen_fuente: "Fuente: transmisión del acto de Lurín, captura publicada previamente en este sitio. Recorte y compresión; sin reconstrucción."
+imagen_fuente: "Fuente: transmisión del acto de Lurín, captura publicada previamente en este sitio. Recorte y compresión; sin reconstrucción. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 tipo: Noticia
 exclusivo: false
 corto: "jne-denuncia-lurin"

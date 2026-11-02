@@ -4,7 +4,7 @@ titulo_seo: "Elección del Tribunal Constitucional: el Senado aprueba el reglame
 temas: ["Tribunal Constitucional", "Senado", "Martha Moyano", "Fuerza Popular", "Renovación Popular"]
 date: 2026-10-28T16:30:00.000-05:00
 resumen: "El Senado aprobó el reglamento para elegir al nuevo Tribunal Constitucional. Subieron el peso de la entrevista que califican ellos mismos y bajaron la nota para aprobarla. La meritocracia vino en oferta 2x1."
-imagen: /img/uploads/martha-moyano-senadora.jpg
+imagen: "/img/uploads/martha-moyano-senadora-exportacion-4k.jpg"
 imagen_texto: "La senadora Martha Moyano, de Fuerza Popular."
 ---
 

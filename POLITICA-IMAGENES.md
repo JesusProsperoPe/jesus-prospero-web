@@ -1,23 +1,19 @@
-# Política de fotografías de jesusprospero.pe
+# Política de portadas de jesusprospero.pe
 
-Actualizada por instrucción expresa de Jesus el 1 de noviembre de 2026. Sustituye las reglas anteriores que pedían generar portadas o recrear fotografías con IA.
+Actualización expresa de Jesus, 1 de noviembre de 2026. Reemplaza la pauta anterior que prohibía IA generativa en portadas y exigía paneles separados.
 
-Usar fotografías reales ya existentes y directamente relacionadas con el caso. Verificar identidad, lugar, fecha, fuente y licencia o autorización. Conservar el original y registrar los ajustes realizados.
+Las portadas deben verse profesionales, atractivas y naturales. Entregar siempre una versión horizontal 16:9 de 3840 × 2160 píxeles (4K), optimizada para web. Registrar el tamaño de origen y distinguir generación/ampliación de detalle fotográfico nativo; no afirmar que una ampliación recupera información documental.
 
-La mejora de calidad debe ser fotográfica y no generativa: exposición, balance de blancos, color natural, contraste moderado, nitidez discreta, recorte y compresión. Conservar las personas, la escena y los detalles. No reconstruir rostros, edificios, fondos ni objetos. No inventar píxeles documentales, cielos dramáticos, escenas, gestos, reuniones o acciones. No usar texturas pictóricas ni retratos de IA, aunque parezcan fotografías.
+Usar la herramienta de generación/edición de imágenes para mejorar una fotografía y para integrar al protagonista con un lugar relacionado con la nota. Partir de fotografías reales verificadas del rostro y del lugar, con licencia o autorización cuando corresponda. Mantener la identidad reconocible, edad, expresión, vestuario y rasgos. No inventar rostros.
 
-Preferir una sola buena fotografía real. Si se combinan dos imágenes, ambas deben ser fotografías auténticas verificadas, mediante montaje convencional de portada noticiosa, con separación editorial clara y crédito de ambas fuentes. No simular una escena conjunta que nunca ocurrió. Identificar el fotomontaje.
+Cuando se combinen persona y lugar, hacer una sola composición editorial coherente: protagonista en primer plano, lugar como fondo, recorte limpio, luz, perspectiva, color y profundidad armonizados. Evitar dos fotos en paneles, divisiones visibles, bordes pegados, piel plástica, texturas pintadas, halos, dramatismo gratuito y aspecto de ilustración de IA. Revisar siempre el resultado frente a los originales.
 
-Formato horizontal, preferentemente 16:9. Usar fuentes de buena resolución. Exportar 3840×2160 solo cuando el original proporcione suficiente detalle; no ampliar artificialmente para fingir 4K. Una foto auténtica de menor tamaño es preferible a una recreación falsa de gran resolución.
+Un montaje natural sigue siendo un montaje: identificarlo en el pie como «Fotomontaje editorial con IA, basado en fotografías reales (referencial)» y acreditar las referencias. No presentarlo como registro de una visita, encuentro, juicio, detención o hecho no documentado. No representar delitos o culpabilidad mediante escenas inventadas.
 
-Mostrar al protagonista mediante su fotografía real cuando exista material autorizado adecuado. En ausencia de ella, usar una fotografía auténtica pertinente de la institución, lugar o documento, indicando el contexto; nunca inventar su rostro. Para nuevas noticias automáticas, si no se reúne el material real autorizado necesario, informar el bloqueo.
+Si no hay una fotografía adecuada del caso, buscar otra del lugar, institución o documento. Se permite una ilustración generada, pertinente y sobria, rotulada «Imagen generada con inteligencia artificial (referencial)». En casos de violencia sexual no inventar víctimas, agresiones ni escenas de abuso. La reconstrucción de un archivo debe identificarse como referencial y conservar enlace al original.
 
-En las noticias nuevas, conservar una portada y dos imágenes interiores horizontales pertinentes. Los documentos oficiales auténticos pueden ilustrar las secciones que los analizan. No añadir fotos genéricas para rellenar ni repetir la misma foto como si fueran imágenes distintas.
+Respetar las portadas que Jesus aprueba; no retirarlas mediante cambios masivos por una interpretación de estilo. Las fotografías interiores y documentos que sirven de evidencia conservan su contenido documental y sus créditos. Mantener portada y dos imágenes interiores pertinentes en notas nuevas. Conservar originales, referencias, prompts y exportaciones; comprobar encuadres en escritorio, móvil y tarjetas sin modificar el diseño del sitio.
 
-Créditos: autor, procedencia, fecha de archivo y licencia cuando corresponda. Si es una captura, identificar el video o documento original. Si es un montaje, indicarlo. No quitar una etiqueta de IA a un archivo sintético: sustituir el archivo por el original auténtico y actualizar todos sus textos.
+Prompt base para portadas:
 
-Revisar el original y el resultado visualmente, así como los encuadres en móvil, escritorio y tarjetas. No modificar el diseño del sitio. Las viñetas artísticas encargadas como caricaturas conservan su naturaleza y no se presentan como fotografías de noticias.
-
-Instrucción reutilizable para edición fotográfica:
-
-> Trabaja únicamente con la fotografía original adjunta. Conserva exactamente el rostro, las personas, los objetos, el lugar y todos los detalles documentales. Ajusta de forma moderada exposición, balance de blancos, color natural, nitidez y compresión. Recorta horizontalmente cuando sea posible sin perder información esencial. No generes, reconstruyas, elimines ni añadas contenido. No cambies fondo, expresión, edad, vestuario ni escena. No apliques apariencia de ilustración, pintura, piel artificial o efecto cinematográfico. No amplíes artificialmente para simular detalle 4K. Entrega una fotografía periodística fiel al original.
+> Edita estas fotografías reales para una portada periodística horizontal 16:9, exportación 3840×2160. Conserva exactamente la identidad y rasgos del protagonista. Integra su recorte en primer plano con el lugar real relacionado como fondo continuo, armonizando luz, perspectiva, profundidad y color. Acabado fotográfico natural, profesional y nítido, sin piel plástica, pintura, halos, paneles ni costuras. No inventes personas, acciones, delitos, visitas o reuniones. No añadas texto ni dramatismo no documentado. La composición se identificará como fotomontaje editorial referencial con IA. Compara el rostro y el lugar con las referencias antes de entregar.

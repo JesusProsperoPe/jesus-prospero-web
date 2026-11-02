@@ -4,9 +4,9 @@ titulo_seo: "Marco Vinelli: Poder Judicial dispone juicio oral por el caso Agro 
 temas: ["Marco Vinelli", "Agro Rural", "Poder Judicial", "Huánuco"]
 date: 2026-10-31T19:51:02-05:00
 resumen: "El ministro de Desarrollo Agrario y Riego afrontará un juicio por hechos de su anterior gestión en Agro Rural. La Fiscalía solicita hasta cinco años y cuatro meses de prisión. Su abogado informó que impugnó la decisión."
-imagen: "/img/uploads/vinelli-foto-real-archivo.jpg"
-imagen_texto: "Marco Vinelli, con gafas y corbata roja, en una reunión de la delegación peruana con el USDA en Washington el 23 de abril de 2015. Archivo."
-imagen_fuente: "Foto: Bob Nichols / USDA, dominio público. Recorte de la fotografía original; sin recreación."
+imagen: "/img/uploads/vinelli-justicia-editorial-ia-4k.jpg"
+imagen_texto: "Marco Vinelli en una composición editorial con el Palacio de Justicia. No es una fotografía de una audiencia ni de su comparecencia."
+imagen_fuente: "Fotomontaje editorial con IA. Referencias: Bob Nichols / USDA, dominio público; Felipe Restrepo Acosta / Wikimedia Commons, CC BY-SA 4.0. Exportación 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "vinelli-agro-rural"
@@ -43,4 +43,4 @@ El siguiente paso descrito por los reportes es la remisión del expediente al ju
 **Fuentes:** [Ministerio Público](https://www.gob.pe/institucion/mpfn/noticias/1466113-fiscalia-llevara-a-juicio-oral-a-13-acusados-por-presunta-corrupcion-en-obra-de-riego-de-s-23-millones-en-agro-rural) · [El Comercio](https://elcomercio.pe/politica/el-poder-judicial-dicto-auto-de-enjuiciamiento-contra-el-ministro-marco-vinelli-noticia/) · [Infobae](https://www.infobae.com/peru/2026/10/31/pj-ordena-que-ministro-marco-vinelli-vaya-a-juicio-por-presunta-corrupcion-fiscalia-pide-mas-de-5-anos-de-prision/).
 
 
-**Procedencia de la portada:** [Fotografía original del USDA](https://commons.wikimedia.org/wiki/File:20150423-APHIS-RBN-6184_(17246231675).jpg). Es una reunión de trabajo de 2015, no una audiencia judicial ni una reunión con las empresas investigadas.
+**Procedencia de la portada:** Fotomontaje editorial con IA basado en el [retrato de archivo del USDA, 2015](https://commons.wikimedia.org/wiki/File:20150423-APHIS-RBN-6184_(17246231675).jpg) y la fotografía del Palacio de Justicia de Felipe Restrepo Acosta / Wikimedia Commons (CC BY-SA 4.0), ya usada y acreditada en el sitio. No representa una audiencia ni determina culpabilidad.

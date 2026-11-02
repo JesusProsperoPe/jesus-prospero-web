@@ -4,9 +4,9 @@ titulo_seo: "Miki Torres y los 356 millones del Congreso: devuelve 303 y pide ap
 temas: ["Congreso", "Fuerza Popular", "Miki Torres"]
 date: 2026-10-27T22:20:00.000-05:00
 resumen: "Miki Torres anuncia que \"ordenó la casa\". Se olvida de contar que la desordenó su propio partido."
-imagen: "/img/uploads/miki-torres-foto-real-2026.jpg"
+imagen: "/img/uploads/miki-torres-foto-real-2026-exportacion-4k.jpg"
 imagen_texto: "Miki Torres, en el centro, durante una ceremonia del Ministerio de Relaciones Exteriores el 4 de agosto de 2026. Foto de archivo."
-imagen_fuente: "Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons, CC BY-SA 4.0. Recorte y compresión; sin IA generativa."
+imagen_fuente: "Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons, CC BY-SA 4.0. Recorte y compresión; sin IA generativa. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 ---
 
 Hay un personaje que todo peruano conoce. Es el cobrador de combi que te cobra cinco soles por un pasaje de dos, te da un sol de vuelto y te dice "ahí tienes tu ahorro, causa". **Hoy ese cobrador tiene cuenta verificada en X y se llama Miki Torres.**

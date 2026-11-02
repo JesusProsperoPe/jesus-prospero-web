@@ -4,10 +4,10 @@ titulo_seo: "Huacos eróticos: Milagros Jáuregui pide retirarlos y López Aliag
 temas: ["Renovación Popular", "Rafael López Aliaga", "Milagros Jáuregui", "Senado"]
 date: 2026-10-27T13:45:00.000-05:00
 resumen: "La senadora Jáuregui quiere esconder la cerámica mochica para proteger a los niños. Su líder, mientras tanto, se moría de risa en Lurín con un chiste de \"morrocoy por el poto\" y una fila de chiquitos atrás."
-imagen: /img/uploads/lopez-aliaga-carlos-alvarez-lurin.jpg
+imagen: "/img/uploads/lopez-aliaga-carlos-alvarez-lurin-exportacion-4k.jpg"
 imagen_texto: "Rafael López Aliaga y Carlos Álvarez en el escenario de Lurín."
 exclusivo: true
-imagen_fuente: "Fuente: Transmisión del mitin en Lurín del 25 de octubre de 2026."
+imagen_fuente: "Fuente: Transmisión del mitin en Lurín del 25 de octubre de 2026. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 ---
 
 El lunes, la senadora Milagros Jáuregui de Aguayo le pidió al ministro de Cultura **sacar los huacos eróticos de los espacios públicos.** Dijo que los niños "no están capacitados neurológicamente" para verlos. Y que, si los ven, sea en un museo y "acompañados de profesores o tutores".

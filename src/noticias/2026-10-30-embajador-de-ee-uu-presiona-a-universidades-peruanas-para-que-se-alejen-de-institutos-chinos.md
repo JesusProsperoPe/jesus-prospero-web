@@ -4,9 +4,9 @@ titulo_seo: "Bernie Navarro pide a universidades peruanas dejar los Institutos C
 temas: ["Bernie Navarro", "Estados Unidos", "China", "Universidades"]
 date: 2026-10-30T12:00:00.000-05:00
 resumen: "En una columna publicada en La República, Bernie Navarro revela que se reunió con rectores de la PUCP y de la Universidad Católica de Santa María. Además, advierte que Washington no colabora con casas de estudio que mantengan Institutos Confucio."
-imagen: "/img/uploads/bernie-foto-real-palacio.jpg"
-imagen_texto: "Bernie Navarro, a la derecha, con Marco Rubio y Keiko Fujimori en Palacio de Gobierno el 10 de septiembre de 2026. Foto de archivo."
-imagen_fuente: "Foto: Freddie Everett / Departamento de Estado de EE. UU., dominio público. Recorte y compresión."
+imagen: "/img/uploads/bernie-portada-restaurada-4k.jpg"
+imagen_texto: "Ilustración editorial referencial sobre la nota del embajador estadounidense; no es una fotografía del discurso."
+imagen_fuente: "Imagen generada con inteligencia artificial (referencial). Portada anterior recuperada; exportación 3840 × 2160."
 tipo: Noticia
 corto: "navarro-confucio"
 ---
@@ -61,4 +61,4 @@ China es el principal socio comercial del Perú y Estados Unidos uno de sus alia
 **Fuentes:** [La República, columna de Bernie Navarro](https://larepublica.pe/opinion/2026/10/29/el-instituto-que-invento-la-confusion-por-bernie-navarro-hnews-1954260) · [La República, columna de Beatriz Hou](https://larepublica.pe/opinion/2026/10/30/quien-esta-creando-realmente-la-confusion-por-beatriz-hou-2539290) · [Diario Sin Fronteras](https://diariosinfronteras.com.pe/2026/10/30/embajador-de-ee-uu-alerta-sobre-los-institutos-confucio-en-peru-y-pide-revisar-su-influencia-en-universidades/) · [Exitosa](https://www.exitosanoticias.pe/actualidad/embajador-eeuu-bernie-navarro-diplomatico-china-colombia-chocan-redes-sociales-soberania-peru-n174524) · [Gestión](https://gestion.pe/noticias/bernie-navarro/) · [La República, Mirko Lauer](https://larepublica.pe/opinion/2026/02/18/el-embajador-del-miedo-por-mirko-lauer-hnews-491292)
 
 
-**Procedencia de la portada:** Fotografía oficial del Departamento de Estado ya acreditada en esta publicación. No corresponde al discurso sobre los Institutos Confucio.
+**Procedencia de la portada:** Ilustración de IA recuperada a pedido de Jesus. El retrato y la escena son referenciales, no una fotografía documental del embajador o del discurso.

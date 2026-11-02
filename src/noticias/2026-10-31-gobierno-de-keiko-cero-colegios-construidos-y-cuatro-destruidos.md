@@ -4,9 +4,9 @@ titulo_seo: "Keiko Fujimori prometió 2.000 colegios: en tres meses, cero constr
 temas: ["Keiko Fujimori", "Gobierno", "Luis Galarreta", "Educación"]
 date: 2026-10-31T13:00:00.000-05:00
 resumen: "En tres meses el gobierno ya tiene su primera cifra exacta. Prometió dos mil colegios nuevos y por ahora lleva cuatro destruidos. Al menos en algo va adelantado."
-imagen: "/img/uploads/keiko-foto-real-portada.jpg"
+imagen: "/img/uploads/keiko-foto-real-portada-exportacion-4k.jpg"
 imagen_texto: "Keiko Fujimori habla durante un acto público el 7 de octubre de 2026. Fotografía de archivo."
-imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte horizontal; sin recreación."
+imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte horizontal; sin recreación. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 tipo: Columna
 corto: "cero-colegios"
 ---

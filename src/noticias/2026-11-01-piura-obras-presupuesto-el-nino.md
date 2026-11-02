@@ -4,9 +4,9 @@ titulo_seo: "Piura: alcalde anuncia denuncias contra Vivienda e Interior por tre
 temas: ["Piura", "Keiko Fujimori", "Fenómeno El Niño", "Presupuesto público"]
 date: 2026-11-01T19:04:36-05:00
 resumen: "La municipalidad anuncia acciones contra Vivienda e Interior por proyectos con convenios firmados. El alcalde reclama menos de S/20 millones para concluir tres intervenciones que, según afirma, superan el 95 % de avance."
-imagen: "/img/uploads/piura-keiko-montaje-fotos-reales.jpg"
-imagen_texto: "Montaje editorial con dos fotografías reales: Keiko Fujimori en octubre de 2026 y el río Piura en febrero de 2025. No representa una visita presidencial."
-imagen_fuente: "Fotos: Ministerio de la Producción, dominio público, y El Surquillano / Wikimedia Commons, CC0. Montaje convencional con separación entre ambas fotos; sin IA generativa."
+imagen: "/img/uploads/piura-keiko-editorial-ia-4k.jpg"
+imagen_texto: "Keiko Fujimori integrada con el paisaje del río Piura. Fotomontaje editorial referencial; no representa una visita ni una inundación."
+imagen_fuente: "Fotomontaje editorial con IA. Referencias: Ministerio de la Producción, dominio público, y río Piura / Wikimedia Commons, CC0. Exportación 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "piura-obras"
@@ -60,4 +60,4 @@ Cevallos aseguró que sigue confiando en la presidenta y reclamó que sus minist
 
 
 
-**Procedencia de la portada:** Fotografía de Keiko del 7 de octubre de 2026, ya acreditada en el sitio, y [río Piura, 7 de febrero de 2025](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Piura-2025.jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Se conservan ambas escenas originales en paneles distintos.
+**Procedencia de la portada:** Referencias: foto oficial de Keiko del 7 de octubre de 2026 y [río Piura, archivo de 2025](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Piura-2025.jpg), CC0. Integración con IA referencial; no documenta una visita al río ni el estado de las lluvias de hoy.

@@ -4,9 +4,9 @@ titulo_seo: "Arturo Alegría, presidente de la Comisión de Ambiente, dice que l
 temas: ["Arturo Alegría", "Medio ambiente", "Amazonía", "Fuerza Popular", "Congreso"]
 date: 2026-10-29T19:25:00.000-05:00
 resumen: "Arturo Alegría, diputado de Fuerza Popular, llamó \"romanticismo\" a la crisis climática y dijo que las políticas ambientales no sirvieron para nada. Su historial ayuda a entender por qué."
-imagen: "/img/uploads/arturo-alegria-foto-real-2024.jpg"
+imagen: "/img/uploads/arturo-alegria-foto-real-2024-exportacion-4k.jpg"
 imagen_texto: "Arturo Alegría, a la izquierda del hombre con gafas, durante un homenaje a los comandos Chavín de Huántar en abril de 2024. Foto de archivo."
-imagen_fuente: "Foto: Ministerio de Defensa del Perú / Wikimedia Commons, CC BY 2.0. Recorte y compresión."
+imagen_fuente: "Foto: Ministerio de Defensa del Perú / Wikimedia Commons, CC BY 2.0. Recorte y compresión. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 tipo: Columna
 ---
 

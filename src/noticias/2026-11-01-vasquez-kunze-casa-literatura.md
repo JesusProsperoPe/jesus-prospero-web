@@ -4,9 +4,9 @@ titulo_seo: "Ricardo Vásquez Kunze en la Casa de la Literatura: del antifujimor
 temas: ["Ricardo Vásquez Kunze", "Casa de la Literatura", "Keiko Fujimori"]
 date: 2026-11-01T19:24:29-05:00
 resumen: "Ricardo Vásquez Kunze dijo en 2011 que no votaría por Keiko. Después fue dos veces candidato de Fuerza Popular. Ahora dirige la Casa de la Literatura. En el Perú, la mejor novela sigue siendo la biografía de sus funcionarios."
-imagen: /img/uploads/kunze-casa-literatura-fotomontaje-4k.jpg
-imagen_texto: "Fotomontaje editorial con las fotografías de Ricardo Vásquez Kunze y de la Casa de la Literatura proporcionadas por Jesus Prospero. Las imágenes corresponden a escenas distintas."
-imagen_fuente: "Fotografías facilitadas por Jesus Prospero para esta publicación; autores no identificados en los archivos. Montaje convencional, recorte y ampliación a 3840 × 2160; sin reconstrucción generativa."
+imagen: "/img/uploads/kunze-editorial-ia-4k.jpg"
+imagen_texto: "Ricardo Vásquez Kunze integrado con la fachada de la Casa de la Literatura. Fotomontaje editorial referencial; no documenta una visita."
+imagen_fuente: "Fotomontaje editorial con IA, basado en las dos fotografías proporcionadas por Jesus Prospero. Exportación 3840 × 2160."
 tipo: Columna
 exclusivo: false
 corto: "kunze-literatura"
@@ -55,7 +55,7 @@ Vásquez Kunze podrá discutir lo que dijo en 2011. Lo que no puede hacer es ped
 
 
 
-**Procedencia de la portada:** dos fotografías proporcionadas por Jesus Prospero para esta columna. Montaje editorial de imágenes reales en paneles separados; no representa una visita ni una escena conjunta. Archivo exportado a 3840 × 2160 píxeles a partir de originales de 516 × 387 y 496 × 619: la ampliación no recupera detalle fotográfico adicional.
+**Procedencia de la portada:** Referencias: fotografías del retrato y edificio facilitadas por Jesus Prospero; autores no identificados en los archivos. Composición con IA, basada en imágenes reales (referencial); no es una escena conjunta documentada.
 
 
 **Foto interior:** [Juan Acevedo en 2016](https://commons.wikimedia.org/wiki/File:Juan_Acevedo_Fern%C3%A1ndez_de_Paredes_en_2016.jpg), Feria del Libro Ricardo Palma, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Recorte y compresión.

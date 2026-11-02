@@ -4,9 +4,9 @@ titulo_seo: "Facultades legislativas: los plazos del Gobierno de Keiko Fujimori 
 temas: ["Gobierno", "Keiko Fujimori", "Luis Galarreta", "Congreso", "Facultades legislativas"]
 date: 2026-10-31T23:12:26-05:00
 resumen: "Después de reclamar rapidez al Congreso, el Gobierno anunció que sus primeros decretos necesitarían más tiempo. El país puso el pollo, pagó el carbón y ahora escucha al cocinero explicar por qué todavía no prende."
-imagen: "/img/uploads/keiko-foto-real-portada.jpg"
+imagen: "/img/uploads/keiko-foto-real-portada-exportacion-4k.jpg"
 imagen_texto: "Keiko Fujimori habla durante un acto público el 7 de octubre de 2026. Fotografía de archivo."
-imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte horizontal; sin recreación."
+imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte horizontal; sin recreación. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 tipo: Columna
 exclusivo: false
 corto: "facultades-urgencia"

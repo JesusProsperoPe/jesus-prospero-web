@@ -4,9 +4,9 @@ titulo_seo: "Denuncia constitucional contra Fernando Rospigliosi: piden inhabili
 temas: ["Fernando Rospigliosi", "Leyes de impunidad", "Poder Judicial", "Senado", "Fuerza Popular"]
 date: 2026-10-29T12:50:00.000-05:00
 resumen: "Mirtha Vásquez, Jaime Quito e Indira Huilca lo denunciaron ante la Comisión de Acusaciones Constitucionales. El hombre que quería barrer el Poder Judicial ahora tiene que explicar para qué compró tantas escobas."
-imagen: "/img/uploads/rospigliosi-foto-real-2026.jpg"
+imagen: "/img/uploads/rospigliosi-foto-real-2026-exportacion-4k.jpg"
 imagen_texto: "Fernando Rospigliosi, en el centro, durante una actividad en el Congreso el 11 de junio de 2026. Fotografía de archivo."
-imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte y compresión."
+imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte y compresión. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 tipo: Columna
 exclusivo: true
 ---

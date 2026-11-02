@@ -4,9 +4,9 @@ titulo_seo: "El Niño: MTPE aprueba protocolo de seguridad y salud en el trabajo
 temas: ["Fenómeno El Niño", "MTPE", "Seguridad laboral"]
 date: 2026-11-01T12:39:29-05:00
 resumen: "La resolución publicada este domingo aprueba un instrumento nacional para integrar la prevención, la respuesta y el regreso seguro a los sistemas de seguridad de los centros laborales."
-imagen: "/img/uploads/mtpe-sede-foto-real.jpg"
+imagen: "/img/uploads/mtpe-sede-foto-real-exportacion-4k.jpg"
 imagen_texto: "Sede del Ministerio de Trabajo y Promoción del Empleo, fotografiada en abril de 2022. Archivo."
-imagen_fuente: "Foto: Lenin Domínguez E / Wikimedia Commons, CC BY-SA 4.0. Recorte y compresión."
+imagen_fuente: "Foto: Lenin Domínguez E / Wikimedia Commons, CC BY-SA 4.0. Recorte y compresión. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
 tipo: Noticia
 exclusivo: false
 corto: "trabajo-el-nino"
