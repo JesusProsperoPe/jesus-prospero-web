@@ -25,10 +25,10 @@ carrusel:
     texto: "Según la denunciante."
     foto: /img/uploads/carrusel-parque-kennedy.jpg
     foto_texto: "Parque Kennedy, Miraflores. Francisco Anzola / Wikimedia Commons, CC BY 2.0. Archivo."
-  - titular: "Un **sereno de Miraflores** estaba ahí"
-    texto: "Aparece en la grabación."
-    foto: /img/uploads/carrusel-parque-kennedy-2.jpg
-    foto_texto: "Parque Kennedy de Miraflores. Qwertymith / Wikimedia Commons, CC BY-SA 3.0. Archivo."
+  - titular: "Se fotografió haciendo **el saludo nazi**"
+    texto: "Junto a otros miembros de La Resistencia."
+    foto: /img/uploads/subiria-saludo-nazi.jpg
+    foto_texto: "Foto del perfil de Facebook de Álvaro Subiria, con calidad mejorada con IA."
   - titular: "Se llama **Álvaro Francisco Subiria Alegría**"
     texto: "Integrante del colectivo de ultraderecha **La Resistencia**."
     foto: /img/uploads/subiria-parque-kennedy.jpg
@@ -60,6 +60,16 @@ En la grabación se observa a un sereno de Miraflores en el lugar.
 ## Quién es el agresor
 
 Este medio identificó al hombre del video como **Álvaro Francisco Subiria Alegría**, integrante del colectivo de ultraderecha La Resistencia, cuyos miembros luego se presentaron como Los Insurgentes.
+
+En su perfil de Facebook, Subiria se muestra como seguidor de figuras de la derecha y la ultraderecha peruana: aparece en selfis con el abogado Lucas Ghersi, el diputado Frank Krklec y la excongresista Adriana Tudela. **También se fotografió junto a otros miembros de La Resistencia haciendo el saludo nazi.**
+
+![Grupo de integrantes de La Resistencia con el brazo en alto haciendo el saludo nazi](/img/uploads/subiria-saludo-nazi.jpg "Álvaro Subiria junto a otros miembros de La Resistencia haciendo el saludo nazi. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
+
+![Selfi de Álvaro Subiria con Lucas Ghersi](/img/uploads/subiria-lucas-ghersi.jpg "Álvaro Subiria con el abogado Lucas Ghersi. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
+
+![Selfi de Álvaro Subiria con Frank Krklec](/img/uploads/subiria-frank-krklec.jpg "Frank Krklec y Álvaro Subiria. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
+
+![Álvaro Subiria con Adriana Tudela en una marcha](/img/uploads/subiria-adriana-tudela.jpg "Álvaro Subiria con Adriana Tudela en una marcha. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
 
 No es la primera vez que su nombre aparece vinculado a hechos de violencia.
 
