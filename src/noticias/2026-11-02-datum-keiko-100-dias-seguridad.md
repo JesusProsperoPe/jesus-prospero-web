@@ -1,6 +1,6 @@
 ---
-title: "Keiko ante los 100 días: 68 % no ve avances contra la delincuencia, según Datum"
-titulo_seo: "Datum: 68 % no ve avances de Keiko contra la delincuencia"
+title: "Keiko prometió orden, pero el 68 % de peruanos no ve avances contra la delincuencia"
+titulo_seo: "Keiko prometió orden: 68 % no ve avances contra la delincuencia"
 temas: ["Keiko Fujimori", "Datum", "Seguridad ciudadana", "Encuestas"]
 date: 2026-11-02T00:27:12-05:00
 resumen: "El balance ciudadano golpea la promesa de orden del gobierno fujimorista: 68 % no percibe avances en seguridad, 60 % en empleo y 58 % en economía. Solo 10 % califica la gestión como buena."
@@ -12,10 +12,10 @@ exclusivo: false
 corto: "datum-100-dias"
 carrusel:
   - nota: "Portada de impacto con fotografía real de Keiko; no usar el montaje como prueba documental."
-    titular: "Keiko prometió orden. **68 % no ve avances**"
+    titular: "Keiko prometió orden. **68 % no ve ningún avance**"
     texto: |
       Contra la delincuencia.
-      Encuesta Datum para América.
+      El balance de los 100 días, según Datum.
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Keiko, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público."
   - titular: "Empleo: **60 % no ve avances**"
@@ -24,8 +24,8 @@ carrusel:
     foto_texto: "Sede del MTPE. Lenin Dominguez / Wikimedia Commons, CC BY-SA 4.0. Archivo."
   - titular: "Economía: **58 % responde nada**"
     texto: "La pregunta mide avances percibidos."
-    foto: /img/uploads/datum-100-dias-grafico-captura.png
-    foto_texto: "Gráfico de Cuarto Poder / Datum. Fragmento de captura aportada por Jesus; cifras sin alteración."
+    foto: /img/uploads/datum-100-dias-cuadro-propio.png
+    foto_texto: "Elaboración propia con datos de Datum, difundidos por Cuarto Poder."
   - titular: "El Niño: **51 % no ve avances**"
     texto: "En prevención de riesgos y desastres."
     foto: /img/uploads/piura-rio-archivo-2025.jpg
@@ -44,8 +44,8 @@ carrusel:
     foto_texto: "Palacio de Gobierno en 2015. Diego Delso, delso.photo / Wikimedia Commons, CC BY-SA 4.0."
   - titular: "La encuesta se hizo **antes del balance**"
     texto: "Trabajo de campo del 28 al 30 de octubre."
-    foto: /img/uploads/datum-100-dias-grafico-captura.png
-    foto_texto: "Gráfico de Cuarto Poder / Datum. Fragmento de captura aportada por Jesus; cifras sin alteración."
+    foto: /img/uploads/datum-100-dias-cuadro-propio.png
+    foto_texto: "Elaboración propia con datos de Datum, difundidos por Cuarto Poder."
   - titular: "**1.200 personas** encuestadas"
     texto: "Margen de error reportado: ±2,8 puntos."
     foto: /img/uploads/datum-palacio-gobierno-archivo.jpg
@@ -58,16 +58,9 @@ La promesa fujimorista de recuperar el orden llega al balance de los primeros ci
 
 El descontento alcanza otras prioridades: **60 % no identifica avances en generación de empleo y 58 % en reactivación económica**. En prevención frente a El Niño, la respuesta negativa llega al 51 %, según el mismo reporte.
 
-La lámina que circula en redes permite ver también los matices de la evaluación:
+El siguiente cuadro resume las respuestas sobre cuatro áreas de gestión:
 
-| Área evaluada | Mucho | Algo | Nada | No sabe |
-|---|---:|---:|---:|---:|
-| Prevención de riesgos y desastres por El Niño | 6 % | 38 % | 51 % | 5 % |
-| Democracia e instituciones | 5 % | 39 % | 47 % | 9 % |
-| Reactivación de la inversión | 4 % | 36 % | 52 % | 8 % |
-| Reactivación de la economía | 4 % | 34 % | 58 % | 4 % |
-
-![Evaluación de avances del gobierno en cuatro áreas, con respuestas mucho, algo, nada y no sabe](/img/uploads/datum-100-dias-grafico-captura.png "Fragmento de la captura facilitada por Jesus Prospero del gráfico de Cuarto Poder / Datum. Recorte sin alterar textos ni porcentajes; se conserva la resolución disponible. La prevención de El Niño y la economía también están recogidas en la cobertura del canal.")
+![Cuadro propio de la evaluación del gobierno: 51 % no ve avances en prevención ante El Niño, 47 % en democracia e instituciones, 52 % en inversión y 58 % en economía](/img/uploads/datum-100-dias-cuadro-propio.png "Elaboración propia con datos de Datum, difundidos por Cuarto Poder. Porcentajes de encuestados; trabajo de campo del 28 al 30 de octubre de 2026.")
 
 ## Solo uno de cada diez califica bien al gobierno
 
@@ -85,6 +78,6 @@ El dato políticamente relevante es otro: frente a una administración que hizo 
 
 **Ficha técnica:** América Noticias informa que se entrevistó a 1.200 personas de 18 a 70 años, a escala nacional, entre el 28 y el 30 de octubre de 2026. Reporta un margen de error de ±2,8 puntos porcentuales y un nivel de confianza de 95 %. Son los datos técnicos publicados por el canal; el trabajo de campo precede a la difusión del balance.
 
-**Fuentes:** [América Noticias / Cuarto Poder](https://www.americatv.com.pe/noticias/actualidad/datum-47-califica-regular-gestion-keiko-fujimori-n524045) · [El Comercio](https://elcomercio.pe/politica/gobierno/primeros-100-dias-de-keiko-fujimori-47-califica-su-gestion-como-regular-noticia/). La tabla reproduce la lámina contenida en la captura proporcionada por el lector.
+**Fuentes:** [América Noticias / Cuarto Poder](https://www.americatv.com.pe/noticias/actualidad/datum-47-califica-regular-gestion-keiko-fujimori-n524045) · [El Comercio](https://elcomercio.pe/politica/gobierno/primeros-100-dias-de-keiko-fujimori-47-califica-su-gestion-como-regular-noticia/). El cuadro es de elaboración propia con datos de Datum difundidos por Cuarto Poder.
 
-**Imágenes:** la portada es un montaje con IA, basado en el retrato oficial de Keiko de octubre de 2026 y el [Palacio de Gobierno fotografiado por Diego Delso](https://commons.wikimedia.org/wiki/File:Palacio_de_Gobierno,_Lima,_Per%C3%BA,_2015-07-28,_DD_109.JPG), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). La composición y el recorte del edificio se distribuyen bajo esa licencia. El gráfico interior conserva los datos originales y no fue reconstruido con IA.
+**Imágenes:** la portada es un montaje con IA, basado en el retrato oficial de Keiko de octubre de 2026 y el [Palacio de Gobierno fotografiado por Diego Delso](https://commons.wikimedia.org/wiki/File:Palacio_de_Gobierno,_Lima,_Per%C3%BA,_2015-07-28,_DD_109.JPG), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). La composición y el recorte del edificio se distribuyen bajo esa licencia. El cuadro interior es de elaboración propia con datos de Datum; conserva los porcentajes de la encuesta y no utiliza una captura de redes sociales.
