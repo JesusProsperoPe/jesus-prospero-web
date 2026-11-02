@@ -50,6 +50,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("columnas", (api) =>
     api.getFilteredByTag("noticia").filter((n) => n.data.tipo !== "Noticia").sort((a, b) => b.date - a.date)
   );
+  // Notas con guion de carrusel para Instagram (campo "carrusel"), la más nueva primero
+  eleventyConfig.addCollection("carruseles", (api) =>
+    api.getFilteredByTag("noticia").filter((n) => (n.data.carrusel || []).length).sort((a, b) => b.date - a.date)
+  );
+  // Fotos dentro del texto de una nota: [{ url, pie }], para que el carrusel use las fotos reales
+  eleventyConfig.addFilter("fotosDeNota", (rutaArchivo) => {
+    const texto = require("node:fs").readFileSync(rutaArchivo, "utf8");
+    return [...texto.matchAll(/!\[[^\]]*\]\((\/img\/uploads\/[^\s)]+)(?:\s+"([^"]*)")?\)/g)]
+      .map(([, url, pie]) => ({ url, pie: pie || "" }));
+  });
   // Viñetas (humor gráfico), de la más nueva a la más antigua
   eleventyConfig.addCollection("vinetas", (api) =>
     api.getFilteredByTag("vineta").sort((a, b) => b.date - a.date)

@@ -1,0 +1,73 @@
+{# Guion completo de un carrusel de Instagram, listo para que ChatGPT lo diseñe.
+   Recibe "n" (la nota). Los slides de contenido salen del campo "carrusel" de la nota;
+   el slide "Sígueme" (6) y el cierre (último) se ponen solos. Es texto plano: todo va con "safe". #}
+{%- set contenido = n.data.carrusel -%}
+{%- set total = contenido.length + 2 -%}
+{%- set esColumna = n.data.tipo != "Noticia" -%}
+{%- set fotos = n.inputPath | fotosDeNota -%}
+CARRUSEL PARA INSTAGRAM: {{ n.data.title | safe }}
+Tipo: {{ "Columna" if esColumna else "Noticia" }} · Nota completa: {{ site.url }}{{ n.url }}
+
+INSTRUCCIONES PARA CHATGPT
+Diseña este carrusel de {{ total }} slides para Instagram con el estilo y el texto de abajo.
+No esperes materiales ni indicaciones: empieza ya por el slide 1 y sigue en orden, un slide por imagen, hasta el {{ total }}. Si el sistema te obliga a parar, continúa con el siguiente apenas te escriban "sigue".
+
+FORMATO
+- Todos los slides en vertical 4:5 (1080 x 1350 px).
+- Abajo a la izquierda va el número del slide en negrita (1/{{ total }}, 2/{{ total }}, etc.).
+- Abajo a la derecha va "@jesusprospero.pe" en negrita, en todos los slides.
+
+ESTILO VISUAL
+- Minimalista y de alto impacto, con estilo de portada de diario político.
+- Fondo blanco o gris muy claro. El slide 1 puede ir con foto de fondo oscura.
+- Titulares enormes en tipografía sans serif condensada y muy gruesa (tipo Anton, Bebas Neue o Druk).
+- Solo tres colores: negro, rojo intenso (#C8102E) y blanco.
+- Las palabras marcadas entre ** ** van en rojo (no escribas los asteriscos).
+- Las fotos de personas van en blanco y negro, recortadas y bien integradas al diseño.
+- Poco texto, mucho aire y jerarquía clara. Se tiene que entender en 3 segundos.
+- Copia el texto tal cual te lo doy. No agregues, no resumas, no cambies palabras y no inventes datos. Revisa tildes y eñes letra por letra.
+
+FOTOS
+- Usa solo fotos reales. Nunca inventes ni recrees la cara de una persona real.
+- Fotos reales de esta nota (puedes descargarlas desde estas direcciones):
+  - {{ site.url }}{{ n.data.imagen }} ({{ n.data.imagen_texto | safe }})
+{%- for f in fotos %}
+  - {{ site.url }}{{ f.url }}{% if f.pie %} ({{ f.pie | safe }}){% endif %}
+{%- endfor %}
+- Si un slide pide una foto que no puedes usar, resuélvelo solo con tipografía, sin inventar caras.
+
+TEXTO DE CADA SLIDE
+{% for s in contenido %}
+{%- if loop.index0 == 5 %}
+SLIDE 6 (pide que te sigan; mismo estilo, muy limpio)
+Titular: {{ "Explico **la política peruana** todos los días." if n.data.carrusel_politica != false else "Explico **el Perú** todos los días." }}
+Texto: Si hoy no me sigues, probablemente no veas mi siguiente publicación.
+**Sígueme.**
+{% endif %}
+SLIDE {{ loop.index + (1 if loop.index0 >= 5 else 0) }}{% if s.nota %} ({{ s.nota | safe }}){% endif %}
+Titular: {{ s.titular | safe }}
+{%- if s.texto %}
+Texto: {{ s.texto | trim | safe }}
+{%- endif %}
+{%- if s.foto %}
+Foto: {{ site.url }}{{ s.foto }}
+{%- endif %}
+{% endfor %}
+SLIDE {{ total }} (cierre y apoyo; diseño limpio y cálido, con el logo de Yape en su color morado como único color extra permitido)
+{%- if esColumna %}
+Bloque 1: Lee la columna completa en
+**www.jesusprospero.pe**
+Bloque 2: Si mis videos, columnas, análisis y trabajo informativo te aportan, puedes apoyarlo con un Yape.
+[logo de Yape]
+**951704335**
+Bloque 3 (grande): ¡GRACIAS POR TU APOYO!
+{%- else %}
+Bloque 1: LEE ESTA NOTA COMPLETA EN
+**www.jesusprospero.pe**
+Bloque 2: APOYA MI TRABAJO
+Si mis videos, análisis y trabajo informativo te aportan, puedes apoyarme con un Yape.
+[logo de Yape]
+**Yape 951 704 335**
+¡Todo suma!
+Bloque 3 (grande): ¡GRACIAS POR TU APOYO!
+{%- endif %}

@@ -10,6 +10,44 @@ imagen_fuente: "Fotografías facilitadas por Jesus Prospero para esta publicaci�
 tipo: Columna
 exclusivo: false
 corto: "kunze-literatura"
+carrusel:
+  - nota: "debe causar mucho impacto: titular gigante con la foto de Vásquez Kunze"
+    titular: 'Keiko premia al hombre que llamó al fujimorismo **"la perversión absoluta de la política"**'
+    texto: |
+      Se llama Ricardo Vásquez Kunze.
+      Ahora dirige la **Casa de la Literatura**.
+  - titular: '2011: **"No voy a votar por Keiko Fujimori"**'
+    texto: |
+      Lo dijo en una entrevista con La Mula.
+      Y llamó al fujimorismo **"la perversión absoluta de la política"**.
+  - titular: "Cinco años después... **candidato de Fuerza Popular**"
+    texto: |
+      Postuló al Congreso por el partido de Keiko.
+      En 2020, **otra vez**.
+  - titular: "Y ahora, **el premio**"
+    texto: |
+      Director de la Casa de la Literatura.
+      Lo nombró el gobierno de Keiko, desde el 31 de octubre de 2026.
+    foto: /img/uploads/kunze-resolucion.png
+  - titular: "El hombre que se quedó **mudo** en vivo"
+    texto: |
+      Noche electoral de 2016. TV Perú. Dan ganador a PPK.
+      Vásquez Kunze se quedó callado y se negó a comentar.
+      Ahora dirigirá una casa llena de libros. **Por fin un puesto a su medida.**
+  - titular: "Llega a una casa **herida**"
+    texto: |
+      En 2024, la Casa de la Literatura anunció un premio para Juan Acevedo, el creador de **El Cuy**.
+      Nunca se lo entregó.
+      Hubo críticas públicas por **censura**.
+    foto: /img/uploads/juan-acevedo-foto-real-2016.jpg
+  - titular: "Para curar la herida, mandaron a **un excandidato fujimorista**"
+    texto: Es como mandar a un zorro a calmar el gallinero.
+  - titular: "¿Vallejo? **Demasiado comunista.** ¿Arguedas? **Demasiado andino.**"
+    texto: |
+      ¿Blanca Varela? Demasiado mujer libre.
+      Vásquez Kunze, en cambio, **sí pasó el filtro**.
+  - titular: "Kafka escribió sobre un hombre que despertó convertido en insecto"
+    texto: Vásquez Kunze habló de la perversión de la política... y despertó convertido en **fujimorista**.
 ---
 Vargas Llosa empezó *Conversación en La Catedral* con una pregunta que todavía nos persigue. ¿En qué momento se había jodido el Perú? Si Zavalita viviera, tendría una respuesta nueva: el día en que la Casa de la Literatura sumó a su catálogo la metamorfosis de Ricardo Vásquez Kunze.
 

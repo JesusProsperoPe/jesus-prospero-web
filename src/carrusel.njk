@@ -1,0 +1,10 @@
+---
+pagination:
+  data: collections.carruseles
+  size: 1
+  alias: n
+permalink: "/carrusel/{{ n.data.enlaceCorto }}.txt"
+eleventyExcludeFromCollections: true
+---
+{# Un guion por nota: jesusprospero.pe/carrusel/<enlace corto>.txt #}
+{% include "carrusel-texto.njk" %}

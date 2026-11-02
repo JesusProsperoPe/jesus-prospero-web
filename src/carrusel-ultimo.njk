@@ -1,0 +1,11 @@
+---
+permalink: /carrusel.txt
+eleventyExcludeFromCollections: true
+---
+{# El carrusel de la nota más reciente: es la dirección fija que lee el Proyecto de ChatGPT #}
+{%- if collections.carruseles.length %}
+{%- set n = collections.carruseles[0] %}
+{% include "carrusel-texto.njk" %}
+{%- else -%}
+Todavía no hay ningún carrusel.
+{%- endif %}

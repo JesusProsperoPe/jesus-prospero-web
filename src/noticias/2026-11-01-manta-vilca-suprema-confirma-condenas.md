@@ -10,6 +10,48 @@ imagen_fuente: "Fuente: Wayka / Wikimedia Commons, CC BY 3.0. Captura auténtica
 tipo: Noticia
 exclusivo: false
 corto: "manta-vilca"
+carrusel_politica: false
+carrusel:
+  - nota: "debe causar mucho impacto: titular gigante sobre la foto de la base de Manta, fondo oscuro"
+    titular: "Militares que **violaron** a mujeres y adolescentes: la Suprema confirma sus condenas"
+    texto: |
+      Caso Manta y Vilca. Más de 40 años después.
+      Y la mayoría **sigue sin ser capturada**.
+  - titular: "1984: el Ejército **ocupó el colegio** del pueblo"
+    texto: |
+      Instaló bases en Manta y Vilca, en Huancavelica, para enfrentar a Sendero Luminoso.
+      En Vilca, la posta de salud. En Manta, **el colegio**.
+  - titular: "Adolescentes **engañadas u obligadas** a entrar a la base"
+    texto: |
+      Las agresiones también ocurrieron en sus casas.
+      Hubo embarazos y **maternidades forzadas**.
+      Se registraron 32 hijos de militares que no fueron reconocidos.
+  - titular: "**Lesa humanidad**"
+    texto: |
+      Así calificó la Corte Suprema estos crímenes, el 30 de octubre de 2026.
+      Y rechazó que fueran relaciones consentidas.
+  - titular: "Las **condenas**"
+    texto: |
+      Sabino Valentín Rutti: **12 años**.
+      Arturo Simarra, jefe de la base de Manta: **10 años**.
+      Otros cuatro exmilitares: **10 años**.
+      Pedro Pérez López: **6 años**.
+  - titular: "Condenados... pero **sin capturar**"
+    texto: |
+      Según el abogado Carlos Rivera, del IDL, solo **2 de los condenados** habían sido detenidos.
+      Las penas recién empiezan a contar cuando los capturen.
+  - titular: "La Suprema le dijo **NO** a la amnistía"
+    texto: |
+      No aplicó en este caso las leyes 32107 y 32419.
+      Y llamó a la 32419 lo que es: una ley de **autoamnistía**.
+    foto: /img/uploads/manta-fallo-amnistia.png
+  - titular: "Un juez supremo quería que **prescribiera**"
+    texto: |
+      Juan Carlos Checkley Soria votó contra la mayoría.
+      Pidió aplicar la Ley 32107 para declarar prescrita la acción penal.
+  - titular: "40 años esperando justicia. **¿Cuántos más esperando las capturas?**"
+    texto: |
+      Y el riesgo sigue: los condenados podrían pedir que se les aplique la **ley de amnistía**.
 ---
 
 La **Sala Penal Transitoria de la Corte Suprema confirmó las condenas contra siete exmilitares del Ejército** por las violaciones sexuales cometidas contra mujeres y adolescentes en el caso Manta y Vilca, en Huancavelica, durante el conflicto armado interno. El tribunal calificó los hechos como crímenes de lesa humanidad.
