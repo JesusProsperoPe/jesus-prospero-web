@@ -10,6 +10,42 @@ imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio 
 tipo: Columna
 exclusivo: false
 corto: "facultades-urgencia"
+carrusel:
+  - nota: "debe causar mucho impacto: titular gigante con la foto de Keiko Fujimori"
+    titular: "Exigieron poderes con **urgencia**... y ahora piden **más tiempo**"
+    texto: |
+      El gobierno de Keiko Fujimori ya tiene las facultades.
+      Los decretos, **todavía no**.
+  - titular: "**90 días** para legislar"
+    texto: |
+      El Congreso le dio facultades sobre seguridad y El Niño.
+      La ley se publicó el 22 de octubre.
+    foto: /img/uploads/ley-32743-cabecera.png
+  - titular: "Primero **10 días**. Después, **20**."
+    texto: |
+      Así fue cambiando Galarreta el plazo para las primeras normas.
+      Todavía no entrega los decretos, pero **ya amplió el plazo de entrega**.
+  - titular: "Vinelli: **dos o tres semanas** más"
+    texto: |
+      Dice que su sector tiene unas siete propuestas preparadas.
+      ¿Preparadas? En el Perú, eso significa que **todavía están en toalla**.
+  - titular: "Primero hay que **encontrar al Consejo de Ministros**"
+    texto: |
+      Según La República, Arturo Alegría explicó que los decretos deben aprobarse en Consejo de Ministros.
+      Y para eso tiene que haber una sesión.
+      Lo siguiente será **localizar a los ministros**.
+  - titular: "En el Congreso, cada día de espera era **insoportable**"
+    texto: |
+      Ahora que está en Palacio, la demora tiene procedimientos y explicaciones.
+      **La burocracia es una desgracia hasta que te toca administrarla.**
+  - titular: "La extorsión **no se asusta** con El Peruano"
+    texto: |
+      Publicar decretos es solo el comienzo.
+      Hay que aplicarlos y **mostrar resultados**.
+  - titular: "Las familias que esperan las lluvias necesitan algo más **impermeable**"
+    texto: Algo más que una exposición de motivos.
+  - titular: "El país puso el pollo y **pagó el carbón**"
+    texto: Y ahora escucha al cocinero explicar por qué **todavía no prende**.
 ---
 
 Hay un momento en toda pollada en que aparece un señor a exigir que le entreguen la parrilla porque nadie sabe cocinar. Critica el carbón, apura a las señoras y explica que con él los pollos ya estarían saliendo. Le dan la pinza. Mira alrededor. Pregunta dónde está el pollo. **El gobierno de Keiko Fujimori acaba de recibir la pinza.**
