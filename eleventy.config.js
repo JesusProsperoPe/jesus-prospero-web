@@ -55,11 +55,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("carruseles", (api) =>
     api.getFilteredByTag("noticia").filter((n) => (n.data.carrusel || []).length).sort((a, b) => b.date - a.date)
   );
-  // Fotos dentro del texto de una nota: [{ url, pie }], para que el carrusel use las fotos reales
-  eleventyConfig.addFilter("fotosDeNota", (rutaArchivo) => {
-    const texto = require("node:fs").readFileSync(rutaArchivo, "utf8");
-    return [...texto.matchAll(/!\[[^\]]*\]\((\/img\/uploads\/[^\s)]+)(?:\s+"([^"]*)")?\)/g)]
-      .map(([, url, pie]) => ({ url, pie: pie || "" }));
+  // Todas las fotos que usa el carrusel de una nota, sin repetir: [{ archivo, url, pie }].
+  // Portada, fotos del texto, fotos propias de cada slide y, siempre, la foto de Jesus y su QR de Yape.
+  eleventyConfig.addFilter("fotosCarrusel", (n) => {
+    const texto = require("node:fs").readFileSync(n.inputPath, "utf8");
+    const lista = [{ url: n.data.imagen, pie: n.data.imagen_texto }];
+    for (const [, url, pie] of texto.matchAll(/!\[[^\]]*\]\((\/img\/uploads\/[^\s)]+)(?:\s+"([^"]*)")?\)/g)) lista.push({ url, pie });
+    for (const s of n.data.carrusel || []) if (s.foto) lista.push({ url: s.foto, pie: s.foto_texto });
+    lista.push({ url: "/img/jesus-prospero.jpg", pie: "foto de perfil de Jesus Prospero" });
+    lista.push({ url: "/img/yape-qr.jpg", pie: "código QR de Yape de Jesus Prospero; reprodúcelo exacto, sin modificar" });
+    const vistos = new Set();
+    return lista.filter((f) => f.url && !vistos.has(f.url) && vistos.add(f.url))
+      .map((f) => ({ archivo: f.url.split("/").pop(), url: f.url, pie: f.pie || "" }));
   });
   // Viñetas (humor gráfico), de la más nueva a la más antigua
   eleventyConfig.addCollection("vinetas", (api) =>

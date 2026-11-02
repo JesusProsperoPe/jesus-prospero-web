@@ -1,67 +1,68 @@
 {# Guion completo de un carrusel de Instagram, listo para que ChatGPT lo diseñe.
    Recibe "n" (la nota). Los slides de contenido salen del campo "carrusel" de la nota;
-   el slide "Sígueme" (6) y el cierre (último) se ponen solos. Es texto plano: todo va con "safe". #}
+   el slide "Sígueme" (6) y el cierre (último) se ponen solos. Es texto plano: todo va con "safe".
+   Las fotos se nombran por archivo porque Jesus se las adjunta a ChatGPT
+   (scripts/preparar-carrusel.ps1 arma esa carpeta con todo lo que se menciona aquí). #}
 {%- set contenido = n.data.carrusel -%}
 {%- set total = contenido.length + 2 -%}
 {%- set esColumna = n.data.tipo != "Noticia" -%}
-{%- set fotos = n.inputPath | fotosDeNota -%}
 CARRUSEL PARA INSTAGRAM: {{ n.data.title | safe }}
 Tipo: {{ "Columna" if esColumna else "Noticia" }} · Nota completa: {{ site.url }}{{ n.url }}
 
 INSTRUCCIONES PARA CHATGPT
-Diseña este carrusel de {{ total }} slides para Instagram con el estilo y el texto de abajo.
-No esperes materiales ni indicaciones: empieza ya por el slide 1, un slide por imagen.
-MUY IMPORTANTE: en la misma respuesta, apenas termines una imagen genera la siguiente, sin escribir nada entre ellas y sin preguntar si sigues, hasta tener las {{ total }}. Si aun así tienes que parar, cada vez que te escriban "sigue" generas todos los slides que falten, en orden, sin repetir ninguno.
+Diseña este carrusel de {{ total }} slides para Instagram con el estilo y el texto de abajo. No esperes materiales ni indicaciones: empieza ya.
+MUY IMPORTANTE: cada slide es UNA imagen separada. Nunca juntes varios slides en una sola imagen, ni hagas un collage, ni una vista previa de todos. En cada respuesta genera solo el siguiente slide que falte (empieza por el 1). Cuando te escriban "sigue", haces el siguiente, sin repetir ninguno, hasta el {{ total }}.
 
 FORMATO
-- Todos los slides en vertical 4:5 (1080 x 1350 px).
+- Cada slide en vertical 4:5 (1080 x 1350 px).
 - Abajo a la izquierda va el número del slide en negrita (1/{{ total }}, 2/{{ total }}, etc.).
 - Abajo a la derecha va "@jesusprospero.pe" en negrita, en todos los slides.
+{%- if esColumna %}
+- Desde el slide 2 hasta el {{ total - 1 }}, arriba a la izquierda va una firma pequeña: la foto de Jesus Prospero en un círculo (archivo jesus-prospero.jpg, a color) y a su lado el texto "COLUMNA | JESUS PROSPERO".
+{%- endif %}
 
 ESTILO VISUAL
 - Usa tu generador de imágenes para crear cada slide como un diseño gráfico profesional. NO armes los slides con código, HTML ni plantillas de texto simple.
 - Alto impacto, con estilo de portada de diario político o de afiche de campaña: nada de slides vacíos con solo texto.
 - Titulares GIGANTES en MAYÚSCULAS, en tipografía sans serif condensada y muy gruesa (tipo Anton, Bebas Neue o Druk), que ocupen buena parte del slide.
-- Slide 1: foto grande del protagonista sobre un fondo oscuro (por ejemplo, el hemiciclo o el lugar del tema en blanco y negro), titular blanco enorme abajo y la palabra clave en rojo.
-- Los demás slides: fondo blanco o gris muy claro, con la foto del protagonista grande y recortada (sin fondo) casi siempre, y recursos gráficos como comillas gigantes para las citas, íconos circulares negros junto a cada dato, recuadros rojos detrás de una frase clave, logos de partidos o instituciones, papel rasgado o franjas negras con texto blanco.
+- Slide 1: foto grande del protagonista sobre un fondo oscuro, titular blanco enorme abajo y la palabra clave en rojo.
+- Los demás slides: fondo blanco o gris muy claro, con la foto indicada grande y recortada, y recursos gráficos como comillas gigantes para las citas, íconos circulares negros junto a cada dato, recuadros rojos detrás de una frase clave, logos de partidos o instituciones, papel rasgado o franjas negras con texto blanco.
 - Solo tres colores: negro, rojo intenso (#C8102E) y blanco.
 - Las palabras marcadas entre ** ** van en rojo (no escribas los asteriscos).
-- Las fotos de personas van en blanco y negro, recortadas y bien integradas al diseño.
 - Poco texto, mucho aire y jerarquía clara. Se tiene que entender en 3 segundos.
 - Copia el texto tal cual te lo doy. No agregues, no resumas, no cambies palabras y no inventes datos. Revisa tildes y eñes letra por letra.
 
-FOTOS
-- Basa a cada persona en sus fotos reales (las de abajo o las que te adjunten). No le inventes una cara distinta.
-- Fotos reales de esta nota (puedes descargarlas desde estas direcciones):
-  - {{ site.url }}{{ n.data.imagen }} ({{ n.data.imagen_texto | safe }})
-{%- for f in fotos %}
-  - {{ site.url }}{{ f.url }}{% if f.pie %} ({{ f.pie | safe }}){% endif %}
+FOTOS (te las adjunto; si no, están en estas direcciones)
+- CADA SLIDE LLEVA AL MENOS UNA FOTO: la que se indica en cada slide.
+- Usa las fotos reales adjuntas. Las personas van en blanco y negro (menos la foto de Jesus Prospero, que va a color) y deben parecerse a su foto real: no inventes caras distintas.
+- Archivos:
+{%- for f in n | fotosCarrusel %}
+  - {{ f.archivo }}{% if f.pie %} ({{ f.pie | safe }}){% endif %} {{ site.url }}{{ f.url }}
 {%- endfor %}
-- Si un slide pide una foto que no puedes usar, resuélvelo solo con tipografía, sin inventar caras.
 
 TEXTO DE CADA SLIDE
 {% for s in contenido %}
 {%- if loop.index0 == 5 %}
 SLIDE 6 (pide que te sigan; mismo estilo, muy limpio)
+Foto: jesus-prospero.jpg, a color, en un círculo grande como foto de perfil de Instagram, junto a "@jesusprospero.pe".
 Titular: {{ "Explico **la política peruana** todos los días." if n.data.carrusel_politica != false else "Explico **el Perú** todos los días." }}
 Texto: Si hoy no me sigues, probablemente no veas mi siguiente publicación.
 **Sígueme.**
 {% endif %}
 SLIDE {{ loop.index + (1 if loop.index0 >= 5 else 0) }}{% if s.nota %} ({{ s.nota | safe }}){% endif %}
+Foto: {{ (s.foto or n.data.imagen) | replace("/img/uploads/", "") }}
 Titular: {{ s.titular | safe }}
 {%- if s.texto %}
 Texto: {{ s.texto | trim | safe }}
 {%- endif %}
-{%- if s.foto %}
-Foto: {{ site.url }}{{ s.foto }}
-{%- endif %}
 {% endfor %}
 SLIDE {{ total }} (cierre y apoyo; diseño limpio y cálido, con el logo de Yape en su color morado como único color extra permitido)
+Fotos: jesus-prospero.jpg (a color, en círculo) y el código QR de yape-qr.jpg, grande y nítido para que se pueda escanear.
 {%- if esColumna %}
 Bloque 1: Lee la columna completa en
 **www.jesusprospero.pe**
 Bloque 2: Si mis videos, columnas, análisis y trabajo informativo te aportan, puedes apoyarlo con un Yape.
-[logo de Yape]
+[logo de Yape] [código QR]
 **951704335**
 Bloque 3 (grande): ¡GRACIAS POR TU APOYO!
 {%- else %}
@@ -69,7 +70,7 @@ Bloque 1: LEE ESTA NOTA COMPLETA EN
 **www.jesusprospero.pe**
 Bloque 2: APOYA MI TRABAJO
 Si mis videos, análisis y trabajo informativo te aportan, puedes apoyarme con un Yape.
-[logo de Yape]
+[logo de Yape] [código QR]
 **Yape 951 704 335**
 ¡Todo suma!
 Bloque 3 (grande): ¡GRACIAS POR TU APOYO!
