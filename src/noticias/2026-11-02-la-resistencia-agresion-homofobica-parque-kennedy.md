@@ -41,10 +41,11 @@ carrusel:
     texto: "Y le ordenó **terapia psicológica obligatoria**."
     foto: /img/uploads/carrusel-palacio-de-justicia.jpg
     foto_texto: "Palacio de Justicia, Lima. Felipe Restrepo Acosta / Wikimedia Commons, CC BY-SA 4.0."
-  - titular: "Discriminar por orientación sexual: **hasta 4 años de cárcel**"
-    texto: "Miraflores tiene una ordenanza contra la discriminación desde 2015."
-    foto: /img/uploads/carrusel-municipalidad-miraflores.jpg
-    foto_texto: "Palacio Municipal de Miraflores. Municipalidad de Miraflores / Wikimedia Commons, CC BY 2.0."
+  - nota: "Mostrar la captura de su publicación de Facebook."
+    titular: "Su descargo: **\"lo volvería a hacer\"**"
+    texto: "Llamó a la pareja \"un par de **invertidos enfermos mentales**\"."
+    foto: /img/uploads/subiria-descargo-facebook.jpg
+    foto_texto: "Descargo publicado por Álvaro Subiria en Facebook. Captura de pantalla."
   - titular: "Es el **segundo ataque homofóbico** en Miraflores en tres semanas"
     texto: "¿Hará algo la Municipalidad **o volverá a callar**?"
     foto: /img/uploads/carrusel-municipalidad-miraflores.jpg
@@ -63,13 +64,29 @@ Este medio identificó al hombre del video como **Álvaro Francisco Subiria Aleg
 
 En su perfil de Facebook, Subiria se muestra como seguidor de figuras de la derecha y la ultraderecha peruana: aparece en selfis con el abogado Lucas Ghersi, el diputado Frank Krklec y la excongresista Adriana Tudela. **También se fotografió junto a otros miembros de La Resistencia haciendo el saludo nazi.**
 
-![Grupo de integrantes de La Resistencia con el brazo en alto haciendo el saludo nazi](/img/uploads/subiria-saludo-nazi.jpg "Álvaro Subiria junto a otros miembros de La Resistencia haciendo el saludo nazi. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
+![Grupo de integrantes de La Resistencia con el brazo en alto haciendo el saludo nazi](/img/uploads/subiria-saludo-nazi.jpg "Álvaro Subiria (de polera verde, al centro, el más alto, con la mano más arriba) junto a otros miembros de La Resistencia haciendo el saludo nazi. Foto difundida en redes sociales, con calidad mejorada con inteligencia artificial.")
 
 ![Selfi de Álvaro Subiria con Lucas Ghersi](/img/uploads/subiria-lucas-ghersi.jpg "Álvaro Subiria con el abogado Lucas Ghersi. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
 
 ![Selfi de Álvaro Subiria con Frank Krklec](/img/uploads/subiria-frank-krklec.jpg "Frank Krklec y Álvaro Subiria. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
 
 ![Álvaro Subiria con Adriana Tudela en una marcha](/img/uploads/subiria-adriana-tudela.jpg "Álvaro Subiria con Adriana Tudela en una marcha. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
+
+## Sus descargos lo dejan peor
+
+Tras la difusión del video, Subiria publicó un descargo en Facebook. Lejos de aclarar lo ocurrido, el texto confirma lo esencial de la denuncia.
+
+![Captura de la publicación de Álvaro Subiría en Facebook](/img/uploads/subiria-descargo-facebook.jpg "Descargo publicado por Álvaro Subiria en su cuenta de Facebook. Captura de pantalla.")
+
+**Primero, admite que encaró a la pareja por ser gay.** Dice que les pidió "que no se pongan a besar delante de niños y señoras". Ese reclamo no se le hace a una pareja heterosexual que se besa en un parque: exigirle a dos personas algo distinto solo por su orientación sexual es, precisamente, un trato discriminatorio.
+
+**Segundo, se contradice en el mismo párrafo.** Empieza diciendo que no tiene "nada en contra de su orientación" y termina llamándolos "un par de invertidos enfermos mentales". La Organización Mundial de la Salud retiró la homosexualidad de su lista de enfermedades mentales en 1990.
+
+**Tercero, no muestra ningún arrepentimiento.** Escribe que no se arrepiente "por haberles increpado" y que "lo volvería a hacer". Es decir, reconoce el ataque verbal y anuncia que puede repetirlo.
+
+**Cuarto, niega algo de lo que nadie lo acusó.** Rechaza haber golpeado "a un par de ancianos", pero lo que denuncia la autora del video es un ataque verbal, no golpes. Sobre lo que sí muestra el video —sus gritos a la joven que defendió a los padres, incluido el "tarada"— no dice nada.
+
+Cierra con los hashtags #OrgulloHetero, #VaronYMujer, #Provida, #Profamilia y #NoALasAgendasProgres.
 
 No es la primera vez que su nombre aparece vinculado a hechos de violencia.
 
