@@ -19,5 +19,8 @@ foreach ($r in $rutas) {
   $origen = Join-Path $raiz ("src" + $r.Replace('/', '\'))
   if (Test-Path $origen) { Copy-Item $origen $destino -Force } else { Write-Warning "Falta la foto $r" }
 }
+# Las instrucciones generales del Proyecto de ChatGPT también quedan en la carpeta carruseles
+$instrucciones = Join-Path (Split-Path $raiz -Parent) "para-codex\INSTRUCCIONES-PROYECTO-CARRUSELES-CHATGPT.txt"
+if (Test-Path $instrucciones) { Copy-Item $instrucciones (Join-Path (Split-Path $destino -Parent) "INSTRUCCIONES.txt") -Force }
 Write-Output "Carpeta lista: $destino"
 Get-ChildItem $destino -Name

@@ -13,53 +13,16 @@ corto: "facultades-urgencia"
 carrusel:
   - nota: "debe causar mucho impacto: titular gigante con la foto de Keiko Fujimori"
     titular: "Exigieron poderes con **urgencia**... y ahora piden **más tiempo**"
-    foto: /img/uploads/keiko-foto-real-portada.jpg
     texto: |
       El gobierno de Keiko Fujimori ya tiene las facultades.
       Los decretos, **todavía no**.
-  - titular: "**90 días** para legislar"
-    texto: |
-      El Congreso le dio facultades sobre seguridad y El Niño.
-      La ley se publicó el 22 de octubre.
-    foto: /img/uploads/ley-32743-cabecera.png
-  - titular: "Primero **10 días**. Después, **20**."
-    texto: |
-      Así fue cambiando Galarreta el plazo para las primeras normas.
-      Todavía no entrega los decretos, pero **ya amplió el plazo de entrega**.
-    foto: /img/uploads/carrusel-galarreta-2019.jpg
-    foto_texto: "Luis Galarreta, hoy premier. Foto de 2019: Oficina de la Presidencia de Taiwán / Wikimedia Commons (CC BY 2.0)"
-  - titular: "Vinelli: **dos o tres semanas** más"
-    texto: |
-      Dice que su sector tiene unas siete propuestas preparadas.
-      ¿Preparadas? En el Perú, eso significa que **todavía están en toalla**.
-    foto: /img/uploads/carrusel-palacio-de-gobierno.jpg
-    foto_texto: "Palacio de Gobierno de Lima (no hay foto libre del ministro Vinelli: no inventes su cara). Foto: Diego Delso / Wikimedia Commons (CC BY-SA 4.0)"
-  - titular: "Primero hay que **encontrar al Consejo de Ministros**"
-    texto: |
-      Según La República, Arturo Alegría explicó que los decretos deben aprobarse en Consejo de Ministros.
-      Y para eso tiene que haber una sesión.
-      Lo siguiente será **localizar a los ministros**.
-    foto: /img/uploads/carrusel-alegria-2024.jpg
-    foto_texto: "Arturo Alegría, diputado de Fuerza Popular. Foto de 2024: Ministerio de Defensa del Perú / Wikimedia Commons (CC BY 2.0)"
-  - titular: "En el Congreso, cada día de espera era **insoportable**"
-    texto: |
-      Ahora que está en Palacio, la demora tiene procedimientos y explicaciones.
-      **La burocracia es una desgracia hasta que te toca administrarla.**
-    foto: /img/uploads/carrusel-hemiciclo-congreso.jpg
-    foto_texto: "Hemiciclo del Congreso del Perú. Foto: GORE Callao / Wikimedia Commons (dominio público)"
-  - titular: "La extorsión **no se asusta** con El Peruano"
-    texto: |
-      Publicar decretos es solo el comienzo.
-      Hay que aplicarlos y **mostrar resultados**.
-    foto: /img/uploads/carrusel-patrullaje-lima.jpg
-    foto_texto: "Policía en la Costa Verde de Lima. Foto: Ministerio de Defensa del Perú / Wikimedia Commons (CC BY 2.0)"
-  - titular: "Las familias que esperan las lluvias necesitan algo más **impermeable**"
-    texto: Algo más que una exposición de motivos.
-    foto: /img/uploads/carrusel-huaico-chosica.jpg
-    foto_texto: "Damnificados por un huaico en Chosica. Foto: Ministerio de Defensa del Perú / Wikimedia Commons (CC BY 2.0)"
-  - titular: "El país puso el pollo y **pagó el carbón**"
-    texto: Y ahora escucha al cocinero explicar por qué **todavía no prende**.
-    foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
+    foto: /img/uploads/keiko-foto-real-portada.jpg
+  - parrafo: |
+      Hay un momento en toda pollada en que aparece un señor a exigir que le entreguen la parrilla porque nadie sabe cocinar. Critica el carbón, apura a las señoras y explica que con él los pollos ya estarían saliendo. Le dan la pinza. Mira alrededor. Pregunta dónde está el pollo. **El gobierno de Keiko Fujimori acaba de recibir la pinza.**
+  - parrafo: |
+      Galarreta habló de unos diez días para las primeras normas y después de un máximo de veinte. Hay que reconocerle capacidad de gestión. **Todavía no entrega los decretos, pero ya consiguió ampliar el plazo de entrega.**
+  - parrafo: |
+      El Gobierno ya tiene las facultades. Ojalá las use bien y pronto. **Porque el país puso el pollo, pagó el carbón y encima tiene que escuchar al cocinero explicar por qué todavía no prende.**
 ---
 
 Hay un momento en toda pollada en que aparece un señor a exigir que le entreguen la parrilla porque nadie sabe cocinar. Critica el carbón, apura a las señoras y explica que con él los pollos ya estarían saliendo. Le dan la pinza. Mira alrededor. Pregunta dónde está el pollo. **El gobierno de Keiko Fujimori acaba de recibir la pinza.**
