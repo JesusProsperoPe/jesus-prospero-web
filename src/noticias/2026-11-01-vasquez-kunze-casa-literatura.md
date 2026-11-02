@@ -17,11 +17,11 @@ carrusel:
       Se llama Ricardo Vásquez Kunze.
       Ahora dirige la **Casa de la Literatura**.
   - parrafo: |
-      En 2011, en una entrevista con Claudia Cisneros para La Mula, Vásquez Kunze dijo **"no voy a votar por Keiko Fujimori"**. Calificó al fujimorismo como **"la perversión absoluta de la política"** y cuestionó la corrupción de funcionarios e instituciones durante el régimen de Alberto Fujimori.
+      Vargas Llosa empezó Conversación en La Catedral con una pregunta que todavía nos persigue. ¿En qué momento se había jodido el Perú? Si Zavalita viviera, tendría una respuesta nueva: el día en que la Casa de la Literatura sumó a su catálogo la metamorfosis de Ricardo Vásquez Kunze.
   - parrafo: |
-      Cinco años después postuló al Congreso por Fuerza Popular. En 2020 volvió a postular. Ahora recibe un cargo de ese mismo gobierno. Kafka escribió sobre un hombre que despertó convertido en insecto. **Vásquez Kunze habló sobre la perversión de la política y despertó convertido en fujimorista.**
+      Lo mejor está en el primer capítulo. En 2011, en una entrevista con Claudia Cisneros para La Mula, Vásquez Kunze dijo **"no voy a votar por Keiko Fujimori"**. Calificó al fujimorismo como **"la perversión absoluta de la política"** y cuestionó la corrupción de funcionarios e instituciones durante el régimen de Alberto Fujimori. Las declaraciones fueron recogidas por La República en 2019. Lo dijo con una claridad que ya quisieran muchos novelistas.
   - parrafo: |
-      Vásquez Kunze podrá discutir lo que dijo en 2011. Lo que no puede hacer es pedirnos que olvidemos quién lo dijo. Al final, **la metamorfosis no estaba en la biblioteca. Estaba en la dirección.**
+      Cinco años después postuló al Congreso por Fuerza Popular. En 2020 volvió a postular. Ahora recibe un cargo de ese mismo gobierno. Kafka escribió sobre un hombre que despertó convertido en insecto. Vásquez Kunze habló sobre la perversión de la política y despertó convertido en fujimorista.
 ---
 Vargas Llosa empezó *Conversación en La Catedral* con una pregunta que todavía nos persigue. ¿En qué momento se había jodido el Perú? Si Zavalita viviera, tendría una respuesta nueva: el día en que la Casa de la Literatura sumó a su catálogo la metamorfosis de Ricardo Vásquez Kunze.
 
