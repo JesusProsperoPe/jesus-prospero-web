@@ -72,21 +72,13 @@ En su perfil de Facebook, Subiria se muestra como seguidor de figuras de la dere
 
 ![Álvaro Subiria con Adriana Tudela en una marcha](/img/uploads/subiria-adriana-tudela.jpg "Álvaro Subiria con Adriana Tudela en una marcha. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
 
-## Sus descargos lo dejan peor
+## Sus descargos
 
-Tras la difusión del video, Subiria publicó un descargo en Facebook. Lejos de aclarar lo ocurrido, el texto confirma lo esencial de la denuncia.
+Tras la difusión del video, Subiria publicó un descargo en Facebook. Admite que encaró a la pareja para pedirle "que no se pongan a besar delante de niños y señoras", un reclamo que no se le hace a una pareja heterosexual, y dice no tener "nada en contra de su orientación", pero en el mismo texto los llama **"un par de invertidos enfermos mentales"**. La OMS retiró la homosexualidad de su lista de enfermedades mentales en 1990.
 
 ![Captura de la publicación de Álvaro Subiría en Facebook](/img/uploads/subiria-descargo-facebook.jpg "Descargo publicado por Álvaro Subiria en su cuenta de Facebook. Captura de pantalla.")
 
-**Primero, admite que encaró a la pareja por ser gay.** Dice que les pidió "que no se pongan a besar delante de niños y señoras". Ese reclamo no se le hace a una pareja heterosexual que se besa en un parque: exigirle a dos personas algo distinto solo por su orientación sexual es, precisamente, un trato discriminatorio.
-
-**Segundo, se contradice en el mismo párrafo.** Empieza diciendo que no tiene "nada en contra de su orientación" y termina llamándolos "un par de invertidos enfermos mentales". La Organización Mundial de la Salud retiró la homosexualidad de su lista de enfermedades mentales en 1990.
-
-**Tercero, no muestra ningún arrepentimiento.** Escribe que no se arrepiente "por haberles increpado" y que "lo volvería a hacer". Es decir, reconoce el ataque verbal y anuncia que puede repetirlo.
-
-**Cuarto, niega algo de lo que nadie lo acusó.** Rechaza haber golpeado "a un par de ancianos", pero lo que denuncia la autora del video es un ataque verbal, no golpes. Sobre lo que sí muestra el video —sus gritos a la joven que defendió a los padres, incluido el "tarada"— no dice nada.
-
-Cierra con los hashtags #OrgulloHetero, #VaronYMujer, #Provida, #Profamilia y #NoALasAgendasProgres.
+Además, niega haber golpeado "a un par de ancianos", algo de lo que nadie lo acusó, y no dice nada de sus gritos a la joven que defendió a los padres. Cierra sin arrepentimiento: **no se arrepiente "por haberles increpado" y "lo volvería a hacer"**.
 
 No es la primera vez que su nombre aparece vinculado a hechos de violencia.
 
