@@ -1,9 +1,9 @@
 ---
-title: "Keiko prometió orden, pero el 68 % de peruanos no ve avances contra la delincuencia"
-titulo_seo: "Keiko prometió orden: 68 % no ve avances contra la delincuencia"
+title: "Encuesta Datum: solo el 10 % califica como buena la gestión de Keiko"
+titulo_seo: "Encuesta Datum: solo el 10 % califica como buena la gestión de Keiko"
 temas: ["Keiko Fujimori", "Datum", "Seguridad ciudadana", "Encuestas"]
 date: 2026-11-02T00:27:12-05:00
-resumen: "El balance ciudadano golpea la promesa de orden del gobierno fujimorista: 68 % no percibe avances en seguridad, 60 % en empleo y 58 % en economía. Solo 10 % califica la gestión como buena."
+resumen: "Solo uno de cada diez encuestados evalúa favorablemente la gestión: 47 % la considera regular y 38 %, mala. Además, 68 % no percibe avances contra la delincuencia."
 imagen: /img/uploads/datum-keiko-100-dias-portada-4k.jpg
 imagen_texto: "Keiko Fujimori sobre la fachada de Palacio de Gobierno. Fotomontaje editorial referencial; no representa un acto o visita documentados."
 imagen_fuente: "Fotomontaje editorial con IA basado en fotografías reales. Referencias: Ministerio de la Producción, dominio público; Diego Delso, delso.photo / Wikimedia Commons, CC BY-SA 4.0. Composición bajo CC BY-SA 4.0. Exportación 3840 × 2160."
@@ -12,10 +12,10 @@ exclusivo: false
 corto: "datum-100-dias"
 carrusel:
   - nota: "Portada de impacto con fotografía real de Keiko; no usar el montaje como prueba documental."
-    titular: "Keiko prometió orden. **68 % no ve ningún avance**"
+    titular: "Encuesta Datum: **solo el 10 %** califica como buena la gestión de Keiko"
     texto: |
-      Contra la delincuencia.
-      El balance de los 100 días, según Datum.
+      47 % la considera regular.
+      38 %, mala.
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Keiko, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público."
   - titular: "Empleo: **60 % no ve avances**"
