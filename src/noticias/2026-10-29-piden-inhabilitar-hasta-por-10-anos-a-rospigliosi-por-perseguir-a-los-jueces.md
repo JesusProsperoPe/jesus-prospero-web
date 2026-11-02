@@ -4,9 +4,9 @@ titulo_seo: "Denuncia constitucional contra Fernando Rospigliosi: piden inhabili
 temas: ["Fernando Rospigliosi", "Leyes de impunidad", "Poder Judicial", "Senado", "Fuerza Popular"]
 date: 2026-10-29T12:50:00.000-05:00
 resumen: "Mirtha Vásquez, Jaime Quito e Indira Huilca lo denunciaron ante la Comisión de Acusaciones Constitucionales. El hombre que quería barrer el Poder Judicial ahora tiene que explicar para qué compró tantas escobas."
-imagen: "/img/uploads/rospigliosi-foto-real-2026-exportacion-4k.jpg"
-imagen_texto: "Fernando Rospigliosi, en el centro, durante una actividad en el Congreso el 11 de junio de 2026. Fotografía de archivo."
-imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte y compresión. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
+imagen: "/img/uploads/rospigliosi-denuncia-restaurada-4k.jpg"
+imagen_texto: "Portada editorial anterior sobre la denuncia contra Fernando Rospigliosi. Montaje referencial; no es una fotografía conjunta."
+imagen_fuente: "Composición editorial de archivo recuperada a pedido del autor. Montaje con IA (referencial); exportación 3840 × 2160."
 tipo: Columna
 exclusivo: true
 ---
@@ -32,4 +32,4 @@ Hay un detalle literario que completa la historia. En el año 2000, Rospigliosi 
 Rospigliosi lleva un año diciendo que hay que barrer el Poder Judicial. **Tres parlamentarios acaban de recordarle que una escoba siempre se puede voltear.**
 
 
-**Procedencia de la portada:** [Fotografía del acto del 11 de junio de 2026](https://commons.wikimedia.org/wiki/File:D%C3%ADa_Nacional_del_Vino_Peruano_se_celebr%C3%B3_en_el_Congreso_de_la_Rep%C3%BAblica_(55329360858).jpg). No corresponde a la presentación de la denuncia constitucional.
+**Procedencia de la portada:** Se recupera la composición anterior aprobada por Jesus, conservando su diseño. Composición editorial de archivo recuperada a pedido del autor. Montaje con IA (referencial); exportación 3840 × 2160. No es un registro documental de una escena conjunta.

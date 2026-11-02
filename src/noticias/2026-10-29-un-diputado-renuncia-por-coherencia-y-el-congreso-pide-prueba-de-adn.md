@@ -4,9 +4,9 @@ titulo_seo: "César Holguín renuncia a la vocería de Ahora Nación por no apoy
 temas: ["César Holguín", "Ahora Nación", "Congreso", "Gobierno"]
 date: 2026-10-29T07:45:00.000-05:00
 resumen: "César Holguín dejó la vocería de Ahora Nación por no estar de acuerdo con darle facultades al gobierno ni con salvar al ministro del Interior. En un Parlamento donde todo se negocia, alguien acaba de pagar su cuenta sin preguntar."
-imagen: "/img/uploads/holguin-carta-real-portada-exportacion-4k.jpg"
-imagen_texto: "Cabecera y primeras líneas de la carta de renuncia de César Holguín a la vocería de Ahora Nación, fechada el 28 de octubre de 2026."
-imagen_fuente: "Fuente: carta pública de César Holguín, archivo de la publicación. Extracto documental sin recreación. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
+imagen: "/img/uploads/holguin-ahora-nacion-restaurada-4k.jpg"
+imagen_texto: "Portada editorial anterior de la columna de César Holguín, con el fondo de Ahora Nación."
+imagen_fuente: "Composición editorial de archivo recuperada a pedido del autor. Imagen tratada con IA (referencial); exportación 3840 × 2160."
 tipo: Columna
 ---
 
@@ -29,4 +29,4 @@ Hay algo muy cusqueño en todo esto. Los incas levantaban muros sin argamasa que
 Vallejo escribió que hay golpes en la vida tan fuertes, yo no sé. Holguín sí sabía. **Sabía que perder la vocería era el precio y lo pagó sin pedir factura.** En el Perú eso no tiene nombre. Bueno, sí tiene. Se llama coherencia, pero como casi nadie la usa, ya nos olvidamos de cómo se pronuncia.
 
 
-**Procedencia de la portada:** Extracto del documento público reproducido íntegramente en el cuerpo de esta columna. Se conserva el texto y la fecha originales; no se genera un retrato del firmante.
+**Procedencia de la portada:** Se recupera la composición anterior aprobada por Jesus, conservando su diseño. Composición editorial de archivo recuperada a pedido del autor. Imagen tratada con IA (referencial); exportación 3840 × 2160. No es un registro documental de una escena conjunta.
