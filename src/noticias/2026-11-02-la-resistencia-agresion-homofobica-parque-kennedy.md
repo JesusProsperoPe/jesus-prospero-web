@@ -14,40 +14,43 @@ carrusel_politica: false
 carrusel:
   - nota: "Debe causar mucho impacto: titular gigante con la foto del agresor gritando."
     titular: "Integrante de La Resistencia ataca a **una pareja gay y a sus padres** en el Parque Kennedy"
-    texto: "Una joven salió a defenderlos. Él se volvió contra ella."
+    texto: "Un video difundido en Instagram lo muestra gritándoles en pleno parque. Los padres de la pareja, **dos adultos mayores**, intentaron defender a sus hijos."
     foto: /img/uploads/subiria-parque-kennedy.jpg
     foto_texto: "Álvaro Subiria Alegría en el Parque Kennedy. Captura del video difundido en redes, con calidad mejorada con IA."
-  - titular: "**\"Lee a Agustín Laje, tarada\"**"
-    texto: "Eso le gritó a la joven que defendió a los padres de la pareja."
-    foto: /img/uploads/subiria-parque-kennedy.jpg
-    foto_texto: "Álvaro Subiria Alegría en el Parque Kennedy. Captura del video difundido en redes, con calidad mejorada con IA."
-  - titular: "Se presentaba como **religioso y \"pro familia\"**"
-    texto: "Según la denunciante."
-    foto: /img/uploads/carrusel-parque-kennedy.jpg
-    foto_texto: "Parque Kennedy, Miraflores. Francisco Anzola / Wikimedia Commons, CC BY 2.0. Archivo."
+  - nota: "Usar el cuadro del video tal cual, con su subtítulo."
+    titular: "**\"Lee a Agustín Laje, tarada\"**"
+    texto: "Eso le gritó a la joven que salió a defender a los ancianos. Agustín Laje es un escritor argentino conocido por sus posturas **contra los derechos LGBTI**."
+    foto: /img/uploads/subiria-video-laje.jpg
+    foto_texto: "Cuadro del video publicado por @codexperspective en Instagram."
+  - nota: "Mostrar el recorte de sus hashtags."
+    titular: "Se presenta como **religioso y \"pro familia\"**"
+    texto: "Sus publicaciones lo confirman: firma con **#Provida, #Profamilia, #OrgulloHetero** y #NoALasAgendasProgres."
+    foto: /img/uploads/subiria-hashtags.jpg
+    foto_texto: "Hashtags de la publicación de Álvaro Subiria en Facebook. Captura de pantalla."
+  - nota: "Mostrar las cuatro selfis juntas en este mismo slide: subiria-lucas-ghersi.jpg, subiria-frank-krklec.jpg, subiria-adriana-tudela.jpg y subiria-pancho-de-pierola.jpg."
+    titular: "Se llama **Álvaro Francisco Subiria Alegría**"
+    texto: "Es integrante de **La Resistencia**, colectivo de ultraderecha que acosa a periodistas, políticos y activistas desde 2018. En su Facebook aparece con Lucas Ghersi, Frank Krklec, Adriana Tudela y Pancho de Piérola."
+    foto: /img/uploads/subiria-pancho-de-pierola.jpg
+    foto_texto: "Selfis del perfil de Facebook de Álvaro Subiria, con calidad mejorada con IA."
   - titular: "Se fotografió haciendo **el saludo nazi**"
-    texto: "Junto a otros miembros de La Resistencia."
+    texto: "Aparece con el brazo en alto junto a otros miembros de La Resistencia. Es **el de polera verde**, el más alto del grupo."
     foto: /img/uploads/subiria-saludo-nazi.jpg
-    foto_texto: "Foto del perfil de Facebook de Álvaro Subiria, con calidad mejorada con IA."
-  - titular: "Se llama **Álvaro Francisco Subiria Alegría**"
-    texto: "Integrante del colectivo de ultraderecha **La Resistencia**."
-    foto: /img/uploads/subiria-parque-kennedy.jpg
-    foto_texto: "Álvaro Subiria Alegría en el Parque Kennedy. Captura del video difundido en redes, con calidad mejorada con IA."
+    foto_texto: "Foto difundida en redes sociales, con calidad mejorada con IA."
   - titular: "En 2021 le gritó **de cerca** a una periodista de Canal N"
-    texto: "Luego pidió disculpas por TikTok y se describió como \"eufórico\"."
-    foto: /img/uploads/subiria-parque-kennedy.jpg
-    foto_texto: "Álvaro Subiria Alegría en el Parque Kennedy. Captura del video difundido en redes, con calidad mejorada con IA."
+    texto: "Encaró a Fátima Chávez durante una cobertura. Luego pidió disculpas por TikTok y se describió como una persona de carácter **\"eufórico\"**."
+    foto: /img/uploads/subiria-gritando.jpg
+    foto_texto: "Álvaro Subiria gritando en una manifestación. Foto difundida en redes sociales, con calidad mejorada con IA."
   - titular: "El Poder Judicial le prohibió acercarse a **dos víctimas de las esterilizaciones forzadas**"
-    texto: "Y le ordenó **terapia psicológica obligatoria**."
+    texto: "Las víctimas denunciaron que las agravió y golpeó. El juez también le ordenó **evaluación y terapia psicológica obligatoria**."
     foto: /img/uploads/carrusel-palacio-de-justicia.jpg
     foto_texto: "Palacio de Justicia, Lima. Felipe Restrepo Acosta / Wikimedia Commons, CC BY-SA 4.0."
-  - nota: "Mostrar la captura de su publicación de Facebook."
-    titular: "Su descargo: **\"lo volvería a hacer\"**"
-    texto: "Llamó a la pareja \"un par de **invertidos enfermos mentales**\"."
+  - nota: "Mostrar la captura completa de su descargo en Facebook."
+    titular: "Su respuesta: **\"Lo volvería a hacer\"**"
+    texto: "En Facebook dijo no tener \"nada en contra\" de su orientación, pero llamó a la pareja **\"un par de invertidos enfermos mentales\"**."
     foto: /img/uploads/subiria-descargo-facebook.jpg
     foto_texto: "Descargo publicado por Álvaro Subiria en Facebook. Captura de pantalla."
-  - titular: "Es el **segundo ataque homofóbico** en Miraflores en tres semanas"
-    texto: "¿Hará algo la Municipalidad **o volverá a callar**?"
+  - titular: "**Segundo ataque homofóbico** en Miraflores en tres semanas"
+    texto: "En octubre, un hombre amenazó de muerte a dos clientes de un restaurante del distrito y la Municipalidad no se pronunció. **¿Hará algo ahora?**"
     foto: /img/uploads/carrusel-municipalidad-miraflores.jpg
     foto_texto: "Palacio Municipal de Miraflores. Municipalidad de Miraflores / Wikimedia Commons, CC BY 2.0."
 ---
@@ -56,7 +59,7 @@ Un nuevo episodio de intolerancia se registró en el Parque Kennedy de Miraflore
 
 La autora de la publicación relató que, al intervenir para proteger a los ancianos, el hombre se volvió contra ella de manera violenta. En el video se le escucha gritarle **"Lee a Agustín Laje, tarada"**, en alusión al escritor argentino conocido por sus posturas contra los derechos de las personas LGBTI. Según la denunciante, el agresor se presentaba como religioso y "pro familia".
 
-En la grabación se observa a un sereno de Miraflores en el lugar.
+En la grabación se observa que el serenazgo de Miraflores llegó al lugar, pero el hombre siguió atacando.
 
 <figure style="margin:1.5em auto;max-width:420px">
 <video controls playsinline preload="metadata" poster="/img/uploads/subiria-video-poster.jpg" style="width:100%;height:auto;border-radius:6px;background:#000">
@@ -69,7 +72,7 @@ En la grabación se observa a un sereno de Miraflores en el lugar.
 
 Este medio identificó al hombre del video como **Álvaro Francisco Subiria Alegría**, integrante del colectivo de ultraderecha La Resistencia, cuyos miembros luego se presentaron como Los Insurgentes.
 
-En su perfil de Facebook, Subiria se muestra como seguidor de figuras de la derecha y la ultraderecha peruana: aparece en selfis con el abogado Lucas Ghersi, el diputado Frank Krklec y la excongresista Adriana Tudela. **También se fotografió junto a otros miembros de La Resistencia haciendo el saludo nazi.**
+En su perfil de Facebook, Subiria se muestra como seguidor de figuras de la derecha y la ultraderecha peruana: aparece en selfis con el abogado Lucas Ghersi, el diputado Frank Krklec, la excongresista Adriana Tudela y Pancho de Piérola. **También se fotografió junto a otros miembros de La Resistencia haciendo el saludo nazi.**
 
 ![Grupo de integrantes de La Resistencia con el brazo en alto haciendo el saludo nazi](/img/uploads/subiria-saludo-nazi.jpg "Álvaro Subiria (de polera verde, al centro, el más alto, con la mano más arriba) junto a otros miembros de La Resistencia haciendo el saludo nazi. Foto difundida en redes sociales, con calidad mejorada con inteligencia artificial.")
 
@@ -78,6 +81,8 @@ En su perfil de Facebook, Subiria se muestra como seguidor de figuras de la dere
 ![Selfi de Álvaro Subiria con Frank Krklec](/img/uploads/subiria-frank-krklec.jpg "Frank Krklec y Álvaro Subiria. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
 
 ![Álvaro Subiria con Adriana Tudela en una marcha](/img/uploads/subiria-adriana-tudela.jpg "Álvaro Subiria con Adriana Tudela en una marcha. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
+
+![Selfi de Álvaro Subiria con Pancho de Piérola](/img/uploads/subiria-pancho-de-pierola.jpg "Pancho de Piérola y Álvaro Subiria. Foto: perfil de Facebook de Álvaro Subiria, con calidad mejorada con inteligencia artificial.")
 
 ## Sus descargos
 
@@ -109,6 +114,6 @@ Hace apenas tres semanas, [otro ataque homofóbico en un restaurante de comida r
 
 ## Las preguntas que quedan
 
-¿Por qué una persona con una orden judicial por agredir a mujeres vulnerables sigue atacando a ciudadanos en espacios públicos? ¿Intervino el sereno que aparece en el video? ¿Y hará algo la Municipalidad de Miraflores, o volverá a callar como hace tres semanas?
+¿Por qué una persona con una orden judicial por agredir a mujeres vulnerables sigue atacando a ciudadanos en espacios públicos? ¿Y hará algo la Municipalidad de Miraflores, o volverá a callar como hace tres semanas?
 
 **Fuentes:** [El Búho – disculpas a periodista de Canal N](https://elbuho.pe/?p=203517) · [El Comercio – orden de alejamiento](https://elcomercio.pe/lima/sucesos/alvaro-francisco-subiria-alegria-poder-judicial-ordena-medida-de-alejamiento-y-terapia-psicologica-a-miembro-de-la-resistencia-por-ataque-a-victimas-de-esterilizaciones-forzadas-nndc-noticia/) · [Perú21 – orden de alejamiento](https://peru21.pe/lima/alvaro-francisco-subiria-alegria-poder-judicial-ordena-medida-de-alejamiento-y-terapia-psicologica-a-miembro-de-la-resistencia-por-ataque-a-victimas-de-esterilizaciones-forzadas-nndc-noticia/) · [IDL-Reporteros – La Resistencia por dentro](https://www.idl-reporteros.pe/la-pestilencia-por-dentro-2/) · [Infobae – ataque en restaurante de Miraflores](https://www.infobae.com/peru/2026/10/13/los-mato-y-no-bromeo-ataque-homofobo-en-restaurante-de-miraflores-desata-repudio-y-reclamos-para-identificar-al-agresor/)

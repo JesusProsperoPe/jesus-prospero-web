@@ -40,7 +40,7 @@ TEXTO DE CADA SLIDE (lo que va entre ** ** es la palabra clave en rojo; no escri
 {% for s in contenido %}
 {%- if loop.index0 == posSigueme %}
 SLIDE {{ posSigueme + 1 }}
-Foto: jesus-prospero.jpg, a color, en un círculo grande como foto de perfil de Instagram, junto a "@jesusprospero.pe".
+Foto: jesus-prospero.jpg, a color, en un círculo grande como foto de perfil de Instagram, con un símbolo "+" en la parte inferior derecha del círculo (como el botón de seguir de Instagram), junto a "@jesusprospero.pe".
 Titular: {{ "Explico **la política peruana** todos los días." if n.data.carrusel_politica != false else "Explico **el Perú** todos los días." }}
 Texto: Si hoy no me sigues, probablemente no veas mi siguiente {{ "columna" if esColumna else "publicación" }}.
 **Sígueme.**
