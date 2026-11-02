@@ -4,9 +4,9 @@ titulo_seo: "El Niño: MTPE aprueba protocolo de seguridad y salud en el trabajo
 temas: ["Fenómeno El Niño", "MTPE", "Seguridad laboral"]
 date: 2026-11-01T12:39:29-05:00
 resumen: "La resolución publicada este domingo aprueba un instrumento nacional para integrar la prevención, la respuesta y el regreso seguro a los sistemas de seguridad de los centros laborales."
-imagen: /img/uploads/mtpe-el-nino-portada-ia.jpg
-imagen_texto: "Ilustración editorial de trabajadores que revisan una ruta de evacuación en un centro laboral ante lluvias. No representa un acontecimiento real."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial)."
+imagen: "/img/uploads/mtpe-sede-foto-real.jpg"
+imagen_texto: "Sede del Ministerio de Trabajo y Promoción del Empleo, fotografiada en abril de 2022. Archivo."
+imagen_fuente: "Foto: Lenin Domínguez E / Wikimedia Commons, CC BY-SA 4.0. Recorte y compresión."
 tipo: Noticia
 exclusivo: false
 corto: "trabajo-el-nino"
@@ -28,8 +28,14 @@ La aprobación también fue [reportada por Gestión esta mañana](https://gestio
 
 Entre sus fundamentos, el MTPE recuerda que la Ley de Seguridad y Salud en el Trabajo establece la protección de la vida y la salud de los trabajadores. También cita el deber de los empleadores de implementar mecanismos de preparación, respuesta y evacuación ante emergencias.
 
-![Ilustración de una revisión de materiales y planificación de seguridad laboral ante lluvias](/img/uploads/mtpe-el-nino-preparacion-ia.jpg "La preparación forma parte de las etapas que menciona la resolución. Imagen generada con inteligencia artificial (referencial); no reproduce el protocolo oficial ni una inspección real.")
+![Trabajadores de construcción participan en un simulacro en Barranco](/img/uploads/trabajadores-simulacro-real-2022.jpg "Trabajadores de construcción participan en el Simulacro Nacional Multipeligro en Barranco, el 31 de mayo de 2022. Foto: Peruviano2022 / Wikimedia Commons, CC BY-SA 4.0. Archivo de preparación ante emergencias; no corresponde al protocolo de 2026 ni a una inundación real.")
 
 Según la [información difundida por El Peruano](https://www.elperuano.pe/noticia/308084-fenomeno-el-nino-mtpe-aprueba-protocolo-para-prevenir-riesgos-y-proteger-a-trabajadores), la medida se enmarca en las acciones frente a El Niño 2026-2027. Su alcance comprende también el regreso seguro a las actividades, además de la atención durante la emergencia.
 
 **Fuentes:** [Resolución Ministerial 341-2026-TR](https://busquedas.elperuano.pe/dispositivo/NL/2570392-1) · [Gestión](https://gestion.pe/economia/el-nino-aprueban-protocolo-de-seguridad-y-salud-en-el-trabajo-para-enfrentar-el-fenomeno-noticia/) · [El Peruano](https://www.elperuano.pe/noticia/308084-fenomeno-el-nino-mtpe-aprueba-protocolo-para-prevenir-riesgos-y-proteger-a-trabajadores).
+
+
+**Procedencia de la portada:** [Fotografía original de la sede del MTPE](https://commons.wikimedia.org/wiki/File:Ministerio_del_trabajo.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Imagen de archivo del 10 de abril de 2022.
+
+
+**Foto interior:** [Simulacro de trabajadores en Barranco, 2022](https://commons.wikimedia.org/wiki/File:Participaci%C3%B3n_Laboral_en_Simulacro_Nacional_dentro_del_distrito_de_Barranco,_Lima,_Per%C3%BA.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Recorte y compresión.

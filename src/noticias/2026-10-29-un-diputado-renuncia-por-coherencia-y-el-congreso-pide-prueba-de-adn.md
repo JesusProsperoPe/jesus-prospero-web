@@ -4,8 +4,9 @@ titulo_seo: "César Holguín renuncia a la vocería de Ahora Nación por no apoy
 temas: ["César Holguín", "Ahora Nación", "Congreso", "Gobierno"]
 date: 2026-10-29T07:45:00.000-05:00
 resumen: "César Holguín dejó la vocería de Ahora Nación por no estar de acuerdo con darle facultades al gobierno ni con salvar al ministro del Interior. En un Parlamento donde todo se negocia, alguien acaba de pagar su cuenta sin preguntar."
-imagen: /img/uploads/cesar-holguin-ahora-nacion.jpg
-imagen_texto: "César Holguín, diputado por Cusco de Ahora Nación."
+imagen: "/img/uploads/holguin-carta-real-portada.jpg"
+imagen_texto: "Cabecera y primeras líneas de la carta de renuncia de César Holguín a la vocería de Ahora Nación, fechada el 28 de octubre de 2026."
+imagen_fuente: "Fuente: carta pública de César Holguín, archivo de la publicación. Extracto documental sin recreación."
 tipo: Columna
 ---
 
@@ -26,3 +27,6 @@ Y no es la primera vez que dice lo que otros murmuran. En setiembre escribió qu
 Hay algo muy cusqueño en todo esto. Los incas levantaban muros sin argamasa que llevan cinco siglos aguantando terremotos. Holguín armó una posición sin acuerdos de pasillo y aguantó la votación sin moverse ni un centímetro. **En un Congreso donde los votos se mueven más que combi en hora punta, quedarse quieto es ingeniería de alto nivel.**
 
 Vallejo escribió que hay golpes en la vida tan fuertes, yo no sé. Holguín sí sabía. **Sabía que perder la vocería era el precio y lo pagó sin pedir factura.** En el Perú eso no tiene nombre. Bueno, sí tiene. Se llama coherencia, pero como casi nadie la usa, ya nos olvidamos de cómo se pronuncia.
+
+
+**Procedencia de la portada:** Extracto del documento público reproducido íntegramente en el cuerpo de esta columna. Se conserva el texto y la fecha originales; no se genera un retrato del firmante.

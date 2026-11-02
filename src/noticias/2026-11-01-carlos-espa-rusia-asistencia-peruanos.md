@@ -4,9 +4,9 @@ titulo_seo: "Carlos Espá viajará a Rusia: reuniones en Moscú serán del 7 al 
 temas: ["Carlos Espá", "Cancillería", "Rusia"]
 date: 2026-11-01T19:15:53-05:00
 resumen: "El Gobierno amplió la gira del canciller hasta el 11 de noviembre. La resolución busca asistencia para los connacionales e información para sus familias, pero no anuncia repatriaciones."
-imagen: /img/uploads/espa-rusia-portada-ia.jpg
-imagen_texto: "Retrato editorial referencial de Carlos Espá con elementos gráficos de Perú y Rusia. No representa una reunión ni un viaje ya realizado."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial). Basada en fotografía del Ministerio de Relaciones Exteriores / Wikimedia Commons. Adaptación: Jesus Prospero, CC BY-SA 4.0."
+imagen: "/img/uploads/espa-foto-real-portada.jpg"
+imagen_texto: "Carlos Espá durante una intervención pública el 31 de julio de 2026. Fotografía de archivo."
+imagen_fuente: "Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons, CC BY-SA 4.0. Recorte y compresión."
 tipo: Noticia
 exclusivo: false
 corto: "espa-rusia"
@@ -35,4 +35,6 @@ Durante su ausencia, **Guillermo Shinno**, ministro de Energía y Minas, estará
 
 **Fuentes:** [El Peruano: Resolución Suprema 309-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2570407-1) · [Perú21: agenda y alcance de las gestiones](https://peru21.pe/politica/espa-se-va-rusia-para-gestionar-ayuda-combatientes-peruanos/).
 
-**Imágenes:** fotografía de referencia y archivo del [Ministerio de Relaciones Exteriores, vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carlos_Esp%C3%A1_2026.jpg), bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). La portada es una adaptación generada con IA, publicada bajo la misma licencia; no es un registro documental de las gestiones anunciadas. La imagen interior del documento es un extracto de la resolución oficial enlazada.
+
+
+**Procedencia de la portada:** [Fotografía original del 31 de julio de 2026](https://commons.wikimedia.org/wiki/File:Carlos_Esp%C3%A1_2026.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). No corresponde a una visita a Rusia.

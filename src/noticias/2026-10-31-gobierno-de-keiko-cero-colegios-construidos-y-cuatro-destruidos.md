@@ -4,9 +4,9 @@ titulo_seo: "Keiko Fujimori prometió 2.000 colegios: en tres meses, cero constr
 temas: ["Keiko Fujimori", "Gobierno", "Luis Galarreta", "Educación"]
 date: 2026-10-31T13:00:00.000-05:00
 resumen: "En tres meses el gobierno ya tiene su primera cifra exacta. Prometió dos mil colegios nuevos y por ahora lleva cuatro destruidos. Al menos en algo va adelantado."
-imagen: /img/uploads/keiko-5-mil-colegios-portada.jpg
-imagen_texto: "Ilustración de Keiko Fujimori mostrando cinco dedos frente a un colegio, con el texto «¿5 mil colegios nuevos?»."
-imagen_fuente: "Diseño: Jesus Prospero"
+imagen: "/img/uploads/keiko-foto-real-portada.jpg"
+imagen_texto: "Keiko Fujimori habla durante un acto público el 7 de octubre de 2026. Fotografía de archivo."
+imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte horizontal; sin recreación."
 tipo: Columna
 corto: "cero-colegios"
 ---
@@ -32,3 +32,6 @@ El cuarto tiene su propio humor negro. En Huancayo [se desplomó un techo durant
 El gobierno [anunció 6.000 millones de soles para colegios](https://diariocorreo.pe/politica/keiko-fujimori-anuncia-s-6000-millones-para-construir-colegios-en-peru-durante-2027-noticia/) el próximo año. Es una buena noticia. Solo falta saber si con esa plata van a construir aulas o un helipuerto en cada escuela, para que el premier pueda aterrizar sin desordenar a nadie.
 
 Mientras tanto, la presidenta [recorre la megacárcel de Bukele](https://www.infobae.com/peru/2026/10/29/keiko-fujimori-recorrio-el-cecot-en-el-salvador-las-fotos-de-su-visita-a-la-megacarcel-de-bukele/) y promete mano dura. Los colegios, por su parte, ya la sintieron. **Les cayó del cielo.**
+
+
+**Procedencia de la portada:** Fotografía oficial del 7 de octubre de 2026 ya acreditada en el cuerpo de esta publicación. El contexto se identifica como archivo; no se agregan colegios, relojes ni documentos a la escena.

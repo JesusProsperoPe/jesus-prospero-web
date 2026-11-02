@@ -4,9 +4,9 @@ titulo_seo: "Facultades legislativas: los plazos del Gobierno de Keiko Fujimori 
 temas: ["Gobierno", "Keiko Fujimori", "Luis Galarreta", "Congreso", "Facultades legislativas"]
 date: 2026-10-31T23:12:26-05:00
 resumen: "Después de reclamar rapidez al Congreso, el Gobierno anunció que sus primeros decretos necesitarían más tiempo. El país puso el pollo, pagó el carbón y ahora escucha al cocinero explicar por qué todavía no prende."
-imagen: /img/uploads/keiko-facultades-urgencia-ia.jpg
-imagen_texto: "Keiko Fujimori en una composición editorial con un reloj, un calendario y documentos, sobre los plazos para emitir decretos legislativos."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial)."
+imagen: "/img/uploads/keiko-foto-real-portada.jpg"
+imagen_texto: "Keiko Fujimori habla durante un acto público el 7 de octubre de 2026. Fotografía de archivo."
+imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte horizontal; sin recreación."
 tipo: Columna
 exclusivo: false
 corto: "facultades-urgencia"
@@ -37,3 +37,6 @@ Además, publicar decretos apenas será el comienzo. Después habrá que aplicar
 El Gobierno ya tiene las facultades. Ojalá las use bien y pronto. **Porque el país puso el pollo, pagó el carbón y encima tiene que escuchar al cocinero explicar por qué todavía no prende.**
 
 **Fuentes:** [Texto oficial de la Ley 32743](https://busquedas.elperuano.pe/dispositivo/EX/2567343-1) · [La República, 31 de octubre de 2026](https://larepublica.pe/amp/politica/2026/10/31/gobierno-presiono-por-facultades-pero-aun-no-presenta-decretos-urgencia-sobre-materias-aprobadas-hnews-1312080) · [El Comercio, 26 de octubre de 2026](https://elcomercio.pe/politica/gobierno/ministro-marco-vinelli-sobre-facultades-legislativas-delegadas-en-dos-a-tres-semanas-empiezan-a-salir-los-decretos-legislativos-ultimas-apuesplan-noticia/).
+
+
+**Procedencia de la portada:** Fotografía oficial del 7 de octubre de 2026 ya acreditada en el cuerpo de esta publicación. El contexto se identifica como archivo; no se agregan colegios, relojes ni documentos a la escena.

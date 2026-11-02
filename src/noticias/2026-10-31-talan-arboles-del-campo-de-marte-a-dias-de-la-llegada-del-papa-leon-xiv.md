@@ -4,9 +4,9 @@ titulo_seo: "Campo de Marte: vecinos denuncian tala de árboles en la obra de la
 temas: ["Campo de Marte", "Municipalidad de Lima", "Medio ambiente", "Papa León XIV"]
 date: 2026-10-31T16:00:00.000-05:00
 resumen: "Vecinos grabaron cómo trabajadores de la obra cortaban y se llevaban cuatro árboles. Uno tenía brotes nuevos. Es el último golpe a un parque que ya perdió decenas de ejemplares en menos de un año."
-imagen: /img/uploads/tala-campo-de-marte-troncos.jpg
-imagen_texto: "Trabajadores junto a los troncos de árboles talados y ramas en el Campo de Marte."
-imagen_fuente: "Captura de un video publicado por Campo de Marte MCA en TikTok, con calidad mejorada con inteligencia artificial."
+imagen: "/img/uploads/campo-marte-planton-foto-real.jpg"
+imagen_texto: "Carteles de vecinos en defensa del Campo de Marte durante el plantón del 14 de junio de 2026. Archivo."
+imagen_fuente: "Foto: Ciclolibres / Wikimedia Commons, CC BY-SA 4.0. Corrección de orientación y recorte; sin IA generativa."
 tipo: Noticia
 corto: "campo-de-marte"
 ---
@@ -15,11 +15,8 @@ El Campo de Marte sigue perdiendo árboles. Durante los trabajos de la obra que 
 
 Según Felicia Bravo, vecina y representante del Movimiento Ciudadano Ambiental Campo de Marte, **uno de los árboles retirados tenía brotes nuevos**. «A pesar de eso, lo talaron, lo cargaron y se lo llevaron», [denunció en RPP](https://rpp.pe/lima/actualidad/jesus-maria-vecinos-realizan-planton-para-denunciar-tala-de-arboles-en-obra-del-campo-de-marte-noticia-1715293). Para ella, eso «es delito ambiental». «Tenemos todo grabado», advirtió.
 
-![Trabajadores con casco junto a troncos recién cortados y ramas con hojas verdes en el suelo del parque](/img/uploads/tala-campo-de-marte-troncos.jpg "Trabajadores de la obra junto a los troncos de los árboles talados. Captura de un video publicado por Campo de Marte MCA en TikTok, con calidad mejorada con inteligencia artificial.")
 
-![Un trabajador con motosierra junto a un tocón recién cortado, detrás de una malla naranja](/img/uploads/tala-campo-de-marte-motosierra.jpg "Un trabajador con motosierra junto al tocón de uno de los árboles. Captura de un video publicado por Campo de Marte MCA en TikTok, con calidad mejorada con inteligencia artificial.")
 
-![Un árbol con un corte en la base, rodeado de troncos cortados y una malla naranja](/img/uploads/tala-campo-de-marte-corte.jpg "Un árbol con el corte de la motosierra en la base. Captura de un video publicado por Campo de Marte MCA en TikTok, con calidad mejorada con inteligencia artificial.")
 
 ## Contra el reloj del papa
 
@@ -27,7 +24,7 @@ La tala ocurre en plena carrera contra el tiempo. Invermet, el fondo de inversio
 
 El alcalde Renzo Reggiardo fue más preciso: [aseguró que la parte correspondiente al sector de la Nunciatura Apostólica](https://canaln.pe/actualidad/renzo-reggiardo-asegura-que-obras-campo-marte-estaran-listas-antes-llegada-papa-leon-xiv-n495923), la sede diplomática del Vaticano en Lima, estará terminada antes de que llegue el pontífice.
 
-![Vecinos con carteles de «Salvemos el Campo de Marte» y «Ley 16979, ¡que se cumpla ya!» junto a los árboles del parque](/img/uploads/planton-salvemos-campo-de-marte-2026.jpg "Plantón de vecinos en defensa del Campo de Marte, el 14 de junio de 2026. Foto: Ciclolibres / Wikimedia Commons (CC BY-SA 4.0).")
+![Vecinos con carteles de «Salvemos el Campo de Marte» y «Ley 16979, ¡que se cumpla ya!» junto a los árboles del parque](/img/uploads/campo-marte-planton-real-completo.jpg "Plantón de vecinos en defensa del Campo de Marte, el 14 de junio de 2026. Foto: Ciclolibres / Wikimedia Commons (CC BY-SA 4.0). Orientación corregida; sin recreación.")
 
 ## La versión oficial
 
@@ -56,3 +53,6 @@ El papa León XIV ha hecho del cuidado de la Creación una de las banderas de su
 ---
 
 **Fuentes:** [RPP](https://rpp.pe/lima/actualidad/jesus-maria-vecinos-realizan-planton-para-denunciar-tala-de-arboles-en-obra-del-campo-de-marte-noticia-1715293) · [Caretas](https://caretas.pe/sociedad/planton-en-campo-de-marte-vecinos-denuncian-tala-de-arboles-durante-obras-de-renovacion) · [Actualidad Ambiental](https://www.actualidadambiental.pe/remodelacion-de-campo-de-marte-culminaria-antes-de-la-llegada-del-papa-leon-xiv-asegura-municipalidad-de-lima/) · [El Comercio](https://elcomercio.pe/lima/sucesos/campo-de-marte-80-dias-de-obras-paralizadas-un-parque-cerrado-al-publico-y-arboles-muertos-e-irrecuperables-noticia/) · [Canal N](https://canaln.pe/actualidad/renzo-reggiardo-asegura-que-obras-campo-marte-estaran-listas-antes-llegada-papa-leon-xiv-n495923) · [EWTN](https://www.ewtnnews.com/es/vaticano/leon-xiv-visitara-uruguay-argentina-y-peru-del-6-al-17-de-noviembre)
+
+
+**Procedencia de la portada:** Fotografía de Ciclolibres ya acreditada en el artículo, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Se retiraron las capturas reconstruidas con IA; esta imagen real corresponde al plantón de junio, no a la tala de octubre.

@@ -4,9 +4,9 @@ titulo_seo: "Piura: alcalde anuncia denuncias contra Vivienda e Interior por tre
 temas: ["Piura", "Keiko Fujimori", "Fenómeno El Niño", "Presupuesto público"]
 date: 2026-11-01T19:04:36-05:00
 resumen: "La municipalidad anuncia acciones contra Vivienda e Interior por proyectos con convenios firmados. El alcalde reclama menos de S/20 millones para concluir tres intervenciones que, según afirma, superan el 95 % de avance."
-imagen: /img/uploads/piura-keiko-portada-ia-4k.jpg
-imagen_texto: "Composición editorial de Keiko Fujimori y el río Piura, elaborada con referencias fotográficas reales."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial). No representa una visita ni una inundación documentada."
+imagen: "/img/uploads/piura-keiko-montaje-fotos-reales.jpg"
+imagen_texto: "Montaje editorial con dos fotografías reales: Keiko Fujimori en octubre de 2026 y el río Piura en febrero de 2025. No representa una visita presidencial."
+imagen_fuente: "Fotos: Ministerio de la Producción, dominio público, y El Surquillano / Wikimedia Commons, CC0. Montaje convencional con separación entre ambas fotos; sin IA generativa."
 tipo: Noticia
 exclusivo: false
 corto: "piura-obras"
@@ -58,4 +58,6 @@ Cevallos aseguró que sigue confiando en la presidenta y reclamó que sus minist
 
 **Fuentes:** [La República: anuncio de denuncias](https://larepublica.pe/politica/2026/11/01/municipalidad-de-piura-denunciara-al-gobierno-de-fujimori-por-no-incluir-a-region-en-obras-por-fen-han-desfinanciado-convenios-89356) · [Caretas: entrevista del alcalde en RPP](https://caretas.pe/politica/alcalde-de-piura-pide-a-keiko-cumplir-promesas-ante-emergencia-por-inseguridad-y-el-nino-no-podemos-seguir-de-reunion-en-reunion/) · [Municipalidad Provincial de Piura, 16 de julio](https://www.gob.pe/institucion/munipiura/noticias/1419999-alcalde-cevallos-lidera-gestiones-para-garantizar-recursos-y-exige-al-gobierno-nacional-financiamiento-para-obras-prioritarias) · [Infobae: anuncio de julio](https://www.infobae.com/peru/2026/07/20/keiko-fujimori-anuncia-dos-decretos-supremos-por-el-fenomeno-de-el-nino-a-alcaldes-de-piura/) · [Infomercado: resultados electorales](https://infomercado.pe/el-fujimorismo-pierde-peso-en-piura-que-dicen-los-datos-de-las-ultimas-cuatro-elecciones/) · [Gestión: declaraciones del Senamhi](https://gestion.pe/peru/lluvias-en-piura-y-tumbes-podrian-superar-los-100-mm-en-noviembre-advierte-senamhi-noticia/) · [Norte Sostenible](https://nortesostenible.com/alcaldes-de-piura-piden-a-keiko-fujimori-priorizar-obras-contra-el-nino-apenas-asuma-el-gobierno/).
 
-**Imágenes:** portada generada con inteligencia artificial (referencial), con referencias del rostro de Keiko Fujimori en una fotografía oficial del Ministerio de la Producción del 7 de octubre de 2026 y del [río Piura fotografiado por El Surquillano](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Piura-2025.jpg), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). La composición no representa una visita presidencial ni una inundación real. El archivo final de portada está exportado a 3840 × 2160 píxeles.
+
+
+**Procedencia de la portada:** Fotografía de Keiko del 7 de octubre de 2026, ya acreditada en el sitio, y [río Piura, 7 de febrero de 2025](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Piura-2025.jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Se conservan ambas escenas originales en paneles distintos.

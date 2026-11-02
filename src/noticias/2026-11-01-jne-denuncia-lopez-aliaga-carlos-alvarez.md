@@ -4,9 +4,9 @@ titulo_seo: "JNE denuncia a Rafael López Aliaga y Carlos Álvarez por expresion
 temas: ["JNE", "Rafael López Aliaga", "Carlos Álvarez", "Roberto Burneo", "Elecciones"]
 date: 2026-11-01T11:49:57-05:00
 resumen: "El procurador Ronald Angulo confirmó la presentación de una denuncia ante la Fiscalía de Lurín. La institución sostiene que las expresiones contra su presidente excedieron la crítica electoral. Se trata de una denuncia, no de una condena."
-imagen: /img/uploads/jne-lopez-aliaga-alvarez-portada-ia.jpg
-imagen_texto: "Retratos referenciales de Rafael López Aliaga y Carlos Álvarez en una composición editorial sobre la denuncia de la Procuraduría del JNE."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial)."
+imagen: "/img/uploads/jne-lurin-captura-real.jpg"
+imagen_texto: "Rafael López Aliaga y Carlos Álvarez durante la actividad pública en Lurín del 25 de octubre de 2026. Captura real de la transmisión."
+imagen_fuente: "Fuente: transmisión del acto de Lurín, captura publicada previamente en este sitio. Recorte y compresión; sin reconstrucción."
 tipo: Noticia
 exclusivo: false
 corto: "jne-denuncia-lurin"
@@ -39,3 +39,6 @@ La institución también advirtió sobre la presencia de menores durante la acti
 [Perú21 informó el 31 de octubre](https://m.peru21.pe/politica/jne-denuncia-rafael-lopez-aliaga-y-carlos-alvarez-por-acoso-burneo/) que López Aliaga y Álvarez no se habían pronunciado sobre la denuncia al momento de su reporte. Ese dato corresponde a la fecha y hora de esa publicación y no permite descartar respuestas posteriores.
 
 **Fuentes:** [Anuncio oficial del JNE](https://x.com/JNE_Peru/status/2116378641739255839) · [El Comercio](https://elcomercio.pe/politica/actualidad/procuraduria-del-jne-denuncia-a-rafael-lopez-aliaga-y-carlos-alvarez-por-expresiones-contra-roberto-burneo-ultimas-noticia/) · [Gestión](https://gestion.pe/peru/politica/jne-denuncio-a-lopez-aliaga-y-carlos-alvarez-ante-la-fiscalia-por-expresiones-contra-su-presidente-noticia/) · [Perú21](https://m.peru21.pe/politica/jne-denuncia-rafael-lopez-aliaga-y-carlos-alvarez-por-acoso-burneo/).
+
+
+**Procedencia de la portada:** Se recupera la captura auténtica que ya ilustraba la cobertura del acto de Lurín. No se sintetizan rostros ni se agrega un edificio del JNE.

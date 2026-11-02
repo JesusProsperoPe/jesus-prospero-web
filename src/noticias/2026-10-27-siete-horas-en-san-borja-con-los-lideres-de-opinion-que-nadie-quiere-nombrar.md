@@ -4,8 +4,9 @@ titulo_seo: "Luis Galarreta se reunió siete horas con medios y streamers en San
 temas: ["Gobierno", "Luis Galarreta", "Prensa"]
 date: 2026-10-27T09:20:00.000-05:00
 resumen: "El premier Galarreta pasó el lunes reunido con ministros, directores de medios y periodistas de streaming. La agenda oficial lo dice. Los nombres, en cambio, se los guardan como receta de la abuela."
-imagen: /img/uploads/luis-galarreta-premier.jpg
-imagen_texto: "Luis Galarreta, presidente del Consejo de Ministros."
+imagen: "/img/uploads/galarreta-foto-real-archivo.jpg"
+imagen_texto: "Luis Galarreta interviene en el Congreso, en una fotografía de archivo de octubre de 2010."
+imagen_fuente: "Foto: Congreso de la República del Perú / Wikimedia Commons, CC BY 2.0. Recorte y compresión."
 ---
 
 En el Perú uno sabe quién fue al baby shower de la prima, quién no puso para la chancha del cumpleaños y quién se llevó el táper de la tía sin devolverlo. Lo que no sabemos es **qué influencers y qué dueños de medios se pasaron siete horas con el gobierno.**
@@ -27,3 +28,6 @@ Y aquí viene el detalle que a cualquier peruano con memoria le pica la nuca. Ha
 Y la pregunta es simple. **¿Quiénes fueron?**
 
 **Si la reunión fue para algo bueno, no debería costar nada decir los nombres.** Los propios asistentes podrían contarlo en su próximo en vivo, entre un saludo a Huancayo y un "denle like". Lo raro sería que los mismos que se ganan la vida opinando de todo justo de esto prefieran no opinar.
+
+
+**Procedencia de la portada:** [Luis Galarreta, archivo de 2010](https://commons.wikimedia.org/wiki/File:Luis_Galarreta.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). No corresponde a la reunión de San Borja.

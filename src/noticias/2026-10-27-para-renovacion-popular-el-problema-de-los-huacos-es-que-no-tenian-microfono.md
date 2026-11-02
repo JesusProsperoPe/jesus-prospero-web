@@ -12,7 +12,6 @@ imagen_fuente: "Fuente: Transmisión del mitin en Lurín del 25 de octubre de 20
 
 El lunes, la senadora Milagros Jáuregui de Aguayo le pidió al ministro de Cultura **sacar los huacos eróticos de los espacios públicos.** Dijo que los niños "no están capacitados neurológicamente" para verlos. Y que, si los ven, sea en un museo y "acompañados de profesores o tutores".
 
-![La senadora Milagros Jáuregui de Aguayo, de Renovación Popular](/img/uploads/milagros-jauregui-senadora.jpg "La senadora Milagros Jáuregui de Aguayo, de Renovación Popular.")
 
 Hay que reconocer que su partido le hizo caso enseguida. En Lurín los niños estaban acompañados **nada menos que del probable futuro alcalde de Lima.**
 

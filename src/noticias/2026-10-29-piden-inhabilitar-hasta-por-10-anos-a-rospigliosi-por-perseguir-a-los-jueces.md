@@ -4,8 +4,9 @@ titulo_seo: "Denuncia constitucional contra Fernando Rospigliosi: piden inhabili
 temas: ["Fernando Rospigliosi", "Leyes de impunidad", "Poder Judicial", "Senado", "Fuerza Popular"]
 date: 2026-10-29T12:50:00.000-05:00
 resumen: "Mirtha Vásquez, Jaime Quito e Indira Huilca lo denunciaron ante la Comisión de Acusaciones Constitucionales. El hombre que quería barrer el Poder Judicial ahora tiene que explicar para qué compró tantas escobas."
-imagen: /img/uploads/denuncia-constitucional-rospigliosi.jpg
-imagen_texto: "Indira Huilca, Mirtha Vásquez y Jaime Quito con la denuncia constitucional, frente al Congreso, junto a Fernando Rospigliosi."
+imagen: "/img/uploads/rospigliosi-foto-real-2026.jpg"
+imagen_texto: "Fernando Rospigliosi, en el centro, durante una actividad en el Congreso el 11 de junio de 2026. Fotografía de archivo."
+imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons, dominio público. Recorte y compresión."
 tipo: Columna
 exclusivo: true
 ---
@@ -29,3 +30,6 @@ La denuncia cita cinco artículos de la Constitución, entre ellos los que garan
 Hay un detalle literario que completa la historia. En el año 2000, Rospigliosi publicó un libro sobre cómo Vladimiro Montesinos controló durante una década a las Fuerzas Armadas. Veinticinco años después, alguien debería recordarle que **ese libro era una denuncia y que nadie lo escribió para usarlo como manual de instrucciones.**
 
 Rospigliosi lleva un año diciendo que hay que barrer el Poder Judicial. **Tres parlamentarios acaban de recordarle que una escoba siempre se puede voltear.**
+
+
+**Procedencia de la portada:** [Fotografía del acto del 11 de junio de 2026](https://commons.wikimedia.org/wiki/File:D%C3%ADa_Nacional_del_Vino_Peruano_se_celebr%C3%B3_en_el_Congreso_de_la_Rep%C3%BAblica_(55329360858).jpg). No corresponde a la presentación de la denuncia constitucional.

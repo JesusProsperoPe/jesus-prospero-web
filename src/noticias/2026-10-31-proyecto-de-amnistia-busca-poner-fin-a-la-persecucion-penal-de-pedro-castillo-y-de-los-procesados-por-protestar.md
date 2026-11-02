@@ -4,9 +4,9 @@ titulo_seo: "Amnistía para Pedro Castillo: lo que propone el proyecto de Cather
 temas: ["Pedro Castillo", "Congreso", "Protestas", "Amnistía"]
 date: 2026-10-31T10:00:00.000-05:00
 resumen: "La iniciativa de la diputada Catherin Palomino suma 43 coautores y se apoya en un pronunciamiento de la ONU que calificó como arbitraria la detención del expresidente. Su aprobación extinguiría la condena por el mensaje del 7 de diciembre de 2022."
-imagen: /img/uploads/pedro-castillo-congreso-montaje.jpg
-imagen_texto: "Ilustración de Pedro Castillo con un micrófono, sobre el hemiciclo del Congreso."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial)"
+imagen: "/img/uploads/castillo-foto-real-portada.jpg"
+imagen_texto: "Pedro Castillo durante una reunión de trabajo en Porto Velho, Brasil, el 3 de febrero de 2022. Archivo."
+imagen_fuente: "Foto: Alan Santos / Presidencia de Brasil, Wikimedia Commons, CC BY 2.0. Recorte y compresión."
 tipo: Noticia
 corto: "amnistia-castillo"
 ---
@@ -70,3 +70,6 @@ Una instancia de la ONU calificó como arbitraria la detención de Castillo. Com
 ---
 
 **Fuentes:** [La República, proyecto de amnistía](https://larepublica.pe/politica/2026/10/30/presentan-proyecto-de-ley-de-amnistia-para-pedro-castillo-y-procesados-por-protestas-desde-2021-hnews-1677960) · [El Comercio](https://elcomercio.pe/politica/jp-y-obras-presentan-proyecto-de-amnistia-para-pedro-castillo-noticia/) · [Infobae](https://www.infobae.com/peru/2026/10/31/diputados-de-juntos-por-el-peru-plantean-amnistia-para-pedro-castillo-y-procesados-por-protestas-tras-golpe-de-estado-de-2022/) · [La República, prisión preventiva](https://larepublica.pe/politica/2026/10/22/pedro-castillo-seguira-en-prision-preventiva-hasta-marzo-de-2027-pj-rechazo-pedido-para-revocarla-hnews-1497936) · [Defensoría del Pueblo, reporte de fallecidos](https://cdn.www.gob.pe/uploads/document/file/4581187/Crisis%20pol%C3%ADtica%20y%20conflicto%20social%20-%20Reporte%20de%20personas%20fallecidas%20%28Del%207%20de%20diciembre%20de%202022%20al%207%20de%20abril%20de%202023%29.pdf) · [Gestión, Ley 32419](https://gestion.pe/peru/politica/dina-boluarte-gobierno-promulga-ley-de-amnistia-para-militares-policias-y-comites-de-autodefensa-noticia/) · [Infobae, decisión del TC](https://www.infobae.com/peru/2026/10/29/el-tc-ya-tomo-una-decision-sobre-la-ley-de-amnistia-a-policias-y-militares)
+
+
+**Procedencia de la portada:** Fotografía de archivo de 2022 acreditada en el cuerpo de la noticia, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). No se añade un hemiciclo ni se altera la escena.

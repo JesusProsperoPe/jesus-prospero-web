@@ -4,9 +4,9 @@ titulo_seo: "Ricardo Vásquez Kunze en la Casa de la Literatura: del antifujimor
 temas: ["Ricardo Vásquez Kunze", "Casa de la Literatura", "Keiko Fujimori"]
 date: 2026-11-01T19:24:29-05:00
 resumen: "Ricardo Vásquez Kunze dijo en 2011 que no votaría por Keiko. Después fue dos veces candidato de Fuerza Popular. Ahora dirige la Casa de la Literatura. En el Perú, la mejor novela sigue siendo la biografía de sus funcionarios."
-imagen: /img/uploads/kunze-literatura-portada-ia.jpg
-imagen_texto: "Ilustración editorial de Ricardo Vásquez Kunze y la fachada de la Casa de la Literatura, basada en referencias reales. No representa una visita ni una ceremonia."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial). Referencias: rostro identificado por RPP y fachada de F Delventhal / Wikimedia Commons (CC BY 2.0)."
+imagen: "/img/uploads/casa-literatura-foto-real-portada.jpg"
+imagen_texto: "Fachada de la Casa de la Literatura Peruana, fotografiada el 24 de diciembre de 2018. Archivo."
+imagen_fuente: "Foto: F Delventhal / Wikimedia Commons, CC BY 2.0. Recorte y compresión; sin recreación del edificio ni del rostro del director."
 tipo: Columna
 exclusivo: false
 corto: "kunze-literatura"
@@ -31,7 +31,7 @@ Llega a una institución que viene de un golpe duro. En 2024, la Casa de la Lite
 
 Para curar esa herida, el gobierno eligió a un excandidato de su partido. Es como mandar a un zorro a calmar el gallinero después de que se perdió una gallina.
 
-![Fachada de la Casa de la Literatura Peruana, con su reloj y el letrero institucional](/img/uploads/kunze-casa-literatura-archivo.jpg "La Casa de la Literatura Peruana, en una fotografía de archivo del 24 de diciembre de 2018. Foto: F Delventhal / Wikimedia Commons, CC BY 2.0; sin modificaciones.")
+![El historietista Juan Acevedo durante una presentación en 2016](/img/uploads/juan-acevedo-foto-real-2016.jpg "Juan Acevedo durante una presentación en 2016. Foto: Feria del Libro Ricardo Palma / Wikimedia Commons, CC BY 2.0. Archivo; no corresponde a la controversia del premio en 2024.")
 
 La Casa de la Literatura está dedicada a unas letras donde caben Vallejo, Arguedas, Ribeyro, Blanca Varela y Eielson. Gente que escribió contra el poder, contra la injusticia y contra el olvido. Me cuesta imaginarlos pasando el filtro de este gobierno. Arguedas sería demasiado andino, Vallejo demasiado comunista y Varela demasiado mujer libre. Vásquez Kunze, en cambio, ya sabe cómo pasar de la crítica al bando de los que reparten los cargos.
 
@@ -41,4 +41,9 @@ Vásquez Kunze podrá discutir lo que dijo en 2011. Lo que no puede hacer es ped
 
 **Fuentes y referencias:** [El Peruano: nombramiento](https://busquedas.elperuano.pe/dispositivo/NL/2570369-1) · [La República: trayectoria y candidaturas](https://larepublica.pe/politica/2026/10/31/gobierno-de-keiko-fujimori-nombra-a-excandidato-de-fuerza-popular-director-de-la-casa-de-la-literatura-hnews-1960161) · [La República: declaraciones de 2011](https://larepublica.pe/politica/2019/11/04/ricardo-vasquez-kunze-busca-llegar-al-congreso-con-fuerza-popular-pese-a-que-antes-la-acusaba-de-corrupta-fujimorismo) · [Concytec / PUCP: libro en coautoría](https://alicia.concytec.gob.pe/vufind/Record/RPUC_05420eacbd5a8883efdb8073cb678211/Details) · [Congreso: gestión editorial](https://comunicaciones.congreso.gob.pe/noticias/fondo-editorial-del-congreso-inaugurara-sede-de-libreria/) · [RPP: explicación del silencio electoral](https://rpp.pe/politica/elecciones/por-que-ricardo-vasquez-kunze-se-quedo-en-silencio-tras-el-flash-electoral-noticia-968703) · [El Comercio: premio a Juan Acevedo](https://elcomercio.pe/luces/que-paso-con-juan-acevedo-y-la-casa-de-la-literatura-la-historia-del-inexplicable-maltrato-al-creador-de-el-cuy-noticia/).
 
-**Créditos visuales:** la portada es una ilustración de IA basada en una [referencia de identidad publicada por RPP](https://rpp.pe/politica/elecciones/por-que-ricardo-vasquez-kunze-se-quedo-en-silencio-tras-el-flash-electoral-noticia-968703) y en la [fotografía de la fachada de F Delventhal](https://commons.wikimedia.org/wiki/File:Casa_de_la_Literatura.jpg), bajo [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). La foto de prensa se utilizó como referencia facial y no se reproduce como imagen documental en esta columna. El extracto de la resolución procede de El Peruano.
+
+
+**Procedencia de la portada:** [Fotografía original de la Casa de la Literatura](https://commons.wikimedia.org/wiki/File:Casa_de_la_Literatura.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Se usa el edificio real y no un retrato sintético de Vásquez Kunze.
+
+
+**Foto interior:** [Juan Acevedo en 2016](https://commons.wikimedia.org/wiki/File:Juan_Acevedo_Fern%C3%A1ndez_de_Paredes_en_2016.jpg), Feria del Libro Ricardo Palma, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Recorte y compresión.

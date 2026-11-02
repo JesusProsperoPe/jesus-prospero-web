@@ -4,8 +4,9 @@ titulo_seo: "Arturo Alegría, presidente de la Comisión de Ambiente, dice que l
 temas: ["Arturo Alegría", "Medio ambiente", "Amazonía", "Fuerza Popular", "Congreso"]
 date: 2026-10-29T19:25:00.000-05:00
 resumen: "Arturo Alegría, diputado de Fuerza Popular, llamó \"romanticismo\" a la crisis climática y dijo que las políticas ambientales no sirvieron para nada. Su historial ayuda a entender por qué."
-imagen: /img/uploads/arturo-alegria-ambiente.jpg
-imagen_texto: "Arturo Alegría, diputado de Fuerza Popular, entre un bosque en llamas y el logo de su partido."
+imagen: "/img/uploads/arturo-alegria-foto-real-2024.jpg"
+imagen_texto: "Arturo Alegría, a la izquierda del hombre con gafas, durante un homenaje a los comandos Chavín de Huántar en abril de 2024. Foto de archivo."
+imagen_fuente: "Foto: Ministerio de Defensa del Perú / Wikimedia Commons, CC BY 2.0. Recorte y compresión."
 tipo: Columna
 ---
 
@@ -30,3 +31,6 @@ Ahora su comisión revisa la "Ley de desarrollo sostenible de las actividades ag
 Alegría representa a San Martín, una de las regiones más golpeadas por la deforestación. **Su propio Gobierno Regional llevó la Ley Antiforestal al Tribunal Constitucional**, la misma ley que él defendía. Hay representantes que no conocen su región, y hay otros que la conocen muy bien y deciden representar a alguien más.
 
 Alegría dice que el ambiente fue una moda. Las modas pasan, eso es cierto. **Un bosque, en cambio, tarda cien años en crecer y apenas una votación en desaparecer.**
+
+
+**Procedencia de la portada:** [Fotografía original del homenaje del 19 de abril de 2024](https://commons.wikimedia.org/wiki/File:HOMENAJE_A_LOS_COMANDOS_CHAV%C3%8DN_DE_HU%C3%81NTAR_EN_EL_CONGRESO_DE_LA_REP%C3%9ABLICA_(53663941172).jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). No muestra incendios ni las declaraciones analizadas.

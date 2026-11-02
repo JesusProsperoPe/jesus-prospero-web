@@ -4,9 +4,9 @@ titulo_seo: "Miki Torres y los 356 millones del Congreso: devuelve 303 y pide ap
 temas: ["Congreso", "Fuerza Popular", "Miki Torres"]
 date: 2026-10-27T22:20:00.000-05:00
 resumen: "Miki Torres anuncia que \"ordenó la casa\". Se olvida de contar que la desordenó su propio partido."
-imagen: /img/uploads/miki-torres-presidente-congreso-ia.jpg
-imagen_texto: "Miki Torres, presidente del Congreso, de Fuerza Popular."
-imagen_fuente: "Imagen generada con inteligencia artificial."
+imagen: "/img/uploads/miki-torres-foto-real-2026.jpg"
+imagen_texto: "Miki Torres, en el centro, durante una ceremonia del Ministerio de Relaciones Exteriores el 4 de agosto de 2026. Foto de archivo."
+imagen_fuente: "Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons, CC BY-SA 4.0. Recorte y compresión; sin IA generativa."
 ---
 
 Hay un personaje que todo peruano conoce. Es el cobrador de combi que te cobra cinco soles por un pasaje de dos, te da un sol de vuelto y te dice "ahí tienes tu ahorro, causa". **Hoy ese cobrador tiene cuenta verificada en X y se llama Miki Torres.**
@@ -29,8 +29,10 @@ Torres dijo que esa plata alcanza para más de 1,350 patrulleros. Qué bonito. *
 
 Lo de "racionalización de personal" merece su propio aplauso. Es la palabra que usan los políticos cuando no quieren decir cuántos, ni quiénes, ni desde cuándo. Ordenaron la casa, sí. **La misma casa que su partido llenó de cachivaches y que ahora barren con la cámara prendida,** como el niño que rompe el florero y luego pide propina por recoger los vidrios.
 
-![Fernando Rospigliosi y Miki Torres, los dos de Fuerza Popular: uno subió el presupuesto y el otro anuncia el ahorro](/img/uploads/rospigliosi-miki-torres-fuerza-popular.jpg "Fernando Rospigliosi y Miki Torres, ambos de Fuerza Popular.")
 
 El final es de telenovela. **La plata sale de un Congreso presidido por Fuerza Popular y llega a un gobierno presidido por Fuerza Popular.** Keiko Fujimori salió a saludar el gesto como tía en la actuación del nido. Es el mismo dinero dando la vuelta entre bolsillos del mismo color, y nos lo venden como si fuera un regalo para el país.
 
 No, Miki. No ordenaste la casa. **Te comiste media torta, devolviste las migajas en un táper y ahora quieres que te aplaudan por compartir.**
+
+
+**Procedencia de la portada:** [Fotografía original de la ceremonia](https://commons.wikimedia.org/wiki/File:Ceremonia_por_el_205.%C2%B0_Aniversario_de_creaci%C3%B3n_del_Ministerio_de_Relaciones_Exteriores_y_D%C3%ADa_del_Diplom%C3%A1tico_(55442360186).jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). La imagen es de archivo; no corresponde al anuncio presupuestal.
