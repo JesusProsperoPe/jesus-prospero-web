@@ -58,6 +58,13 @@ La autora de la publicación relató que, al intervenir para proteger a los anci
 
 En la grabación se observa a un sereno de Miraflores en el lugar.
 
+<figure style="margin:1.5em auto;max-width:420px">
+<video controls playsinline preload="metadata" poster="/img/uploads/subiria-video-poster.jpg" style="width:100%;height:auto;border-radius:6px;background:#000">
+<source src="/img/uploads/subiria-parque-kennedy-video.mp4" type="video/mp4">
+</video>
+<figcaption>Video de la agresión en el Parque Kennedy. Fuente: Instagram de @codexperspective.</figcaption>
+</figure>
+
 ## Quién es el agresor
 
 Este medio identificó al hombre del video como **Álvaro Francisco Subiria Alegría**, integrante del colectivo de ultraderecha La Resistencia, cuyos miembros luego se presentaron como Los Insurgentes.
