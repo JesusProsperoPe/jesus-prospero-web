@@ -10,42 +10,53 @@ imagen_fuente: "Fotomontaje editorial con IA. Referencias: Ministerio de la Prod
 tipo: Noticia
 exclusivo: false
 corto: "piura-obras"
+carrusel_politica: false
 carrusel:
   - nota: "Debe causar mucho impacto: titular gigante con la foto de Keiko."
-    titular: "Piura votó por Keiko. **Keiko le dio la espalda a Piura**"
-    texto: "El **56,95 %** de piuranos la eligió. Hoy su alcalde denunciará a **dos ministerios de su gobierno** por dejarlos sin obras ante El Niño."
+    titular: "PIURA VOTÓ POR KEIKO. KEIKO ABANDONÓ A PIURA"
+    texto: |
+      En plena emergencia por El Niño, su gobierno dejó a la región sin el dinero prometido.
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Keiko Fujimori, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público."
-  - titular: "**Prometió y no cumplió**"
-    texto: "En su visita a Piura del 2 de septiembre se comprometió a destrabar 5 de 6 obras. Luego las redujeron a tres, y **ninguna recibió un sol**."
-    foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
-    foto_texto: "Keiko Fujimori, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público."
-  - titular: "Obras **casi terminadas, abandonadas**"
-    texto: "Dos obras de Vivienda y un sistema de videovigilancia tienen **más del 95 % de avance**. A las cámaras solo les falta la conexión para funcionar."
-    foto: /img/uploads/piura-rio-archivo-2025.jpg
-    foto_texto: "Río Piura, archivo de 2025. El Surquillano / Wikimedia Commons, CC0."
-  - titular: "\"Ni siquiera somos capaces de invertir **20 millones de soles**\""
-    texto: "Eso es lo que pide el alcalde para terminarlas. Según él, El Niño ya dejó **S/15 000 millones** en pérdidas en el norte."
-    foto: /img/uploads/piura-keiko-editorial-ia-4k.jpg
-    foto_texto: "Fotomontaje editorial con IA, basado en fotografías reales (referencial)."
-  - titular: "A otros **sí les dieron plata**"
-    texto: "El alcalde denuncia que se financiaron proyectos que **ni siquiera tenían sus expedientes completos**. A Piura, nada."
+  - titular: "CASI EL 57% DE PIURA LA ELIGIÓ"
+    texto: |
+      En una elección que Keiko ganó por menos de 50 mil votos en todo el país, Piura fue una de las regiones que la llevaron a Palacio.
     foto: /img/uploads/datum-palacio-gobierno-archivo.jpg
     foto_texto: "Palacio de Gobierno. Diego Delso, delso.photo / Wikimedia Commons, CC BY-SA 4.0."
-  - titular: "**Se vienen las lluvias**"
-    texto: "El Senamhi advierte que en zonas de Piura y Tumbes podrían caer **más de 100 milímetros** este mes."
-    foto: /img/uploads/piura-rio-archivo-2025.jpg
-    foto_texto: "Río Piura, archivo de 2025. El Surquillano / Wikimedia Commons, CC0."
-  - titular: "Primero viajó a ver a **Bukele**"
-    texto: "Después de visitar El Salvador, tenía otro viaje a España. Recién lo canceló el domingo, **cuando las lluvias ya aumentaban**."
-    foto: /img/uploads/datum-palacio-gobierno-archivo.jpg
-    foto_texto: "Palacio de Gobierno. Diego Delso, delso.photo / Wikimedia Commons, CC BY-SA 4.0."
-  - titular: "Piura lo pedía **desde julio**"
-    texto: "Antes de que asumiera, la municipalidad ya advertía cinco obras paralizadas por falta de dinero. **Keiko lo sabía.**"
+  - titular: "LA PRIMERA PROMESA"
+    texto: |
+      En julio, antes de asumir, Keiko recibió a los alcaldes de Piura y les prometió dos decretos de urgencia para enfrentar El Niño. Nunca llegaron.
     foto: /img/uploads/piura-comunicado-municipal.png
     foto_texto: "Comunicado de la Municipalidad Provincial de Piura del 16 de julio de 2026. Captura de Gob.pe."
-  - titular: "**Piura le está quitando su apoyo**"
-    texto: "Su votación bajó del 60,05 % en 2021 al 56,95 % en 2026. **¿Llegará primero el dinero o el agua?**"
+  - titular: "LA SEGUNDA PROMESA"
+    texto: |
+      El 2 de septiembre viajó a Piura y se comprometió a destrabar cinco obras. Luego el premier redujo la lista a tres. Al final, ninguna recibió un sol.
+    foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
+    foto_texto: "Keiko Fujimori, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público."
+  - titular: "OBRAS AL 95% Y 99%"
+    texto: |
+      Dos obras de pistas y veredas casi terminadas y un sistema de videovigilancia al que solo le falta encenderse. Quedaron fuera del presupuesto.
+    foto: /img/uploads/piura-rio-archivo-2025.jpg
+    foto_texto: "Río Piura, archivo de 2025. El Surquillano / Wikimedia Commons, CC0."
+  - titular: "PLATA PARA OBRAS SIN EXPEDIENTE"
+    texto: |
+      Según el alcalde de Piura, el crédito suplementario de S/ 8.228 millones financió proyectos que ni siquiera tienen expediente terminado. Para Piura, nada.
+    foto: /img/uploads/datum-palacio-gobierno-archivo.jpg
+    foto_texto: "Palacio de Gobierno. Diego Delso, delso.photo / Wikimedia Commons, CC BY-SA 4.0."
+  - titular: "LE PIDEN 20 MILLONES Y DICEN QUE NO"
+    texto: |
+      El alcalde calcula pérdidas de 15.000 millones por El Niño. Para terminar las tres obras bastaban menos de 20 millones.
+    foto: /img/uploads/piura-keiko-editorial-ia-4k.jpg
+    foto_texto: "Fotomontaje editorial con IA, basado en fotografías reales (referencial)."
+  - titular: "MIENTRAS PIURA SE INUNDA"
+    texto: |
+      Keiko pasó tres días en El Salvador visitando la cárcel de Bukele. Recién canceló su viaje a España cuando aumentaron las lluvias.
+    foto: /img/uploads/piura-rio-archivo-2025.jpg
+    foto_texto: "Río Piura, archivo de 2025. El Surquillano / Wikimedia Commons, CC0."
+  - titular: "PIURA LA DENUNCIARÁ"
+    texto: |
+      La Municipalidad de Piura denunciará a los ministerios de Vivienda e Interior por desfinanciar obras con convenios firmados.
+      Piura le dio el voto. ¿Qué le dio Keiko a Piura? 👇
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Keiko Fujimori, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público."
 ---
