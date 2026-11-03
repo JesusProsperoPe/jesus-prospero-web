@@ -10,6 +10,44 @@ imagen_fuente: "Fotomontaje editorial con IA. Referencias: Ministerio de la Prod
 tipo: Noticia
 exclusivo: false
 corto: "piura-obras"
+carrusel:
+  - nota: "Debe causar mucho impacto: titular gigante con la foto de Keiko."
+    titular: "Piura votó por Keiko. **Keiko le dio la espalda a Piura**"
+    texto: "El **56,95 %** de piuranos la eligió. Hoy su alcalde denunciará a **dos ministerios de su gobierno** por dejarlos sin obras ante El Niño."
+    foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
+    foto_texto: "Keiko Fujimori, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público."
+  - titular: "**Prometió y no cumplió**"
+    texto: "En su visita a Piura del 2 de septiembre se comprometió a destrabar 5 de 6 obras. Luego las redujeron a tres, y **ninguna recibió un sol**."
+    foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
+    foto_texto: "Keiko Fujimori, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público."
+  - titular: "Obras **casi terminadas, abandonadas**"
+    texto: "Dos obras de Vivienda y un sistema de videovigilancia tienen **más del 95 % de avance**. A las cámaras solo les falta la conexión para funcionar."
+    foto: /img/uploads/piura-rio-archivo-2025.jpg
+    foto_texto: "Río Piura, archivo de 2025. El Surquillano / Wikimedia Commons, CC0."
+  - titular: "\"Ni siquiera somos capaces de invertir **20 millones de soles**\""
+    texto: "Eso es lo que pide el alcalde para terminarlas. Según él, El Niño ya dejó **S/15 000 millones** en pérdidas en el norte."
+    foto: /img/uploads/piura-keiko-editorial-ia-4k.jpg
+    foto_texto: "Fotomontaje editorial con IA, basado en fotografías reales (referencial)."
+  - titular: "A otros **sí les dieron plata**"
+    texto: "El alcalde denuncia que se financiaron proyectos que **ni siquiera tenían sus expedientes completos**. A Piura, nada."
+    foto: /img/uploads/datum-palacio-gobierno-archivo.jpg
+    foto_texto: "Palacio de Gobierno. Diego Delso, delso.photo / Wikimedia Commons, CC BY-SA 4.0."
+  - titular: "**Se vienen las lluvias**"
+    texto: "El Senamhi advierte que en zonas de Piura y Tumbes podrían caer **más de 100 milímetros** este mes."
+    foto: /img/uploads/piura-rio-archivo-2025.jpg
+    foto_texto: "Río Piura, archivo de 2025. El Surquillano / Wikimedia Commons, CC0."
+  - titular: "Primero viajó a ver a **Bukele**"
+    texto: "Después de visitar El Salvador, tenía otro viaje a España. Recién lo canceló el domingo, **cuando las lluvias ya aumentaban**."
+    foto: /img/uploads/datum-palacio-gobierno-archivo.jpg
+    foto_texto: "Palacio de Gobierno. Diego Delso, delso.photo / Wikimedia Commons, CC BY-SA 4.0."
+  - titular: "Piura lo pedía **desde julio**"
+    texto: "Antes de que asumiera, la municipalidad ya advertía cinco obras paralizadas por falta de dinero. **Keiko lo sabía.**"
+    foto: /img/uploads/piura-comunicado-municipal.png
+    foto_texto: "Comunicado de la Municipalidad Provincial de Piura del 16 de julio de 2026. Captura de Gob.pe."
+  - titular: "**Piura le está quitando su apoyo**"
+    texto: "Su votación bajó del 60,05 % en 2021 al 56,95 % en 2026. **¿Llegará primero el dinero o el agua?**"
+    foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
+    foto_texto: "Keiko Fujimori, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público."
 ---
 
 En la segunda vuelta del 7 de junio, **Keiko Fujimori obtuvo el 56,95 % en Piura**, según el [análisis electoral de Infomercado](https://infomercado.pe/el-fujimorismo-pierde-peso-en-piura-que-dicen-los-datos-de-las-ultimas-cuatro-elecciones/), elaborado a partir del conteo de la ONPE. Casi cinco meses después, el alcalde provincial reclama que su gobierno cumpla con financiar obras que considera urgentes frente a El Niño y la inseguridad.
