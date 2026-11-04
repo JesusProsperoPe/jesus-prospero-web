@@ -5,7 +5,7 @@ layout: base.njk
    (y para Google es SatiricalArticle, fuera de Google Noticias). #}
 <article class="nota trolletin">
   <header class="contenedor nota-cabecera">
-    <p class="etiqueta"><a href="/trolletines/">Trolletín</a></p>
+    <p class="etiqueta"><a href="/trolletines/">Trolletín Informativo</a></p>
     <h1>{{ title }}</h1>
     {% if resumen %}<p class="nota-bajada">{{ resumen }}</p>{% endif %}
     <div class="firma">
@@ -27,7 +27,7 @@ layout: base.njk
   <div class="contenedor">
     <div class="nota-cuerpo">
       {{ content | safe }}
-      <p class="nota-humor">Trolletín es la sección de humor de este sitio: lo que leíste es inventado.{% if hecho_real %} Lo único real: {{ hecho_real }}{% if hecho_real_url %} (<a href="{{ hecho_real_url }}" target="_blank" rel="noopener">fuente</a>){% endif %}.{% endif %}</p>
+      <p class="nota-humor">Trolletín Informativo es la sección de humor de este sitio: lo que leíste es inventado.{% if hecho_real %} Lo único real: {{ hecho_real }}{% if hecho_real_url %} (<a href="{{ hecho_real_url }}" target="_blank" rel="noopener">fuente</a>){% endif %}.{% endif %}</p>
     </div>
 
     {% include "temas-nota.njk" %}

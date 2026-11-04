@@ -89,8 +89,8 @@ collections:
           hint: "Un comentario corto que aparece debajo de la viñeta." }
 
   - name: trolletines
-    label: Trolletín
-    label_singular: Trolletín
+    label: Trolletín Informativo
+    label_singular: Trolletín Informativo
     description: Columnas troll (sátira). Parten de un hecho real y lo exageran. Al final del texto sale sola una línea pequeña que dice que es humor.
     folder: src/trolletines
     create: true

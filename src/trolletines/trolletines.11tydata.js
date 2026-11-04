@@ -8,7 +8,7 @@ module.exports = {
   layout: "trolletin.njk",
   tags: ["trolletin"],
   esNoticia: true,
-  tipo: "Trolletín",
+  tipo: "Trolletín Informativo",
   eleventyComputed: {
     permalink: (data) => `/trolletines/${path.basename(data.page.inputPath, ".md")}/`,
     enlaceCorto,
