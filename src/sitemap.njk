@@ -22,6 +22,12 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}{{ v.url }}</loc><lastmod>{{ v.date | fechaIso }}</lastmod></url>
   {%- endfor %}
   {%- endif %}
+  {%- if collections.trolletines.length %}
+  <url><loc>{{ site.url }}/trolletines/</loc></url>
+  {%- for t in collections.trolletines %}
+  <url><loc>{{ site.url }}{{ t.url }}</loc><lastmod>{{ t.date | fechaIso }}</lastmod></url>
+  {%- endfor %}
+  {%- endif %}
   {%- if collections.mentiras.length %}
   <url><loc>{{ site.url }}/contador-keiko/</loc><lastmod>{{ collections.mentiras[0].date | fechaIso }}</lastmod></url>
   {%- endif %}

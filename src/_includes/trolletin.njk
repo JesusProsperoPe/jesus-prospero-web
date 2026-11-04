@@ -1,0 +1,112 @@
+---
+layout: base.njk
+---
+{# Trolletín: columna de sátira. Se ve como una nota; solo una línea pequeña al final avisa que es humor
+   (y para Google es SatiricalArticle, fuera de Google Noticias). #}
+<article class="nota trolletin">
+  <header class="contenedor nota-cabecera">
+    <p class="etiqueta"><a href="/trolletines/">Trolletín</a></p>
+    <h1>{{ title }}</h1>
+    {% if resumen %}<p class="nota-bajada">{{ resumen }}</p>{% endif %}
+    <div class="firma">
+      <img src="{{ autor.foto }}" alt="" width="44" height="44">
+      <div>
+        <p class="firma-nombre">Por {{ site.nombre }}</p>
+        <p class="meta"><time datetime="{{ date | fechaIso }}">{{ date | fechaHora }}</time></p>
+      </div>
+    </div>
+  </header>
+
+  {% if imagen %}
+  <figure class="contenedor nota-foto">
+    <img src="{{ imagen | img(1600) }}" alt="{{ imagen_texto or title }}">
+    {% if imagen_texto or imagen_fuente %}<figcaption>{{ imagen_texto }}{% if imagen_fuente %} <span class="credito">{{ imagen_fuente }}</span>{% endif %}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+
+  <div class="contenedor">
+    <div class="nota-cuerpo">
+      {{ content | safe }}
+      <p class="nota-humor">Trolletín es la sección de humor de este sitio: lo que leíste es inventado.{% if hecho_real %} Lo único real: {{ hecho_real }}{% if hecho_real_url %} (<a href="{{ hecho_real_url }}" target="_blank" rel="noopener">fuente</a>){% endif %}.{% endif %}</p>
+    </div>
+
+    {% include "temas-nota.njk" %}
+
+    {# Al compartir se usa el enlace corto: jesusprospero.pe/n/<código> #}
+    {% set enlace = site.url + "/n/" + enlaceCorto %}
+    <div class="compartir" aria-label="Compartir">
+      <span>Compartir</span>
+      <a href="https://wa.me/?text={{ (title + ' ' + enlace) | urlencode }}" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ enlace | urlencode }}" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url={{ enlace | urlencode }}&amp;text={{ title | urlencode }}" target="_blank" rel="noopener">X</a>
+      <button type="button" id="copiar" data-enlace="{{ enlace }}">Copiar enlace</button>
+    </div>
+
+    {% include "yape.njk" %}
+
+    <section class="comentarios" id="comentarios" data-nota="{{ page.url }}" aria-labelledby="comentarios-titulo">
+      <div class="seccion-cabeza"><h2 class="seccion-titulo" id="comentarios-titulo">Comentarios</h2></div>
+      <ol class="comentarios-lista" id="comentarios-lista"></ol>
+      <p class="comentarios-vacio" id="comentarios-vacio" hidden>Todavía no hay comentarios. Sé el primero.</p>
+      <div class="comentarios-ingresa" id="comentarios-ingresa">
+        <p>Inicia sesión o crea tu cuenta gratis para comentar.</p>
+        <a class="boton boton-secundario" href="/ingresar/?motivo=comentar&amp;volver={{ page.url | urlencode }}">Ingresar para comentar</a>
+      </div>
+      <form class="comentarios-form" id="comentarios-form" hidden novalidate>
+        <label for="comentario-texto">Comenta como <strong id="comentario-nombre"></strong></label>
+        <textarea id="comentario-texto" name="texto" rows="4" maxlength="1500" required placeholder="Escribe tu comentario"></textarea>
+        <div class="comentarios-pie">
+          <small>Los comentarios se revisan antes de publicarse. <a href="/privacidad/#comentarios">Reglas</a>.</small>
+          <button type="submit" class="boton">Publicar</button>
+        </div>
+        <p class="muro-aviso" id="comentario-aviso" role="status"></p>
+      </form>
+    </section>
+  </div>
+</article>
+<script src="/js/comentarios.js" defer></script>
+
+{% set otras = collections.trolletines | otras(page.url, 3) %}
+{% if otras.length %}
+<section class="contenedor seccion" aria-labelledby="mas-titulo">
+  <div class="seccion-cabeza">
+    <h2 class="seccion-titulo" id="mas-titulo">Más trolletines</h2>
+    <a class="enlace-flecha" href="/trolletines/">Ver todos</a>
+  </div>
+  <div class="rejilla">
+    {% for n in otras %}{% set variante = "" %}{% include "tarjeta.njk" %}{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# Para Google es sátira (SatiricalArticle), no una noticia #}
+<script type="application/ld+json">
+{{ {
+  "@context": "https://schema.org",
+  "@type": "SatiricalArticle",
+  "headline": (titulo_seo or title) | truncate(110, true, "…"),
+  "description": resumen or site.descripcion,
+  "datePublished": date | fechaIso,
+  "mainEntityOfPage": site.url + page.url,
+  "image": [site.url + imagen] if imagen else [site.url + autor.foto],
+  "inLanguage": "es-PE",
+  "author": { "@type": "Person", "name": site.nombre, "url": site.url + "/sobre-mi/" }
+} | dump | safe }}
+</script>
+<script>
+  document.getElementById("copiar").addEventListener("click", function () {
+    var b = this;
+    navigator.clipboard.writeText(b.dataset.enlace).then(function () {
+      b.textContent = "Enlace copiado";
+      setTimeout(function () { b.textContent = "Copiar enlace"; }, 2000);
+    }).catch(function () { window.prompt("Copia este enlace:", b.dataset.enlace); });
+  });
+  var yape = document.getElementById("copiar-yape");
+  if (yape) yape.addEventListener("click", function () {
+    var b = this;
+    navigator.clipboard.writeText(b.dataset.numero).then(function () {
+      b.textContent = "Número copiado";
+      setTimeout(function () { b.textContent = "Copiar número"; }, 2000);
+    }).catch(function () { window.prompt("Copia este número:", b.dataset.numero); });
+  });
+</script>

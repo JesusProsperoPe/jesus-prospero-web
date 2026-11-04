@@ -88,6 +88,32 @@ collections:
       - { label: "Texto (opcional)", name: "body", widget: "markdown", required: false,
           hint: "Un comentario corto que aparece debajo de la viñeta." }
 
+  - name: trolletines
+    label: Trolletín
+    label_singular: Trolletín
+    description: Columnas troll (sátira). Parten de un hecho real y lo exageran. Al final del texto sale sola una línea pequeña que dice que es humor.
+    folder: src/trolletines
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} · {{date | date('DD/MM/YYYY HH:mm')}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Titular", name: "title", widget: "string" }
+      - { label: "Temas", name: "temas", widget: "list", required: false,
+          hint: "Personajes o asuntos, separados por coma. Ejemplo: Keiko Fujimori, Congreso." }
+      - { label: "Fecha y hora", name: "date", widget: "datetime" }
+      - { label: "Bajada (resumen corto)", name: "resumen", widget: "text", required: false }
+      - { label: "Foto principal", name: "imagen", widget: "image", required: false }
+      - { label: "Pie de foto", name: "imagen_texto", widget: "string", required: false }
+      - { label: "Fuente de la foto", name: "imagen_fuente", widget: "string", required: false,
+          hint: "Si es IA o montaje, dilo. Ejemplo: «Imagen generada con inteligencia artificial (sátira)»." }
+      - { label: "Lo que sí pasó (opcional)", name: "hecho_real", widget: "string", required: false,
+          hint: "Una frase con el hecho real que inspira el trolletín. Sale al final del texto." }
+      - { label: "Enlace al hecho real (opcional)", name: "hecho_real_url", widget: "string", required: false }
+      - { label: "Enlace corto (opcional)", name: "corto", widget: "string", required: false,
+          hint: "Una o dos palabras: se comparte como jesusprospero.pe/n/<palabra>. Si lo dejas vacío, se crea uno solo." }
+      - { label: "Texto completo", name: "body", widget: "markdown" }
+
   - name: mentiras
     label: Contador de Keiko
     label_singular: Caso

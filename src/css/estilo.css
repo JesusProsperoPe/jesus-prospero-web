@@ -304,6 +304,9 @@ a:hover .vineta-marco img { transform: scale(1.03); }
 }
 .etiqueta .tipo-nota { margin: 0 0 0 10px; }
 
+/* Trolletín: línea pequeña al final que avisa que es humor */
+.nota-humor { margin-top: 28px; color: var(--tenue); font-family: var(--f-texto); font-size: 13px; font-style: italic; line-height: 1.5; }
+
 /* Notas exclusivas para suscriptores */
 .sello-exclusivo {
   display: inline-block; margin-right: 8px; padding: 2px 8px; border-radius: 3px;
