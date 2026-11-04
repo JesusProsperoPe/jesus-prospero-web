@@ -1,5 +1,5 @@
 ---
-title: "ATV nombra al Pelao “especialista del clima” y Senamhi evalúa cerrar por falta de rating"
+title: "ATV nombra al Pelao “especialista del clima” y meteorólogos se compran disfraces de Sailor Moon para que los tomen en serio"
 temas: ["ATV", "El Pelao", "Senamhi", "Fenómeno El Niño"]
 date: 2026-11-03T18:00:00-05:00
 resumen: "Un hidrólogo con dos doctorados soltó su taza de café y miró la pared durante cuarenta minutos."
