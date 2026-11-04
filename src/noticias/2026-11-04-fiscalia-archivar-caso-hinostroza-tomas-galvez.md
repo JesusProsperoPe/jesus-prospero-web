@@ -5,7 +5,7 @@ temas: ["César Hinostroza", "Tomás Gálvez", "Los Cuellos Blancos del Puerto",
 date: 2026-11-04T06:15:00-05:00
 resumen: "La solicitud fue presentada por una fiscal promovida en junio por el propio Tomás Gálvez. El juez del caso se mostró sorprendido por el pedido."
 imagen: /img/uploads/hinostroza-galvez-portada.jpg
-imagen_texto: "El exjuez supremo César Hinostroza, al centro, y el fiscal de la Nación Tomás Gálvez, a la derecha."
+imagen_texto: "La fiscal suprema Teresa Wong, a la izquierda; el exjuez supremo César Hinostroza, al centro, y el fiscal de la Nación Tomás Gálvez, a la derecha."
 imagen_fuente: "Montaje con fotos de archivo."
 tipo: Noticia
 exclusivo: false
