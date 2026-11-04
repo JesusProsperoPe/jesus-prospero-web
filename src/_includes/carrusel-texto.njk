@@ -1,8 +1,7 @@
 {# Guion completo de un carrusel de Instagram, listo para que ChatGPT lo diseñe.
    Recibe "n" (la nota). Los slides de contenido salen del campo "carrusel" de la nota;
    el slide "Sígueme" (6) y el cierre (último) se ponen solos. Es texto plano: todo va con "safe".
-   Las fotos se nombran por archivo porque Jesus se las adjunta a ChatGPT
-   (scripts/preparar-carrusel.ps1 arma esa carpeta con todo lo que se menciona aquí). #}
+   Jesus le pasa a ChatGPT las fotos una por una, junto con "slide 1", "slide 2"…: aquí no se nombran archivos. #}
 {%- set contenido = n.data.carrusel -%}
 {%- set total = contenido.length + 2 -%}
 {%- set esColumna = n.data.tipo != "Noticia" -%}
@@ -10,8 +9,9 @@ CARRUSEL PARA INSTAGRAM: {{ n.data.title | safe }}
 Tipo: {{ "Columna" if esColumna else "Noticia" }} · Nota completa: {{ site.url }}{{ n.url }}
 
 INSTRUCCIONES PARA CHATGPT
-Diseña este carrusel de {{ total }} slides para Instagram con el estilo y el texto de abajo. No esperes materiales ni indicaciones: empieza ya.
-MUY IMPORTANTE: cada slide es UNA imagen separada. Nunca juntes varios slides en una sola imagen, ni hagas un collage, ni una vista previa de todos. En cada respuesta genera solo el siguiente slide que falte (empieza por el 1). Cuando te escriban "sigue", haces el siguiente, sin repetir ninguno, hasta el {{ total }}.
+Vas a diseñar este carrusel de {{ total }} slides para Instagram con el estilo y el texto de abajo. Todavía no hagas nada: espera mis indicaciones.
+CÓMO TRABAJAMOS: yo te paso la foto y te escribo "slide 1"; entonces haces solo el slide 1 con esa foto. Luego te paso otra foto y te escribo "slide 2", y haces solo el slide 2. Y así hasta el {{ total }}. Nunca te adelantes a otro slide.
+MUY IMPORTANTE: cada slide es UNA imagen separada. Nunca juntes varios slides en una sola imagen, ni hagas un collage, ni una vista previa de todos.
 
 FORMATO
 - Tamaño 4:5 vertical (1080 x 1350 px)
@@ -24,23 +24,19 @@ FORMATO
 - Numeración discreta en la esquina inferior izquierda (1/{{ total }}, 2/{{ total }}, etc.)
 - Respeta el texto exacto que te doy, sin cambiar palabras ni agregar nada
 {%- if esColumna %}
-- Desde el slide 2 hasta el {{ total - 1 }}, va mi foto (jesus-prospero.jpg) en un círculo y el texto "COLUMNA | JESUS PROSPERO"
+- Desde el slide 2 hasta el {{ total - 1 }}, va mi foto en un círculo y el texto "COLUMNA | JESUS PROSPERO"
 {%- endif %}
 
-FOTOS (te las adjunto; si no, están en estas direcciones)
-- CADA SLIDE LLEVA AL MENOS UNA FOTO: la que se indica en cada slide{% if esColumna %} (en los slides de párrafo, la foto es la firma de Jesus Prospero){% endif %}.
-- Usa las fotos reales adjuntas. Las personas van en blanco y negro (menos la foto de Jesus Prospero, que va a color) y deben parecerse a su foto real: no inventes caras distintas.
-- Archivos:
-{%- for f in n | fotosCarrusel %}
-  - {{ f.archivo }}{% if f.pie %} ({{ f.pie | safe }}){% endif %} {{ site.url }}{{ f.url }}
-{%- endfor %}
+FOTOS
+- Cada slide lleva la foto que te paso junto con el número de slide.
+- Usa las fotos reales que te paso. Las personas van en blanco y negro (menos la foto de Jesus Prospero, que va a color) y deben parecerse a su foto real: no inventes caras distintas.
 
 TEXTO DE CADA SLIDE (lo que va entre ** ** es la palabra clave en rojo; no escribas los asteriscos)
 {%- set posSigueme = 3 if esColumna else 5 %}
 {% for s in contenido %}
 {%- if loop.index0 == posSigueme %}
 SLIDE {{ posSigueme + 1 }}
-Foto: jesus-prospero.jpg, a color, en un círculo grande como foto de perfil de Instagram, con un símbolo "+" en la parte inferior derecha del círculo (como el botón de seguir de Instagram), junto a "@jesusprospero.pe".
+Foto: mi foto (te la paso), a color, en un círculo grande como foto de perfil de Instagram, con un símbolo "+" en la parte inferior derecha del círculo (como el botón de seguir de Instagram), junto a "@jesusprospero.pe".
 Titular: {{ "Explico **la política peruana** todos los días." if n.data.carrusel_politica != false else "Explico **el Perú** todos los días." }}
 Texto: Si hoy no me sigues, probablemente no veas mi siguiente {{ "columna" if esColumna else "publicación" }}.
 **Sígueme.**
@@ -49,7 +45,6 @@ SLIDE {{ loop.index + (1 if loop.index0 >= posSigueme else 0) }}{% if s.parrafo 
 {%- if s.parrafo %}
 Párrafo: {{ s.parrafo | trim | safe }}
 {%- else %}
-Foto: {{ (s.foto or n.data.imagen) | replace("/img/uploads/", "") }}
 Titular: {{ s.titular | safe }}
 {%- if s.texto %}
 Texto: {{ s.texto | trim | safe }}
@@ -57,7 +52,7 @@ Texto: {{ s.texto | trim | safe }}
 {%- endif %}
 {% endfor %}
 SLIDE {{ total }}
-Fotos: jesus-prospero.jpg (a color, en círculo) y el código QR de yape-qr.jpg, grande y nítido para que se pueda escanear.
+Fotos: mi foto (a color, en círculo) y el código QR de Yape que te paso, grande, nítido y sin modificar, para que se pueda escanear.
 {%- if esColumna %}
 Bloque 1: Lee la columna completa en
 **www.jesusprospero.pe**
