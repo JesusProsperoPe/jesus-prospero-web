@@ -4,9 +4,9 @@ temas: ["Keiko Fujimori", "Gobierno", "100 días"]
 date: 2026-11-05T09:00:00-05:00
 resumen: "La hoja del balance oficial salió en blanco, pero el oficialismo aclaró que se imprimió con tinta invisible por razones de seguridad nacional."
 corto: "100-dias-secreto"
-imagen: /img/uploads/keiko-fujimori-octubre-2026.jpg
-imagen_texto: "La presidenta Keiko Fujimori durante un acto público, el 7 de octubre de 2026."
-imagen_fuente: "Foto: Ministerio de la Producción, vía Wikimedia Commons (dominio público)."
+imagen: /img/uploads/keiko-fujimori-reque-septiembre-2026.jpg
+imagen_texto: "La presidenta Keiko Fujimori habla en la inauguración del Mercado Modelo de Reque (Lambayeque), el 28 de septiembre de 2026."
+imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons (dominio público)."
 hecho_real: "el gobierno de Keiko Fujimori cumplió 100 días el 5 de noviembre de 2026"
 ---
 ¡ESPERANZADOR! El Ejecutivo celebró ayer sus 100 días de gestión con una ceremonia en Palacio donde se presentó, por fin, el balance oficial de logros. La hoja salió en blanco, pero el oficialismo aclaró que se imprimió con tinta invisible por razones de seguridad nacional.
