@@ -4,10 +4,8 @@ layout: base.njk
 titulo_seo: "Jesus Prospero | Noticias y columnas de política peruana"
 resumen: "Columnas y noticias de política peruana por Jesus Prospero: el Congreso, el Gobierno, la Fiscalía y el poder, contados con contexto y humor."
 ---
-{# 0. Contador de Keiko: lo primero de la portada, cuando ya hay casos #}
-{% if collections.mentiras.length %}{% set enPortada = true %}{% include "contador-keiko.njk" %}{% endif %}
-
-{% set notas = collections.noticias %}
+{# Columnas, noticias y trolletines juntos, del más nuevo al más antiguo #}
+{% set notas = collections.portada %}
 {% if notas.length %}
 {% set p = notas[0] %}
 {% set secundarias = notas | desde(1) | limite(2) %}
@@ -71,20 +69,6 @@ resumen: "Columnas y noticias de política peruana por Jesus Prospero: el Congre
 </section>
 {% endif %}
 
-{# Trolletín (sátira): los 3 más recientes, solo si ya hay alguno #}
-{% set trolletines = collections.trolletines | limite(3) %}
-{% if trolletines.length %}
-<section class="contenedor seccion" aria-labelledby="trolletin-titulo">
-  <div class="seccion-cabeza">
-    <h2 class="seccion-titulo" id="trolletin-titulo">Trolletín Informativo</h2>
-    <a class="enlace-flecha" href="/trolletines/">Ver todos</a>
-  </div>
-  <div class="rejilla">
-    {% for n in trolletines %}{% set variante = "" %}{% include "tarjeta.njk" %}{% endfor %}
-  </div>
-</section>
-{% endif %}
-
 {# 3. Quién soy + apoyo #}
 {% include "sobre-mi.njk" %}
 
@@ -105,6 +89,7 @@ resumen: "Columnas y noticias de política peruana por Jesus Prospero: el Congre
 <p class="contenedor ver-todas">
   <a class="boton boton-secundario" href="/columnas/">Ver todas las columnas</a>
   {% if collections.soloNoticias.length %}<a class="boton boton-secundario" href="/noticias/">Ver todas las noticias</a>{% endif %}
+  {% if collections.trolletines.length %}<a class="boton boton-secundario" href="/trolletines/">Ver todos los trolletines</a>{% endif %}
 </p>
 
 {% else %}

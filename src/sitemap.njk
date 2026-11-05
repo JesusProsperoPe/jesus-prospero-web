@@ -28,9 +28,6 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}{{ t.url }}</loc><lastmod>{{ t.date | fechaIso }}</lastmod></url>
   {%- endfor %}
   {%- endif %}
-  {%- if collections.mentiras.length %}
-  <url><loc>{{ site.url }}/contador-keiko/</loc><lastmod>{{ collections.mentiras[0].date | fechaIso }}</lastmod></url>
-  {%- endif %}
   {%- for t in collections.temas %}
   <url><loc>{{ site.url }}/temas/{{ t.slug }}/</loc><lastmod>{{ t.items[0].date | fechaIso }}</lastmod></url>
   {%- endfor %}

@@ -76,6 +76,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("trolletines", (api) =>
     api.getFilteredByTag("trolletin").sort((a, b) => b.date - a.date)
   );
+  // Contador de mentiras retirado de la web el 05-11-2026 por pedido de Jesus (los casos siguen en src/mentiras)
+  eleventyConfig.ignores.add("src/contador-keiko.njk");
+  // Portada: columnas, noticias y trolletines juntos, del más nuevo al más antiguo
+  eleventyConfig.addCollection("portada", (api) =>
+    [...api.getFilteredByTag("noticia"), ...api.getFilteredByTag("trolletin")].sort((a, b) => b.date - a.date)
+  );
   // Enlaces cortos jesusprospero.pe/n/<código>: dos notas, viñetas o trolletines no pueden compartir código
   eleventyConfig.addCollection("cortos", (api) => {
     const vistos = new Map();

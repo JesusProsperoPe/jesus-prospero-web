@@ -22,7 +22,7 @@ carrusel:
 
 En el Perú hay preguntas que nadie quiere responder. Cuándo llega el Metropolitano, cuándo termina la Vía Expresa Sur, cuándo devuelve la plata el amigo que pidió prestado “hasta el viernes”. Esta semana se sumó una más, cuándo veremos resultados en seguridad. La diferencia es que esta sí tuvo respuesta, y vino con calculadora.
 
-En una entrevista con El Comercio, el periodista le preguntó al ministro de Trabajo, Juan Sheput, en cuánto tiempo se revertirían los malos resultados en seguridad. ¿Seis meses? ¿Cuánto? Sheput empezó con humildad. “Hablar de tiempo, yo creo que sería muy pretencioso, tendría que hacer algún tipo de cálculo”. Y acto seguido hizo el cálculo. **“Todavía nos faltan 1725 días”.**
+En una [entrevista con El Comercio](https://www.youtube.com/watch?v=6VM9zKv1LvA), el periodista le preguntó al ministro de Trabajo, Juan Sheput, en cuánto tiempo se revertirían los malos resultados en seguridad. ¿Seis meses? ¿Cuánto? Sheput empezó con humildad. “Hablar de tiempo, yo creo que sería muy pretencioso, tendría que hacer algún tipo de cálculo”. Y acto seguido hizo el cálculo. **“Todavía nos faltan 1725 días”.**
 
 La cuenta es exacta. El mandato dura cinco años y ya pasaron cien días. Lo que el ministro respondió, en buen castellano, es que **los resultados llegarán cuando termine el gobierno**. Es la versión oficial del “ya llega, ya llega” que dice el cobrador mientras la combi sigue parada en el paradero.
 
