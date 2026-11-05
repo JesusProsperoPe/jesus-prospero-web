@@ -23,12 +23,8 @@ Por su parte, el ministro Chang negó cualquier favoritismo en la designación d
 
 Respecto a las emergencias, el ministro de Economía, Elmer Cuba, insistió en que las inundaciones en Lima son "piscinas temporales de libre acceso" que vienen dinamizando el sector baldes. Desde el MEF se evalúa declarar las calles inundadas de Lima como nueva ruta de canotaje para impulsar el turismo interno. En tanto, el ministro de Defensa anunció que, tras el éxito parcial de su plan de rezar contra las lluvias, lanzará el Plan Rosario contra la extorsión, que consiste en tres avemarías por cada bodega cobrada. Sobre los incendios atendidos doce días después, Palacio explicó que la demora se debió a que el Congreso aún no otorgaba facultades en materia de agua.
 
-Justamente sobre las facultades, la mandataria lamentó haber recibido solo 27 de las 66 materias solicitadas. "Con 27 no se puede gobernar. Con 66 tampoco, pero se hubiera visto más bonito", agregó Galarreta.
+Con respecto a las facultades legislativas, un comerciante de la cuadra 10 del jirón Azángaro, contó a esta redacción que un señor de terno y garfio, muy parecido al premier, le preguntó si tenía facultades legislativas. “Le ofrecí las 39 faltantes a precio de mayorista, con garantía de un año y factura de una empresa de Los Olivos”, declaró. Palacio negó la versión, aunque no explicó por qué declararon un gasto de 3900 soles por concepto de impresión en un restaurante de Los Olivos.
 
 Finalmente, la presidenta pidió paciencia hasta el 2027, año en que, según fuentes de Palacio, se terminará de culpar a la herencia recibida para empezar a culpar a la herencia que dejará el próximo gobierno.
-
-Desde la derecha, Rafael López Aliaga calificó la "mano dura" del Ejecutivo como "mano de seda con manicure" y anunció que, de seguir así, se pondrá él mismo a rezar contra el crimen, pero con cilicio doble.
-
-![Rafael López Aliaga](/img/uploads/lopez-aliaga-alcalde-lima.jpg "Rafael López Aliaga, listo para el cilicio doble. Foto: Ministerio de Defensa del Perú / Wikimedia Commons (CC BY-SA 4.0).")
 
 *[Actualización 11:47 p. m.] Al cierre de esta edición, el oficialismo difundió una nueva encuesta con una sola pregunta: "¿Sabía usted que hay gobierno?". El 61 % respondió que sí, cifra que la bancada ya celebra como el nivel de aprobación más alto de la gestión.*
