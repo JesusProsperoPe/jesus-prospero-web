@@ -4,9 +4,9 @@ titulo_seo: "Pacto contra la anemia infantil en Perú: meta de 17,4 % para 2031"
 temas: ["Keiko Fujimori", "Salud", "Anemia"]
 date: 2026-11-05T22:55:00-05:00
 resumen: "El pacto prioriza a menores de tres años y gestantes. La ENDES 2025 registró anemia en el 34,9 % de los niños de 6 a 35 meses, con una prevalencia mayor en el área rural."
-imagen: /img/uploads/anemia-pacto-4k.jpg
-imagen_texto: "Keiko Fujimori y el Palacio de Gobierno en una composición referencial que no registra la firma del pacto."
-imagen_fuente: "Fotomontaje editorial con IA, basado en fotografías reales (referencial). Ministerio de la Producción, dominio público; Diego Delso / Wikimedia Commons, CC BY-SA 4.0. Montaje CC BY-SA 4.0."
+imagen: /img/uploads/keiko-fujimori-retrato-septiembre-2026.jpg
+imagen_texto: "Retrato oficial de la presidenta Keiko Fujimori, de septiembre de 2026. Foto de archivo: no corresponde a la firma del pacto."
+imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons (dominio público). Bordes laterales completados con un fondo difuminado de la misma foto."
 tipo: Noticia
 exclusivo: false
 corto: "pacto-anemia"
@@ -66,4 +66,4 @@ Para evaluar el nuevo pacto, habrá que comparar cifras del mismo grupo de edad 
 
 **Fuentes:** [Andina: metas del pacto](https://andina.pe/agencia/noticia-pacto-contra-anemia-como-llegara-a-los-hogares-y-metas-tendra-1098727.aspx) · [INEI: ENDES 2025](https://www.gob.pe/institucion/inei/noticias/1392685-el-34-9-de-la-poblacion-de-6-a-35-meses-de-edad-sufrio-de-anemia-en-el-2025) · [Minsa: plan 2024-2030](https://www.gob.pe/institucion/minsa/normas-legales/5093832-002-2024-sa).
 
-**Portada:** montaje referencial con IA a partir de un retrato oficial de archivo y una [foto del Palacio de Gobierno de Diego Delso](https://commons.wikimedia.org/wiki/File:Palacio_de_Gobierno,_Lima,_Per%C3%BA,_2015-07-28,_DD_109.JPG), bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+**Portada:** [retrato oficial de Keiko Fujimori](https://commons.wikimedia.org/wiki/File:Pdta._Keiko_Fujimori.jpg), Ministerio de la Producción, dominio público.

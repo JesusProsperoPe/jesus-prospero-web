@@ -4,9 +4,9 @@ titulo_seo: "Mensaje de Keiko Fujimori por los 100 días y cifras de seguridad"
 temas: ["Keiko Fujimori", "Seguridad ciudadana"]
 date: "2026-11-06T06:16:00-05:00"
 resumen: "La mandataria presentó la cifra en su mensaje del 5 de noviembre. El discurso no precisó qué delitos integran el indicador ni las fechas exactas de comparación."
-imagen: "/img/uploads/balance-seguridad-4k.jpg"
-imagen_texto: "Retrato de archivo de Keiko Fujimori integrado con la fachada de Palacio de Gobierno."
-imagen_fuente: "Fotomontaje editorial con IA, basado en fotografías reales (referencial). Ministerio de la Producción (dominio público) y Diego Delso / Wikimedia Commons (CC BY-SA 4.0). Montaje CC BY-SA 4.0."
+imagen: "/img/uploads/keiko-fujimori-sonrisa-octubre-2026.jpg"
+imagen_texto: "La presidenta Keiko Fujimori en un acto público, el 7 de octubre de 2026. Foto de archivo."
+imagen_fuente: "Foto: Ministerio de la Producción / Wikimedia Commons (dominio público). Bordes laterales completados con un fondo difuminado de la misma foto."
 tipo: "Noticia"
 exclusivo: false
 corto: "balance-seguridad"
@@ -60,4 +60,4 @@ En el discurso, la presidenta habló de crímenes sin especificar qué delitos i
 
 Para reproducir la comparación hacen falta el registro de origen, el periodo de cada promedio y una definición común de los casos contados. Un desglose territorial permitiría además identificar dónde se concentró la variación. Esos datos ayudarían a evaluar la afirmación presidencial y las medidas que el Gobierno presentó en el mismo mensaje.
 
-**Portada:** montaje referencial con un retrato oficial de archivo y una [foto del Palacio de Gobierno de Diego Delso](https://commons.wikimedia.org/wiki/File:Palacio_de_Gobierno,_Lima,_Per%C3%BA,_2015-07-28,_DD_109.JPG), bajo CC BY-SA 4.0.
+**Portada:** [foto de Keiko Fujimori del 7 de octubre de 2026](https://commons.wikimedia.org/wiki/File:K._Fujimori_20261007_3.jpg), Ministerio de la Producción, dominio público.
