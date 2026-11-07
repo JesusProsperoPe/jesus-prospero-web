@@ -57,6 +57,13 @@ En la grabación, la voz atribuida a Paz le pregunta si Keiko Fujimori ganó la 
 
 En otro tramo, Paz pregunta cuándo debería mandarle un mensaje a Keiko. "Te aviso mañana a primera hora... en los privados se lo puedes mandar", contesta Cerimedo.
 
+<figure style="margin:1.5em auto;max-width:420px">
+<video controls playsinline preload="metadata" poster="/img/uploads/audio-cerimedo-paz-video-poster.jpg" style="width:100%;height:auto;border-radius:6px;background:#000">
+<source src="/img/uploads/audio-cerimedo-paz-video.mp4" type="video/mp4">
+</video>
+<figcaption>Presunto audio de Fernando Cerimedo y Rodrigo Paz difundido por Wara TV y Brújula Digital, con subtítulos de este medio. La imagen de los dos al teléfono es referencial.</figcaption>
+</figure>
+
 ## Lo que dijo Keiko
 
 El audio choca de frente con la versión de la presidenta. El 2 de septiembre, consultada por su vínculo con Cerimedo, Keiko fue categórica. "Puedo señalar con claridad que el señor Cerimedo no ha participado en nuestra campaña electoral, ni en primera ni en segunda vuelta", afirmó. Negó cualquier relación personal o laboral con él y dijo que seguramente lo habría saludado en algún sitio, pero que no tenía "ninguna comunicación ni relación" con el argentino.
