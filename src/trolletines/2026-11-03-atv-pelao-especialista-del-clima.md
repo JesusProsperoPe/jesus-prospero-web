@@ -19,13 +19,9 @@ El propio Pelao habría quedado sorprendido con su nuevo título. “Yo solo hic
 
 La conductora, por su parte, defendió su elección con firmeza. “Para mí un especialista es cualquier persona que sabe más que yo de un tema”, habría declarado. Esta definición, según lingüistas consultados, convierte automáticamente en especialistas a 32 millones de peruanos, a un loro de Iquitos y a la tía que pronostica lluvia porque le duele la rodilla.
 
-![La conductora del matinal de ATV](/img/uploads/trolletin-pelao-conductora.jpg "La conductora, en pleno análisis de la definición de especialista. Captura de ATV Noticias, con calidad mejorada con inteligencia artificial.")
-
 Fuentes del canal confirmaron que, tras el éxito de la emisión, el matinal ya prepara una nueva sección de expertos. El próximo lunes, un tiktoker que se grabó comiendo picante será presentado como “especialista en salud gastrointestinal”. El miércoles, un señor que se cayó en un buzón en Breña explicará “los desafíos estructurales del alcantarillado limeño”. Para el jueves se negocia la presencia de un gamer que ganó un torneo de Free Fire, quien opinará sobre “geopolítica del conflicto armado en Medio Oriente”.
 
 Mientras tanto, en el Senamhi reina la preocupación. Un grupo de meteorólogos fue visto esta tarde comprando un aro de luz, una peluca rubia y un disfraz de Sailor Moon. “Si eso es lo que se necesita para que la televisión nos invite, estamos dispuestos”, declaró uno de ellos, mientras ensayaba un baile de TikTok frente al mapa del Pacífico.
-
-![Persona disfrazada de Sailor Moon haciendo el símbolo de la paz](/img/uploads/trolletin-pelao-sailor-moon.jpg "Ensayo general para salir en televisión. Imagen generada con inteligencia artificial (humor).")
 
 Hoy Lima fue declarada en emergencia por El Niño en 33 distritos. Los expertos coinciden en que el país está preparado para enfrentar las lluvias, ya que en los matinales, según confirmaron, ya no queda ni un solo especialista.
 

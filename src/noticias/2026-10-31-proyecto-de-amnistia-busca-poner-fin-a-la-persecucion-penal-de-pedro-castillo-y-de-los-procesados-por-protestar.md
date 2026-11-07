@@ -4,9 +4,9 @@ titulo_seo: "Amnistía para Pedro Castillo: lo que propone el proyecto de Cather
 temas: ["Pedro Castillo", "Congreso", "Protestas", "Amnistía"]
 date: 2026-10-31T10:00:00.000-05:00
 resumen: "La iniciativa de la diputada Catherin Palomino suma 43 coautores y se apoya en un pronunciamiento de la ONU que calificó como arbitraria la detención del expresidente. Su aprobación extinguiría la condena por el mensaje del 7 de diciembre de 2022."
-imagen: "/img/uploads/castillo-congreso-restaurada-4k.jpg"
-imagen_texto: "Ilustración editorial de Pedro Castillo sobre el hemiciclo del Congreso. No es un registro de una intervención real."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial). Portada anterior recuperada; exportación 3840 × 2160."
+imagen: "/img/uploads/hemiciclo-congreso-pleno-2023-4k.jpg"
+imagen_texto: "Sesión del Pleno del Congreso de la República, en septiembre de 2023. Foto de archivo."
+imagen_fuente: "Foto: Gobierno Regional del Callao / Wikimedia Commons (dominio público). Recorte 16:9 a 3840 × 2160."
 tipo: Noticia
 corto: "amnistia-castillo"
 ---
@@ -72,4 +72,4 @@ Una instancia de la ONU calificó como arbitraria la detención de Castillo. Com
 **Fuentes:** [La República, proyecto de amnistía](https://larepublica.pe/politica/2026/10/30/presentan-proyecto-de-ley-de-amnistia-para-pedro-castillo-y-procesados-por-protestas-desde-2021-hnews-1677960) · [El Comercio](https://elcomercio.pe/politica/jp-y-obras-presentan-proyecto-de-amnistia-para-pedro-castillo-noticia/) · [Infobae](https://www.infobae.com/peru/2026/10/31/diputados-de-juntos-por-el-peru-plantean-amnistia-para-pedro-castillo-y-procesados-por-protestas-tras-golpe-de-estado-de-2022/) · [La República, prisión preventiva](https://larepublica.pe/politica/2026/10/22/pedro-castillo-seguira-en-prision-preventiva-hasta-marzo-de-2027-pj-rechazo-pedido-para-revocarla-hnews-1497936) · [Defensoría del Pueblo, reporte de fallecidos](https://cdn.www.gob.pe/uploads/document/file/4581187/Crisis%20pol%C3%ADtica%20y%20conflicto%20social%20-%20Reporte%20de%20personas%20fallecidas%20%28Del%207%20de%20diciembre%20de%202022%20al%207%20de%20abril%20de%202023%29.pdf) · [Gestión, Ley 32419](https://gestion.pe/peru/politica/dina-boluarte-gobierno-promulga-ley-de-amnistia-para-militares-policias-y-comites-de-autodefensa-noticia/) · [Infobae, decisión del TC](https://www.infobae.com/peru/2026/10/29/el-tc-ya-tomo-una-decision-sobre-la-ley-de-amnistia-a-policias-y-militares)
 
 
-**Procedencia de la portada:** Ilustración editorial con IA recuperada a pedido de Jesus. No documenta una visita ni un discurso de Pedro Castillo en el Congreso.
+**Portada:** [fotografía del Pleno del Congreso](https://commons.wikimedia.org/wiki/File:Vista_panor%C3%A1mica_del_Hemiciclo_de_sesiones_del_Congreso_del_Peru_en_2023_-_53234664814.jpg), dominio público.

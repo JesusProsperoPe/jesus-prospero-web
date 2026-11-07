@@ -4,9 +4,9 @@ titulo_seo: "Keiko Fujimori prometió 2.000 colegios: en tres meses, cero constr
 temas: ["Keiko Fujimori", "Gobierno", "Luis Galarreta", "Educación"]
 date: 2026-10-31T13:00:00.000-05:00
 resumen: "En tres meses el gobierno ya tiene su primera cifra exacta. Prometió dos mil colegios nuevos y por ahora lleva cuatro destruidos. Al menos en algo va adelantado."
-imagen: "/img/uploads/keiko-colegios-restaurada-4k.jpg"
-imagen_texto: "Portada editorial anterior de Keiko Fujimori con la pregunta «¿5 mil colegios nuevos?»."
-imagen_fuente: "Diseño: Jesus Prospero. Imagen con IA (referencial), recuperada a pedido del autor; exportación 3840 × 2160."
+imagen: "/img/uploads/colegio-santa-lucia-mal-estado-4k.jpg"
+imagen_texto: "Local escolar de la comunidad nativa de Santa Lucía, en mal estado, en noviembre de 2024. Foto de archivo."
+imagen_fuente: "Foto: Abnerinuma / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9 a 3840 × 2160."
 tipo: Columna
 corto: "cero-colegios"
 ---
@@ -34,4 +34,4 @@ El gobierno [anunció 6.000 millones de soles para colegios](https://diariocorre
 Mientras tanto, la presidenta [recorre la megacárcel de Bukele](https://www.infobae.com/peru/2026/10/29/keiko-fujimori-recorrio-el-cecot-en-el-salvador-las-fotos-de-su-visita-a-la-megacarcel-de-bukele/) y promete mano dura. Los colegios, por su parte, ya la sintieron. **Les cayó del cielo.**
 
 
-**Procedencia de la portada:** Se recupera la composición anterior aprobada por Jesus, conservando su diseño. Diseño: Jesus Prospero. Imagen con IA (referencial), recuperada a pedido del autor; exportación 3840 × 2160. No es un registro documental de una escena conjunta.
+**Portada:** [fotografía del local escolar de Santa Lucía de Abnerinuma](https://commons.wikimedia.org/wiki/File:La_triste_realidad_de_la_instituci%C3%B3n_educativa_y_el_colegio_de_comunidad_nativa_de_santa_Lucia_en_p%C3%A9sima_condiciones_2.jpg), CC BY-SA 4.0.

@@ -4,9 +4,9 @@ titulo_seo: "Marco Vinelli: Poder Judicial dispone juicio oral por el caso Agro 
 temas: ["Marco Vinelli", "Agro Rural", "Poder Judicial", "Huánuco"]
 date: 2026-10-31T19:51:02-05:00
 resumen: "El ministro de Desarrollo Agrario y Riego afrontará un juicio por hechos de su anterior gestión en Agro Rural. La Fiscalía solicita hasta cinco años y cuatro meses de prisión. Su abogado informó que impugnó la decisión."
-imagen: "/img/uploads/vinelli-justicia-editorial-ia-4k.jpg"
-imagen_texto: "Marco Vinelli en una composición editorial con el Palacio de Justicia. No es una fotografía de una audiencia ni de su comparecencia."
-imagen_fuente: "Fotomontaje editorial con IA. Referencias: Bob Nichols / USDA, dominio público; Felipe Restrepo Acosta / Wikimedia Commons, CC BY-SA 4.0. Exportación 3840 × 2160."
+imagen: "/img/uploads/midagri-sede-2026-4k.jpg"
+imagen_texto: "Sede del Ministerio de Desarrollo Agrario y Riego (Midagri), del que depende Agro Rural, en agosto de 2026."
+imagen_fuente: "Foto: Mayimbú / Wikimedia Commons (CC0). Recorte 16:9 a 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "vinelli-agro-rural"
@@ -43,4 +43,4 @@ El siguiente paso descrito por los reportes es la remisión del expediente al ju
 **Fuentes:** [Ministerio Público](https://www.gob.pe/institucion/mpfn/noticias/1466113-fiscalia-llevara-a-juicio-oral-a-13-acusados-por-presunta-corrupcion-en-obra-de-riego-de-s-23-millones-en-agro-rural) · [El Comercio](https://elcomercio.pe/politica/el-poder-judicial-dicto-auto-de-enjuiciamiento-contra-el-ministro-marco-vinelli-noticia/) · [Infobae](https://www.infobae.com/peru/2026/10/31/pj-ordena-que-ministro-marco-vinelli-vaya-a-juicio-por-presunta-corrupcion-fiscalia-pide-mas-de-5-anos-de-prision/).
 
 
-**Procedencia de la portada:** Fotomontaje editorial con IA basado en el [retrato de archivo del USDA, 2015](https://commons.wikimedia.org/wiki/File:20150423-APHIS-RBN-6184_(17246231675).jpg) y la fotografía del Palacio de Justicia de Felipe Restrepo Acosta / Wikimedia Commons (CC BY-SA 4.0), ya usada y acreditada en el sitio. No representa una audiencia ni determina culpabilidad.
+**Portada:** [fotografía de la sede del Midagri de Mayimbú](https://commons.wikimedia.org/wiki/File:MIDAGRI_Headquarters_2026.jpg), CC0.

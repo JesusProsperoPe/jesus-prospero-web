@@ -4,9 +4,9 @@ titulo_seo: "Encuesta Datum: solo el 10 % califica como buena la gestión de Kei
 temas: ["Keiko Fujimori", "Datum", "Seguridad ciudadana", "Encuestas"]
 date: 2026-11-02T00:27:12-05:00
 resumen: "Solo uno de cada diez encuestados evalúa favorablemente la gestión: 47 % la considera regular y 38 %, mala. Además, 68 % no percibe avances contra la delincuencia."
-imagen: /img/uploads/datum-keiko-100-dias-portada-4k.jpg
-imagen_texto: "Keiko Fujimori sobre la fachada de Palacio de Gobierno. Fotomontaje editorial referencial; no representa un acto o visita documentados."
-imagen_fuente: "Fotomontaje editorial con IA basado en fotografías reales. Referencias: Ministerio de la Producción, dominio público; Diego Delso, delso.photo / Wikimedia Commons, CC BY-SA 4.0. Composición bajo CC BY-SA 4.0. Exportación 3840 × 2160."
+imagen: "/img/uploads/plaza-mayor-lima-palacio-2024-4k.jpg"
+imagen_texto: "Palacio de Gobierno visto desde la Plaza Mayor de Lima, en junio de 2024."
+imagen_fuente: "Foto: AlejandroFC / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9 a 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "datum-100-dias"
@@ -80,4 +80,4 @@ El dato políticamente relevante es otro: frente a una administración que hizo 
 
 **Fuentes:** [América Noticias / Cuarto Poder](https://www.americatv.com.pe/noticias/actualidad/datum-47-califica-regular-gestion-keiko-fujimori-n524045) · [El Comercio](https://elcomercio.pe/politica/gobierno/primeros-100-dias-de-keiko-fujimori-47-califica-su-gestion-como-regular-noticia/). El cuadro es de elaboración propia con datos de Datum difundidos por Cuarto Poder.
 
-**Imágenes:** la portada es un montaje con IA, basado en el retrato oficial de Keiko de octubre de 2026 y el [Palacio de Gobierno fotografiado por Diego Delso](https://commons.wikimedia.org/wiki/File:Palacio_de_Gobierno,_Lima,_Per%C3%BA,_2015-07-28,_DD_109.JPG), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). La composición y el recorte del edificio se distribuyen bajo esa licencia. El cuadro interior es de elaboración propia con datos de Datum; conserva los porcentajes de la encuesta y no utiliza una captura de redes sociales.
+**Imágenes:** la portada es una [fotografía de la Plaza Mayor de Lima de AlejandroFC](https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Lima_2024.jpg), CC BY-SA 4.0. El cuadro interior es de elaboración propia con datos de Datum; conserva los porcentajes de la encuesta y no utiliza una captura de redes sociales.

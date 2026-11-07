@@ -4,9 +4,9 @@ titulo_seo: "El Niño 2026-2027: emergencia de 60 días y financiamiento con pre
 temas: ["Fenómeno El Niño", "Presupuesto público", "Gobierno"]
 date: 2026-11-05T12:30:00-05:00
 resumen: "El DS 149-2026-PCM alcanza a distritos de 24 departamentos y del Callao. La norma admite que la respuesta regional está sobrepasada y exige intervenciones con los presupuestos de las entidades involucradas."
-imagen: /img/uploads/el-nino-emergencia-4k.jpg
-imagen_texto: "Imagen referencial basada en una fotografía del río Piura de febrero de 2025, con caudal bajo. No muestra las lluvias de noviembre de 2026."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial), basada en fotografía real de El Surquillano / Wikimedia Commons (CC0). Exportación 3840 × 2160; no es un registro actual."
+imagen: "/img/uploads/piura-calles-inundadas-2017-4k.jpg"
+imagen_texto: "Vista aérea de calles inundadas en Piura durante El Niño costero, en marzo de 2017. Foto de archivo; no muestra las lluvias de 2026."
+imagen_fuente: "Foto: Ministerio de Defensa del Perú / Wikimedia Commons (CC BY 2.0). Recorte 16:9 a 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "emergencia-el-nino"
@@ -70,4 +70,4 @@ Indeci debe comunicar a la PCM los resultados de las acciones. **Ese reporte ser
 
 **Fuentes:** [Decreto y anexo oficial](https://busquedas.elperuano.pe/dispositivo/NL/2571017-4) · [Infobae](https://www.infobae.com/peru/2026/11/03/peru-en-alerta-por-el-nino-declaran-emergencia-por-60-dias-ante-el-riesgo-de-lluvias-intensas-en-25-regiones/).
 
-**Imágenes:** la portada es una versión referencial elaborada con IA a partir del [río Piura fotografiado por El Surquillano en febrero de 2025](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Piura-2025.jpg), disponible bajo CC0. No documenta una inundación de 2026. Los dos gráficos son de elaboración propia a partir del decreto.
+**Imágenes:** la portada es una [fotografía aérea del Ministerio de Defensa en Piura, 2017](https://commons.wikimedia.org/wiki/File:ALISTAN_SEIS_REFUGIOS_EN_PIURA_PARA_ALBERGAR_A_DAMNIFICADOS_%2833570222966%29.jpg), CC BY 2.0. No documenta una inundación de 2026. Los dos gráficos son de elaboración propia a partir del decreto.

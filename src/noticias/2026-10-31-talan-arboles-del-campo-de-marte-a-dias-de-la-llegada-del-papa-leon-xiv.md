@@ -4,9 +4,9 @@ titulo_seo: "Campo de Marte: vecinos denuncian tala de árboles en la obra de la
 temas: ["Campo de Marte", "Municipalidad de Lima", "Medio ambiente", "Papa León XIV"]
 date: 2026-10-31T16:00:00.000-05:00
 resumen: "Vecinos grabaron cómo trabajadores de la obra cortaban y se llevaban cuatro árboles. Uno tenía brotes nuevos. Es el último golpe a un parque que ya perdió decenas de ejemplares en menos de un año."
-imagen: "/img/uploads/campo-marte-troncos-restaurada-4k.jpg"
-imagen_texto: "Trabajadores junto a troncos y ramas. Captura de Campo de Marte MCA mejorada previamente con IA; portada recuperada a pedido del autor."
-imagen_fuente: "Captura de Campo de Marte MCA en TikTok con calidad mejorada con inteligencia artificial. Portada anterior recuperada; exportación 3840 × 2160."
+imagen: "/img/uploads/campo-de-marte-jardines-2017-4k.jpg"
+imagen_texto: "Jardines y árboles del Campo de Marte, en Jesús María (Lima). Foto de archivo de 2017."
+imagen_fuente: "Foto: Felipe Restrepo Acosta / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9 a 3840 × 2160."
 tipo: Noticia
 corto: "campo-de-marte"
 ---
@@ -55,4 +55,4 @@ El papa León XIV ha hecho del cuidado de la Creación una de las banderas de su
 **Fuentes:** [RPP](https://rpp.pe/lima/actualidad/jesus-maria-vecinos-realizan-planton-para-denunciar-tala-de-arboles-en-obra-del-campo-de-marte-noticia-1715293) · [Caretas](https://caretas.pe/sociedad/planton-en-campo-de-marte-vecinos-denuncian-tala-de-arboles-durante-obras-de-renovacion) · [Actualidad Ambiental](https://www.actualidadambiental.pe/remodelacion-de-campo-de-marte-culminaria-antes-de-la-llegada-del-papa-leon-xiv-asegura-municipalidad-de-lima/) · [El Comercio](https://elcomercio.pe/lima/sucesos/campo-de-marte-80-dias-de-obras-paralizadas-un-parque-cerrado-al-publico-y-arboles-muertos-e-irrecuperables-noticia/) · [Canal N](https://canaln.pe/actualidad/renzo-reggiardo-asegura-que-obras-campo-marte-estaran-listas-antes-llegada-papa-leon-xiv-n495923) · [EWTN](https://www.ewtnnews.com/es/vaticano/leon-xiv-visitara-uruguay-argentina-y-peru-del-6-al-17-de-noviembre)
 
 
-**Procedencia de la portada:** Se recupera la portada aprobada anteriormente por Jesus: captura del video de Campo de Marte MCA en TikTok con calidad mejorada con IA. No se presenta la reconstrucción como original sin editar.
+**Portada:** [fotografía de los jardines del Campo de Marte de Felipe Restrepo Acosta](https://commons.wikimedia.org/wiki/File:2017_Lima_-_Jardines_del_Campo_de_Marte.jpg), CC BY-SA 4.0.

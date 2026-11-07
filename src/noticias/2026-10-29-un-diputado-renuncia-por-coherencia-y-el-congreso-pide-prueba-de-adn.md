@@ -4,9 +4,9 @@ titulo_seo: "César Holguín renuncia a la vocería de Ahora Nación por no apoy
 temas: ["César Holguín", "Ahora Nación", "Congreso", "Gobierno"]
 date: 2026-10-29T07:45:00.000-05:00
 resumen: "César Holguín dejó la vocería de Ahora Nación por no estar de acuerdo con darle facultades al gobierno ni con salvar al ministro del Interior. En un Parlamento donde todo se negocia, alguien acaba de pagar su cuenta sin preguntar."
-imagen: "/img/uploads/holguin-ahora-nacion-restaurada-4k.jpg"
-imagen_texto: "Portada editorial anterior de la columna de César Holguín, con el fondo de Ahora Nación."
-imagen_fuente: "Composición editorial de archivo recuperada a pedido del autor. Imagen tratada con IA (referencial); exportación 3840 × 2160."
+imagen: "/img/uploads/hemiciclo-congreso-2026-4k.jpg"
+imagen_texto: "El hemiciclo del Congreso de la República, en abril de 2026."
+imagen_fuente: "Foto: KnomoSeikei / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9 a 3840 × 2160."
 tipo: Columna
 ---
 
@@ -29,4 +29,4 @@ Hay algo muy cusqueño en todo esto. Los incas levantaban muros sin argamasa que
 Vallejo escribió que hay golpes en la vida tan fuertes, yo no sé. Holguín sí sabía. **Sabía que perder la vocería era el precio y lo pagó sin pedir factura.** En el Perú eso no tiene nombre. Bueno, sí tiene. Se llama coherencia, pero como casi nadie la usa, ya nos olvidamos de cómo se pronuncia.
 
 
-**Procedencia de la portada:** Se recupera la composición anterior aprobada por Jesus, conservando su diseño. Composición editorial de archivo recuperada a pedido del autor. Imagen tratada con IA (referencial); exportación 3840 × 2160. No es un registro documental de una escena conjunta.
+**Portada:** [fotografía del hemiciclo de KnomoSeikei](https://commons.wikimedia.org/wiki/File:Hemiciclo_de_Sesiones_del_Congreso_del_Per%C3%BA.jpg), CC BY-SA 4.0.

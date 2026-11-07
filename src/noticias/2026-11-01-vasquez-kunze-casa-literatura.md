@@ -4,9 +4,9 @@ titulo_seo: "Ricardo Vásquez Kunze en la Casa de la Literatura: del antifujimor
 temas: ["Ricardo Vásquez Kunze", "Casa de la Literatura", "Keiko Fujimori"]
 date: 2026-11-01T19:24:29-05:00
 resumen: "Ricardo Vásquez Kunze dijo en 2011 que no votaría por Keiko. Después fue dos veces candidato de Fuerza Popular. Ahora dirige la Casa de la Literatura. En el Perú, la mejor novela sigue siendo la biografía de sus funcionarios."
-imagen: "/img/uploads/kunze-editorial-ia-4k.jpg"
-imagen_texto: "Ricardo Vásquez Kunze integrado con la fachada de la Casa de la Literatura. Fotomontaje editorial referencial; no documenta una visita."
-imagen_fuente: "Fotomontaje editorial con IA, basado en las dos fotografías proporcionadas por Jesus Prospero. Exportación 3840 × 2160."
+imagen: "/img/uploads/casa-literatura-peruana-fachada-4k.jpg"
+imagen_texto: "Fachada de la Casa de la Literatura Peruana, en la antigua estación Desamparados (Lima)."
+imagen_fuente: "Foto: BrunoLocatelli / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9 a 3840 × 2160."
 tipo: Columna
 exclusivo: false
 corto: "kunze-literatura"
@@ -55,7 +55,7 @@ Vásquez Kunze podrá discutir lo que dijo en 2011. Lo que no puede hacer es ped
 
 
 
-**Procedencia de la portada:** Referencias: fotografías del retrato y edificio facilitadas por Jesus Prospero; autores no identificados en los archivos. Composición con IA, basada en imágenes reales (referencial); no es una escena conjunta documentada.
+**Portada:** [fotografía de la Casa de la Literatura de BrunoLocatelli](https://commons.wikimedia.org/wiki/File:Casa_de_la_Literatura_Peruana,_Lima,_Peru.jpg), CC BY-SA 4.0.
 
 
 **Foto interior:** [Juan Acevedo en 2016](https://commons.wikimedia.org/wiki/File:Juan_Acevedo_Fern%C3%A1ndez_de_Paredes_en_2016.jpg), Feria del Libro Ricardo Palma, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Recorte y compresión.

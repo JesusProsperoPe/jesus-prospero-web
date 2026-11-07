@@ -4,9 +4,9 @@ titulo_seo: "Tumbes: Fujimori anuncia evaluación de defensa ribereña o reubica
 temas: ["Tumbes", "Fenómeno El Niño", "Keiko Fujimori"]
 date: 2026-11-06T19:02:00-05:00
 resumen: "Durante su visita a Aguas Verdes, la presidenta anunció que enviará un equipo técnico la próxima semana para evaluar el riesgo y decidir si corresponde una obra de protección o la reubicación."
-imagen: /img/uploads/tumbes-puerto-peru-4k.jpg
-imagen_texto: "Retrato de archivo de Keiko Fujimori con el puente de Tumbes como fondo referencial."
-imagen_fuente: "Fotomontaje editorial con IA, basado en fotografías reales (referencial). Ministerio de la Producción, dominio público, y yonelcampos / Wikimedia Commons, CC BY 2.0."
+imagen: "/img/uploads/tumbes-ribera-desborde-2012-4k.jpg"
+imagen_texto: "Vecinos en la ribera del río Tumbes durante una visita a zonas afectadas por su desborde, en marzo de 2012. Foto de archivo."
+imagen_fuente: "Foto: Congreso de la República del Perú / Wikimedia Commons (CC BY 2.0). Recorte 16:9 a 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "puerto-peru-tumbes"
@@ -62,4 +62,4 @@ Indeci llevó agua y alimentos no perecibles al albergue Villa Primavera. Fujimo
 
 La atención temporal cubre necesidades inmediatas de alojamiento y salud. Para las familias de Puerto Perú, el siguiente hito será conocer la evaluación del riesgo y el plazo de la medida que se elija.
 
-**Portada:** fotomontaje referencial con IA a partir de un retrato de archivo del Ministerio de la Producción y una [fotografía del puente de Tumbes de yonelcampos](https://commons.wikimedia.org/wiki/File:Puente_Tumbes.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+**Portada:** [fotografía del Congreso de la República en Tumbes](https://commons.wikimedia.org/wiki/File:Congresista_Merino_visita_lugares_afectados_por_el_r%C3%ADo_Tumbes_%286881854862%29.jpg), CC BY 2.0.

@@ -4,9 +4,9 @@ titulo_seo: "Emergencia en cinco penales: prórroga de 60 días rige desde el 5 
 temas: ["Keiko Fujimori", "Seguridad ciudadana", "INPE"]
 date: 2026-11-05T06:00:00-05:00
 resumen: "Challapalca, Cochamarca, Castro Castro, Ancón I y Trujillo Varones siguen bajo el régimen excepcional. La norma reconoce vulnerabilidades y exige un balance policial al finalizar la prórroga."
-imagen: /img/uploads/penales-5nov-portada-4k.jpg
-imagen_texto: "Composición referencial de Keiko Fujimori y el Palacio de Gobierno; no registra una declaración sobre los penales."
-imagen_fuente: "Fotomontaje editorial con IA, basado en fotografías reales (referencial). Referencias: Ministerio de la Producción, dominio público; Diego Delso / Wikimedia Commons, CC BY-SA 4.0. Composición CC BY-SA 4.0, exportada a 3840 × 2160."
+imagen: "/img/uploads/penal-abancay-4k.jpg"
+imagen_texto: "Establecimiento penitenciario de Abancay (Apurímac), en 2019. Foto de archivo; no necesariamente es uno de los cinco penales del decreto."
+imagen_fuente: "Foto: Thayne Tuason / Wikimedia Commons (CC BY 4.0). Recorte 16:9 a 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "penales-emergencia"
@@ -70,4 +70,4 @@ La PNP deberá entregar al ministro del Interior un informe de resultados dentro
 
 **Fuentes:** [Decreto Supremo 148-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2571017-3) · [El Peruano, 3 de noviembre](https://elperuano.pe/noticia/308200-estado-de-emergencia-en-penales-conoce-donde-regira-y-que-medidas-se-aplicaran-durante-60-dias).
 
-**Imágenes:** portada referencial editada con IA a partir de fotografías reales de Keiko (Ministerio de la Producción, dominio público) y del [Palacio de Gobierno de Diego Delso](https://commons.wikimedia.org/wiki/File:Palacio_de_Gobierno,_Lima,_Per%C3%BA,_2015-07-28,_DD_109.JPG). Montaje distribuido bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Los gráficos son propios y sintetizan el decreto; no representan escenas dentro de las cárceles.
+**Imágenes:** la portada es una [fotografía del penal de Abancay de Thayne Tuason](https://commons.wikimedia.org/wiki/File:Abancay_Peru-_penitentiary.jpg), CC BY 4.0, usada como referencia. Los gráficos son propios y sintetizan el decreto; no representan escenas dentro de las cárceles.

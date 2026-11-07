@@ -4,9 +4,9 @@ titulo_seo: "Denuncia constitucional contra Fernando Rospigliosi: piden inhabili
 temas: ["Fernando Rospigliosi", "Leyes de impunidad", "Poder Judicial", "Senado", "Fuerza Popular"]
 date: 2026-10-29T12:50:00.000-05:00
 resumen: "Mirtha Vásquez, Jaime Quito e Indira Huilca lo denunciaron ante la Comisión de Acusaciones Constitucionales. El hombre que quería barrer el Poder Judicial ahora tiene que explicar para qué compró tantas escobas."
-imagen: "/img/uploads/rospigliosi-denuncia-restaurada-4k.jpg"
-imagen_texto: "Portada editorial anterior sobre la denuncia contra Fernando Rospigliosi. Montaje referencial; no es una fotografía conjunta."
-imagen_fuente: "Composición editorial de archivo recuperada a pedido del autor. Montaje con IA (referencial); exportación 3840 × 2160."
+imagen: "/img/uploads/palacio-justicia-lima-art-dino-4k.jpg"
+imagen_texto: "El Palacio de Justicia de Lima, sede del Poder Judicial."
+imagen_fuente: "Foto: Art DiNo / Wikimedia Commons (CC BY-SA 2.0). Recorte 16:9 a 3840 × 2160."
 tipo: Columna
 exclusivo: true
 ---
@@ -32,4 +32,4 @@ Hay un detalle literario que completa la historia. En el año 2000, Rospigliosi 
 Rospigliosi lleva un año diciendo que hay que barrer el Poder Judicial. **Tres parlamentarios acaban de recordarle que una escoba siempre se puede voltear.**
 
 
-**Procedencia de la portada:** Se recupera la composición anterior aprobada por Jesus, conservando su diseño. Composición editorial de archivo recuperada a pedido del autor. Montaje con IA (referencial); exportación 3840 × 2160. No es un registro documental de una escena conjunta.
+**Portada:** [fotografía del Palacio de Justicia de Art DiNo](https://commons.wikimedia.org/wiki/File:Palacio_de_Justicia._Lima,_Per%C3%BA.jpg), CC BY-SA 2.0.

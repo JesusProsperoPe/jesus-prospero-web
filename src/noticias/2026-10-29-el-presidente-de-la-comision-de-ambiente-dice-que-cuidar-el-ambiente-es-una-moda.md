@@ -4,9 +4,9 @@ titulo_seo: "Arturo Alegría, presidente de la Comisión de Ambiente, dice que l
 temas: ["Arturo Alegría", "Medio ambiente", "Amazonía", "Fuerza Popular", "Congreso"]
 date: 2026-10-29T19:25:00.000-05:00
 resumen: "Arturo Alegría, diputado de Fuerza Popular, llamó \"romanticismo\" a la crisis climática y dijo que las políticas ambientales no sirvieron para nada. Su historial ayuda a entender por qué."
-imagen: "/img/uploads/alegria-ambiente-restaurada-4k.jpg"
-imagen_texto: "Portada editorial anterior de Arturo Alegría con un bosque en llamas y el símbolo de Fuerza Popular. No documenta su presencia en un incendio."
-imagen_fuente: "Composición editorial de archivo recuperada a pedido del autor. Imagen generada con inteligencia artificial (referencial); exportación 3840 × 2160."
+imagen: "/img/uploads/alegria-homenaje-chavin-congreso-2024-4k.jpg"
+imagen_texto: "El congresista Arturo Alegría (cuarto desde la izquierda, con banda) en un homenaje a los comandos Chavín de Huántar en el Congreso, el 19 de abril de 2024."
+imagen_fuente: "Foto: Ministerio de Defensa del Perú / Wikimedia Commons (CC BY 2.0). Recorte 16:9 a 3840 × 2160."
 tipo: Columna
 ---
 
@@ -33,4 +33,4 @@ Alegría representa a San Martín, una de las regiones más golpeadas por la def
 Alegría dice que el ambiente fue una moda. Las modas pasan, eso es cierto. **Un bosque, en cambio, tarda cien años en crecer y apenas una votación en desaparecer.**
 
 
-**Procedencia de la portada:** Se recupera la composición anterior aprobada por Jesus, conservando su diseño. Composición editorial de archivo recuperada a pedido del autor. Imagen generada con inteligencia artificial (referencial); exportación 3840 × 2160. No es un registro documental de una escena conjunta.
+**Portada:** [fotografía del Ministerio de Defensa del Perú](https://commons.wikimedia.org/wiki/File:HOMENAJE_A_LOS_COMANDOS_CHAV%C3%8DN_DE_HU%C3%81NTAR_EN_EL_CONGRESO_DE_LA_REP%C3%9ABLICA_%2853663941172%29.jpg), CC BY 2.0.

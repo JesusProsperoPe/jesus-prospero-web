@@ -4,9 +4,9 @@ titulo_seo: "Álvaro Subiria, de La Resistencia, protagoniza agresión homofóbi
 temas: ["La Resistencia", "Miraflores", "Discriminación"]
 date: 2026-11-02T13:00:00-05:00
 resumen: "Un video difundido en redes muestra a un hombre gritando contra una pareja gay, sus padres y una joven que salió en su defensa. Este medio lo identificó como Álvaro Subiria Alegría, quien ya tiene una orden judicial por agredir a víctimas de esterilizaciones forzadas."
-imagen: /img/uploads/subiria-parque-kennedy.jpg
+imagen: "/img/uploads/subiria-parque-kennedy-cuadro-video.jpg"
 imagen_texto: "Álvaro Subiria Alegría en el Parque Kennedy de Miraflores."
-imagen_fuente: "Captura del video difundido en redes, con calidad mejorada con inteligencia artificial."
+imagen_fuente: "Cuadro del video original publicado por @codexperspective en Instagram."
 tipo: Noticia
 exclusivo: false
 corto: "subiria-kennedy"
@@ -15,8 +15,8 @@ carrusel:
   - nota: "Debe causar mucho impacto: titular gigante con la foto del agresor gritando."
     titular: "Integrante de La Resistencia ataca a **una pareja gay y a sus padres** en el Parque Kennedy"
     texto: "Un video difundido en Instagram lo muestra gritándoles en pleno parque. Los padres de la pareja, **dos adultos mayores**, intentaron defender a sus hijos."
-    foto: /img/uploads/subiria-parque-kennedy.jpg
-    foto_texto: "Álvaro Subiria Alegría en el Parque Kennedy. Captura del video difundido en redes, con calidad mejorada con IA."
+    foto: /img/uploads/subiria-parque-kennedy-cuadro-video.jpg
+    foto_texto: "Álvaro Subiria Alegría en el Parque Kennedy. Cuadro del video original publicado por @codexperspective en Instagram."
   - nota: "Usar el cuadro del video tal cual, con su subtítulo."
     titular: "**\"Lee a Agustín Laje, tarada\"**"
     texto: "Eso le gritó a la joven que salió a defender a los ancianos. Agustín Laje es un escritor argentino conocido por sus posturas **contra los derechos LGBTI**."

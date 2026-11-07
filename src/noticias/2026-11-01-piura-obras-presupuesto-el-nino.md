@@ -4,9 +4,9 @@ titulo_seo: "Piura: alcalde anuncia denuncias contra Vivienda e Interior por tre
 temas: ["Piura", "Keiko Fujimori", "Fenómeno El Niño", "Presupuesto público"]
 date: 2026-11-01T19:04:36-05:00
 resumen: "La municipalidad anuncia acciones contra Vivienda e Interior por proyectos con convenios firmados. El alcalde reclama menos de S/20 millones para concluir tres intervenciones que, según afirma, superan el 95 % de avance."
-imagen: "/img/uploads/piura-keiko-editorial-ia-4k.jpg"
-imagen_texto: "Keiko Fujimori integrada con el paisaje del río Piura. Fotomontaje editorial referencial; no representa una visita ni una inundación."
-imagen_fuente: "Fotomontaje editorial con IA. Referencias: Ministerio de la Producción, dominio público, y río Piura / Wikimedia Commons, CC0. Exportación 3840 × 2160."
+imagen: "/img/uploads/piura-inundacion-2017-grifo-4k.jpg"
+imagen_texto: "Calles y un grifo inundados en Piura durante El Niño costero, en marzo de 2017. Foto de archivo."
+imagen_fuente: "Foto: Ministerio de Defensa del Perú / Wikimedia Commons (CC BY 2.0). Recorte 16:9 a 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "piura-obras"
@@ -46,8 +46,8 @@ carrusel:
   - titular: "LE PIDEN 20 MILLONES Y DICEN QUE NO"
     texto: |
       El alcalde calcula pérdidas de 15.000 millones por El Niño. Para terminar las tres obras bastaban menos de 20 millones.
-    foto: /img/uploads/piura-keiko-editorial-ia-4k.jpg
-    foto_texto: "Fotomontaje editorial con IA, basado en fotografías reales (referencial)."
+    foto: /img/uploads/piura-inundacion-2017-grifo-4k.jpg
+    foto_texto: "Piura inundada durante El Niño costero, marzo de 2017. Ministerio de Defensa del Perú / Wikimedia Commons, CC BY 2.0."
   - titular: "MIENTRAS PIURA SE INUNDA"
     texto: |
       Keiko pasó tres días en El Salvador visitando la cárcel de Bukele. Recién canceló su viaje a España cuando aumentaron las lluvias.
@@ -109,4 +109,4 @@ Cevallos aseguró que sigue confiando en la presidenta y reclamó que sus minist
 
 
 
-**Procedencia de la portada:** Referencias: foto oficial de Keiko del 7 de octubre de 2026 y [río Piura, archivo de 2025](https://commons.wikimedia.org/wiki/File:R%C3%ADo_Piura-2025.jpg), CC0. Integración con IA referencial; no documenta una visita al río ni el estado de las lluvias de hoy.
+**Portada:** [fotografía del Ministerio de Defensa en Piura, 2017](https://commons.wikimedia.org/wiki/File:ALISTAN_SEIS_REFUGIOS_EN_PIURA_PARA_ALBERGAR_A_DAMNIFICADOS_%2833481846661%29.jpg), CC BY 2.0.

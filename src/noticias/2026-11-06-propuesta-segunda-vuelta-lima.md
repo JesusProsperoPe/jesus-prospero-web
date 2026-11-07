@@ -4,9 +4,9 @@ titulo_seo: "Segunda vuelta en Lima Metropolitana: proyecto propone umbral del 3
 temas: ["Congreso", "Elecciones", "Lima"]
 date: 2026-11-06T12:30:00-05:00
 resumen: "La iniciativa de Ahora Nación plantea una segunda elección en un plazo de 30 días y encarga a la ONPE y al JNE precisar la distribución de regidores."
-imagen: /img/uploads/balotaje-lima-4k.jpg
-imagen_texto: "Fachada del Palacio Legislativo, sede del Congreso, en una versión referencial basada en una foto de archivo."
-imagen_fuente: "Imagen generada con inteligencia artificial (referencial), basada en fotografía de Herwarth Morales / Wikimedia Commons (CC BY-SA 4.0). Adaptación CC BY-SA 4.0."
+imagen: "/img/uploads/cartel-onpe-segunda-vuelta-2021-4k.jpg"
+imagen_texto: "Cartel de la ONPE con los candidatos de la segunda vuelta presidencial de 2021, en Lima. Foto de archivo."
+imagen_fuente: "Foto: Txolo / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9 a 3840 × 2160."
 tipo: Noticia
 exclusivo: false
 corto: "balotaje-lima"
@@ -66,4 +66,4 @@ Como sustento, el proyecto cita que Renovación Popular obtuvo 26,342 % de los v
 
 La iniciativa está en trámite legislativo. Su exposición de motivos reconoce que organizar una segunda jornada implicaría gastos de logística, cédulas y fiscalización. [Proyecto de ley](https://img.lpderecho.pe/wp-content/uploads/2026/11/PL-00757-2026-2031-CD-LP-Derecho.pdf).
 
-**Portada:** adaptación referencial con IA de una [fotografía del Palacio Legislativo de Herwarth Morales](https://commons.wikimedia.org/wiki/File:Palacio_del_congreso_de_la_Rep%C3%BAblica_del_Per%C3%BA.jpg), bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+**Portada:** [fotografía de Txolo](https://commons.wikimedia.org/wiki/File:Segunda_vuelta_elecciones_generales_de_Per%C3%BA_2021_14.jpg), CC BY-SA 4.0.
