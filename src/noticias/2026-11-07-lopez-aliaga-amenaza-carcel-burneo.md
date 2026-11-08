@@ -4,9 +4,9 @@ titulo_seo: "López Aliaga amenaza con cárcel a Roberto Burneo: \"Sea más homb
 temas: ["Rafael López Aliaga", "Renovación Popular", "JNE", "Elecciones"]
 date: 2026-11-07T20:30:00-05:00
 resumen: "El líder de Renovación Popular acusó a Roberto Burneo de violar la Constitución y le exigió ser \"más hombrecito\". Es la tercera vez este año que amenaza con prisión a una autoridad electoral."
-imagen: "/img/uploads/lopez-aliaga-municipalidad-lima-ceremonia-4k.jpg"
-imagen_texto: "Rafael López Aliaga, al centro, en una ceremonia en la Municipalidad de Lima cuando era alcalde, el 13 de octubre de 2023."
-imagen_fuente: "Foto: Ministerio de Defensa del Perú / Wikimedia Commons (CC BY 2.0). Recorte 16:9 a 3840 × 2160."
+imagen: "/img/uploads/lopez-aliaga-carabayllo-gorra.jpg"
+imagen_texto: "Rafael López Aliaga durante su pronunciamiento en Carabayllo, el 7 de noviembre de 2026."
+imagen_fuente: "Captura del video publicado por Erik Rivera (@ErikRivera__) en X, con calidad mejorada con inteligencia artificial."
 tipo: Noticia
 exclusivo: false
 corto: "rla-burneo"
@@ -14,8 +14,8 @@ carrusel:
   - nota: "debe causar mucho impacto: titular gigante con la foto de López Aliaga"
     titular: "López Aliaga amenaza con **cárcel** al presidente del JNE"
     texto: "Lo hizo tras quedarse sin la alcaldía de Lima."
-    foto: /img/uploads/lopez-aliaga-municipalidad-lima-ceremonia-4k.jpg
-    foto_texto: "Rafael López Aliaga, octubre de 2023. Ministerio de Defensa del Perú / Wikimedia Commons, CC BY 2.0."
+    foto: /img/uploads/lopez-aliaga-carabayllo-gorra.jpg
+    foto_texto: "López Aliaga en Carabayllo, 7 de noviembre de 2026. Captura del video de Erik Rivera en X, con calidad mejorada con IA."
   - titular: "\"Usted se va **a la cárcel**\""
     texto: "Se lo dijo a Roberto Burneo en una transmisión en vivo desde Carabayllo."
     foto: /img/uploads/lopez-aliaga-municipalidad-lima-ceremonia-4k.jpg
