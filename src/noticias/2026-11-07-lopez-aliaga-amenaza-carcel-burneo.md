@@ -55,6 +55,13 @@ La reacción llegó un día después de que el JNE anunciara que los alcaldes qu
 
 El excandidato presidencial también cuestionó que el anuncio lo hiciera la secretaria general del Jurado, Yessica Clavijo, y no el propio Burneo. "Dé la cara y no mande una secretaria. Sea más hombrecito, dé la cara", lanzó. Anunció además una demanda ante el Poder Judicial, acciones legales contra las autoridades del JNE y una denuncia penal contra su presidente, quien según él "se ganó" ese proceso.
 
+<figure style="margin:1.5em auto">
+<video controls playsinline preload="metadata" poster="/img/uploads/lopez-aliaga-carabayllo-burneo-video-poster.jpg" style="width:100%;height:auto;border-radius:6px;background:#000">
+<source src="/img/uploads/lopez-aliaga-carabayllo-burneo-video.mp4" type="video/mp4">
+</video>
+<figcaption>Rafael López Aliaga anuncia en Carabayllo una denuncia penal contra Roberto Burneo, el 7 de noviembre de 2026. Video: publicación de Erik Rivera (@ErikRivera__) en X.</figcaption>
+</figure>
+
 Su bancada salió a respaldarlo. El senador Edgar Mancha calificó la decisión como "una especie de burla al electorado limeño" y el diputado Frank Krklec la llamó "atropello", con el argumento de que la Ley Orgánica de Municipalidades le asigna la sucesión al primer regidor. Un día antes, Renovación Popular había pedido que Burneo se apartara de cualquier decisión sobre su líder y anunciado la recusación del magistrado Gunther Gonzáles.
 
 Burneo ya había respondido a las presiones el jueves. "Nadie puede amenazarnos", afirmó, y recordó que las decisiones del Jurado deben respetarse aunque no le gusten a alguien. Hasta el cierre de esta nota, ni él ni el JNE se habían pronunciado sobre la nueva amenaza.
