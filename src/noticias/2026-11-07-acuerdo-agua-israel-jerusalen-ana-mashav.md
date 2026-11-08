@@ -4,9 +4,9 @@ titulo_seo: "Acuerdo del agua entre la ANA y MASHAV de Israel: el memorándum de
 temas: ["Keiko Fujimori", "Israel", "Agua"]
 date: 2026-11-07T21:45:00-05:00
 resumen: "Un memorándum de 2012 obliga a la Autoridad Nacional del Agua a entregar \"toda la información necesaria\" a expertos israelíes, impide publicar los estudios sin permiso de Israel y se renueva solo cada cinco años. El país que ofrece su \"modelo\" del agua es el mismo que la niega al pueblo palestino."
-imagen: "/img/uploads/jerusalen-ciudad-vieja-panorama-2018.jpg"
-imagen_texto: "Vista de la Ciudad Vieja de Jerusalén, con la mezquita de Al Aqsa y el monte de los Olivos, en noviembre de 2018. Allí se firmó el memorándum entre la ANA y MASHAV en 2012."
-imagen_fuente: "Foto: Beko / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9 a 3840 × 2160."
+imagen: "/img/uploads/ana-bandera-israel-ia-referencial.jpg"
+imagen_texto: "Ilustración de la sede de la Autoridad Nacional del Agua con una bandera de Israel. Es una imagen referencial: la escena no ocurrió."
+imagen_fuente: "Imagen generada con inteligencia artificial (referencial)."
 tipo: Noticia
 exclusivo: false
 corto: "agua-israel"
