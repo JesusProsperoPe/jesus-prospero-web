@@ -63,7 +63,11 @@ El artículo II obliga a la ANA a prestar apoyo operativo a los expertos enviado
 
 ![Local de la Autoridad Nacional del Agua](/img/uploads/ana-sede-autoridad-nacional-agua-4k.jpg "Local de la Autoridad Nacional del Agua (ANA). Foto: GianPiero Díaz / Wikimedia Commons (CC BY-SA 4.0).")
 
+![Artículos I y II del memorándum](/img/uploads/memorandum-ana-mashav-2012-art2.jpg "Final del artículo I y artículo II del memorándum, con las obligaciones de la ANA y de MASHAV. Documento obtenido por este medio.")
+
 El artículo III establece que la cooperación "no es limitada" y puede cubrir "todas las áreas de conocimiento" en la gestión del agua.
+
+![Artículos III a V del memorándum](/img/uploads/memorandum-ana-mashav-2012-art3.jpg "Artículos III a V del memorándum: la cooperación \"no es limitada\" y está sujeta a la disponibilidad de fondos. Documento obtenido por este medio.")
 
 El artículo VII es el más delicado. Todos los documentos que resulten del convenio son "propiedad conjunta" y no pueden publicarse "sin el consentimiento previo por escrito de ambas Partes". Toda información intercambiada es confidencial. En otras palabras, el Estado peruano necesita el permiso de Israel para hacer públicos estudios sobre su propia agua.
 
