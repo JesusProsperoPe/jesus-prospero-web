@@ -13,6 +13,7 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}/suscribete/</loc></url>
   <url><loc>{{ site.url }}/contacto/</loc></url>
   <url><loc>{{ site.url }}/privacidad/</loc></url>
+  <url><loc>{{ site.url }}/politica-editorial/</loc></url>
   {%- for n in collections.noticias %}
   <url><loc>{{ site.url }}{{ n.url }}</loc><lastmod>{{ n.date | fechaIso }}</lastmod></url>
   {%- endfor %}
