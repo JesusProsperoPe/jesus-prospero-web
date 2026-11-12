@@ -1,6 +1,22 @@
 ---
 layout: base.njk
 ---
+{% if tipo == "Noticia" %}
+<dialog id="aviso-apoyo" aria-labelledby="aviso-apoyo-titulo" aria-describedby="aviso-apoyo-texto aviso-apoyo-precio">
+  <div class="modal">
+    <h2 id="aviso-apoyo-titulo">Difundimos lo que otros medios no cuentan</h2>
+    <p id="aviso-apoyo-texto">Somos un medio digital independiente. No recibimos dinero de grupos económicos. Nos sostenemos con las suscripciones y los aportes por Yape de nuestros lectores.</p>
+    <p id="aviso-apoyo-precio">Puedes apoyarnos cada mes con una suscripción desde <strong>{{ (aportes.planes | first).monto | solesCorto }}</strong>.</p>
+    <a class="boton" href="/suscribete/">Suscribirme</a>
+    <form method="dialog">
+      <button type="submit" class="boton boton-secundario" autofocus>Seguir leyendo</button>
+    </form>
+  </div>
+</dialog>
+<script>
+  document.getElementById("aviso-apoyo").showModal();
+</script>
+{% endif %}
 <article class="nota">
   <header class="contenedor nota-cabecera">
     <p class="etiqueta">{% if tipo == "Noticia" %}<a href="/noticias/">Noticias</a>{% else %}<a href="/columnas/">Columnas</a>{% endif %}{% if tipo %}<span class="tipo-nota">{{ tipo }}</span>{% endif %}{% if exclusivo %}<span class="sello-exclusivo">Solo para suscriptores</span>{% endif %}</p>
