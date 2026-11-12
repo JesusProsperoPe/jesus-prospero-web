@@ -1,173 +1,152 @@
 ---
-title: "Los audios de Cerimedo: «Tenemos todas las actas de la ONPE»"
-titulo_seo: "Audio de Fernando Cerimedo: «Tenemos todas las actas de la ONPE» y «los teníamos infiltrados»"
+title: "URGENTE: Sale a la luz nuevo audio de Cerimedo"
+titulo_seo: "Nuevo audio de Fernando Cerimedo: «Tenemos todas las actas de la ONPE» y «los teníamos infiltrados»"
 temas: ["Keiko Fujimori", "Elecciones", "Ultraderecha"]
 date: 2026-11-12T17:00:00-05:00
-resumen: "En una llamada de casi diez minutos, el asesor argentino Fernando Cerimedo asegura que su equipo tiene «todas las actas» de la ONPE, que procesó 1 500 actas observadas y que trabaja con técnicos en Perú y Argentina."
+resumen: "«Tenemos todas las actas de la ONPE» y «los teníamos infiltrados». En una llamada de casi diez minutos, el asesor argentino Fernando Cerimedo habla como el cerebro del conteo de votos de Keiko Fujimori: actas, técnicos en dos países, instrucciones al partido y un «accionista» escuchando al otro lado de la línea."
 imagen: /img/uploads/onpe-mesa-votacion-callao-2026.jpg
 imagen_texto: "Funcionarios de la ONPE dan indicaciones a electores en un local de votación del Callao durante las Elecciones Generales de 2026."
-imagen_fuente: "Foto: Johnattan Rupire / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9."
+imagen_fuente: "Foto: Johnattan Rupire / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9. Imagen referencial."
 tipo: Noticia
 exclusivo: false
 corto: "actas-cerimedo"
 carrusel:
   - nota: "debe causar mucho impacto: titular gigante con la foto de los funcionarios de la ONPE en el local de votación"
-    titular: "Cerimedo: **\"Tenemos todas las actas\"** de la ONPE"
-    texto: "Un audio de casi diez minutos."
+    titular: "URGENTE: **nuevo audio** de Cerimedo"
+    texto: "\"Tenemos todas las actas de la ONPE\"."
     foto: /img/uploads/onpe-mesa-votacion-callao-2026.jpg
     foto_texto: "Funcionarios de la ONPE en un local de votación del Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
   - titular: "\"Los teníamos **infiltrados**\""
-    texto: "No dice a quiénes ni dónde."
+    texto: "¿Infiltrados dónde? ¿Quiénes? Cerimedo no lo dice."
     foto: /img/uploads/local-votacion-callao-listas-2026.jpg
     foto_texto: "Local de votación en el Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
-  - titular: "\"Las actas **no las pueden modificar**\""
-    texto: "Dice que cargan todas las actas que publica la ONPE."
-    foto: /img/uploads/onpe-mesa-votacion-callao-2026.jpg
-    foto_texto: "Funcionarios de la ONPE en un local de votación del Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
-  - titular: "Acusa a la ONPE de **retrasar actas** a favor de Keiko"
-    texto: "No presenta pruebas en la llamada."
+  - titular: "Un **\"accionista\"** escuchaba la llamada"
+    texto: "\"Estoy acá con el accionista para que él te escuche\"."
     foto: /img/uploads/electores-carmen-legua-callao-2026.jpg
     foto_texto: "Electores en Carmen de la Legua, Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
-  - titular: "\"Tienen que **presionar**\" al JEE"
-    texto: "\"Hay 932 actas de Lima que solamente esas 932 le dan 22 000 votos más\"."
-    foto: /img/uploads/local-votacion-callao-listas-2026.jpg
-    foto_texto: "Local de votación en el Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
-  - titular: "\"Resolvimos la incidencia y **las contamos**\""
-    texto: "Resolver las observaciones le corresponde al Jurado Electoral Especial."
+  - titular: "\"Las 1 500 **las procesamos**\""
+    texto: "\"Resolvimos la incidencia y las contamos\"."
     foto: /img/uploads/onpe-mesa-votacion-callao-2026.jpg
     foto_texto: "Funcionarios de la ONPE en un local de votación del Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
+  - titular: "Eso le corresponde **al JEE**"
+    texto: "No a un partido ni a sus asesores."
+    foto: /img/uploads/local-votacion-callao-listas-2026.jpg
+    foto_texto: "Local de votación en el Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
+  - titular: "\"Tienen que **transmitir y ordenar** en el partido\""
+    texto: "Pidió presionar al JEE por 932 actas de Lima."
+    foto: /img/uploads/electores-carmen-legua-callao-2026.jpg
+    foto_texto: "Electores en Carmen de la Legua, Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
   - titular: "Técnicos en **Perú y en Argentina**"
-    texto: "No dice cuántos son ni quién les paga."
-    foto: /img/uploads/electores-carmen-legua-callao-2026.jpg
-    foto_texto: "Electores en Carmen de la Legua, Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
+    texto: "\"Acá tienes un montón de gente\"."
+    foto: /img/uploads/onpe-mesa-votacion-callao-2026.jpg
+    foto_texto: "Funcionarios de la ONPE en un local de votación del Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
   - titular: "\"Yo soy **matador de rojos**\""
-    texto: "Así cerró la llamada, entre risas."
+    texto: "\"Yo no les gano, yo los liquido\"."
     foto: /img/uploads/local-votacion-callao-listas-2026.jpg
     foto_texto: "Local de votación en el Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
-  - titular: "¿Quiénes son **los infiltrados**?"
-    texto: "Ni Cerimedo, ni Fuerza Popular, ni la ONPE, ni el JEE han respondido."
+  - titular: "Las preguntas que **Fuerza Popular** debe responder"
+    texto: "¿Quiénes son los infiltrados? ¿Quién es el accionista?"
     foto: /img/uploads/electores-carmen-legua-callao-2026.jpg
     foto_texto: "Electores en Carmen de la Legua, Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
 ---
-En una llamada telefónica de casi diez minutos, el asesor político argentino Fernando Cerimedo asegura que su equipo tiene «todas las actas» de la ONPE, que procesó y contó 1 500 actas observadas y que trabaja con técnicos en Perú y en Argentina. En el mismo audio afirma que «les apareció el cartelito de que los teníamos infiltrados», sin aclarar a quiénes ni dónde.
+«Como nosotros tenemos todas las actas, y además estamos cargando todas las actas de la ONPE, las actas no las pueden modificar». La frase es de Fernando Cerimedo y está en un nuevo audio que acaba de salir a la luz.
 
-En la conversación, Cerimedo también acusa a la ONPE de haber retrasado actas favorables a Keiko Fujimori, proyecta que ella ganaría por más de 60 000 votos y pide que el partido presione al Jurado Electoral Especial (JEE) para que resuelva rápido las actas observadas.
+En la grabación, de 9 minutos y 53 segundos, el asesor argentino no habla como un observador. Habla como el hombre que maneja los números de la campaña de Keiko Fujimori. Dice que su equipo procesó y contó 1 500 actas observadas, que tiene técnicos trabajando en Perú y en Argentina, y le indica al partido qué debe «transmitir y ordenar».
 
-## El audio
+Y suelta la frase más grave de toda la llamada: «les apareció el cartelito de que los teníamos infiltrados».
 
-Es una llamada telefónica de 9 minutos y 53 segundos. Cerimedo habla con un interlocutor sobre cómo avanza el conteo de votos de la elección entre Keiko Fujimori y Roberto Sánchez: el voto extranjero, las actas observadas que esperan en el JEE y la diferencia entre ambos candidatos.
+## Lo que dice Cerimedo, en sus propias palabras
 
-En el segundo audio, Cerimedo es quien explica los datos. Habla con acento argentino y usa «vos». Su interlocutor hace las preguntas y en ningún momento se dice su nombre. Al minuto 0:55 anuncia que pasa la llamada a «un amigo muy importante», pero no queda claro si a partir de ahí habla otra persona.
-
-La calidad es de llamada telefónica, con varias partes que no se entienden. Esas partes se marcan como [inaudible] en esta nota y en los videos subtitulados.
-
-## «Tenemos todas las actas de la ONPE»
-
-Cerimedo afirma que su equipo tiene todas las actas electorales y que las va cargando a medida que la ONPE las publica. Lo dice en respuesta a una pregunta directa del interlocutor (4:36): «¿Hay forma de que ellos toquen el algoritmo?».
-
-> «No. Para tocar el algoritmo tienen que cambiar líneas del código del sistema. […] Pero más allá de que toquen el algoritmo, como nosotros tenemos todas las actas, y además estamos cargando todas las actas de la ONPE, las actas no las pueden modificar.» (4:45)
-
-Para Cerimedo, tener las actas es una garantía frente a cualquier cambio en el sistema oficial. Si alguien intentara alterarlo, dice, pedirían volver a contar acta por acta: «Perfecto, contemos todas las actas de nuevo. Y en el conteo de las actas están jodidos» (5:13).
-
-Antes, al inicio de la llamada, ya había descrito ese trabajo: «Estamos cargando las actas que va publicando la ONPE del extranjero. Y más o menos el flujo está bien» (1:52). También descarta que la ONPE esté manipulando el algoritmo: «No están tocando el algoritmo, no hay nada raro ahí» (1:49).
-
-![Local de votación del Callao en las elecciones de 2026](/img/uploads/local-votacion-callao-listas-2026.jpg "Un local de votación del Callao durante las Elecciones Generales de 2026. Foto: Johnattan Rupire / Wikimedia Commons (CC BY-SA 4.0). Imagen referencial.")
+1. **«Tenemos todas las actas.»** «Como nosotros tenemos todas las actas, y además estamos cargando todas las actas de la ONPE, las actas no las pueden modificar.» (4:45)
+2. **«Los teníamos infiltrados.»** «En su sistema interno saben que no pueden hacer líos, porque les apareció el cartelito de que los teníamos infiltrados.» (5:21)
+3. **«Las 1 500 las procesamos.»** «Las resolvimos, o sea, resolvimos la incidencia y las contamos.» (7:25)
+4. **«Tienen que transmitir y ordenar en el partido.»** «Tienen que presionar rápido para resolver rápido las que están en el JEE.» (7:01)
+5. **«Los técnicos están ahí en Perú y otros están en Argentina.»** (9:00)
+6. **«Yo no soy antirrojo, yo soy matador de rojos.»** «Yo no les, yo no les gano, yo los liquido.» (9:26)
 
 ## «Los teníamos infiltrados»
 
-Inmediatamente después de hablar de las actas, Cerimedo explica por qué, a su juicio, nadie en el sistema electoral se atrevería a alterar el conteo:
+Al minuto 4:36, el interlocutor le hace la pregunta que, según dice, le pidieron hacer: «¿Hay forma de que ellos toquen el algoritmo?».
+
+Cerimedo responde que no. Que su equipo tiene todas las actas. Que si alguien intenta algo, piden recontar: «Si cuentan de nuevo las actas, están jodidos». Y entonces explica por qué nadie se atrevería:
 
 > «En su sistema interno saben que no pueden hacer líos, porque les apareció el cartelito de que los teníamos infiltrados. Y en la ONPE no se van a animar tampoco [inaudible]. No han tocado nada.» (5:21)
 
-Es la frase más delicada del audio. Cerimedo no dice quiénes serían los «infiltrados», dónde estarían ni qué es «el cartelito». Tampoco queda claro a quién se refiere con «su sistema interno». La palabra «infiltrados» se escucha igual en dos transcripciones independientes del audio.
+¿Infiltrados dónde? ¿Quiénes? Cerimedo no lo dice. Tampoco explica qué es «el cartelito» ni a qué «sistema interno» se refiere. La palabra «infiltrados» se escucha con claridad y salió igual en dos transcripciones independientes del audio.
 
-El fragmento que sigue a «la ONPE no se van a animar tampoco» no se entiende con claridad. Una de las transcripciones automáticas lo interpretó como «porque externamente los estamos monitoreando», pero no hay certeza, por lo que esta nota no lo cita.
+![Local de votación del Callao en las elecciones de 2026](/img/uploads/local-votacion-callao-listas-2026.jpg "Un local de votación del Callao durante las Elecciones Generales de 2026. Foto: Johnattan Rupire / Wikimedia Commons (CC BY-SA 4.0). Imagen referencial.")
+
+## Un «accionista» al otro lado de la línea
+
+La llamada empieza con un detalle que no es menor. Antes de cualquier pregunta, el interlocutor de Cerimedo le avisa que no está solo:
+
+> «Una cosita antes, porque justo estoy acá con el accionista para que él te escuche, ¿ya?» (0:16)
+
+Su primera pregunta habla de un equipo: «¿Ustedes están seguros de que no están tocando el algoritmo ellos?». Y Cerimedo responde por ese equipo: «No, no lo están tocando. El tema es que está muy lento».
+
+Segundos después, el interlocutor le pasa la llamada a esa persona y la presenta como «un amigo muy importante» (1:01). A partir de ahí, Cerimedo da el informe completo. El audio no revela quién es el «accionista».
+
+## El hombre que contaba los votos de Keiko
+
+Cerimedo habla en primera persona del plural. «Nosotros tenemos todas las actas». «Estamos cargando las actas que va publicando la ONPE» (1:52). «Las 1 500 las procesamos». Es el lenguaje de quien está dentro de la operación, no de quien la comenta.
+
+Cuando el interlocutor pregunta si las actas observadas ya están procesadas, la respuesta es directa:
+
+> «Las 1 500 las procesamos. Las resolvimos, o sea, resolvimos la incidencia y las contamos.» (7:25)
+
+Resolver las observaciones de un acta le corresponde al Jurado Electoral Especial, no a un partido ni a sus asesores. Cerimedo no aclara si habla de un análisis propio o de algo más.
+
+Tampoco se limita a analizar. Da instrucciones:
+
+> «Lo que sí tienen que transmitir y ordenar en el partido: tienen que presionar rápido para resolver rápido las que están en el JEE. Porque hay 932 actas de Lima que solamente esas 932 le dan 22 000 votos más.» (7:01)
+
+Y tiene equipo propio, repartido entre dos países. Cuando le preguntan si las actas impugnadas se procesaron «con inteligencia artificial, como si fuera un Jurado Especial» (8:42), responde que se hicieron a mano, «para no tener errores», y explica quiénes lo hicieron:
+
+> «Acá tienes, acá tienes un montón de gente. Una parte [inaudible] y otra parte de Argentina. Los técnicos están ahí en Perú y otros están en Argentina.» (8:57)
+
+El nuevo audio se suma a la [conversación ya conocida con el presidente de Bolivia, Rodrigo Paz](/n/audio-cerimedo), en la que Cerimedo decía haberle «prestado» a Keiko Fujimori el sistema de conteo. Esta vez se escucha cómo funciona ese sistema por dentro.
 
 ## La acusación contra la ONPE
 
-Cerimedo sostiene que la ONPE no manipuló el sistema, pero sí retrasó el ingreso de actas favorables a Keiko Fujimori:
+Cerimedo asegura que la ONPE no tocó el algoritmo, pero la acusa de manejar el orden en que cargaba las actas para crear un efecto en la opinión pública:
 
-> «Lo que sí han hecho es retrasar el ingreso de actas a favor, que es un proceso rarísimo. Después entendí por qué: en la prensa decían ‘cuando sea madrugada va a pasar Sánchez’. Lo que quisieron fue aguantar muchas actas y ponerlas en cola.» (5:34)
+> «Lo que sí han hecho es retrasar el ingreso de actas a favor, que es un proceso rarísimo. Después entendí por qué: en la prensa decían ‘no, bueno, cuando sea madrugada va a pasar Roberto Sánchez’. Fue aguantar muchas actas y ponerlas en cola. ¿Qué significa? Entraba [inaudible] cargaban primero las actas que le daban a favor a Keiko, y después empezaban a meter todas juntas, en dos horas, las que estaban en cola.» (5:34)
 
-Según su versión, en lugar de cargar las actas por orden de llegada, se priorizaron las que favorecían a Roberto Sánchez y después se ingresaron «todas juntas, en dos horas» las que estaban retenidas. Él mismo matiza la acusación: «Es la única manipulación… El resto no lo pueden voltear» (6:07).
+Según su versión, las actas retenidas se habrían soltado de golpe para que Roberto Sánchez pasara adelante de madrugada. Su interlocutor lo resume así: «Es narrativa pura, es parte de su narrativa» (6:15). Cerimedo no presenta pruebas de esta acusación en la llamada.
 
-El interlocutor lo resume como «narrativa pura, es parte de su narrativa» (6:15), y Cerimedo completa la idea: el objetivo habría sido «salir y decir: fíjate que Sánchez ya empezó a…» (6:27).
+![Electores en un local de votación de Carmen de la Legua, Callao](/img/uploads/electores-carmen-legua-callao-2026.jpg "Electores en un local de votación de Carmen de la Legua-Reynoso (Callao), durante las Elecciones Generales de 2026. Foto: Johnattan Rupire / Wikimedia Commons (CC BY-SA 4.0). Imagen referencial.")
 
-Cerimedo no presenta pruebas de esta acusación en la llamada.
+## Los números que maneja Cerimedo
 
-## Las cifras de Cerimedo
-
-A lo largo de la llamada, Cerimedo da varias cifras sobre el conteo. Todas son afirmaciones suyas; el audio no indica de dónde salen.
+Durante la llamada, Cerimedo da cifras con la seguridad de quien tiene los datos en la mano. El audio no indica de dónde salen.
 
 | Minuto | Cifra | Lo que dice |
 |---|---|---|
 | 3:40 | Más de 60 000 votos | Ventaja de Keiko Fujimori «cuando arreglen lo del JEE» |
-| 3:51 | 22 000 votos | Votos aún pendientes en el JEE |
-| 3:58 | 1 500 actas / 20 000 votos | Actas en revisión; las subsanables darían 20 000 votos más a Keiko |
-| 4:08 | 55 % | Avance del conteo del voto extranjero en ese momento |
-| 7:07 | 932 actas / 22 000 votos | Actas de Lima en el JEE que, «solamente esas», darían 22 000 votos más |
+| 3:59 | 1 500 actas / 22 000 votos | Actas en revisión; las subsanables darían 22 000 votos más a Keiko |
+| 4:08 | 25 % | Avance del conteo del voto extranjero en ese momento |
+| 7:01 | 932 actas / 22 000 votos | Actas de Lima en el JEE que, «solamente esas», darían 22 000 votos más |
 | 7:53 | Un millón de votos | Total aproximado del voto extranjero |
 | 8:24 | 50 000 a 100 000 votos | Ventaja final que proyecta para Keiko |
 
-Las cifras no siempre cuadran entre sí: en un momento habla de 22 000 votos pendientes en el JEE y de 20 000 votos de las 1 500 actas, y después atribuye esos mismos 22 000 votos a 932 actas de Lima.
+## «Yo los liquido»
 
-## «Resolvimos la incidencia y las contamos»
+La llamada termina entre risas. El interlocutor habla de «antirrojos como nosotros» (9:17), y Cerimedo lo corrige:
 
-Cerimedo pide que el partido presione al JEE para que resuelva pronto las actas observadas, porque, según sus cálculos, favorecen a Keiko Fujimori:
+> «No, yo no soy antirrojo, yo soy matador de rojos. […] Yo no les, yo no les gano, yo los liquido.» (9:26)
 
-> «Lo que sí tienen que transmitir [inaudible]: tienen que presionar para resolver rápido las que están en el JEE. Porque hay 932 actas de Lima que solamente esas 932 le dan 22 000 votos más.» (6:53)
+## Las preguntas que Fuerza Popular debe responder
 
-Cuando el interlocutor pregunta si esas actas «están procesadas», Cerimedo responde que su equipo ya hizo ese trabajo:
+Hasta el cierre de esta nota, ni Fernando Cerimedo, ni Keiko Fujimori, ni Fuerza Popular, ni la ONPE, ni el JEE se han pronunciado sobre el audio.
 
-> «Las 900, [inaudible], ya están contadas. Las 1 500 las procesamos. Las resolvimos, o sea, resolvimos la incidencia y las contamos.» (7:25)
+1. ¿Quiénes son los «infiltrados» de los que habla Cerimedo y en qué institución estaban?
+2. ¿Qué significa que su equipo «resolvió la incidencia» de 1 500 actas observadas?
+3. ¿Quién es el «accionista» que escuchaba la llamada?
+4. ¿Qué cargo tenía Cerimedo en la campaña de Keiko Fujimori y quién pagaba a los técnicos en Perú y Argentina?
+5. ¿Qué responde la ONPE a la acusación de haber retenido actas en cola?
 
-La frase es relevante porque resolver las observaciones de un acta le corresponde oficialmente al Jurado Electoral Especial, no a un partido ni a sus asesores. Cerimedo podría referirse a un análisis propio para proyectar el resultado, pero no lo aclara.
+## Sobre el audio
 
-Más adelante, el interlocutor pregunta si un acta impugnada podría procesarse «con inteligencia [inaudible]». Cerimedo responde: «No, no, no, las hicieron manuales. Las procesaron manuales, para no tener errores» (8:46).
-
-## Técnicos en Perú y en Argentina
-
-Al explicar cómo procesaron las actas impugnadas, Cerimedo describe un equipo repartido entre dos países:
-
-> «Una parte [inaudible] y otra parte de Argentina. Los técnicos están ahí en Perú y otros están en Argentina. […] Ahí tenemos los técnicos…» (9:00)
-
-No dice cuántas personas son, para quién trabajan formalmente ni quién paga ese trabajo.
-
-Al cierre de la llamada, entre risas, el interlocutor le pregunta si es «un maldito». Cerimedo responde: «No, yo no soy antirrojo, yo soy matador de rojos» (9:26).
-
-## Antecedente
-
-Este audio se suma a la [conversación ya difundida entre Cerimedo y el presidente de Bolivia, Rodrigo Paz](/n/audio-cerimedo), en la que dice haberle «prestado» a Keiko Fujimori el sistema de conteo. El nuevo audio va más allá: describe cómo funciona ese trabajo, con actas cargadas, actas observadas procesadas y técnicos en dos países.
-
-## ¿Es legal que un partido tenga las actas?
-
-Tener copias de las actas antes de que la ONPE termine de contar no es, por sí solo, irregular. Los partidos pueden acceder a ellas por dos vías habituales:
-
-- **Los personeros.** Cada partido puede acreditar personeros en las mesas de votación. Al terminar el escrutinio, estos pueden obtener o fotografiar el acta firmada, y con esas copias los partidos arman su propio conteo paralelo.
-- **La publicación de la ONPE.** La ONPE publica los resultados acta por acta a medida que las contabiliza.
-
-![Electores en un local de votación de Carmen de la Legua, Callao](/img/uploads/electores-carmen-legua-callao-2026.jpg "Electores en un local de votación de Carmen de la Legua-Reynoso (Callao), durante las Elecciones Generales de 2026. Foto: Johnattan Rupire / Wikimedia Commons (CC BY-SA 4.0). Imagen referencial.")
-
-Por eso, que Cerimedo diga que tiene las actas no prueba una irregularidad. Las preguntas están en otras frases del audio: quiénes son los «infiltrados», qué significa haber «resuelto la incidencia» de 1 500 actas que debía revisar el JEE y qué papel cumplen los técnicos en Argentina.
-
-## Lo que el audio no prueba
-
-El audio recoge afirmaciones de Cerimedo, no hechos verificados. No identifica a su interlocutor, no muestra documentos y no permite saber cuándo se grabó exactamente ni quién lo difundió.
-
-Preguntas pendientes:
-
-1. ¿Quiénes son los «infiltrados» y en qué institución estarían?
-2. ¿Qué significa que el equipo de Cerimedo «resolvió la incidencia» de 1 500 actas observadas?
-3. ¿Quién es el interlocutor y quién es el «amigo muy importante» que se suma a la llamada?
-4. ¿Qué relación formal tiene Cerimedo con Fuerza Popular y quién financia a los técnicos en Perú y Argentina?
-5. ¿Qué responden la ONPE y el JEE a la acusación de haber retrasado actas?
-
-Esta nota no recoge todavía la versión de Cerimedo, de Fuerza Popular, de la ONPE ni del JEE.
-
-## Sobre la transcripción
-
-El audio se transcribió con un sistema automático de reconocimiento de voz y se revisó a mano. Las frases más sensibles, como la de los «infiltrados», se transcribieron dos veces por separado para comprobar que coincidieran. Los minutos citados corresponden al audio original de 9:53.
-
-Donde no fue posible entender lo que se dice, se marca [inaudible]. Quién habla en cada momento se deduce del contenido y del acento, porque la grabación no lo indica.
+La grabación tiene calidad de llamada telefónica. Se transcribió con reconocimiento de voz y se revisó escuchando el audio completo. Los fragmentos que no se entienden se marcan como [inaudible]. Quién habla en cada momento se deduce del contenido y del acento: Cerimedo habla con acento argentino. Los minutos corresponden al audio original de 9:53.
 
 **Fuentes:** audio de 9:53 atribuido a Fernando Cerimedo · [Ojo Público: más de 1 500 actas observadas en la segunda vuelta](https://ojo-publico.com/ultimas-noticias/6355/segunda-vuelta-mas-1500-actas-votacion-fueron-observadas) · [La República: el audio de Cerimedo con Rodrigo Paz](https://larepublica.pe/politica/2026/11/07/audio-de-operador-fernando-cerimedo-confirma-relacion-con-campana-de-keiko-fujimori-rodrigo-paz-hnews-180950) · [Nota anterior: piden investigar a Cerimedo en el Congreso](/n/comision-cerimedo)
