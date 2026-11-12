@@ -4,18 +4,18 @@ titulo_seo: "Nuevo audio de Fernando Cerimedo: «Tenemos todas las actas de la O
 temas: ["Keiko Fujimori", "Elecciones", "Ultraderecha"]
 date: 2026-11-12T17:00:00-05:00
 resumen: "«Tenemos todas las actas de la ONPE» y «los teníamos infiltrados». En una llamada de casi diez minutos, el asesor argentino Fernando Cerimedo habla como el cerebro del conteo de votos de Keiko Fujimori: actas, técnicos en dos países, instrucciones al partido y un «accionista» escuchando al otro lado de la línea."
-imagen: /img/uploads/onpe-mesa-votacion-callao-2026.jpg
-imagen_texto: "Funcionarios de la ONPE dan indicaciones a electores en un local de votación del Callao durante las Elecciones Generales de 2026."
-imagen_fuente: "Foto: Johnattan Rupire / Wikimedia Commons (CC BY-SA 4.0). Recorte 16:9. Imagen referencial."
+imagen: /img/uploads/cerimedo-telefono-portada.jpg
+imagen_texto: "El asesor argentino Fernando Cerimedo habla por celular."
+imagen_fuente: "Foto de archivo de Fernando Cerimedo, tomada del video de este medio. Imagen referencial."
 tipo: Noticia
 exclusivo: false
 corto: "actas-cerimedo"
 carrusel:
-  - nota: "debe causar mucho impacto: titular gigante con la foto de los funcionarios de la ONPE en el local de votación"
+  - nota: "debe causar mucho impacto: titular gigante con la foto de Cerimedo hablando por celular"
     titular: "URGENTE: **nuevo audio** de Cerimedo"
     texto: "\"Tenemos todas las actas de la ONPE\"."
-    foto: /img/uploads/onpe-mesa-votacion-callao-2026.jpg
-    foto_texto: "Funcionarios de la ONPE en un local de votación del Callao, 2026. Johnattan Rupire / Wikimedia Commons, CC BY-SA 4.0."
+    foto: /img/uploads/cerimedo-telefono-portada.jpg
+    foto_texto: "Fernando Cerimedo. Foto de archivo."
   - titular: "\"Los teníamos **infiltrados**\""
     texto: "¿Infiltrados dónde? ¿Quiénes? Cerimedo no lo dice."
     foto: /img/uploads/local-votacion-callao-listas-2026.jpg
@@ -81,7 +81,7 @@ Cerimedo responde que no. Que su equipo tiene todas las actas. Que si alguien in
 
 ¿Infiltrados dónde? ¿Quiénes? Cerimedo no lo dice. Tampoco explica qué es «el cartelito» ni a qué «sistema interno» se refiere. La palabra «infiltrados» se escucha con claridad y salió igual en dos transcripciones independientes del audio.
 
-![Local de votación del Callao en las elecciones de 2026](/img/uploads/local-votacion-callao-listas-2026.jpg "Un local de votación del Callao durante las Elecciones Generales de 2026. Foto: Johnattan Rupire / Wikimedia Commons (CC BY-SA 4.0). Imagen referencial.")
+![Fernando Cerimedo al teléfono](/img/uploads/cerimedo-telefono-portada.jpg "El asesor argentino Fernando Cerimedo. Foto de archivo, tomada del video de este medio. Imagen referencial.")
 
 ## Un «accionista» al otro lado de la línea
 
