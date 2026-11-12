@@ -55,6 +55,13 @@ En la grabación, de 9 minutos y 53 segundos, el asesor argentino no habla como 
 
 Y suelta la frase más grave de toda la llamada: «les apareció el cartelito de que los teníamos infiltrados».
 
+<figure style="margin:1.5em auto;max-width:420px">
+<video controls playsinline preload="metadata" poster="/img/uploads/audio-cerimedo-actas-video-poster.jpg" style="width:100%;height:auto;border-radius:6px;background:#000">
+<source src="/img/uploads/audio-cerimedo-actas-video.mp4" type="video/mp4">
+</video>
+<figcaption>Audio completo de la llamada atribuida a Fernando Cerimedo, con subtítulos de este medio. La foto de Cerimedo al teléfono es referencial.</figcaption>
+</figure>
+
 ## Lo que dice Cerimedo, en sus propias palabras
 
 1. **«Tenemos todas las actas.»** «Como nosotros tenemos todas las actas, y además estamos cargando todas las actas de la ONPE, las actas no las pueden modificar.» (4:45)
