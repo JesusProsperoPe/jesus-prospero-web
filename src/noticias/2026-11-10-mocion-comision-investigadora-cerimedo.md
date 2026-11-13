@@ -83,4 +83,6 @@ Que la moción prospere no será sencillo. Para ser admitida a debate necesita e
 
 Ese es el verdadero examen. Si el oficialismo bloquea una investigación sobre la presunta intervención de un operador extranjero en la elección que llevó a Keiko al poder, alimentará las sospechas que dice no tener motivos para temer. La Fiscalía peruana ha cuestionado la autenticidad de algunos audios atribuidos a Cerimedo, y justamente por eso una comisión con capacidad de levantar secretos bancarios y pedir registros oficiales podría despejar las dudas. Quien no tiene nada que ocultar no debería tener miedo de que se investigue.
 
+Lee también: [Nuevo audio de Cerimedo: «Tenemos todas las actas de la ONPE»](/n/actas-cerimedo).
+
 **Fuentes:** Moción de Orden del Día N.° 00981-2026-2031-CD, Cámara de Diputados · Wara TV · Brújula Digital · El Búho · [El Dínamo: Chile aprueba comisión por el caso Cerimedo](https://www.eldinamo.cl/politica/2026/09/02/tras-frustrado-intento-oposicion-consigue-aprobar-comision-para-seguir-la-huella-de-cerimedo-en-chile/)

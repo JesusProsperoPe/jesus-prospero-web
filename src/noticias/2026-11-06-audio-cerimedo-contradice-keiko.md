@@ -1,7 +1,7 @@
 ---
 title: "Nuevo audio de Cerimedo contradice a Keiko Fujimori"
 titulo_seo: "Audio de Fernando Cerimedo con Rodrigo Paz: \"Ganó Keiko con los votos del extranjero\""
-temas: ["Keiko Fujimori", "Ultraderecha", "Elecciones"]
+temas: ["Fernando Cerimedo", "Keiko Fujimori", "Ultraderecha", "Elecciones"]
 date: 2026-11-06T22:00:00-05:00
 resumen: "En una presunta conversación con el presidente de Bolivia, el operador argentino asegura que Keiko \"ganó con los votos del extranjero\" y que él le prestó a su equipo un sistema de conteo de votos con inteligencia artificial."
 imagen: /img/uploads/keiko-microfono-reque-septiembre-2026.jpg
@@ -103,5 +103,7 @@ Keiko construyó su defensa sobre una negación total y ahora tiene en contra la
 ¿Crees que la Fiscalía peruana debería investigar este audio?
 
 Te leo en los comentarios.
+
+Lee también: [Nuevo audio de Cerimedo: «Tenemos todas las actas de la ONPE»](/n/actas-cerimedo).
 
 **Fuentes:** [La República: negación de Keiko](https://larepublica.pe/politica/2026/09/02/keiko-fujimori-sobre-su-vinculo-con-fernando-cerimedo-no-ha-participado-ni-en-la-primera-ni-en-la-segunda-vuelta-hnews-101052) · [La República: contactos de Cerimedo](https://larepublica.pe/politica/2026/10/01/contactos-de-fernando-cerimedo-tienen-relacion-con-keiko-fujimori-fuerza-popular-hnews-47499) · [El Diario (Bolivia): peritaje del celular](https://www.eldiario.net/portal/2026/11/05/peritaje-al-celular-de-cerimedo-descarta-audios-generados-con-ia/) · [La República: investigación en Bolivia](https://larepublica.pe/mundo/2026/11/05/bolivia-abre-una-investigacion-por-los-audios-de-cerimedo-sobre-presuntas-conversaciones-con-el-entorno-de-rodrigo-paz-161285) · [Infobae: voto en el extranjero](https://www.infobae.com/peru/2026/06/11/keiko-fujimori-supera-a-roberto-sanchez-votos-del-extranjero-clave-en-el-resultado/) · [Prensa Mercosur: audio falso](https://prensamercosur.org/2026/11/01/el-audio-atribuido-a-fernando-cerimedo-y-luis-vasquez-villamor-fue-generado-con-inteligencia-artificial/) · [Nota anterior: Peña destituido y detenido](/n/pena-detenido)

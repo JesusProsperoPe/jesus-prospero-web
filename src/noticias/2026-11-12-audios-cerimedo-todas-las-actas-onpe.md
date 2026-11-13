@@ -1,7 +1,13 @@
 ---
 title: "URGENTE: Sale a la luz nuevo audio de Cerimedo"
 titulo_seo: "Nuevo audio de Fernando Cerimedo: «Tenemos todas las actas de la ONPE» y «los teníamos infiltrados»"
-temas: ["Keiko Fujimori", "Elecciones", "Ultraderecha"]
+temas: ["Fernando Cerimedo", "Keiko Fujimori", "Elecciones", "Ultraderecha"]
+video:
+  url: /img/uploads/audio-cerimedo-actas-video.mp4
+  poster: /img/uploads/audio-cerimedo-actas-video-poster.jpg
+  nombre: "Nuevo audio de Fernando Cerimedo: «Tenemos todas las actas de la ONPE»"
+  descripcion: "Audio completo de la llamada atribuida al asesor argentino Fernando Cerimedo sobre las actas de la ONPE y el conteo de votos de Keiko Fujimori, con subtítulos."
+  duracion: "PT9M40S"
 date: 2026-11-12T17:00:00-05:00
 resumen: "«Tenemos todas las actas de la ONPE» y «los teníamos infiltrados». En una llamada de casi diez minutos, el asesor argentino Fernando Cerimedo habla como el cerebro del conteo de votos de Keiko Fujimori: actas, técnicos en dos países, instrucciones al partido y un «accionista» escuchando al otro lado de la línea."
 imagen: /img/uploads/cerimedo-telefono-portada.jpg

@@ -23,3 +23,20 @@
 <script type="application/ld+json">
 {{ ficha | dump | safe }}
 </script>
+{# Si la nota tiene un video propio, Google puede mostrarlo en la pestaña Videos #}
+{% if video %}
+{% set fichaVideo = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": video.nombre or titulo_seo or title,
+  "description": video.descripcion or resumen,
+  "thumbnailUrl": [site.url + (video.poster or imagen)],
+  "uploadDate": date | fechaIso,
+  "duration": video.duracion,
+  "contentUrl": site.url + video.url,
+  "inLanguage": "es-PE"
+} %}
+<script type="application/ld+json">
+{{ fichaVideo | dump | safe }}
+</script>
+{% endif %}
