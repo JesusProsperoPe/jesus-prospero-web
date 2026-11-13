@@ -4,9 +4,9 @@ titulo_seo: "Tomás Gálvez, copropietario del terreno donde Gold Fields explora
 temas: ["Tomás Gálvez", "Ministerio Público", "Minería"]
 date: 2026-11-12T20:30:00-05:00
 resumen: "La partida registral muestra que Tomás Gálvez figura como dueño del predio desde 2024, aunque ante el Senado dijo que solo era heredero. La minera reconoce en su ficha ambiental que busca acuerdos con los propietarios. Los comuneros de Tumbacucho llevan meses rechazando el proyecto."
-imagen: /img/uploads/galvez-senado-comision-justicia-portada.jpg
-imagen_texto: "El fiscal de la Nación, Tomás Gálvez, responde a la senadora Mirtha Vásquez en la Comisión de Justicia y Derechos Humanos del Senado."
-imagen_fuente: "Captura de la transmisión de la sesión del Senado, 12 de noviembre de 2026."
+imagen: /img/uploads/galvez-gold-fields-portada-ia.jpg
+imagen_texto: "Representación del fiscal de la Nación, Tomás Gálvez, con el nombre de la minera Gold Fields de fondo."
+imagen_fuente: "Imagen generada con inteligencia artificial (referencial). No muestra un hecho real."
 tipo: Noticia
 exclusivo: false
 corto: "galvez-gold-fields"
@@ -59,6 +59,8 @@ La denuncia la presentó la senadora Mirtha Vásquez, de Ahora Nación, durante 
 ## "No soy propietario, soy heredero"
 
 Frente a la senadora, Gálvez reconoció su vínculo con el predio, pero minimizó su responsabilidad. "Es terreno de mi madre. Soy heredero", dijo, según [La República](https://larepublica.pe/politica/2026/11/12/mirtha-vasquez-denuncia-presunto-conflicto-de-interes-de-tomas-galvez-en-terreno-usado-para-actividades-mineras-hnews-1017888). "No soy propietario". También negó participar en cualquier trámite del proyecto y sostuvo que no existe incompatibilidad porque no hay un proceso penal de por medio. Cuando la senadora le recordó las restricciones que impone la ley a los fiscales, respondió: "No sé de qué ley orgánica se refiere".
+
+![Tomás Gálvez responde en el Senado](/img/uploads/galvez-senado-comision-justicia-portada.jpg "El fiscal de la Nación, Tomás Gálvez, responde a la senadora Mirtha Vásquez en la Comisión de Justicia y Derechos Humanos del Senado. Captura de la transmisión de la sesión, 12 de noviembre de 2026.")
 
 Los documentos dicen otra cosa. Según la partida registral N.° 02248491 de la Oficina Registral de Chota, el predio rural "Lechera", de 16.34 hectáreas, ubicado en el sector Tumbacucho, fue transferido por sucesión intestada a Marcial Gálvez Gonzáles y a sus seis hijos, entre ellos Tomás Aladino Gálvez Villegas. La inscripción quedó registrada el 29 de mayo de 2024. Es decir, desde hace más de dos años el fiscal de la Nación figura en Sunarp como copropietario del terreno, y no como un simple heredero a la espera de una herencia.
 
