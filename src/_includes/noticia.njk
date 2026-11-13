@@ -2,19 +2,37 @@
 layout: base.njk
 ---
 {% if tipo == "Noticia" %}
-<dialog id="aviso-apoyo" aria-labelledby="aviso-apoyo-titulo" aria-describedby="aviso-apoyo-texto aviso-apoyo-precio">
+<dialog id="aviso-apoyo" class="aviso-yape" aria-labelledby="aviso-apoyo-titulo" aria-describedby="aviso-apoyo-texto">
   <div class="modal">
-    <h2 id="aviso-apoyo-titulo">Difundimos lo que otros medios no cuentan</h2>
-    <p id="aviso-apoyo-texto">Somos un medio digital independiente. No recibimos dinero de grupos económicos. Nos sostenemos con las suscripciones y los aportes por Yape de nuestros lectores.</p>
-    <p id="aviso-apoyo-precio">Puedes apoyarnos cada mes con una suscripción desde <strong>{{ (aportes.planes | first).monto | solesCorto }}</strong>.</p>
-    <a class="boton" href="/suscribete/">Suscribirme</a>
-    <form method="dialog">
-      <button type="submit" class="boton boton-secundario" autofocus>Seguir leyendo</button>
-    </form>
+    <p class="etiqueta">Un mensaje para ti</p>
+    <h2 id="aviso-apoyo-titulo">Nuestras noticias son gratis y lo seguirán siendo</h2>
+    <div id="aviso-apoyo-texto">
+      <p>No tenemos muro de pago ni dueños con intereses. No recibimos dinero de grupos económicos. Contamos lo que otros medios no cuentan, y lo hacemos gracias a lectores como tú.</p>
+      <p><strong>Si esta nota te sirve y puedes aportar, apóyanos con un Yape.</strong> Lo que cuesta un café nos ayuda a seguir investigando. Todo suma.</p>
+    </div>
+    <div class="aviso-yape-pago">
+      <img src="/img/yape-qr.jpg" alt="Código QR de Yape de {{ site.nombre }}" width="826" height="792">
+      <div>
+        <p class="aviso-yape-marca">Yape</p>
+        <p class="aviso-yape-numero">{{ site.yape_numero }}</p>
+        <p class="aviso-yape-nombre">{{ site.yape_nombre }}</p>
+      </div>
+    </div>
+    <div class="modal-botones">
+      <button type="button" class="boton boton-yape" id="aviso-copiar-yape" data-numero="{{ site.yape_numero | replace(' ', '') }}">Copiar número</button>
+      <form method="dialog"><button type="submit" class="boton boton-secundario" autofocus>Seguir leyendo</button></form>
+    </div>
   </div>
 </dialog>
 <script>
   document.getElementById("aviso-apoyo").showModal();
+  document.getElementById("aviso-copiar-yape").addEventListener("click", function () {
+    var b = this;
+    navigator.clipboard.writeText(b.dataset.numero).then(function () {
+      b.textContent = "Número copiado";
+      setTimeout(function () { b.textContent = "Copiar número"; }, 2000);
+    }).catch(function () { window.prompt("Copia este número:", b.dataset.numero); });
+  });
 </script>
 {% endif %}
 <article class="nota">

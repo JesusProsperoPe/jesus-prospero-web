@@ -577,6 +577,20 @@ dialog::backdrop { background: rgb(17 17 17 / .6); }
 .modal .modal-aviso { color: var(--rojo); font-weight: 700; }
 .modal-botones { display: flex; gap: 10px; margin-top: 4px; }
 .modal-botones .boton { flex: 1; }
+.modal-botones form { flex: 1; display: flex; }
+
+/* Aviso de Yape al abrir una noticia */
+.aviso-yape { --yape: #742384; --yape-hover: #5c1b69; --yape-claro: #f5eef7; width: min(520px, calc(100% - 32px)); max-height: calc(100% - 32px); }
+.aviso-yape .modal { gap: 12px; padding: 24px; }
+.aviso-yape h2 { font-size: 26px; line-height: 1.15; }
+.aviso-yape #aviso-apoyo-texto { display: grid; gap: 8px; }
+.aviso-yape #aviso-apoyo-texto strong { color: var(--tinta); }
+.aviso-yape-pago { display: flex; gap: 16px; align-items: center; padding: 12px; border-radius: 8px; background: var(--yape-claro); }
+.aviso-yape-pago img { width: 104px; height: auto; border-radius: 6px; background: #fff; }
+.modal p.aviso-yape-marca { font-size: 13px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--yape); }
+.modal p.aviso-yape-numero { font-size: 24px; font-weight: 800; color: var(--tinta); }
+.modal p.aviso-yape-nombre { font-size: 13px; }
+@media (max-width: 420px) { .aviso-yape h2 { font-size: 22px; } .aviso-yape-pago img { width: 84px; } .modal p.aviso-yape-numero { font-size: 21px; } .aviso-yape .modal-botones { flex-direction: column; } }
 
 /* Avisos bajo los planes */
 .aviso-aporte { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14px; color: var(--tenue); }
