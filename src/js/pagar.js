@@ -48,7 +48,7 @@
           return fetch("/api/suscripcion/crear", {
             method: "POST",
             headers: { "content-type": "application/json" },
-            body: JSON.stringify({ plan: planId, token: datos.token, email: datos.payer && datos.payer.email }),
+            body: JSON.stringify({ plan: planId, token: datos.token, email: datos.payer && datos.payer.email, medio: datos.payment_method_id || "" }),
           }).then(function (r) {
             return r.json().catch(function () { return {}; }).then(function (res) {
               if (!r.ok || !res.id) throw new Error(res.error || "No se pudo completar el pago. Prueba otra vez.");
@@ -56,6 +56,9 @@
             });
           }).catch(function (e) {
             avisar(e.message === "Failed to fetch" ? "No hay conexión. Prueba otra vez." : e.message);
+            // Si la tarjeta falla, se resalta la otra vía: pagar en la web de Mercado Pago
+            var otra = document.querySelector(".pagar-otra");
+            if (otra) otra.classList.add("pagar-otra-destacada");
             throw e;   // el formulario de Mercado Pago vuelve a habilitar el botón
           });
         },

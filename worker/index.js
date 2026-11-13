@@ -267,7 +267,8 @@ async function crearSuscripcion(request, url, env) {
   });
   const s = await r.json().catch(() => ({}));
   if (!r.ok || !s.id) {
-    console.error(`suscripción ${cuenta.id}: Mercado Pago respondió ${r.status}: ${s.message || s.error || ""} ${JSON.stringify(s.cause || "")}`);
+    const medio = String(datos.medio || "").replace(/[^a-z0-9_]/gi, "").slice(0, 20);
+    console.error(`suscripción ${cuenta.id}: Mercado Pago respondió ${r.status}: ${s.message || s.error || ""} ${JSON.stringify(s.cause || "")} medio=${medio || "?"}`);
     return json({ error: motivoRechazo(s) }, 402);
   }
 
@@ -314,6 +315,8 @@ async function cancelarSuscripcion(request, url, env) {
 // Mensajes de Mercado Pago traducidos a algo que el lector entienda
 function motivoRechazo(s) {
   const t = `${s.message || ""} ${JSON.stringify(s.cause || "")}`.toLowerCase();
+  // CC_VAL_433: el banco o Mercado Pago no aceptó la validación de la tarjeta para cobros mensuales
+  if (/cc_val_433|card validation/.test(t)) return "Mercado Pago no pudo validar tu tarjeta para un cobro mensual. Usa el botón «Paga allá» de abajo: en la web de Mercado Pago puedes pagar con débito, crédito o tu saldo.";
   if (/high_risk|fraud|blacklist/.test(t)) return "Mercado Pago rechazó el pago por seguridad. Prueba con otra tarjeta o paga en la web de Mercado Pago.";
   if (/insufficient/.test(t)) return "La tarjeta no tiene fondos suficientes.";
   if (/security_code|cvv/.test(t)) return "El código de seguridad (CVV) no es correcto.";
