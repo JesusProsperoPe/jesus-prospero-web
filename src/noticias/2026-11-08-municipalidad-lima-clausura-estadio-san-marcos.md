@@ -49,9 +49,9 @@ carrusel:
     foto: /img/uploads/estadio-san-marcos-puerta-clausurada.jpg
     foto_texto: "Puerta del estadio de San Marcos con los carteles de clausura, 8 de noviembre de 2026."
 ---
-El Estadio de la Universidad Nacional Mayor de San Marcos quedó cerrado. Este domingo 8 de noviembre, la Gerencia de Fiscalización y Control de la Municipalidad de Lima ejecutó la clausura temporal del recinto para cualquier evento deportivo o artístico, un día después del concierto que ofrecieron Juan Luis Guerra y Carlos Vives.
+El Estadio de la Universidad Nacional Mayor de San Marcos quedó cerrado. Este domingo 8 de noviembre, la Gerencia de Fiscalización y Control de la Municipalidad de Lima **ejecutó la clausura temporal del recinto** para cualquier evento deportivo o artístico, **un día después del concierto que ofrecieron Juan Luis Guerra y Carlos Vives**.
 
-En la puerta del estadio quedaron pegados los carteles rojos de "CLAUSURADO". El motivo escrito a mano es "por perturbar tranquilidad de los vecinos". La medida se sustenta en el Acta de Clausura Temporal N.° 0002336 y en la Ley N.° 31914.
+En la puerta del estadio quedaron pegados los carteles rojos de "CLAUSURADO". El motivo escrito a mano es "**por perturbar tranquilidad de los vecinos**". La medida se sustenta en el Acta de Clausura Temporal N.° 0002336 y en la Ley N.° 31914.
 
 ![Puerta del estadio de San Marcos con carteles de clausura](/img/uploads/estadio-san-marcos-puerta-clausurada.jpg "Puerta del estadio de San Marcos con los carteles de clausura de la Municipalidad de Lima, el 8 de noviembre de 2026.")
 
@@ -63,19 +63,19 @@ En un comunicado, la comuna metropolitana sostuvo que durante el concierto se id
 
 De acuerdo con Infobae, el acta también menciona que la universidad no cumplió una orden previa de la Gerencia de Fiscalización y registra ruidos que superaron de manera reiterada los decibeles permitidos. Antes del show, la Municipalidad había pedido ordenar las colas, evitar que el público ocupara pistas y veredas y respetar la 1 de la madrugada como hora límite.
 
-La inspección duró apenas 18 minutos, de 9:54 a 10:12 de la mañana. El representante del estadio no firmó el acta, donde figura como "No se identificó".
+**La inspección duró apenas 18 minutos**, de 9:54 a 10:12 de la mañana. El representante del estadio no firmó el acta, donde figura como "No se identificó".
 
 ## Los conciertos en riesgo
 
-La clausura deja en incertidumbre la agenda de espectáculos del estadio. The Strokes tienen previsto presentarse el viernes 20 de noviembre, Agua Marina el sábado 28 y Robbie Williams el sábado 12 de diciembre, en una fecha reprogramada. Hasta el momento ninguno ha sido cancelado.
+La clausura deja en incertidumbre la agenda de espectáculos del estadio. **The Strokes tienen previsto presentarse el viernes 20 de noviembre**, Agua Marina el sábado 28 y Robbie Williams el sábado 12 de diciembre, en una fecha reprogramada. **Hasta el momento ninguno ha sido cancelado**.
 
 La Municipalidad exhortó a San Marcos a subsanar las observaciones para que la medida se levante "en el más breve plazo" y envió un mensaje de tranquilidad a promotores, empresarios y artistas, a quienes prometió facilidades para los próximos eventos. Hasta el cierre de esta nota, la universidad no se había pronunciado.
 
 ## No es la primera vez
 
-La historia se repite. En septiembre de 2023, durante la gestión de Rafael López Aliaga, la Municipalidad de Lima también clausuró el estadio por ruidos molestos, a pocos días del concierto de The Weeknd. En aquella ocasión, la rectora Jeri Ramón calificó la medida como "muy arbitraria" e "injusta", y la clausura fue levantada semanas después. La propia rectora llegó a advertir que el estadio podría dejar de recibir conciertos en 2026 si persistían las quejas de los vecinos.
+La historia se repite. **En septiembre de 2023**, durante la gestión de Rafael López Aliaga, la Municipalidad de Lima también clausuró el estadio por ruidos molestos, a pocos días del concierto de The Weeknd. En aquella ocasión, la rectora Jeri Ramón calificó la medida como "muy arbitraria" e "injusta", y la clausura fue levantada semanas después. La propia rectora llegó a advertir que el estadio podría dejar de recibir conciertos en 2026 si persistían las quejas de los vecinos.
 
-Hoy la Municipalidad está a cargo de Renzo Reggiardo, también de Renovación Popular, cuya gestión ya había clausurado y multado antes al Estadio Nacional.
+Hoy la Municipalidad está a cargo de **Renzo Reggiardo**, también de Renovación Popular, cuya gestión ya había clausurado y multado antes al Estadio Nacional.
 
 El cierre vuelve a enfrentar a la Municipalidad de Lima con la universidad pública más antigua de América. Los reclamos por ruido y desorden de los vecinos son legítimos, pero una inspección de menos de 20 minutos, a días de conciertos con miles de entradas vendidas, abre dudas sobre la forma en que se tomó la decisión. Ahora todo dependerá de la rapidez con que San Marcos y la comuna logren ponerse de acuerdo antes del 20 de noviembre.
 

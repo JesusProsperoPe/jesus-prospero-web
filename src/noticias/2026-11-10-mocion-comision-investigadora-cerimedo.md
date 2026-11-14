@@ -49,9 +49,9 @@ carrusel:
     foto: /img/uploads/paredes-zunini-cerimedo-keiko-montaje.jpg
     foto_texto: "Yenifer Paredes, Ernesto Zunini, Fernando Cerimedo y Keiko Fujimori. Montaje."
 ---
-El caso Cerimedo llegó formalmente a la Cámara de Diputados. Este martes 10 de noviembre, a las 2:39 de la tarde, el área de Trámite Documentario registró la Moción de Orden del Día N.° 00981-2026-2031-CD, que propone crear una Comisión Investigadora Multipartidaria para investigar "la intervención de la presunta organización criminal dirigida por Fernando Cerimedo en las elecciones presidenciales 2026 de la República del Perú".
+El caso Cerimedo llegó formalmente a la Cámara de Diputados. Este martes 10 de noviembre, a las 2:39 de la tarde, el área de Trámite Documentario registró la **Moción de Orden del Día N.° 00981-2026-2031-CD**, que propone crear una Comisión Investigadora Multipartidaria para investigar "la intervención de la **presunta organización criminal dirigida por Fernando Cerimedo** en las elecciones presidenciales 2026 de la República del Perú".
 
-La moción lleva la firma de la diputada Yenifer Paredes Navarro, de Juntos por el Perú, y del vocero de esa bancada, Ernesto Zunini. De aprobarse, la comisión tendría 180 días para investigar, según el artículo 97 de la Constitución.
+La moción lleva la firma de la diputada **Yenifer Paredes Navarro**, de Juntos por el Perú, y del vocero de esa bancada, **Ernesto Zunini**. De aprobarse, la comisión tendría **180 días para investigar**, según el artículo 97 de la Constitución.
 
 ![Primera página de la moción contra la red de Cerimedo](/img/uploads/mocion-comision-cerimedo-pagina-1.jpg "Primera página de la Moción de Orden del Día N.° 00981-2026-2031-CD, con el sello de recepción de la Cámara de Diputados del 10 de noviembre de 2026. Documento del Congreso de la República (copia con marca de agua de Epicentro).")
 
@@ -69,7 +69,7 @@ La grabación choca con la versión de la presidenta, que en septiembre aseguró
 
 ## Lo que se quiere investigar
 
-Juntos por el Perú ya había planteado una comisión similar en septiembre, con el respaldo del diputado Víctor Piñán, de la bancada Obras. Aquella propuesta se apoyaba en tres hechos. Los registros de Migraciones muestran que Cerimedo ingresó cuatro veces al Perú, la última coincidiendo con la juramentación de Keiko el 28 de julio. Se conocen además sus contactos con dos asesores de la presidenta, Carlos Díaz-Rosillo y Damián Valenzuela. Y está su presunto vínculo con la compra del dominio "Ojo de Cóndor", una plataforma presentada como conteo paralelo al de la ONPE.
+Juntos por el Perú ya había planteado una comisión similar en septiembre, con el respaldo del diputado Víctor Piñán, de la bancada Obras. Aquella propuesta se apoyaba en tres hechos. Los registros de Migraciones muestran que **Cerimedo ingresó cuatro veces al Perú**, la última coincidiendo con la juramentación de Keiko el 28 de julio. Se conocen además sus contactos con dos asesores de la presidenta, Carlos Díaz-Rosillo y Damián Valenzuela. Y está su presunto vínculo con la compra del dominio "Ojo de Cóndor", una plataforma presentada como conteo paralelo al de la ONPE.
 
 Si la comisión se aprueba, podrá citar testigos, levantar el secreto bancario y tributario y pedir información a Migraciones, el JNE, la ONPE, el Reniec y la Unidad de Inteligencia Financiera.
 
@@ -79,9 +79,9 @@ La red se extiende más allá de Keiko. Andy Rivas, socio de Cerimedo, era aseso
 
 ## La prueba para el Congreso
 
-Que la moción prospere no será sencillo. Para ser admitida a debate necesita el respaldo del 35% de los diputados, y para aprobarse, del 45%. Fuerza Popular y sus aliados tienen los votos suficientes para frenarla.
+Que la moción prospere no será sencillo. Para ser admitida a debate necesita el **respaldo del 35% de los diputados**, y para aprobarse, del 45%. Fuerza Popular y sus aliados tienen los votos suficientes para frenarla.
 
-Ese es el verdadero examen. Si el oficialismo bloquea una investigación sobre la presunta intervención de un operador extranjero en la elección que llevó a Keiko al poder, alimentará las sospechas que dice no tener motivos para temer. La Fiscalía peruana ha cuestionado la autenticidad de algunos audios atribuidos a Cerimedo, y justamente por eso una comisión con capacidad de levantar secretos bancarios y pedir registros oficiales podría despejar las dudas. Quien no tiene nada que ocultar no debería tener miedo de que se investigue.
+Ese es el verdadero examen. Si el oficialismo bloquea una investigación sobre la presunta intervención de un operador extranjero en la elección que llevó a Keiko al poder, alimentará las sospechas que dice no tener motivos para temer. La Fiscalía peruana ha cuestionado la autenticidad de algunos audios atribuidos a Cerimedo, y justamente por eso una comisión con capacidad de levantar secretos bancarios y pedir registros oficiales podría despejar las dudas. **Quien no tiene nada que ocultar no debería tener miedo de que se investigue**.
 
 Lee también: [Nuevo audio de Cerimedo: «Tenemos todas las actas de la ONPE»](/n/actas-cerimedo).
 

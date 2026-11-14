@@ -50,29 +50,29 @@ carrusel:
     foto: /img/uploads/tomas-galvez-fiscal-portada-2017.jpg
     foto_texto: "Tomás Gálvez. Foto: Ministerio Público / Wikimedia Commons (CC BY 2.0)."
 ---
-El hombre que dirige la institución encargada de investigar los delitos ambientales es copropietario de un terreno donde una de las mineras más grandes del país ha empezado a explorar. Se trata del fiscal de la Nación, Tomás Gálvez Villegas, y del proyecto Nueva Esperanza de la empresa Gold Fields, en el caserío de Tumbacucho, en Hualgayoc, Cajamarca.
+El hombre que dirige la institución encargada de investigar los delitos ambientales es **copropietario de un terreno donde una de las mineras más grandes del país ha empezado a explorar**. Se trata del fiscal de la Nación, Tomás Gálvez Villegas, y del proyecto Nueva Esperanza de la empresa Gold Fields, en el caserío de Tumbacucho, en Hualgayoc, Cajamarca.
 
-La denuncia la presentó la senadora Mirtha Vásquez, de Ahora Nación, durante una sesión de la Comisión de Justicia y Derechos Humanos del Senado a la que asistió el propio Gálvez. Según la parlamentaria, las operaciones de la minera "están iniciándose a cien metros de una escuela" y a unos 200 metros de una laguna de la que dependen las familias de la zona, según [Infobae](https://www.infobae.com/peru/2026/11/12/senadora-mirtha-vasquez-revela-que-un-proyecto-minero-opera-en-predio-del-fiscal-de-la-nacion-cerca-de-una-escuela-y-laguna/).
+La denuncia la presentó la senadora Mirtha Vásquez, de Ahora Nación, durante una sesión de la Comisión de Justicia y Derechos Humanos del Senado a la que asistió el propio Gálvez. Según la parlamentaria, las operaciones de la minera "**están iniciándose a cien metros de una escuela**" y a unos 200 metros de una laguna de la que dependen las familias de la zona, según [Infobae](https://www.infobae.com/peru/2026/11/12/senadora-mirtha-vasquez-revela-que-un-proyecto-minero-opera-en-predio-del-fiscal-de-la-nacion-cerca-de-una-escuela-y-laguna/).
 
 ![La senadora Mirtha Vásquez en la Comisión de Justicia del Senado](/img/uploads/mirtha-vasquez-senado-galvez.jpg "La senadora Mirtha Vásquez presenta los documentos del predio frente al fiscal de la Nación. Captura de la transmisión de la sesión del Senado, 12 de noviembre de 2026.")
 
 ## "No soy propietario, soy heredero"
 
-Frente a la senadora, Gálvez reconoció su vínculo con el predio, pero minimizó su responsabilidad. "Es terreno de mi madre. Soy heredero", dijo, según [La República](https://larepublica.pe/politica/2026/11/12/mirtha-vasquez-denuncia-presunto-conflicto-de-interes-de-tomas-galvez-en-terreno-usado-para-actividades-mineras-hnews-1017888). "No soy propietario". También negó participar en cualquier trámite del proyecto y sostuvo que no existe incompatibilidad porque no hay un proceso penal de por medio. Cuando la senadora le recordó las restricciones que impone la ley a los fiscales, respondió: "No sé de qué ley orgánica se refiere".
+Frente a la senadora, Gálvez reconoció su vínculo con el predio, pero minimizó su responsabilidad. "**Es terreno de mi madre. Soy heredero**", dijo, según [La República](https://larepublica.pe/politica/2026/11/12/mirtha-vasquez-denuncia-presunto-conflicto-de-interes-de-tomas-galvez-en-terreno-usado-para-actividades-mineras-hnews-1017888). "No soy propietario". También negó participar en cualquier trámite del proyecto y sostuvo que no existe incompatibilidad porque no hay un proceso penal de por medio. Cuando la senadora le recordó las restricciones que impone la ley a los fiscales, respondió: "No sé de qué ley orgánica se refiere".
 
 ![Tomás Gálvez responde en el Senado](/img/uploads/galvez-senado-comision-justicia-portada.jpg "El fiscal de la Nación, Tomás Gálvez, responde a la senadora Mirtha Vásquez en la Comisión de Justicia y Derechos Humanos del Senado. Captura de la transmisión de la sesión, 12 de noviembre de 2026.")
 
-Los documentos dicen otra cosa. Según la partida registral N.° 02248491 de la Oficina Registral de Chota, el predio rural "Lechera", de 16.34 hectáreas, ubicado en el sector Tumbacucho, fue transferido por sucesión intestada a Marcial Gálvez Gonzáles y a sus seis hijos, entre ellos Tomás Aladino Gálvez Villegas. La inscripción quedó registrada el 29 de mayo de 2024. Es decir, desde hace más de dos años el fiscal de la Nación figura en Sunarp como copropietario del terreno, y no como un simple heredero a la espera de una herencia.
+Los documentos dicen otra cosa. Según la **partida registral N.° 02248491** de la Oficina Registral de Chota, el predio rural "Lechera", de 16.34 hectáreas, ubicado en el sector Tumbacucho, fue transferido por sucesión intestada a Marcial Gálvez Gonzáles y a sus seis hijos, entre ellos Tomás Aladino Gálvez Villegas. **La inscripción quedó registrada el 29 de mayo de 2024**. Es decir, desde hace más de dos años el fiscal de la Nación figura en Sunarp como copropietario del terreno, y no como un simple heredero a la espera de una herencia.
 
 ![Partida registral del predio Lechera en Sunarp](/img/uploads/partida-sunarp-predio-lechera-galvez.jpg "Partida registral N.° 02248491 de la Oficina Registral de Chota: el predio Lechera, de 16.34 hectáreas, pasó por sucesión intestada a Marcial Gálvez Gonzales y a sus seis hijos, entre ellos Tomás Aladino Gálvez Villegas. Inscripción del 29 de mayo de 2024. Documento: Sunarp.")
 
-La propia minera lo confirma. La Ficha Técnica Ambiental del proyecto, elaborada en diciembre de 2025 por la consultora Anddes para Gold Fields La Cima, identifica el predio con la unidad catastral UC 75541 y lista entre sus propietarios a "Tomas Aladino Gálvez Villegas". En el mismo documento, la empresa señala que "viene trabajando para suscribir acuerdos para el uso del terreno superficial en los predios sobre los que se emplazan los componentes del presente Proyecto".
+La propia minera lo confirma. La Ficha Técnica Ambiental del proyecto, elaborada en diciembre de 2025 por la consultora Anddes para Gold Fields La Cima, identifica el predio con la unidad catastral UC 75541 y lista entre sus propietarios a "**Tomas Aladino Gálvez Villegas**". En el mismo documento, la empresa señala que "viene trabajando para suscribir acuerdos para el uso del terreno superficial en los predios sobre los que se emplazan los componentes del presente Proyecto".
 
-Gold Fields busca acuerdos con los dueños del terreno. Y uno de esos dueños es el fiscal de la Nación.
+Gold Fields busca acuerdos con los dueños del terreno. **Y uno de esos dueños es el fiscal de la Nación**.
 
 ## Perforar junto a una escuela
 
-El proyecto Nueva Esperanza contempla siete plataformas de perforación durante 19 meses, con hasta 28 taladros de 250 metros de profundidad, unos 7,000 metros perforados en total, y 14 pozas de lodos. El Ministerio de Energía y Minas lo aprobó con una Ficha Técnica Ambiental, un trámite simplificado previsto para proyectos de "impacto no significativo" que no exige un estudio de impacto ambiental, según [Energiminas](https://energiminas.com/2026/01/07/nueva-esperanza-gold-fields-renueva-su-interes-en-cajamarca-con-proyecto-recien-aprobado/).
+El proyecto Nueva Esperanza contempla **siete plataformas de perforación durante 19 meses**, con hasta 28 taladros de 250 metros de profundidad, unos 7,000 metros perforados en total, y 14 pozas de lodos. El Ministerio de Energía y Minas lo aprobó con una Ficha Técnica Ambiental, un trámite simplificado previsto para proyectos de "impacto no significativo" que **no exige un estudio de impacto ambiental**, según [Energiminas](https://energiminas.com/2026/01/07/nueva-esperanza-gold-fields-renueva-su-interes-en-cajamarca-con-proyecto-recien-aprobado/).
 
 A unos metros del predio está la escuela primaria del caserío. Y en una zona donde las familias dependen de manantiales y lagunas para vivir, perforar a 250 metros de profundidad no es un detalle menor.
 
@@ -90,13 +90,13 @@ Semanas después marcharon con un mensaje claro: "¡No más minería!". Acusaron
 
 ## Una empresa con antecedentes
 
-Gold Fields no es nueva en Hualgayoc. Opera desde hace años la mina Cerro Corona, cuyo tajo llega hasta las puertas de la ciudad. En 2018, una descarga de agua con residuos sólidos de esa operación llegó a la quebrada La Hierba y afectó más de un kilómetro de la cuenca del río Tingo-Maygasbamba. Los pobladores denunciaron la muerte de miles de truchas. En 2021, el OEFA declaró la responsabilidad de la empresa y le impuso una multa que, según Convoca, fue de apenas unos 276 soles.
+Gold Fields no es nueva en Hualgayoc. Opera desde hace años la mina Cerro Corona, cuyo tajo llega hasta las puertas de la ciudad. En 2018, una descarga de agua con residuos sólidos de esa operación llegó a la quebrada La Hierba y afectó más de un kilómetro de la cuenca del río Tingo-Maygasbamba. Los pobladores denunciaron la muerte de miles de truchas. En 2021, el OEFA declaró la responsabilidad de la empresa y le impuso una multa que, según Convoca, fue de **apenas unos 276 soles**.
 
 ![Mina Cerro Corona, de Gold Fields, en Hualgayoc](/img/uploads/mina-cerro-corona-hualgayoc.jpg "Instalaciones de la mina Cerro Corona, de Gold Fields, en Hualgayoc (Cajamarca), en 2019. Foto: Thayne Tuason / Wikimedia Commons (CC BY 4.0).")
 
 En 2020, comuneros de Pilancones denunciaron que agentes de Gold Fields y la Policía ingresaron a sus tierras sin orden de desalojo.
 
-Hualgayoc carga con más de mil pasivos ambientales mineros y fue declarada en emergencia ambiental en 2016 y en 2018. Estudios del Ministerio de Salud encontraron plomo en la sangre de sus pobladores por encima de los límites permitidos, y más de una década después las familias siguen reclamando atención médica.
+Hualgayoc carga con **más de mil pasivos ambientales mineros** y fue declarada en emergencia ambiental en 2016 y en 2018. Estudios del Ministerio de Salud encontraron plomo en la sangre de sus pobladores por encima de los límites permitidos, y más de una década después las familias siguen reclamando atención médica.
 
 ![Relavera de la mina Cerro Corona](/img/uploads/relavera-cerro-corona-hualgayoc.jpg "La relavera de la mina Cerro Corona, en Hualgayoc, vista desde la carretera en 2019. Foto: Thayne Tuason / Wikimedia Commons (CC BY 4.0).")
 
@@ -110,7 +110,7 @@ El propio Gálvez advirtió alguna vez que Hualgayoc podría convertirse en "el 
 
 Hasta el cierre de esta nota, Gold Fields no se había pronunciado.
 
-El caso deja una pregunta que el Ministerio Público no puede esquivar. Si el agua de Tumbacucho se contamina, si los comuneros denuncian abusos o si se cuestionan los acuerdos de la empresa con los propietarios, la investigación quedará en manos de una institución dirigida por uno de esos propietarios. Gálvez asegura que no hace negocios, pero el conflicto de interés no depende de sus intenciones, depende de su posición. Mientras tanto, las familias de Tumbacucho, que dijeron no a la minería desde el inicio, ven cómo las máquinas avanzan junto a la escuela de sus hijos y a la fuente de agua de la que dependen. Ellas no tienen ni el poder del fiscal ni los recursos de la minera. Solo tienen su voz, y ya la levantaron.
+El caso deja una pregunta que el Ministerio Público no puede esquivar. Si el agua de Tumbacucho se contamina, si los comuneros denuncian abusos o si se cuestionan los acuerdos de la empresa con los propietarios, la investigación quedará en manos de una institución dirigida por uno de esos propietarios. Gálvez asegura que no hace negocios, pero **el conflicto de interés no depende de sus intenciones, depende de su posición**. Mientras tanto, las familias de Tumbacucho, que dijeron no a la minería desde el inicio, ven cómo las máquinas avanzan junto a la escuela de sus hijos y a la fuente de agua de la que dependen. Ellas no tienen ni el poder del fiscal ni los recursos de la minera. Solo tienen su voz, y ya la levantaron.
 
 Lee también: [Fiscalía pide archivar el caso contra César Hinostroza en el que aparecía Tomás Gálvez](/n/hinostroza-archivo).
 
