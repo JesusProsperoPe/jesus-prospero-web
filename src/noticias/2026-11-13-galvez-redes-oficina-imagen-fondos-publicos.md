@@ -49,6 +49,8 @@ carrusel:
     foto: /img/uploads/tiktok-noticias-peru-perfil.jpg
     foto_texto: "Perfil de «Noticias Perú» en TikTok. Captura."
 ---
+*Actualización, 14 de noviembre: nuevas capturas vinculan a Luis Gallardo con las cuentas "Seguridad Peruana" e "Infiltrado". [Léela aquí](#actualizacion).*
+
 El fiscal de la Nación, Tomás Gálvez Villegas, aparece en sus redes sociales bajando de un helicóptero en el VRAEM, recorriendo la selva de Madre de Dios o dando entrevistas en la azotea de la sede del Ministerio Público. Son videos cuidadosamente producidos que no figuran en las cuentas oficiales de la Fiscalía. Según una investigación de Territorio Tomado y testimonios recogidos por este medio, ese material habría sido grabado y editado por personal de la Oficina de Imagen Institucional, **pagado con fondos públicos, para alimentar las cuentas personales del fiscal**.
 
 <figure style="margin:1.5em auto;max-width:420px">
@@ -159,6 +161,46 @@ El caso llega apenas un día después de otra revelación que compromete al fisc
 Gálvez llegó a la Fiscalía de la Nación con una mochila pesada. En 2021 la Junta Nacional de Justicia lo destituyó por su vínculo con Los Cuellos Blancos del Puerto, tras revelarse sus llamadas con el prófugo exjuez supremo César Hinostroza. El Tribunal Constitucional lo repuso en 2025, y desde entonces su ascenso ha venido acompañado de una presencia cada vez mayor en redes sociales.
 
 La Oficina de Imagen Institucional existe para informar sobre el trabajo del Ministerio Público y no para construir la marca personal de quien lo dirige. Si los testimonios se confirman, el fiscal encargado de perseguir el uso indebido de recursos públicos habría tenido a su servicio a trabajadores pagados por el Estado para limpiar su imagen en TikTok. Sumado a su conflicto de interés en Hualgayoc, el caso exige que la Contraloría, la Junta Nacional de Justicia y el Congreso actúen sin demora. **Una denuncia constitucional es el camino previsto para investigar al fiscal de la Nación**, porque mientras siga al frente del Ministerio Público, la institución que debería investigarlo es la misma que él dirige.
+
+<a id="actualizacion"></a>
+
+## Actualización (14 de noviembre): las cuentas que apuntan a Gallardo
+
+Tras la publicación de esta nota, este medio revisó la actividad de "Seguridad Peruana" y de otra cuenta de TikTok, "Infiltrado". Las capturas **apuntan a que ambas estarían vinculadas a Luis Gallardo**.
+
+El 28 de septiembre, desde su cuenta personal, "Luis el Gallardo", el productor publicó un video en el que pide apoyar el emprendimiento de su pareja. "Lo vas a lograr, **amor de mi vida**; estoy muy orgulloso de ti", escribió. Entre los comentarios aparece **"Seguridad Peruana"**, que pregunta cómo se llama el emprendimiento "para apoyarla" y agrega "Yo también fuí emprendedor".
+
+<figure style="margin:1.5em auto;max-width:420px">
+<img src="/img/uploads/tiktok-seguridad-peruana-comenta-gallardo.jpg" alt="Seguridad Peruana comenta en la cuenta personal de Luis Gallardo" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>"Seguridad Peruana" comenta en la cuenta personal de Gallardo. Captura de TikTok.</figcaption>
+</figure>
+
+La cuenta "Infiltrado" deja mensajes de amor en las publicaciones de esa misma joven. "**Eres el amor de mi vida** por siempre y para siempre", le escribió en mayo, y ella le respondió "Te amo gordito". En un video que dice "Soy el novio", "Infiltrado" comentó "jajaajajajaajajajaja **si soy**". En otro, con una foto de la pareja en una laguna, escribió "mi vida hermosa, gracias por tanto, gracias por todo te amo mucho", y ella contestó "Te amo amor mío".
+
+<figure style="margin:1.5em auto">
+<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
+<img src="/img/uploads/tiktok-infiltrado-amor-de-mi-vida.jpg" alt="Infiltrado: Eres el amor de mi vida" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/tiktok-infiltrado-soy-el-novio.jpg" alt="Infiltrado: si soy" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+</div>
+<figcaption>Comentarios de "Infiltrado" a la pareja de Gallardo. Capturas de TikTok.</figcaption>
+</figure>
+
+<figure style="margin:1.5em auto">
+<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
+<img src="/img/uploads/tiktok-infiltrado-mi-vida-hermosa.jpg" alt="Infiltrado: mi vida hermosa" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/tiktok-infiltrado-video-enamorado.jpg" alt="Infiltrado se ríe en un video de su pareja" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+</div>
+<figcaption>Más comentarios de "Infiltrado" en las publicaciones de la joven. Capturas de TikTok.</figcaption>
+</figure>
+
+Después de que este medio publicara la denuncia en TikTok, "Seguridad Peruana" apareció en los comentarios. "**No sé porque esta cuenta sale ahí**, pero saludos síganme", escribió. Cuando este medio le respondió "Ya te vimos, Luis", la cuenta contestó "**No sé quien es esa persona**" y ofreció a cambio un "tema de investigación" sobre otra funcionaria.
+
+<figure style="margin:1.5em auto;max-width:420px">
+<img src="/img/uploads/tiktok-seguridad-peruana-responde.jpg" alt="Seguridad Peruana dice no saber quién es Luis" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>"Seguridad Peruana" dice no conocer a Luis. Se difuminó el nombre de una tercera persona.</figcaption>
+</figure>
+
+La respuesta **choca con lo que muestran sus propios comentarios**. La cuenta que dice no saber quién es Luis Gallardo es la misma que comentó en su perfil personal para preguntar por el emprendimiento de su pareja. Este medio no ha podido confirmar de forma independiente quién administra estas cuentas. Para proteger su privacidad, se omitió el nombre de la pareja de Gallardo y de las demás personas que aparecen en las capturas.
 
 Lee también: [Fiscalía pide archivar caso contra César Hinostroza en el que también aparecía el actual fiscal de la Nación](/n/hinostroza-archivo).
 
