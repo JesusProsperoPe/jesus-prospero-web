@@ -18,8 +18,8 @@ carrusel:
     foto_texto: "Tomás Gálvez, Luis Gallardo y Javier Galindo. Fotomontaje con IA (referencial)."
   - titular: "Videos que **no están** en las cuentas oficiales"
     texto: "Helicóptero en el VRAEM, la selva de Madre de Dios, entrevistas en la azotea de la Fiscalía."
-    foto: /img/uploads/tiktok-noticias-peru-perfil.jpg
-    foto_texto: "Perfil de «Noticias Perú» en TikTok. Captura."
+    foto: /img/uploads/tiktok-galvez-perfil-personal-operativo.jpg
+    foto_texto: "Video en el TikTok personal de Tomás Gálvez. Captura."
   - titular: "El gerente que **nombró Gálvez**"
     texto: "Javier Galindo, designado por la Resolución **1026-2026-MP-FN**, firmada por el fiscal."
     foto: /img/uploads/resolucion-1026-2026-mp-fn-galindo-p1.jpg
@@ -31,7 +31,7 @@ carrusel:
   - titular: "**S/ 5,200** por orden de servicio"
     texto: "Luis Gallardo, contratado por el Ministerio Público. La más reciente, del **30 de octubre**."
     foto: /img/uploads/luis-gallardo-arevalo-productor.jpg
-    foto_texto: "Luis Ángel Gallardo Arévalo. Imagen referencial."
+    foto_texto: "Luis Ángel Gallardo Arévalo. Foto: LinkedIn."
   - titular: "Bajaban al despacho **a enseñarle los videos**"
     texto: "Así lo relató un testigo a Territorio Tomado."
     foto: /img/uploads/resolucion-1026-2026-mp-fn-galindo-p2.jpg
@@ -50,6 +50,11 @@ carrusel:
     foto_texto: "Perfil de «Noticias Perú» en TikTok. Captura."
 ---
 El fiscal de la Nación, Tomás Gálvez Villegas, aparece en sus redes sociales bajando de un helicóptero en el VRAEM, recorriendo la selva de Madre de Dios o dando entrevistas en la azotea de la sede del Ministerio Público. Son videos cuidadosamente producidos que no figuran en las cuentas oficiales de la Fiscalía. Según una investigación de Territorio Tomado y testimonios recogidos por este medio, ese material habría sido grabado y editado por personal de la Oficina de Imagen Institucional, **pagado con fondos públicos, para alimentar las cuentas personales del fiscal**.
+
+<figure style="margin:1.5em auto;max-width:420px">
+<img src="/img/uploads/tiktok-galvez-perfil-personal-operativo.jpg" alt="Tomás Gálvez en un video de su cuenta personal de TikTok" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>Video del 16 de agosto en la cuenta personal de TikTok «Tomás Aladino Gálvez | Fiscal», sobre un megaoperativo contra la minería ilegal. Captura de TikTok.</figcaption>
+</figure>
 
 Los testimonios señalan a tres personas. El propio Tomás Gálvez; Javier Galindo Calderón, gerente central de la Oficina de Imagen; y Luis Ángel Gallardo Arévalo, productor audiovisual contratado por la institución.
 
@@ -90,7 +95,7 @@ Luis Ángel Gallardo Arévalo figura en el Buscador de Proveedores del Estado co
 
 <figure style="margin:1.5em auto;max-width:520px">
 <img src="/img/uploads/luis-gallardo-arevalo-productor.jpg" alt="Luis Ángel Gallardo Arévalo" style="width:100%;height:auto">
-<figcaption>Luis Ángel Gallardo Arévalo, productor audiovisual contratado por el Ministerio Público. Imagen referencial.</figcaption>
+<figcaption>Luis Ángel Gallardo Arévalo, productor audiovisual contratado por el Ministerio Público. Foto: LinkedIn de Luis Gallardo.</figcaption>
 </figure>
 
 <figure style="margin:1.5em auto">
