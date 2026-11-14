@@ -44,8 +44,8 @@ carrusel:
     texto: "Gálvez no respondió. Galindo dijo estar con **descanso médico**."
     foto: /img/uploads/gallardo-orden-servicio-pnp-15000.jpg
     foto_texto: "Orden de servicio de la PNP. Fuente: Buscador de Proveedores del Estado."
-  - titular: "**Dos denuncias** en una semana"
-    texto: "Primero su terreno en Hualgayoc. Ahora sus redes. **¿Quién investiga al fiscal?**"
+  - titular: "El que hace los videos **maneja las cuentas que lo aplauden**"
+    texto: "\"Infiltrado\" y \"Seguridad Peruana\" llevan a **Luis Gallardo**."
     foto: /img/uploads/tiktok-noticias-peru-perfil.jpg
     foto_texto: "Perfil de «Noticias Perú» en TikTok. Captura."
 ---
@@ -182,14 +182,6 @@ Mientras los trabajadores denuncian que un productor pagado por la Fiscalía edi
 Para el abogado consultado por Territorio Tomado, de comprobarse los hechos podría configurarse el delito de **peculado de uso**, que sanciona al funcionario que utiliza bienes, trabajadores o recursos del Estado para fines particulares, con pena de cárcel e inhabilitación para ejercer el cargo. El Código de Ética de la Función Pública obliga además a todo servidor a proteger los bienes del Estado y a no emplearlos para fines distintos de aquellos a los que están destinados.
 
 Territorio Tomado solicitó entrevistas a los tres mencionados. **Tomás Gálvez y Luis Gallardo no respondieron**. Javier Galindo contestó por WhatsApp que se encontraba con descanso médico y que no estaba en condiciones de declarar.
-
-## Dos denuncias en una semana
-
-El caso llega apenas un día después de otra revelación que compromete al fiscal de la Nación. En el Senado, Mirtha Vásquez denunció que Gálvez es [copropietario del terreno en el caserío de Tumbacucho, en Hualgayoc](/n/galvez-gold-fields), donde la minera Gold Fields inició exploraciones a cien metros de una escuela. La partida registral muestra que figura como dueño desde 2024, aunque ante los senadores aseguró que solo era heredero.
-
-Gálvez llegó a la Fiscalía de la Nación con una mochila pesada. En 2021 la Junta Nacional de Justicia lo destituyó por su vínculo con Los Cuellos Blancos del Puerto, tras revelarse sus llamadas con el prófugo exjuez supremo César Hinostroza. El Tribunal Constitucional lo repuso en 2025, y desde entonces su ascenso ha venido acompañado de una presencia cada vez mayor en redes sociales.
-
-La Oficina de Imagen Institucional existe para informar sobre el trabajo del Ministerio Público y no para construir la marca personal de quien lo dirige. Si los testimonios se confirman, el fiscal encargado de perseguir el uso indebido de recursos públicos habría tenido a su servicio a trabajadores pagados por el Estado para limpiar su imagen en TikTok. Sumado a su conflicto de interés en Hualgayoc, el caso exige que la Contraloría, la Junta Nacional de Justicia y el Congreso actúen sin demora. **Una denuncia constitucional es el camino previsto para investigar al fiscal de la Nación**, porque mientras siga al frente del Ministerio Público, la institución que debería investigarlo es la misma que él dirige.
 
 <a id="actualizacion"></a>
 
