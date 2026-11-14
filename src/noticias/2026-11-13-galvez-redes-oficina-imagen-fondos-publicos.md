@@ -148,6 +148,35 @@ Con uno y otro nombre, la cuenta dejó **exactamente el mismo comentario** en vi
 
 Para las fuentes, esta cuenta funcionaría como una herramienta para aplaudir al fiscal de la Nación, operada con tiempo, personal y material del Ministerio Público.
 
+## "Infiltrado", la otra cuenta que aplaude
+
+"Seguridad Peruana" no aplaude sola. En los videos de la cuenta personal de Tomás Gálvez aparece también otra cuenta, **"Infiltrado"**, que le deja mensajes como "Excelente" y "Sigan así".
+
+<figure style="margin:1.5em auto">
+<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
+<img src="/img/uploads/tiktok-infiltrado-galvez-sigan-asi.jpg" alt="Infiltrado: Sigan así" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/tiktok-infiltrado-galvez-excelente.jpg" alt="Infiltrado: Excelente" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+</div>
+<figcaption>"Infiltrado" aplaude en los videos personales de Gálvez. Capturas de TikTok.</figcaption>
+</figure>
+
+"Seguridad Peruana" hace lo mismo. Fue la **primera en comentar** un video de un operativo, y en otro escribió "Vamos Tomas, queremos verte en todo el Perú trabajando". En un tercero le dijo "Buena Sr Fiscal, ya era hora de ver orden nuestro pais", y **el propio Gálvez le respondió**: "Nuestro trabajo se verá en todo el Perú".
+
+<figure style="margin:1.5em auto">
+<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
+<img src="/img/uploads/tiktok-seguridad-peruana-galvez-responde.jpg" alt="Gálvez responde a Seguridad Peruana" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/tiktok-seguridad-peruana-galvez-vamos-tomas.jpg" alt="Seguridad Peruana: Vamos Tomas" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+</div>
+<figcaption>Gálvez le responde a "Seguridad Peruana" en su cuenta personal. Capturas de TikTok.</figcaption>
+</figure>
+
+<figure style="margin:1.5em auto;max-width:420px">
+<img src="/img/uploads/tiktok-seguridad-peruana-galvez-mineros.jpg" alt="Seguridad Peruana, primer comentario en un video de Gálvez" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>"Seguridad Peruana", primer comentario en otro video del fiscal. Captura de TikTok.</figcaption>
+</figure>
+
+Mientras los trabajadores denuncian que un productor pagado por la Fiscalía edita los videos personales del fiscal, estas dos cuentas se dedican a celebrarlos. Quedaba una pregunta: quién está detrás de ellas.
+
 ## Un posible delito
 
 Para el abogado consultado por Territorio Tomado, de comprobarse los hechos podría configurarse el delito de **peculado de uso**, que sanciona al funcionario que utiliza bienes, trabajadores o recursos del Estado para fines particulares, con pena de cárcel e inhabilitación para ejercer el cargo. El Código de Ética de la Función Pública obliga además a todo servidor a proteger los bienes del Estado y a no emplearlos para fines distintos de aquellos a los que están destinados.
@@ -166,23 +195,18 @@ La Oficina de Imagen Institucional existe para informar sobre el trabajo del Min
 
 ## Actualización (14 de noviembre): Luis Gallardo está detrás de las cuentas
 
-Tras la publicación de esta nota, este medio revisó la actividad de "Seguridad Peruana" y de otra cuenta de TikTok, "Infiltrado". Las capturas **comprueban que ambas son manejadas por Luis Gallardo**.
+Este medio siguió el rastro de "Infiltrado" y "Seguridad Peruana" fuera de los videos del fiscal. Los dos caminos llevan a la misma persona: **Luis Gallardo**, el productor al que, según los testigos, el Ministerio Público le paga para editar los videos personales de Gálvez.
 
-El 28 de septiembre, desde su cuenta personal, "Luis el Gallardo", el productor publicó un video en el que pide apoyar el emprendimiento de su pareja. "Lo vas a lograr, **amor de mi vida**; estoy muy orgulloso de ti", escribió. Entre los comentarios aparece **"Seguridad Peruana"**, que pregunta cómo se llama el emprendimiento "para apoyarla" y agrega "Yo también fuí emprendedor".
+### "Infiltrado" es el enamorado
 
-<figure style="margin:1.5em auto;max-width:420px">
-<img src="/img/uploads/tiktok-seguridad-peruana-comenta-gallardo.jpg" alt="Seguridad Peruana comenta en la cuenta personal de Luis Gallardo" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>"Seguridad Peruana" comenta en la cuenta personal de Gallardo. Captura de TikTok.</figcaption>
-</figure>
-
-La cuenta "Infiltrado" deja mensajes de amor en las publicaciones de esa misma joven. "**Eres el amor de mi vida** por siempre y para siempre", le escribió en mayo, y ella le respondió "Te amo gordito". En un video que dice "Soy el novio", "Infiltrado" comentó "jajaajajajaajajajaja **si soy**". En otro, con una foto de la pareja en una laguna, escribió "mi vida hermosa, gracias por tanto, gracias por todo te amo mucho", y ella contestó "Te amo amor mío".
+La misma cuenta "Infiltrado" que aplaude al fiscal deja mensajes de amor en las publicaciones de la pareja de Gallardo. "**Eres el amor de mi vida** por siempre y para siempre", le escribió en mayo, y ella le respondió "**Te amo gordito**". En un video que dice "Soy el novio", "Infiltrado" comentó "jajaajajajaajajajaja **si soy**". En otro, con una foto de la pareja en una laguna, escribió "mi vida hermosa, gracias por tanto, gracias por todo te amo mucho", y ella contestó "Te amo amor mío".
 
 <figure style="margin:1.5em auto">
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
 <img src="/img/uploads/tiktok-infiltrado-amor-de-mi-vida.jpg" alt="Infiltrado: Eres el amor de mi vida" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 <img src="/img/uploads/tiktok-infiltrado-soy-el-novio.jpg" alt="Infiltrado: si soy" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>Comentarios de "Infiltrado" a la pareja de Gallardo. Capturas de TikTok.</figcaption>
+<figcaption>"Infiltrado" le habla a la pareja de Gallardo como su enamorado. Capturas de TikTok.</figcaption>
 </figure>
 
 <figure style="margin:1.5em auto">
@@ -193,39 +217,21 @@ La cuenta "Infiltrado" deja mensajes de amor en las publicaciones de esa misma j
 <figcaption>Más comentarios de "Infiltrado" en las publicaciones de la joven. Capturas de TikTok.</figcaption>
 </figure>
 
-En el mismo video de Gallardo del 28 de septiembre, la joven, desde la cuenta de su emprendimiento, le agradeció "por siempre motivarme **gordito**". Es el mismo apodo con el que le respondió a "Infiltrado": "Te amo gordito". Y en ese video también le contestó a "Seguridad Peruana": "Aquí estoyyy".
+Su enamorado es Luis Gallardo. El 28 de septiembre, desde su cuenta personal, "Luis el Gallardo", el productor publicó un video en el que pide apoyar el emprendimiento de su pareja. "Lo vas a lograr, **amor de mi vida**; estoy muy orgulloso de ti", escribió. Ahí ella, desde la cuenta de su emprendimiento, le agradeció "por siempre motivarme **gordito**". Es el mismo apodo con el que le responde a "Infiltrado". **"Infiltrado" es Luis Gallardo.**
 
-<figure style="margin:1.5em auto;max-width:420px">
-<img src="/img/uploads/tiktok-pareja-gordito-seguridad-peruana.jpg" alt="La pareja de Gallardo le dice gordito y responde a Seguridad Peruana" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>La pareja de Gallardo le dice "gordito" y responde a "Seguridad Peruana". Captura de TikTok.</figcaption>
-</figure>
+### "Seguridad Peruana", en el perfil de Luis
 
-## Las mismas cuentas, en el TikTok de Gálvez
-
-"Seguridad Peruana" e "Infiltrado" también aparecen en los videos de la cuenta personal de Tomás Gálvez, **siempre para elogiarlo**. "Seguridad Peruana" fue la **primera en comentar** un video de un operativo, y en otro escribió "Vamos Tomas, queremos verte en todo el Perú trabajando". En un tercero le dijo "Buena Sr Fiscal, ya era hora de ver orden nuestro pais", y **el propio Gálvez le respondió**: "Nuestro trabajo se verá en todo el Perú". "Infiltrado", por su parte, le dejó "Excelente" y "Sigan así".
+En ese mismo video de Gallardo aparece "Seguridad Peruana", que pregunta cómo se llama el emprendimiento "para apoyarla" y agrega "Yo también fuí emprendedor". La pareja le contesta ahí mismo: "Aquí estoyyy".
 
 <figure style="margin:1.5em auto">
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
-<img src="/img/uploads/tiktok-seguridad-peruana-galvez-responde.jpg" alt="Gálvez responde a Seguridad Peruana" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
-<img src="/img/uploads/tiktok-seguridad-peruana-galvez-vamos-tomas.jpg" alt="Seguridad Peruana: Vamos Tomas" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/tiktok-seguridad-peruana-comenta-gallardo.jpg" alt="Seguridad Peruana comenta en la cuenta personal de Luis Gallardo" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/tiktok-pareja-gordito-seguridad-peruana.jpg" alt="La pareja de Gallardo le dice gordito y responde a Seguridad Peruana" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>Gálvez le responde a "Seguridad Peruana" en su cuenta personal. Capturas de TikTok.</figcaption>
+<figcaption>"Seguridad Peruana" en el perfil de Gallardo; su pareja le dice "gordito". Capturas de TikTok.</figcaption>
 </figure>
 
-<figure style="margin:1.5em auto">
-<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
-<img src="/img/uploads/tiktok-seguridad-peruana-galvez-mineros.jpg" alt="Seguridad Peruana, primer comentario en un video de Gálvez" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
-<img src="/img/uploads/tiktok-infiltrado-galvez-sigan-asi.jpg" alt="Infiltrado: Sigan así" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
-</div>
-<figcaption>"Seguridad Peruana" e "Infiltrado" en los videos de Gálvez. Capturas de TikTok.</figcaption>
-</figure>
-
-<figure style="margin:1.5em auto;max-width:520px">
-<img src="/img/uploads/tiktok-infiltrado-galvez-excelente.jpg" alt="Infiltrado: Excelente" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>"Infiltrado" en otro video del fiscal. Captura de TikTok.</figcaption>
-</figure>
-
-## "No sé quién es esa persona"
+### "No sé quién es esa persona"
 
 Después de que este medio publicara la denuncia en TikTok, "Seguridad Peruana" apareció en los comentarios. "**No sé porque esta cuenta sale ahí**, pero saludos síganme", escribió. Cuando este medio le respondió "Ya te vimos, Luis", la cuenta contestó "**No sé quien es esa persona**" y ofreció a cambio un "tema de investigación" sobre otra funcionaria.
 
@@ -234,9 +240,13 @@ Después de que este medio publicara la denuncia en TikTok, "Seguridad Peruana" 
 <figcaption>"Seguridad Peruana" dice no conocer a Luis. Se difuminó el nombre de una tercera persona.</figcaption>
 </figure>
 
-La respuesta **choca con lo que muestran sus propios comentarios**. La cuenta que dice no saber quién es Luis Gallardo es la misma que comentó en su perfil personal para preguntar por el emprendimiento de su pareja, y la misma a la que el fiscal de la Nación le contesta en su TikTok.
+La respuesta **choca con lo que muestran sus propios comentarios**. La cuenta que dice no saber quién es Luis Gallardo es la misma que comentó en su perfil personal para preguntar por el emprendimiento de su pareja.
 
-Las capturas cierran el círculo. "Infiltrado" le escribe a la pareja de Gallardo como su enamorado, y ella le responde como tal, con el mismo apodo que usa con Luis. "Seguridad Peruana", la antigua "Noticias Perú", comenta en el perfil personal de Gallardo y la pareja le contesta ahí mismo. Y **las dos cuentas aplauden al fiscal de la Nación en su TikTok personal**. Con estas pruebas, este medio comprobó que **detrás de "Seguridad Peruana" e "Infiltrado" está Luis Gallardo**, el productor contratado por el Ministerio Público. Para proteger su privacidad, se omitió el nombre de la pareja de Gallardo y de las demás personas que aparecen en las capturas.
+### El círculo se cierra
+
+Las capturas enlazan todo. Los trabajadores denuncian que Luis Gallardo, contratado por el Ministerio Público con órdenes de S/ 5,200, edita en horario laboral los videos de las redes personales de Tomás Gálvez. Las dos cuentas que aplauden esos videos llevan a él. "Infiltrado" le habla a su pareja como su enamorado, y "Seguridad Peruana", la antigua "Noticias Perú", comenta en su perfil personal. Con estas pruebas, este medio comprobó que **detrás de "Seguridad Peruana" e "Infiltrado" está Luis Gallardo**. **El mismo productor que le hace los videos al fiscal maneja también las cuentas que lo aplauden.**
+
+Para proteger su privacidad, se omitió el nombre de la pareja de Gallardo y de las demás personas que aparecen en las capturas.
 
 Lee también: [Fiscalía pide archivar caso contra César Hinostroza en el que también aparecía el actual fiscal de la Nación](/n/hinostroza-archivo).
 
