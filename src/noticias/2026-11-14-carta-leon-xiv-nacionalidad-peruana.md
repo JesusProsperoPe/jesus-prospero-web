@@ -4,9 +4,9 @@ titulo_seo: "Carta de León XIV pidiendo la nacionalidad peruana: lo que escribi
 temas: ["León XIV", "Chiclayo", "Migraciones"]
 date: 2026-11-14T12:30:00-05:00
 resumen: "La solicitud manuscrita de Robert Francis Prevost, hoy declarada Patrimonio Cultural de la Nación, cuenta su llegada a Chulucanas en 1985, los años de terrorismo y cólera en Trujillo y su deseo de quedarse en el Perú para siempre."
-imagen: /img/uploads/carta-prevost-nacionalidad-portada.jpg
-imagen_texto: "Primera página de la carta con la que Robert Francis Prevost pidió la nacionalidad peruana."
-imagen_fuente: "Expediente de nacionalización, Migraciones. Fondo difuminado de la misma imagen."
+imagen: /img/uploads/carta-leon-xiv-portada-ia.jpg
+imagen_texto: "León XIV junto a la tercera página de su carta para pedir la nacionalidad peruana."
+imagen_fuente: "Fotomontaje con IA (referencial)."
 tipo: Noticia
 exclusivo: false
 corto: "carta-leon-xiv"
@@ -15,8 +15,8 @@ carrusel:
   - nota: "debe causar mucho impacto: titular gigante sobre la carta manuscrita con el membrete del Obispado de Chiclayo"
     titular: "La carta en la que **León XIV pidió ser peruano**"
     texto: "\"Con la intención de quedarme ya **por toda la vida**\"."
-    foto: /img/uploads/carta-prevost-nacionalidad-portada.jpg
-    foto_texto: "Carta de Robert Francis Prevost. Expediente de Migraciones."
+    foto: /img/uploads/carta-leon-xiv-portada-ia.jpg
+    foto_texto: "León XIV y su carta. Fotomontaje con IA (referencial)."
   - titular: "Escrita **a mano**"
     texto: "En papel del Obispado de Chiclayo y dirigida al **presidente de la República**."
     foto: /img/uploads/carta-prevost-nacionalidad-p1.jpg
