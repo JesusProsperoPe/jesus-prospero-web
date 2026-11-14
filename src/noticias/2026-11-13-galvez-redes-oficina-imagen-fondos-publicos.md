@@ -4,18 +4,18 @@ titulo_seo: "Tomás Gálvez: denuncian que personal de la Oficina de Imagen de l
 temas: ["Tomás Gálvez", "Fiscalía", "Ministerio Público"]
 date: 2026-11-13T20:00:00-05:00
 resumen: "Trabajadores de la Fiscalía aseguran que un productor contratado por la institución editaba en horario laboral videos para las cuentas personales del fiscal de la Nación. Dos cuentas de TikTok dedicadas a elogiarlo repiten los mismos comentarios."
-imagen: /img/uploads/galvez-redes-tiktok-portada.jpg
-imagen_texto: "Perfil de la cuenta de TikTok «Noticias Perú» (@noticiasperu26), con 52,7 mil seguidores y videos dedicados al fiscal de la Nación, Tomás Gálvez."
-imagen_fuente: "Captura de TikTok. Bordes laterales completados con un fondo difuminado de la misma imagen."
+imagen: /img/uploads/galvez-redes-portada-ia.jpg
+imagen_texto: "El fiscal de la Nación, Tomás Gálvez, frente a la sede del Ministerio Público; a la derecha, Javier Galindo, gerente central de la Oficina de Imagen, y otro funcionario."
+imagen_fuente: "Fotomontaje editorial con inteligencia artificial, basado en fotografías reales (referencial)."
 tipo: Noticia
 exclusivo: false
 corto: "galvez-redes"
 carrusel:
-  - nota: "debe causar mucho impacto: titular gigante con la captura del perfil de Noticias Perú lleno de videos de Gálvez"
+  - nota: "debe causar mucho impacto: titular gigante con la portada de Gálvez frente a la sede del Ministerio Público"
     titular: "Denuncian uso de **fondos públicos** para las redes de Tomás Gálvez"
     texto: "Trabajadores de la Fiscalía hablan de videos editados **en horario laboral**."
-    foto: /img/uploads/galvez-redes-tiktok-portada.jpg
-    foto_texto: "Perfil de «Noticias Perú» en TikTok. Captura."
+    foto: /img/uploads/galvez-redes-portada-ia.jpg
+    foto_texto: "Tomás Gálvez y Javier Galindo. Fotomontaje con IA (referencial)."
   - titular: "Videos que **no están** en las cuentas oficiales"
     texto: "Helicóptero en el VRAEM, la selva de Madre de Dios, entrevistas en la azotea de la Fiscalía."
     foto: /img/uploads/tiktok-noticias-peru-perfil.jpg
