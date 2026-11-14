@@ -26,8 +26,8 @@ carrusel:
     foto_texto: "Resolución N.° 1026-2026-MP-FN."
   - titular: "\"Hemos visto muchas veces a Luis **editando los videos**\""
     texto: "Cuando notó que lo observaban, empezó a sentarse de espaldas."
-    foto: /img/uploads/javier-galindo-fiscalia-cajamarca.jpg
-    foto_texto: "Javier Galindo en Cajamarca. Foto: X / @FiscaliaPeru."
+    foto: /img/uploads/javier-galindo-calderon-retrato.jpg
+    foto_texto: "Javier Galindo en Cajamarca. Foto: X / @FiscaliaPeru, mejorada con IA."
   - titular: "**S/ 5,200** por orden de servicio"
     texto: "Luis Gallardo, contratado por el Ministerio Público. La más reciente, del **30 de octubre**."
     foto: /img/uploads/luis-gallardo-arevalo-productor.jpg
@@ -68,6 +68,11 @@ Javier Miguel Galindo Calderón llegó al Ministerio Público en abril. La **Res
 ![Javier Galindo en una actividad del Ministerio Público en Cajamarca](/img/uploads/javier-galindo-fiscalia-cajamarca.jpg "Javier Galindo, gerente central de la Oficina de Imagen, en una actividad oficial del Ministerio Público en Cajamarca. Foto: X / @FiscaliaPeru.")
 
 Fuentes del Ministerio Público aseguran además que Galindo habría estado antes a cargo de las redes del exministro del Interior Juan José Santiváñez, y que el estilo de los videos de ambos funcionarios es muy similar. Las mismas fuentes denuncian que, desde su llegada, se ha retirado a trabajadores de la Oficina de Imagen sin explicación. Este medio no ha podido confirmar de forma independiente ninguna de las dos afirmaciones.
+
+<figure style="margin:1.5em auto;max-width:520px">
+<img src="/img/uploads/javier-galindo-calderon-retrato.jpg" alt="Javier Miguel Galindo Calderón" style="width:100%;height:auto">
+<figcaption>Javier Miguel Galindo Calderón, gerente central de la Oficina de Imagen Institucional del Ministerio Público, en Cajamarca. Foto: X / @FiscaliaPeru, con calidad mejorada con inteligencia artificial.</figcaption>
+</figure>
 
 ## Videos editados en la oficina
 
