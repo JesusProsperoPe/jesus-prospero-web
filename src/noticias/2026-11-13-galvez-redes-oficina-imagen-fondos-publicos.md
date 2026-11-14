@@ -193,6 +193,40 @@ La cuenta "Infiltrado" deja mensajes de amor en las publicaciones de esa misma j
 <figcaption>Más comentarios de "Infiltrado" en las publicaciones de la joven. Capturas de TikTok.</figcaption>
 </figure>
 
+En el mismo video de Gallardo del 28 de septiembre, la joven, desde la cuenta de su emprendimiento, le agradeció "por siempre motivarme **gordito**". Es el mismo apodo con el que le respondió a "Infiltrado": "Te amo gordito". Y en ese video también le contestó a "Seguridad Peruana": "Aquí estoyyy".
+
+<figure style="margin:1.5em auto;max-width:420px">
+<img src="/img/uploads/tiktok-pareja-gordito-seguridad-peruana.jpg" alt="La pareja de Gallardo le dice gordito y responde a Seguridad Peruana" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>La pareja de Gallardo le dice "gordito" y responde a "Seguridad Peruana". Captura de TikTok.</figcaption>
+</figure>
+
+## Las mismas cuentas, en el TikTok de Gálvez
+
+"Seguridad Peruana" e "Infiltrado" también aparecen en los videos de la cuenta personal de Tomás Gálvez, **siempre para elogiarlo**. "Seguridad Peruana" fue la **primera en comentar** un video de un operativo, y en otro escribió "Vamos Tomas, queremos verte en todo el Perú trabajando". En un tercero le dijo "Buena Sr Fiscal, ya era hora de ver orden nuestro pais", y **el propio Gálvez le respondió**: "Nuestro trabajo se verá en todo el Perú". "Infiltrado", por su parte, le dejó "Excelente" y "Sigan así".
+
+<figure style="margin:1.5em auto">
+<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
+<img src="/img/uploads/tiktok-seguridad-peruana-galvez-responde.jpg" alt="Gálvez responde a Seguridad Peruana" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/tiktok-seguridad-peruana-galvez-vamos-tomas.jpg" alt="Seguridad Peruana: Vamos Tomas" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+</div>
+<figcaption>Gálvez le responde a "Seguridad Peruana" en su cuenta personal. Capturas de TikTok.</figcaption>
+</figure>
+
+<figure style="margin:1.5em auto">
+<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
+<img src="/img/uploads/tiktok-seguridad-peruana-galvez-mineros.jpg" alt="Seguridad Peruana, primer comentario en un video de Gálvez" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/tiktok-infiltrado-galvez-sigan-asi.jpg" alt="Infiltrado: Sigan así" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+</div>
+<figcaption>"Seguridad Peruana" e "Infiltrado" en los videos de Gálvez. Capturas de TikTok.</figcaption>
+</figure>
+
+<figure style="margin:1.5em auto;max-width:520px">
+<img src="/img/uploads/tiktok-infiltrado-galvez-excelente.jpg" alt="Infiltrado: Excelente" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>"Infiltrado" en otro video del fiscal. Captura de TikTok.</figcaption>
+</figure>
+
+## "No sé quién es esa persona"
+
 Después de que este medio publicara la denuncia en TikTok, "Seguridad Peruana" apareció en los comentarios. "**No sé porque esta cuenta sale ahí**, pero saludos síganme", escribió. Cuando este medio le respondió "Ya te vimos, Luis", la cuenta contestó "**No sé quien es esa persona**" y ofreció a cambio un "tema de investigación" sobre otra funcionaria.
 
 <figure style="margin:1.5em auto;max-width:420px">
@@ -200,7 +234,7 @@ Después de que este medio publicara la denuncia en TikTok, "Seguridad Peruana" 
 <figcaption>"Seguridad Peruana" dice no conocer a Luis. Se difuminó el nombre de una tercera persona.</figcaption>
 </figure>
 
-La respuesta **choca con lo que muestran sus propios comentarios**. La cuenta que dice no saber quién es Luis Gallardo es la misma que comentó en su perfil personal para preguntar por el emprendimiento de su pareja. Este medio no ha podido confirmar de forma independiente quién administra estas cuentas. Para proteger su privacidad, se omitió el nombre de la pareja de Gallardo y de las demás personas que aparecen en las capturas.
+La respuesta **choca con lo que muestran sus propios comentarios**. La cuenta que dice no saber quién es Luis Gallardo es la misma que comentó en su perfil personal para preguntar por el emprendimiento de su pareja, y la misma a la que el fiscal de la Nación le contesta en su TikTok. Este medio no ha podido confirmar de forma independiente quién administra estas cuentas. Para proteger su privacidad, se omitió el nombre de la pareja de Gallardo y de las demás personas que aparecen en las capturas.
 
 Lee también: [Fiscalía pide archivar caso contra César Hinostroza en el que también aparecía el actual fiscal de la Nación](/n/hinostroza-archivo).
 
