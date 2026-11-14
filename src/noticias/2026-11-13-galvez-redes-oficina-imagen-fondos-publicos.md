@@ -3,7 +3,7 @@ title: "Denuncian uso de fondos públicos para las redes personales de Tomás G�
 titulo_seo: "Tomás Gálvez: denuncian que personal de la Oficina de Imagen de la Fiscalía editaba videos para sus redes personales"
 temas: ["Tomás Gálvez", "Fiscalía", "Ministerio Público"]
 date: 2026-11-13T20:00:00-05:00
-resumen: "Trabajadores de la Fiscalía aseguran que un productor contratado por la institución editaba en horario laboral videos para las cuentas personales del fiscal de la Nación. Dos cuentas de TikTok dedicadas a elogiarlo repiten los mismos comentarios."
+resumen: "Trabajadores de la Fiscalía aseguran que un productor contratado por la institución editaba en horario laboral videos para las cuentas personales del fiscal de la Nación. Una cuenta de TikTok dedicada a elogiarlo cambió de nombre, pero repite los mismos comentarios."
 imagen: /img/uploads/galvez-redes-portada-ia.jpg
 imagen_texto: "Tomás Gálvez y, a la derecha, Luis Gallardo y Javier Galindo."
 imagen_fuente: "Fotomontaje con IA (referencial)."
@@ -36,7 +36,7 @@ carrusel:
     texto: "Así lo relató un testigo a Territorio Tomado."
     foto: /img/uploads/resolucion-1026-2026-mp-fn-galindo-p2.jpg
     foto_texto: "Resolución N.° 1026-2026-MP-FN, con la firma de Tomás Gálvez."
-  - titular: "Dos cuentas, **el mismo comentario**"
+  - titular: "Otro nombre, **el mismo comentario**"
     texto: "\"Fiscal mucho ojo, no queremos que se repita lo de la primera elección\"."
     foto: /img/uploads/tiktok-seguridad-peruana-perfil.jpg
     foto_texto: "Perfil de «Seguridad Peruana» en TikTok. Captura."
@@ -49,7 +49,7 @@ carrusel:
     foto: /img/uploads/tiktok-noticias-peru-perfil.jpg
     foto_texto: "Perfil de «Noticias Perú» en TikTok. Captura."
 ---
-*Actualización, 14 de noviembre: nuevas capturas vinculan a Luis Gallardo con las cuentas "Seguridad Peruana" e "Infiltrado". [Léela aquí](#actualizacion).*
+*Actualización, 14 de noviembre: las capturas comprueban que Luis Gallardo está detrás de las cuentas "Seguridad Peruana" e "Infiltrado". [Léela aquí](#actualizacion).*
 
 El fiscal de la Nación, Tomás Gálvez Villegas, aparece en sus redes sociales bajando de un helicóptero en el VRAEM, recorriendo la selva de Madre de Dios o dando entrevistas en la azotea de la sede del Ministerio Público. Son videos cuidadosamente producidos que no figuran en las cuentas oficiales de la Fiscalía. Según una investigación de Territorio Tomado y testimonios recogidos por este medio, ese material habría sido grabado y editado por personal de la Oficina de Imagen Institucional, **pagado con fondos públicos, para alimentar las cuentas personales del fiscal**.
 
@@ -121,24 +121,24 @@ La investigación apunta también a una cuenta de TikTok llamada "Noticias Perú
 
 Las capturas revisadas por este medio muestran una cuenta con **más de 52 mil seguidores** cuyo contenido gira casi por completo alrededor de Gálvez, con titulares como "Fiscal de la Nación parcha a comandante general PNP Óscar Arriola", que superó las 125 mil reproducciones, o "Fiscal de la Nación llega al VRAEM".
 
-Hoy existe otra cuenta, "Seguridad Peruana" (@seguridadperuana), con cifras casi idénticas, 52.5 mil seguidores y 394.9 mil "me gusta", frente a los 52.7 mil y 394.6 mil de "Noticias Perú". Fuentes internas aseguran que se trata de la misma cuenta con otro nombre.
+Esa cuenta **hoy se llama "Seguridad Peruana"** (@seguridadperuana). Cambió de nombre, pero conserva prácticamente las mismas cifras, 52.5 mil seguidores y 394.9 mil "me gusta", frente a los 52.7 mil y 394.6 mil que tenía como "Noticias Perú".
 
 <figure style="margin:1.5em auto">
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
 <img src="/img/uploads/tiktok-noticias-peru-perfil.jpg" alt="Perfil de Noticias Perú en TikTok" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 <img src="/img/uploads/tiktok-seguridad-peruana-perfil.jpg" alt="Perfil de Seguridad Peruana en TikTok" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>"Noticias Perú" y "Seguridad Peruana", con cifras casi idénticas. Capturas de TikTok.</figcaption>
+<figcaption>La misma cuenta, antes "Noticias Perú" y hoy "Seguridad Peruana". Capturas de TikTok.</figcaption>
 </figure>
 
-Ambas dejaron **exactamente el mismo comentario** en videos del fiscal, "Fiscal mucho ojo, no queremos que se repita lo de la primera elección". En otra publicación de Gálvez, "Seguridad Peruana" fue la primera en comentar, con un elogio. "Excelente Sr Fiscal, fuerte y claro".
+Con uno y otro nombre, la cuenta dejó **exactamente el mismo comentario** en videos del fiscal, "Fiscal mucho ojo, no queremos que se repita lo de la primera elección". En otra publicación de Gálvez, "Seguridad Peruana" fue la primera en comentar, con un elogio. "Excelente Sr Fiscal, fuerte y claro".
 
 <figure style="margin:1.5em auto">
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
 <img src="/img/uploads/tiktok-comentario-noticias-peru.jpg" alt="Comentario de Noticias Perú" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 <img src="/img/uploads/tiktok-comentario-seguridad-peruana.jpg" alt="Comentario de Seguridad Peruana" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>El mismo comentario, desde las dos cuentas. Capturas de TikTok.</figcaption>
+<figcaption>El mismo comentario, con el nombre anterior y el actual. Capturas de TikTok.</figcaption>
 </figure>
 
 <figure style="margin:1.5em auto;max-width:420px">
@@ -146,7 +146,7 @@ Ambas dejaron **exactamente el mismo comentario** en videos del fiscal, "Fiscal 
 <figcaption>"Seguridad Peruana", primera en comentar un video de Gálvez. Captura de TikTok.</figcaption>
 </figure>
 
-Para las fuentes, estas cuentas funcionarían como una red para aplaudir al fiscal de la Nación, operada con tiempo, personal y material del Ministerio Público.
+Para las fuentes, esta cuenta funcionaría como una herramienta para aplaudir al fiscal de la Nación, operada con tiempo, personal y material del Ministerio Público.
 
 ## Un posible delito
 
@@ -164,9 +164,9 @@ La Oficina de Imagen Institucional existe para informar sobre el trabajo del Min
 
 <a id="actualizacion"></a>
 
-## Actualización (14 de noviembre): las cuentas que apuntan a Gallardo
+## Actualización (14 de noviembre): Luis Gallardo está detrás de las cuentas
 
-Tras la publicación de esta nota, este medio revisó la actividad de "Seguridad Peruana" y de otra cuenta de TikTok, "Infiltrado". Las capturas **apuntan a que ambas estarían vinculadas a Luis Gallardo**.
+Tras la publicación de esta nota, este medio revisó la actividad de "Seguridad Peruana" y de otra cuenta de TikTok, "Infiltrado". Las capturas **comprueban que ambas son manejadas por Luis Gallardo**.
 
 El 28 de septiembre, desde su cuenta personal, "Luis el Gallardo", el productor publicó un video en el que pide apoyar el emprendimiento de su pareja. "Lo vas a lograr, **amor de mi vida**; estoy muy orgulloso de ti", escribió. Entre los comentarios aparece **"Seguridad Peruana"**, que pregunta cómo se llama el emprendimiento "para apoyarla" y agrega "Yo también fuí emprendedor".
 
@@ -234,7 +234,9 @@ Después de que este medio publicara la denuncia en TikTok, "Seguridad Peruana" 
 <figcaption>"Seguridad Peruana" dice no conocer a Luis. Se difuminó el nombre de una tercera persona.</figcaption>
 </figure>
 
-La respuesta **choca con lo que muestran sus propios comentarios**. La cuenta que dice no saber quién es Luis Gallardo es la misma que comentó en su perfil personal para preguntar por el emprendimiento de su pareja, y la misma a la que el fiscal de la Nación le contesta en su TikTok. Este medio no ha podido confirmar de forma independiente quién administra estas cuentas. Para proteger su privacidad, se omitió el nombre de la pareja de Gallardo y de las demás personas que aparecen en las capturas.
+La respuesta **choca con lo que muestran sus propios comentarios**. La cuenta que dice no saber quién es Luis Gallardo es la misma que comentó en su perfil personal para preguntar por el emprendimiento de su pareja, y la misma a la que el fiscal de la Nación le contesta en su TikTok.
+
+Las capturas cierran el círculo. "Infiltrado" le escribe a la pareja de Gallardo como su enamorado, y ella le responde como tal, con el mismo apodo que usa con Luis. "Seguridad Peruana", la antigua "Noticias Perú", comenta en el perfil personal de Gallardo y la pareja le contesta ahí mismo. Y **las dos cuentas aplauden al fiscal de la Nación en su TikTok personal**. Con estas pruebas, este medio comprobó que **detrás de "Seguridad Peruana" e "Infiltrado" está Luis Gallardo**, el productor contratado por el Ministerio Público. Para proteger su privacidad, se omitió el nombre de la pareja de Gallardo y de las demás personas que aparecen en las capturas.
 
 Lee también: [Fiscalía pide archivar caso contra César Hinostroza en el que también aparecía el actual fiscal de la Nación](/n/hinostroza-archivo).
 
