@@ -53,7 +53,7 @@ El fiscal de la Nación, Tomás Gálvez Villegas, aparece en sus redes sociales 
 
 <figure style="margin:1.5em auto;max-width:420px">
 <img src="/img/uploads/tiktok-galvez-perfil-personal-operativo.jpg" alt="Tomás Gálvez en un video de su cuenta personal de TikTok" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>Video del 16 de agosto en la cuenta personal de TikTok «Tomás Aladino Gálvez | Fiscal», sobre un megaoperativo contra la minería ilegal. Captura de TikTok.</figcaption>
+<figcaption>Video del 16 de agosto en el TikTok personal de Gálvez. Captura de TikTok.</figcaption>
 </figure>
 
 Los testimonios señalan a tres personas. El propio Tomás Gálvez; Javier Galindo Calderón, gerente central de la Oficina de Imagen; y Luis Ángel Gallardo Arévalo, productor audiovisual contratado por la institución.
@@ -67,16 +67,16 @@ Javier Miguel Galindo Calderón llegó al Ministerio Público en abril. La **Res
 <img src="/img/uploads/resolucion-1026-2026-mp-fn-galindo-p1.jpg" alt="Resolución 1026-2026-MP-FN, página 1" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 <img src="/img/uploads/resolucion-1026-2026-mp-fn-galindo-p2.jpg" alt="Resolución 1026-2026-MP-FN, página 2" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>Resolución N.° 1026-2026-MP-FN, firmada por Tomás Gálvez, que designa a Javier Galindo Calderón como gerente central de la Oficina de Imagen Institucional. Documento del Ministerio Público.</figcaption>
+<figcaption>Resolución 1026-2026-MP-FN, firmada por Gálvez, que designa a Galindo. Documento del Ministerio Público.</figcaption>
 </figure>
 
-![Javier Galindo en una actividad del Ministerio Público en Cajamarca](/img/uploads/javier-galindo-fiscalia-cajamarca.jpg "Javier Galindo, gerente central de la Oficina de Imagen, en una actividad oficial del Ministerio Público en Cajamarca. Foto: X / @FiscaliaPeru.")
+![Javier Galindo en una actividad del Ministerio Público en Cajamarca](/img/uploads/javier-galindo-fiscalia-cajamarca.jpg "Javier Galindo en una actividad del Ministerio Público en Cajamarca. Foto: X / @FiscaliaPeru.")
 
 Fuentes del Ministerio Público aseguran además que Galindo habría estado antes a cargo de las redes del exministro del Interior Juan José Santiváñez, y que el estilo de los videos de ambos funcionarios es muy similar. Las mismas fuentes denuncian que, desde su llegada, se ha retirado a trabajadores de la Oficina de Imagen sin explicación. Este medio no ha podido confirmar de forma independiente ninguna de las dos afirmaciones.
 
 <figure style="margin:1.5em auto;max-width:520px">
 <img src="/img/uploads/javier-galindo-calderon-retrato.jpg" alt="Javier Miguel Galindo Calderón" style="width:100%;height:auto">
-<figcaption>Javier Miguel Galindo Calderón, gerente central de la Oficina de Imagen Institucional del Ministerio Público, en Cajamarca. Foto: X / @FiscaliaPeru, con calidad mejorada con inteligencia artificial.</figcaption>
+<figcaption>Javier Galindo Calderón. Foto: X / @FiscaliaPeru, mejorada con IA.</figcaption>
 </figure>
 
 ## Videos editados en la oficina
@@ -95,7 +95,7 @@ Luis Ángel Gallardo Arévalo figura en el Buscador de Proveedores del Estado co
 
 <figure style="margin:1.5em auto;max-width:520px">
 <img src="/img/uploads/luis-gallardo-arevalo-productor.jpg" alt="Luis Ángel Gallardo Arévalo" style="width:100%;height:auto">
-<figcaption>Luis Ángel Gallardo Arévalo, productor audiovisual contratado por el Ministerio Público. Foto: LinkedIn de Luis Gallardo.</figcaption>
+<figcaption>Luis Ángel Gallardo Arévalo. Foto: LinkedIn.</figcaption>
 </figure>
 
 <figure style="margin:1.5em auto">
@@ -103,14 +103,14 @@ Luis Ángel Gallardo Arévalo figura en el Buscador de Proveedores del Estado co
 <img src="/img/uploads/gallardo-orden-servicio-mp.jpg" alt="Orden de servicio de Luis Ángel Gallardo Arévalo" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 <img src="/img/uploads/gallardo-ordenes-servicio-mp-lista.jpg" alt="Órdenes de servicio del Ministerio Público" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>Órdenes de servicio del Ministerio Público a Luis Ángel Gallardo Arévalo, de S/ 5,200 cada una. Fuente: Buscador de Proveedores del Estado.</figcaption>
+<figcaption>Órdenes de servicio a Gallardo, de S/ 5,200 cada una. Fuente: Buscador de Proveedores del Estado.</figcaption>
 </figure>
 
 Antes trabajó para la Policía Nacional. El mismo registro muestra órdenes de servicio con el Ministerio del Interior y la PNP por producción y edición de material audiovisual, con montos de entre S/ 6,800 y S/ 34,000. Una de ellas, **de S/ 15,000**, para la Oficina de Comunicación Social e Imagen Institucional de la PNP, se inició en mayo de 2026, un mes después de la llegada de Galindo a la Fiscalía.
 
 <figure style="margin:1.5em auto;max-width:420px">
 <img src="/img/uploads/gallardo-orden-servicio-pnp-15000.jpg" alt="Orden de servicio de la PNP a Luis Ángel Gallardo Arévalo por S/ 15,000" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>Orden de servicio de la PNP a Luis Ángel Gallardo Arévalo por S/ 15,000, iniciada en mayo de 2026. Fuente: Buscador de Proveedores del Estado.</figcaption>
+<figcaption>Orden de la PNP por S/ 15,000, de mayo de 2026. Fuente: Buscador de Proveedores.</figcaption>
 </figure>
 
 ## Las cuentas que solo aplauden
@@ -126,7 +126,7 @@ Hoy existe otra cuenta, "Seguridad Peruana" (@seguridadperuana), con cifras casi
 <img src="/img/uploads/tiktok-noticias-peru-perfil.jpg" alt="Perfil de Noticias Perú en TikTok" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 <img src="/img/uploads/tiktok-seguridad-peruana-perfil.jpg" alt="Perfil de Seguridad Peruana en TikTok" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>Las cuentas "Noticias Perú" y "Seguridad Peruana" en TikTok, con cifras casi idénticas de seguidores y "me gusta". Capturas de TikTok.</figcaption>
+<figcaption>"Noticias Perú" y "Seguridad Peruana", con cifras casi idénticas. Capturas de TikTok.</figcaption>
 </figure>
 
 Ambas dejaron **exactamente el mismo comentario** en videos del fiscal, "Fiscal mucho ojo, no queremos que se repita lo de la primera elección". En otra publicación de Gálvez, "Seguridad Peruana" fue la primera en comentar, con un elogio. "Excelente Sr Fiscal, fuerte y claro".
@@ -136,12 +136,12 @@ Ambas dejaron **exactamente el mismo comentario** en videos del fiscal, "Fiscal 
 <img src="/img/uploads/tiktok-comentario-noticias-peru.jpg" alt="Comentario de Noticias Perú" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 <img src="/img/uploads/tiktok-comentario-seguridad-peruana.jpg" alt="Comentario de Seguridad Peruana" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>El mismo comentario, firmado por "Noticias Perú" y por "Seguridad Peruana", en publicaciones sobre el fiscal de la Nación. Capturas de TikTok.</figcaption>
+<figcaption>El mismo comentario, desde las dos cuentas. Capturas de TikTok.</figcaption>
 </figure>
 
 <figure style="margin:1.5em auto;max-width:420px">
 <img src="/img/uploads/tiktok-seguridad-peruana-primer-comentario.jpg" alt="Seguridad Peruana deja el primer comentario en un video de Tomás Gálvez" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>"Seguridad Peruana" deja el primer comentario en un video de Tomás Gálvez. Captura de TikTok.</figcaption>
+<figcaption>"Seguridad Peruana", primera en comentar un video de Gálvez. Captura de TikTok.</figcaption>
 </figure>
 
 Para las fuentes, estas cuentas funcionarían como una red para aplaudir al fiscal de la Nación, operada con tiempo, personal y material del Ministerio Público.
