@@ -5,7 +5,7 @@ temas: ["Tomás Gálvez", "Fiscalía", "Ministerio Público"]
 date: 2026-11-13T20:00:00-05:00
 resumen: "Trabajadores de la Fiscalía aseguran que un productor contratado por la institución editaba en horario laboral videos para las cuentas personales del fiscal de la Nación. Dos cuentas de TikTok dedicadas a elogiarlo repiten los mismos comentarios."
 imagen: /img/uploads/galvez-redes-portada-ia.jpg
-imagen_texto: "El fiscal de la Nación, Tomás Gálvez, frente a la sede del Ministerio Público; a la derecha, Javier Galindo, gerente central de la Oficina de Imagen, y otro funcionario."
+imagen_texto: "El fiscal de la Nación, Tomás Gálvez, frente a la sede del Ministerio Público; a la derecha, el productor Luis Gallardo y Javier Galindo, gerente central de la Oficina de Imagen."
 imagen_fuente: "Fotomontaje editorial con inteligencia artificial, basado en fotografías reales (referencial)."
 tipo: Noticia
 exclusivo: false
@@ -15,7 +15,7 @@ carrusel:
     titular: "Denuncian uso de **fondos públicos** para las redes de Tomás Gálvez"
     texto: "Trabajadores de la Fiscalía hablan de videos editados **en horario laboral**."
     foto: /img/uploads/galvez-redes-portada-ia.jpg
-    foto_texto: "Tomás Gálvez y Javier Galindo. Fotomontaje con IA (referencial)."
+    foto_texto: "Tomás Gálvez, Luis Gallardo y Javier Galindo. Fotomontaje con IA (referencial)."
   - titular: "Videos que **no están** en las cuentas oficiales"
     texto: "Helicóptero en el VRAEM, la selva de Madre de Dios, entrevistas en la azotea de la Fiscalía."
     foto: /img/uploads/tiktok-noticias-peru-perfil.jpg
@@ -30,8 +30,8 @@ carrusel:
     foto_texto: "Javier Galindo en Cajamarca. Foto: X / @FiscaliaPeru."
   - titular: "**S/ 5,200** por orden de servicio"
     texto: "Luis Gallardo, contratado por el Ministerio Público. La más reciente, del **30 de octubre**."
-    foto: /img/uploads/gallardo-ordenes-servicio-mp-lista.jpg
-    foto_texto: "Órdenes de servicio. Fuente: Buscador de Proveedores del Estado."
+    foto: /img/uploads/luis-gallardo-arevalo-productor.jpg
+    foto_texto: "Luis Ángel Gallardo Arévalo. Imagen referencial."
   - titular: "Bajaban al despacho **a enseñarle los videos**"
     texto: "Así lo relató un testigo a Territorio Tomado."
     foto: /img/uploads/resolucion-1026-2026-mp-fn-galindo-p2.jpg
@@ -82,6 +82,11 @@ Territorio Tomado identificó **al menos cinco eventos** cubiertos por la Oficin
 ## El contratado
 
 Luis Ángel Gallardo Arévalo figura en el Buscador de Proveedores del Estado con varias órdenes de servicio del Ministerio Público por "servicio de locación", **de S/ 5,200 cada una**. La más reciente se inició el 30 de octubre de 2026.
+
+<figure style="margin:1.5em auto;max-width:520px">
+<img src="/img/uploads/luis-gallardo-arevalo-productor.jpg" alt="Luis Ángel Gallardo Arévalo" style="width:100%;height:auto">
+<figcaption>Luis Ángel Gallardo Arévalo, productor audiovisual contratado por el Ministerio Público. Imagen referencial.</figcaption>
+</figure>
 
 <figure style="margin:1.5em auto">
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
