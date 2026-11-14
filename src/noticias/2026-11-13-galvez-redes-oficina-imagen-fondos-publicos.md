@@ -1,9 +1,9 @@
 ---
-title: "Denuncian uso de fondos públicos para las redes personales de Tomás Gálvez"
-titulo_seo: "Tomás Gálvez: denuncian que personal de la Oficina de Imagen de la Fiscalía editaba videos para sus redes personales"
+title: "El productor que edita los videos de Tomás Gálvez maneja las cuentas que lo aplauden en TikTok"
+titulo_seo: "Tomás Gálvez: productor pagado por la Fiscalía edita sus videos de TikTok y maneja las cuentas que lo aplauden"
 temas: ["Tomás Gálvez", "Fiscalía", "Ministerio Público"]
 date: 2026-11-13T20:00:00-05:00
-resumen: "Trabajadores de la Fiscalía aseguran que un productor contratado por la institución editaba en horario laboral videos para las cuentas personales del fiscal de la Nación. Una cuenta de TikTok dedicada a elogiarlo cambió de nombre, pero repite los mismos comentarios."
+resumen: "Trabajadores de la Fiscalía denuncian que Luis Gallardo, productor contratado por la institución, edita en horario laboral los videos personales del fiscal de la Nación. Este medio comprobó que también maneja las cuentas de TikTok que lo aplauden."
 imagen: /img/uploads/galvez-redes-portada-ia.jpg
 imagen_texto: "Tomás Gálvez y, a la derecha, Luis Gallardo y Javier Galindo."
 imagen_fuente: "Fotomontaje con IA (referencial)."
@@ -12,44 +12,44 @@ exclusivo: false
 corto: "galvez-redes"
 carrusel:
   - nota: "debe causar mucho impacto: titular gigante con la portada de Gálvez frente a la sede del Ministerio Público"
-    titular: "Denuncian uso de **fondos públicos** para las redes de Tomás Gálvez"
-    texto: "Trabajadores de la Fiscalía hablan de videos editados **en horario laboral**."
+    titular: "El que edita los videos de Gálvez **maneja las cuentas que lo aplauden**"
+    texto: "Un productor pagado por la Fiscalía. Dos cuentas de TikTok. **Una sola persona**."
     foto: /img/uploads/galvez-redes-portada-ia.jpg
     foto_texto: "Tomás Gálvez, Luis Gallardo y Javier Galindo. Fotomontaje con IA (referencial)."
-  - titular: "Videos que **no están** en las cuentas oficiales"
-    texto: "Helicóptero en el VRAEM, la selva de Madre de Dios, entrevistas en la azotea de la Fiscalía."
+  - titular: "\"Hemos visto muchas veces a Luis **editando los videos**\""
+    texto: "Lo denuncian trabajadores de la Oficina de Imagen de la Fiscalía."
     foto: /img/uploads/tiktok-galvez-perfil-personal-operativo.jpg
     foto_texto: "Video en el TikTok personal de Tomás Gálvez. Captura."
-  - titular: "El gerente que **nombró Gálvez**"
-    texto: "Javier Galindo, designado por la Resolución **1026-2026-MP-FN**, firmada por el fiscal."
-    foto: /img/uploads/resolucion-1026-2026-mp-fn-galindo-p1.jpg
-    foto_texto: "Resolución N.° 1026-2026-MP-FN."
-  - titular: "\"Hemos visto muchas veces a Luis **editando los videos**\""
-    texto: "Cuando notó que lo observaban, empezó a sentarse de espaldas."
-    foto: /img/uploads/javier-galindo-calderon-retrato.jpg
-    foto_texto: "Javier Galindo en Cajamarca. Foto: X / @FiscaliaPeru, mejorada con IA."
   - titular: "**S/ 5,200** por orden de servicio"
-    texto: "Luis Gallardo, contratado por el Ministerio Público. La más reciente, del **30 de octubre**."
+    texto: "Luis Gallardo, productor contratado por el Ministerio Público."
     foto: /img/uploads/luis-gallardo-arevalo-productor.jpg
     foto_texto: "Luis Ángel Gallardo Arévalo. Foto: LinkedIn."
-  - titular: "Bajaban al despacho **a enseñarle los videos**"
-    texto: "Así lo relató un testigo a Territorio Tomado."
-    foto: /img/uploads/resolucion-1026-2026-mp-fn-galindo-p2.jpg
-    foto_texto: "Resolución N.° 1026-2026-MP-FN, con la firma de Tomás Gálvez."
-  - titular: "Otro nombre, **el mismo comentario**"
-    texto: "\"Fiscal mucho ojo, no queremos que se repita lo de la primera elección\"."
+  - titular: "El gerente que **nombró Gálvez**"
+    texto: "Javier Galindo, designado por una resolución **firmada por el fiscal**."
+    foto: /img/uploads/javier-galindo-calderon-retrato.jpg
+    foto_texto: "Javier Galindo. Foto: X / @FiscaliaPeru, mejorada con IA."
+  - titular: "**Noticias Perú** ahora se llama **Seguridad Peruana**"
+    texto: "Misma cuenta, mismos 52 mil seguidores, mismos elogios al fiscal."
     foto: /img/uploads/tiktok-seguridad-peruana-perfil.jpg
     foto_texto: "Perfil de «Seguridad Peruana» en TikTok. Captura."
+  - titular: "Gálvez **le responde**"
+    texto: "\"Nuestro trabajo se verá en todo el Perú\", le contestó a \"Seguridad Peruana\"."
+    foto: /img/uploads/tiktok-seguridad-peruana-galvez-responde.jpg
+    foto_texto: "Gálvez responde a «Seguridad Peruana». Captura de TikTok."
+  - titular: "\"Infiltrado\" le dice **\"amor de mi vida\"** a su pareja"
+    texto: "Ella le responde \"Te amo gordito\". **Así le dice a Luis.**"
+    foto: /img/uploads/tiktok-infiltrado-amor-de-mi-vida.jpg
+    foto_texto: "Comentario de «Infiltrado». Captura de TikTok."
+  - titular: "\"No sé quién **es esa persona**\""
+    texto: "Respondió \"Seguridad Peruana\" cuando le dijimos \"Ya te vimos, Luis\"."
+    foto: /img/uploads/tiktok-seguridad-peruana-responde.jpg
+    foto_texto: "Respuesta de «Seguridad Peruana». Captura de TikTok."
   - titular: "Posible **peculado de uso**"
-    texto: "Gálvez no respondió. Galindo dijo estar con **descanso médico**."
-    foto: /img/uploads/gallardo-orden-servicio-pnp-15000.jpg
-    foto_texto: "Orden de servicio de la PNP. Fuente: Buscador de Proveedores del Estado."
-  - titular: "El que hace los videos **maneja las cuentas que lo aplauden**"
-    texto: "\"Infiltrado\" y \"Seguridad Peruana\" llevan a **Luis Gallardo**."
-    foto: /img/uploads/tiktok-noticias-peru-perfil.jpg
-    foto_texto: "Perfil de «Noticias Perú» en TikTok. Captura."
+    texto: "Gálvez y Gallardo **no respondieron**."
+    foto: /img/uploads/gallardo-ordenes-servicio-mp-lista.jpg
+    foto_texto: "Órdenes de servicio a Gallardo. Fuente: Buscador de Proveedores del Estado."
 ---
-*Actualización, 14 de noviembre: las capturas comprueban que Luis Gallardo está detrás de las cuentas "Seguridad Peruana" e "Infiltrado". [Léela aquí](#actualizacion).*
+*Actualización, 14 de noviembre: este medio comprobó que Luis Gallardo está detrás de las cuentas "Seguridad Peruana" e "Infiltrado". [Ver las pruebas](#pruebas).*
 
 El fiscal de la Nación, Tomás Gálvez Villegas, aparece en sus redes sociales bajando de un helicóptero en el VRAEM, recorriendo la selva de Madre de Dios o dando entrevistas en la azotea de la sede del Ministerio Público. Son videos cuidadosamente producidos que no figuran en las cuentas oficiales de la Fiscalía. Según una investigación de Territorio Tomado y testimonios recogidos por este medio, ese material habría sido grabado y editado por personal de la Oficina de Imagen Institucional, **pagado con fondos públicos, para alimentar las cuentas personales del fiscal**.
 
@@ -62,7 +62,7 @@ Los testimonios señalan a tres personas. El propio Tomás Gálvez; Javier Galin
 
 ## El gerente que nombró Gálvez
 
-Javier Miguel Galindo Calderón llegó al Ministerio Público en abril. La **Resolución de la Fiscalía de la Nación N.° 1026-2026-MP-FN**, del 10 de abril de 2026, lo designa como gerente central de la Oficina de Imagen Institucional. La propuesta salió de la Secretaría General "por encargo del Despacho de la Fiscalía de la Nación", y el documento **lleva la firma del propio Gálvez** y el visto del gerente general, Martín Mijichich Loli. Según fuentes internas, es precisamente el respaldo de Mijichich el que le permite a Galindo manejar la oficina con total libertad.
+Javier Miguel Galindo Calderón llegó al Ministerio Público en abril. La **Resolución de la Fiscalía de la Nación N.° 1026-2026-MP-FN**, del 10 de abril de 2026, lo designa como gerente central de la Oficina de Imagen Institucional. La propuesta salió de la Secretaría General "por encargo del Despacho de la Fiscalía de la Nación", y el documento **lleva la firma del propio Gálvez** y el visto del gerente general, Martín Mijichich Loli.
 
 <figure style="margin:1.5em auto">
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
@@ -71,10 +71,6 @@ Javier Miguel Galindo Calderón llegó al Ministerio Público en abril. La **Res
 </div>
 <figcaption>Resolución 1026-2026-MP-FN, firmada por Gálvez, que designa a Galindo. Documento del MP.</figcaption>
 </figure>
-
-![Javier Galindo en una actividad del Ministerio Público en Cajamarca](/img/uploads/javier-galindo-fiscalia-cajamarca.jpg "Javier Galindo en Cajamarca. Foto: X / @FiscaliaPeru.")
-
-Fuentes del Ministerio Público aseguran además que Galindo habría estado antes a cargo de las redes del exministro del Interior Juan José Santiváñez, y que el estilo de los videos de ambos funcionarios es muy similar. Las mismas fuentes denuncian que, desde su llegada, se ha retirado a trabajadores de la Oficina de Imagen sin explicación. Este medio no ha podido confirmar de forma independiente ninguna de las dos afirmaciones.
 
 <figure style="margin:1.5em auto;max-width:520px">
 <img src="/img/uploads/javier-galindo-calderon-retrato.jpg" alt="Javier Miguel Galindo Calderón" style="width:100%;height:auto">
@@ -89,30 +85,20 @@ Los testimonios describen una rutina que se repetía dentro de la propia oficina
 
 Gallardo, según las fuentes, trabajaba en horario laboral y pedía a sus compañeros material grabado por el equipo institucional, alegando que lo hacía por encargo de Galindo. "En algunas ocasiones utilizaba el material reservado que únicamente teníamos nosotros", señaló otro testigo. "Incluso muchas veces, después de terminar las ediciones, **Luis y Javier bajaban al despacho del fiscal de la Nación para enseñarle los videos**".
 
-Territorio Tomado identificó **al menos cinco eventos** cubiertos por la Oficina de Imagen entre junio y octubre cuyo material apareció en las cuentas personales de Gálvez y no en las institucionales. Entre ellos están una entrevista con el Basel Institute on Governance, un discurso en el aniversario de las fiscalías contra el crimen organizado en el que elogió al entonces comandante general de la PNP Óscar Arriola, y extractos de una entrevista con Latina grabados desde un ángulo distinto al de la cámara del canal. También figuran imágenes exclusivas de sus viajes a Tambopata y Pichari. Según los testigos, en los primeros videos llegó a usarse el logo del Ministerio Público, algo que solo está permitido para contenido institucional.
+Territorio Tomado identificó **al menos cinco eventos** cubiertos por la Oficina de Imagen entre junio y octubre cuyo material apareció en las cuentas personales de Gálvez y no en las institucionales, entre ellos un discurso en el que elogió al entonces comandante general de la PNP Óscar Arriola y extractos de una entrevista con Latina grabados desde un ángulo distinto al de la cámara del canal. Según los testigos, en los primeros videos llegó a usarse el logo del Ministerio Público, algo que solo está permitido para contenido institucional.
 
 ## El contratado
 
-Luis Ángel Gallardo Arévalo figura en el Buscador de Proveedores del Estado con varias órdenes de servicio del Ministerio Público por "servicio de locación", **de S/ 5,200 cada una**. La más reciente se inició el 30 de octubre de 2026.
+Luis Ángel Gallardo Arévalo figura en el Buscador de Proveedores del Estado con varias órdenes de servicio del Ministerio Público por "servicio de locación", **de S/ 5,200 cada una**. La más reciente se inició el 30 de octubre de 2026. Antes produjo y editó material audiovisual para la PNP y el Ministerio del Interior, con órdenes de entre S/ 6,800 y S/ 34,000. La última, de **S/ 15,000**, se inició en mayo de 2026, un mes después de la llegada de Galindo a la Fiscalía.
 
 <figure style="margin:1.5em auto;max-width:520px">
 <img src="/img/uploads/luis-gallardo-arevalo-productor.jpg" alt="Luis Ángel Gallardo Arévalo" style="width:100%;height:auto">
 <figcaption>Luis Ángel Gallardo Arévalo. Foto: LinkedIn.</figcaption>
 </figure>
 
-<figure style="margin:1.5em auto">
-<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
-<img src="/img/uploads/gallardo-orden-servicio-mp.jpg" alt="Orden de servicio de Luis Ángel Gallardo Arévalo" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
-<img src="/img/uploads/gallardo-ordenes-servicio-mp-lista.jpg" alt="Órdenes de servicio del Ministerio Público" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
-</div>
-<figcaption>Órdenes de servicio a Gallardo, de S/ 5,200 cada una. Fuente: Buscador de Proveedores.</figcaption>
-</figure>
-
-Antes trabajó para la Policía Nacional. El mismo registro muestra órdenes de servicio con el Ministerio del Interior y la PNP por producción y edición de material audiovisual, con montos de entre S/ 6,800 y S/ 34,000. Una de ellas, **de S/ 15,000**, para la Oficina de Comunicación Social e Imagen Institucional de la PNP, se inició en mayo de 2026, un mes después de la llegada de Galindo a la Fiscalía.
-
 <figure style="margin:1.5em auto;max-width:420px">
-<img src="/img/uploads/gallardo-orden-servicio-pnp-15000.jpg" alt="Orden de servicio de la PNP a Luis Ángel Gallardo Arévalo por S/ 15,000" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>Orden de la PNP por S/ 15,000, de mayo de 2026. Fuente: Buscador de Proveedores.</figcaption>
+<img src="/img/uploads/gallardo-ordenes-servicio-mp-lista.jpg" alt="Órdenes de servicio del Ministerio Público a Luis Gallardo" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>Órdenes de servicio a Gallardo, de S/ 5,200 cada una. Fuente: Buscador de Proveedores.</figcaption>
 </figure>
 
 ## Las cuentas que solo aplauden
@@ -131,7 +117,7 @@ Esa cuenta **hoy se llama "Seguridad Peruana"** (@seguridadperuana). Cambió de 
 <figcaption>La misma cuenta, antes "Noticias Perú" y hoy "Seguridad Peruana". Capturas de TikTok.</figcaption>
 </figure>
 
-Con uno y otro nombre, la cuenta dejó **exactamente el mismo comentario** en videos del fiscal, "Fiscal mucho ojo, no queremos que se repita lo de la primera elección". En otra publicación de Gálvez, "Seguridad Peruana" fue la primera en comentar, con un elogio. "Excelente Sr Fiscal, fuerte y claro".
+Con uno y otro nombre, la cuenta dejó **exactamente el mismo comentario** en videos del fiscal, "Fiscal mucho ojo, no queremos que se repita lo de la primera elección".
 
 <figure style="margin:1.5em auto">
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
@@ -140,13 +126,6 @@ Con uno y otro nombre, la cuenta dejó **exactamente el mismo comentario** en vi
 </div>
 <figcaption>El mismo comentario, con el nombre anterior y el actual. Capturas de TikTok.</figcaption>
 </figure>
-
-<figure style="margin:1.5em auto;max-width:420px">
-<img src="/img/uploads/tiktok-seguridad-peruana-primer-comentario.jpg" alt="Seguridad Peruana deja el primer comentario en un video de Tomás Gálvez" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>"Seguridad Peruana", primera en comentar un video de Gálvez. Captura de TikTok.</figcaption>
-</figure>
-
-Para las fuentes, esta cuenta funcionaría como una herramienta para aplaudir al fiscal de la Nación, operada con tiempo, personal y material del Ministerio Público.
 
 ## "Infiltrado", la otra cuenta que aplaude
 
@@ -160,38 +139,24 @@ Para las fuentes, esta cuenta funcionaría como una herramienta para aplaudir al
 <figcaption>"Infiltrado" aplaude en los videos personales de Gálvez. Capturas de TikTok.</figcaption>
 </figure>
 
-"Seguridad Peruana" hace lo mismo. Fue la **primera en comentar** un video de un operativo, y en otro escribió "Vamos Tomas, queremos verte en todo el Perú trabajando". En un tercero le dijo "Buena Sr Fiscal, ya era hora de ver orden nuestro pais", y **el propio Gálvez le respondió**: "Nuestro trabajo se verá en todo el Perú".
+El fiscal también les contesta. Cuando "Seguridad Peruana" le escribió "Buena Sr Fiscal, ya era hora de ver orden nuestro pais", **el propio Gálvez le respondió**: "Nuestro trabajo se verá en todo el Perú".
 
-<figure style="margin:1.5em auto">
-<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
-<img src="/img/uploads/tiktok-seguridad-peruana-galvez-responde.jpg" alt="Gálvez responde a Seguridad Peruana" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
-<img src="/img/uploads/tiktok-seguridad-peruana-galvez-vamos-tomas.jpg" alt="Seguridad Peruana: Vamos Tomas" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
-</div>
-<figcaption>Gálvez le responde a "Seguridad Peruana" en su cuenta personal. Capturas de TikTok.</figcaption>
-</figure>
-
-<figure style="margin:1.5em auto;max-width:420px">
-<img src="/img/uploads/tiktok-seguridad-peruana-galvez-mineros.jpg" alt="Seguridad Peruana, primer comentario en un video de Gálvez" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>"Seguridad Peruana", primer comentario en otro video del fiscal. Captura de TikTok.</figcaption>
+<figure style="margin:1.5em auto;max-width:520px">
+<img src="/img/uploads/tiktok-seguridad-peruana-galvez-responde.jpg" alt="Gálvez responde a Seguridad Peruana" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>Gálvez le responde a "Seguridad Peruana" en su cuenta personal. Captura de TikTok.</figcaption>
 </figure>
 
 Mientras los trabajadores denuncian que un productor pagado por la Fiscalía edita los videos personales del fiscal, estas dos cuentas se dedican a celebrarlos. Quedaba una pregunta: quién está detrás de ellas.
 
-## Un posible delito
+<a id="pruebas"></a><a id="actualizacion"></a>
 
-Para el abogado consultado por Territorio Tomado, de comprobarse los hechos podría configurarse el delito de **peculado de uso**, que sanciona al funcionario que utiliza bienes, trabajadores o recursos del Estado para fines particulares, con pena de cárcel e inhabilitación para ejercer el cargo. El Código de Ética de la Función Pública obliga además a todo servidor a proteger los bienes del Estado y a no emplearlos para fines distintos de aquellos a los que están destinados.
-
-Territorio Tomado solicitó entrevistas a los tres mencionados. **Tomás Gálvez y Luis Gallardo no respondieron**. Javier Galindo contestó por WhatsApp que se encontraba con descanso médico y que no estaba en condiciones de declarar.
-
-<a id="actualizacion"></a>
-
-## Actualización (14 de noviembre): Luis Gallardo está detrás de las cuentas
+## Las pruebas: Luis Gallardo está detrás de las cuentas
 
 Este medio siguió el rastro de "Infiltrado" y "Seguridad Peruana" fuera de los videos del fiscal. Los dos caminos llevan a la misma persona: **Luis Gallardo**, el productor al que, según los testigos, el Ministerio Público le paga para editar los videos personales de Gálvez.
 
 ### "Infiltrado" es el enamorado
 
-La misma cuenta "Infiltrado" que aplaude al fiscal deja mensajes de amor en las publicaciones de la pareja de Gallardo. "**Eres el amor de mi vida** por siempre y para siempre", le escribió en mayo, y ella le respondió "**Te amo gordito**". En un video que dice "Soy el novio", "Infiltrado" comentó "jajaajajajaajajajaja **si soy**". En otro, con una foto de la pareja en una laguna, escribió "mi vida hermosa, gracias por tanto, gracias por todo te amo mucho", y ella contestó "Te amo amor mío".
+La misma cuenta "Infiltrado" que aplaude al fiscal deja mensajes de amor en las publicaciones de la pareja de Gallardo. "**Eres el amor de mi vida** por siempre y para siempre", le escribió en mayo, y ella le respondió "**Te amo gordito**". En un video que dice "Soy el novio", "Infiltrado" comentó "jajaajajajaajajajaja **si soy**".
 
 <figure style="margin:1.5em auto">
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
@@ -199,14 +164,6 @@ La misma cuenta "Infiltrado" que aplaude al fiscal deja mensajes de amor en las 
 <img src="/img/uploads/tiktok-infiltrado-soy-el-novio.jpg" alt="Infiltrado: si soy" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
 <figcaption>"Infiltrado" le habla a la pareja de Gallardo como su enamorado. Capturas de TikTok.</figcaption>
-</figure>
-
-<figure style="margin:1.5em auto">
-<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
-<img src="/img/uploads/tiktok-infiltrado-mi-vida-hermosa.jpg" alt="Infiltrado: mi vida hermosa" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
-<img src="/img/uploads/tiktok-infiltrado-video-enamorado.jpg" alt="Infiltrado se ríe en un video de su pareja" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
-</div>
-<figcaption>Más comentarios de "Infiltrado" en las publicaciones de la joven. Capturas de TikTok.</figcaption>
 </figure>
 
 Su enamorado es Luis Gallardo. El 28 de septiembre, desde su cuenta personal, "Luis el Gallardo", el productor publicó un video en el que pide apoyar el emprendimiento de su pareja. "Lo vas a lograr, **amor de mi vida**; estoy muy orgulloso de ti", escribió. Ahí ella, desde la cuenta de su emprendimiento, le agradeció "por siempre motivarme **gordito**". Es el mismo apodo con el que le responde a "Infiltrado". **"Infiltrado" es Luis Gallardo.**
@@ -223,22 +180,24 @@ En ese mismo video de Gallardo aparece "Seguridad Peruana", que pregunta cómo s
 <figcaption>"Seguridad Peruana" en el perfil de Gallardo; su pareja le dice "gordito". Capturas de TikTok.</figcaption>
 </figure>
 
-### "No sé quién es esa persona"
-
-Después de que este medio publicara la denuncia en TikTok, "Seguridad Peruana" apareció en los comentarios. "**No sé porque esta cuenta sale ahí**, pero saludos síganme", escribió. Cuando este medio le respondió "Ya te vimos, Luis", la cuenta contestó "**No sé quien es esa persona**" y ofreció a cambio un "tema de investigación" sobre otra funcionaria.
+Tras la publicación de esta denuncia, "Seguridad Peruana" apareció en el TikTok de este medio. "**No sé porque esta cuenta sale ahí**", escribió. Cuando se le respondió "Ya te vimos, Luis", contestó "**No sé quien es esa persona**". Es la misma cuenta que comentó en el perfil personal de Luis para preguntar por el emprendimiento de su pareja.
 
 <figure style="margin:1.5em auto;max-width:420px">
 <img src="/img/uploads/tiktok-seguridad-peruana-responde.jpg" alt="Seguridad Peruana dice no saber quién es Luis" style="width:100%;height:auto;border:1px solid #ddd">
 <figcaption>"Seguridad Peruana" dice no conocer a Luis. Se difuminó el nombre de una tercera persona.</figcaption>
 </figure>
 
-La respuesta **choca con lo que muestran sus propios comentarios**. La cuenta que dice no saber quién es Luis Gallardo es la misma que comentó en su perfil personal para preguntar por el emprendimiento de su pareja.
-
 ### El círculo se cierra
 
-Las capturas enlazan todo. Los trabajadores denuncian que Luis Gallardo, contratado por el Ministerio Público con órdenes de S/ 5,200, edita en horario laboral los videos de las redes personales de Tomás Gálvez. Las dos cuentas que aplauden esos videos llevan a él. "Infiltrado" le habla a su pareja como su enamorado, y "Seguridad Peruana", la antigua "Noticias Perú", comenta en su perfil personal. Con estas pruebas, este medio comprobó que **detrás de "Seguridad Peruana" e "Infiltrado" está Luis Gallardo**. **El mismo productor que le hace los videos al fiscal maneja también las cuentas que lo aplauden.**
+Los trabajadores denuncian que Luis Gallardo, contratado por el Ministerio Público, edita en horario laboral los videos personales de Tomás Gálvez. Las dos cuentas que aplauden esos videos llevan a él. Con estas pruebas, este medio comprobó que **detrás de "Seguridad Peruana" e "Infiltrado" está Luis Gallardo**. **El mismo productor que le hace los videos al fiscal maneja también las cuentas que lo aplauden.**
 
 Para proteger su privacidad, se omitió el nombre de la pareja de Gallardo y de las demás personas que aparecen en las capturas.
+
+## Un posible delito
+
+Para el abogado consultado por Territorio Tomado, de comprobarse los hechos podría configurarse el delito de **peculado de uso**, que sanciona al funcionario que utiliza bienes, trabajadores o recursos del Estado para fines particulares, con pena de cárcel e inhabilitación para ejercer el cargo. El Código de Ética de la Función Pública obliga además a todo servidor a proteger los bienes del Estado y a no emplearlos para fines distintos de aquellos a los que están destinados.
+
+Territorio Tomado solicitó entrevistas a los tres mencionados. **Tomás Gálvez y Luis Gallardo no respondieron**. Javier Galindo contestó por WhatsApp que se encontraba con descanso médico y que no estaba en condiciones de declarar.
 
 Lee también: [Fiscalía pide archivar caso contra César Hinostroza en el que también aparecía el actual fiscal de la Nación](/n/hinostroza-archivo).
 
