@@ -5,8 +5,8 @@ temas: ["Tomás Gálvez", "Fiscalía", "Ministerio Público"]
 date: 2026-11-13T20:00:00-05:00
 resumen: "Trabajadores de la Fiscalía aseguran que un productor contratado por la institución editaba en horario laboral videos para las cuentas personales del fiscal de la Nación. Dos cuentas de TikTok dedicadas a elogiarlo repiten los mismos comentarios."
 imagen: /img/uploads/galvez-redes-portada-ia.jpg
-imagen_texto: "El fiscal de la Nación, Tomás Gálvez, frente a la sede del Ministerio Público; a la derecha, el productor Luis Gallardo y Javier Galindo, gerente central de la Oficina de Imagen."
-imagen_fuente: "Fotomontaje editorial con inteligencia artificial, basado en fotografías reales (referencial)."
+imagen_texto: "Tomás Gálvez y, a la derecha, Luis Gallardo y Javier Galindo."
+imagen_fuente: "Fotomontaje con IA (referencial)."
 tipo: Noticia
 exclusivo: false
 corto: "galvez-redes"
@@ -67,10 +67,10 @@ Javier Miguel Galindo Calderón llegó al Ministerio Público en abril. La **Res
 <img src="/img/uploads/resolucion-1026-2026-mp-fn-galindo-p1.jpg" alt="Resolución 1026-2026-MP-FN, página 1" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 <img src="/img/uploads/resolucion-1026-2026-mp-fn-galindo-p2.jpg" alt="Resolución 1026-2026-MP-FN, página 2" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>Resolución 1026-2026-MP-FN, firmada por Gálvez, que designa a Galindo. Documento del Ministerio Público.</figcaption>
+<figcaption>Resolución 1026-2026-MP-FN, firmada por Gálvez, que designa a Galindo. Documento del MP.</figcaption>
 </figure>
 
-![Javier Galindo en una actividad del Ministerio Público en Cajamarca](/img/uploads/javier-galindo-fiscalia-cajamarca.jpg "Javier Galindo en una actividad del Ministerio Público en Cajamarca. Foto: X / @FiscaliaPeru.")
+![Javier Galindo en una actividad del Ministerio Público en Cajamarca](/img/uploads/javier-galindo-fiscalia-cajamarca.jpg "Javier Galindo en Cajamarca. Foto: X / @FiscaliaPeru.")
 
 Fuentes del Ministerio Público aseguran además que Galindo habría estado antes a cargo de las redes del exministro del Interior Juan José Santiváñez, y que el estilo de los videos de ambos funcionarios es muy similar. Las mismas fuentes denuncian que, desde su llegada, se ha retirado a trabajadores de la Oficina de Imagen sin explicación. Este medio no ha podido confirmar de forma independiente ninguna de las dos afirmaciones.
 
@@ -103,7 +103,7 @@ Luis Ángel Gallardo Arévalo figura en el Buscador de Proveedores del Estado co
 <img src="/img/uploads/gallardo-orden-servicio-mp.jpg" alt="Orden de servicio de Luis Ángel Gallardo Arévalo" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 <img src="/img/uploads/gallardo-ordenes-servicio-mp-lista.jpg" alt="Órdenes de servicio del Ministerio Público" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>Órdenes de servicio a Gallardo, de S/ 5,200 cada una. Fuente: Buscador de Proveedores del Estado.</figcaption>
+<figcaption>Órdenes de servicio a Gallardo, de S/ 5,200 cada una. Fuente: Buscador de Proveedores.</figcaption>
 </figure>
 
 Antes trabajó para la Policía Nacional. El mismo registro muestra órdenes de servicio con el Ministerio del Interior y la PNP por producción y edición de material audiovisual, con montos de entre S/ 6,800 y S/ 34,000. Una de ellas, **de S/ 15,000**, para la Oficina de Comunicación Social e Imagen Institucional de la PNP, se inició en mayo de 2026, un mes después de la llegada de Galindo a la Fiscalía.
