@@ -47,6 +47,8 @@ carrusel:
     texto: "La PNP debe informar al ministro del Interior después de la prórroga."
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Ministerio de la Producción / Wikimedia Commons, dominio público. Archivo de octubre de 2026."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 Desde este jueves 5 de noviembre, **cinco penales continúan en emergencia por otros 60 días**. El gobierno de Keiko Fujimori prolonga una medida excepcional cuyo propio sustento admite que los controles siguen siendo vulnerables.
 

@@ -47,6 +47,8 @@ carrusel:
     texto: "Conocer cuánto duran los empleos y cómo se distribuyen por región."
     foto: /img/uploads/mtpe-sede-foto-real.jpg
     foto_texto: "Lenin Domínguez E / Wikimedia Commons, CC BY-SA 4.0. Sede del MTPE, archivo de 2022."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 El Ministerio de Trabajo y Promoción del Empleo informó que **24.100 personas accedieron a empleos formales mediante sus servicios** durante los primeros cien días del Gobierno de Keiko Fujimori. El balance incluye la intermediación de los Centros de Empleo, las ferias laborales y los encuentros con empresas. [El Peruano, 7 de noviembre](https://www.elperuano.pe/noticia/308517-derecho-al-trabajo-mas-de-24000-personas-accedieron-a-empleos-formales-con-apoyo-del-mtpe).
 

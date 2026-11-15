@@ -47,6 +47,8 @@ carrusel:
     texto: "El Decreto Supremo 150-2026-PCM se publicó el 11 de noviembre."
     foto: /img/uploads/segunda-vuelta-regional-sesion.png
     foto_texto: "Fragmento del Decreto Supremo 150-2026-PCM. Fuente: El Peruano."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 El Ejecutivo convocó para el **domingo 6 de diciembre** a la segunda vuelta de las Elecciones Regionales 2026. La votación definirá quiénes ocuparán los cargos de gobernador y vicegobernador en **15 regiones**, según el informe del Jurado Nacional de Elecciones citado en el decreto publicado este miércoles. [Decreto Supremo 150-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2573674-1) · [RPP](https://rpp.pe/politica/elecciones/gobierno-convoca-oficialmente-a-segunda-vuelta-regional-en-15-regiones-para-el-6-de-diciembre-noticia-1717213).
 

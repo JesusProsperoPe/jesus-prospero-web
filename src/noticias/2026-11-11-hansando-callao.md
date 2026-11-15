@@ -47,6 +47,8 @@ carrusel:
     texto: "El proyecto dispone que Defensa informe al concluir las actividades."
     foto: /img/uploads/hansando-callao-temas.png
     foto_texto: "Fragmento del proyecto 00017-2026-2031-S. Fuente: Congreso."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 El pleno del Senado aprobó este miércoles **con 39 votos a favor y 11 en contra** el permiso para el ingreso y tránsito del buque de entrenamiento surcoreano **ROKS Hansando (ATH-81)** y su dotación. La propuesta, presentada por el Ejecutivo, contempla el ingreso con armamento a bordo como parte de un crucero de instrucción de la Marina de Corea del Sur. [Comunicado del Congreso](https://comunicaciones.congreso.gob.pe/noticias/senado-autoriza-ingreso-de-personal-militar-extranjero-al-territorio-peruano/).
 

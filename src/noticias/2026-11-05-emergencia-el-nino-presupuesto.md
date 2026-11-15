@@ -47,6 +47,8 @@ carrusel:
     texto: "La norma no prueba por sí sola que las obras o intervenciones ya se ejecutaron."
     foto: /img/uploads/piura-rio-archivo-2025.jpg
     foto_texto: "Río Piura con caudal bajo, febrero de 2025. El Surquillano / Wikimedia Commons, CC0. Archivo, no inundación actual."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 **El Gobierno declaró 60 días de emergencia ante El Niño, pero este decreto no incorpora recursos adicionales del Tesoro Público.** El artículo 3 del [DS 149-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2571017-4), publicado el 3 de noviembre, dispone utilizar los presupuestos institucionales de las entidades involucradas.
 

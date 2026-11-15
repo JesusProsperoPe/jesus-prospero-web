@@ -47,6 +47,8 @@ carrusel:
     texto: "La reducción debe comprobarse con mediciones comparables."
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Keiko Fujimori, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público. No corresponde a la firma del pacto."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 El Gobierno de Keiko Fujimori fijó como meta **reducir la prevalencia de anemia infantil al 17,4 % para 2031**, según [Andina](https://andina.pe/agencia/noticia-pacto-contra-anemia-como-llegara-a-los-hogares-y-metas-tendra-1098727.aspx). El pacto multisectorial se firmó el 4 de noviembre en Palacio de Gobierno, con participación de 12 ministerios. Prioriza a los menores de tres años, en especial a los menores de un año, y a las gestantes.
 

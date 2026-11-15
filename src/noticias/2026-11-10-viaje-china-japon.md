@@ -47,6 +47,8 @@ carrusel:
     texto: "El reglamento da al jefe del gabinete 30 días calendario desde el fin del viaje para informar al Senado."
     foto: /img/uploads/viaje-china-japon-temas.png
     foto_texto: "Fragmento de la agenda oficial del Senado del 11 de noviembre de 2026. Fuente: Congreso."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 El pleno del Senado debatirá este miércoles 11 de noviembre, a las **11:30 a. m.**, el pedido de la presidenta **Keiko Fujimori** para viajar a China y Japón. La Junta de Portavoces incorporó la solicitud a la agenda este martes. El Congreso anunció 30 minutos de debate, distribuidos proporcionalmente entre las bancadas. [Comunicado del Congreso](https://comunicaciones.congreso.gob.pe/noticias/senado-analizara-este-miercoles-autorizacion-de-viaje-presidencial-a-china-y-japon/) · [El Comercio](https://elcomercio.pe/politica/congreso/keiko-fujimori-en-vivo-senado-permiso-presidenta-para-viajar-a-china-apec-y-japon-del-15-al-21-de-noviembre-detalles-votacion-papa-leon-xiv-apuesplan-noticia/).
 

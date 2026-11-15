@@ -10,6 +10,8 @@ imagen_fuente: "Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons, C
 tipo: Noticia
 exclusivo: false
 corto: "espa-rusia"
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 El canciller **Carlos Espá viajará a Moscú para gestionar asistencia a ciudadanos peruanos que estarían prestando servicios en fuerzas armadas extranjeras**. El Gobierno incorporó esa etapa a su gira mediante la [Resolución Suprema 309-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2570407-1), publicada este domingo 1 de noviembre en El Peruano.
 

@@ -10,6 +10,8 @@ imagen_fuente: "Foto: Lenin Domínguez E / Wikimedia Commons, CC BY-SA 4.0. Reco
 tipo: Noticia
 exclusivo: false
 corto: "trabajo-el-nino"
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 
 El **Ministerio de Trabajo y Promoción del Empleo (MTPE) aprobó un protocolo nacional de seguridad y salud laboral ante el fenómeno El Niño**. La medida se oficializó este domingo 1 de noviembre mediante la [Resolución Ministerial 341-2026-TR, publicada en El Peruano](https://busquedas.elperuano.pe/dispositivo/NL/2570392-1), fechada el 30 de octubre.

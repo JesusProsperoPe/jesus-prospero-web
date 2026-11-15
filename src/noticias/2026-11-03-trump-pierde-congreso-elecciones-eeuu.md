@@ -31,6 +31,8 @@ carrusel:
     texto: "Así lo informó Telemundo. El conteo de varios escaños sigue en curso."
   - titular: "Las cifras **todavía pueden cambiar**"
     texto: "Los resultados son proyecciones de las cadenas de televisión. **¿Cambiará esto la política de Trump hacia América Latina?**"
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 
 **Los demócratas recuperaron el control de la Cámara de Representantes** en las elecciones de medio término celebradas este martes 3 de noviembre en Estados Unidos. Lo proyectan [CNN](https://edition.cnn.com/2026/11/03/politics/live-news/midterm-election-congress), [CBS News](https://www.cbsnews.com/live-updates/election-day-2026-midterms/), [NBC](https://www.nbcwashington.com/elections/election-day-2026-midterms-congress-results-live-updates/4175504/) y [Telemundo](https://www.telemundo.com/noticias/noticias-telemundo/elecciones-estados-unidos-2026/control-camara-representantes-democratas-rcna607357). Es la primera gran derrota electoral de Donald Trump en su segundo mandato.

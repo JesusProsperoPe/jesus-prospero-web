@@ -14,9 +14,10 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}/contacto/</loc></url>
   <url><loc>{{ site.url }}/privacidad/</loc></url>
   <url><loc>{{ site.url }}/politica-editorial/</loc></url>
-  {%- for n in collections.noticias %}
+  <url><loc>{{ site.url }}/terminos/</loc></url>
+  {%- for n in collections.noticias %}{% if not n.data.noindex %}
   <url><loc>{{ site.url }}{{ n.url }}</loc><lastmod>{{ n.date | fechaIso }}</lastmod></url>
-  {%- endfor %}
+  {%- endif %}{% endfor %}
   {%- if collections.vinetas.length %}
   <url><loc>{{ site.url }}/vinetas/</loc></url>
   {%- for v in collections.vinetas %}
@@ -29,7 +30,7 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}{{ t.url }}</loc><lastmod>{{ t.date | fechaIso }}</lastmod></url>
   {%- endfor %}
   {%- endif %}
-  {%- for t in collections.temas %}
+  {%- for t in collections.temas %}{% if t.items.length >= 5 %}
   <url><loc>{{ site.url }}/temas/{{ t.slug }}/</loc><lastmod>{{ t.items[0].date | fechaIso }}</lastmod></url>
-  {%- endfor %}
+  {%- endif %}{% endfor %}
 </urlset>

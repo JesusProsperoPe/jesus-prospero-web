@@ -47,6 +47,8 @@ carrusel:
     texto: "Habrá que seguir la versión que apruebe el Congreso."
     foto: /img/uploads/balotaje-lima-congreso-archivo.jpg
     foto_texto: "Herwarth Morales / Wikimedia Commons, CC BY-SA 4.0. Archivo."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 La Comisión Bicameral de Presupuesto aprobó el 5 de noviembre el dictamen del Presupuesto Público 2027, por **S/266.506 millones**, con 29 votos a favor, uno en contra y cuatro abstenciones. El texto contempla un mecanismo para financiar obligaciones laborales del personal CAS. [Andina](https://andina.pe/agencia/noticia-comision-bicameral-aprueba-dictamen-presupuesto-2027-mas-s266500-millones-1098746.aspx) · [La República](https://larepublica.pe/amp/economia/2026/11/05/presupuesto-publico-2027-congreso-aprueba-dictamen-por-mas-de-s266500-millones-hnews-371465).
 

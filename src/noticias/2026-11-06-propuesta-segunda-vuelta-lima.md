@@ -47,6 +47,8 @@ carrusel:
     texto: "La iniciativa propone modificar el artículo 23 de la Ley de Elecciones Municipales."
     foto: /img/uploads/balotaje-lima-congreso-archivo.jpg
     foto_texto: "Herwarth Morales / Wikimedia Commons, CC BY-SA 4.0."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 Una iniciativa de Ahora Nación propone que una lista necesite **al menos el 30 % de los votos válidos** para ganar la alcaldía de Lima Metropolitana en primera vuelta. El diputado César Muedas presentó el proyecto para modificar el artículo 23 de la Ley de Elecciones Municipales. [Proyecto 00757/2026-CD](https://img.lpderecho.pe/wp-content/uploads/2026/11/PL-00757-2026-2031-CD-LP-Derecho.pdf) · [RPP](https://rpp.pe/politica/elecciones/congreso-presentan-proyecto-de-ley-para-establecer-segunda-vuelta-en-elecciones-municipales-noticia-1715995).
 

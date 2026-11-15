@@ -47,6 +47,8 @@ carrusel:
     texto: "Los dos promedios deben usar los mismos criterios de registro."
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Ministerio de la Producción, dominio público. Retrato de archivo."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 En su mensaje por los primeros cien días de gobierno, la noche del jueves 5 de noviembre, Keiko Fujimori afirmó que el promedio diario de crímenes pasó de **7,5 a 6,5**. Presentó la cifra al hacer su balance en seguridad y destacó la coordinación de policías y militares contra el crimen organizado. [Mensaje reproducido por El Peruano](https://elperuano.pe/noticia/308437-presidenta-fujimori-estamos-trabajando-por-el-peru-que-todos-anhelamos).
 

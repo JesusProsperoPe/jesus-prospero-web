@@ -47,6 +47,8 @@ carrusel:
     texto: "El mandato comprende el seguimiento de las políticas públicas que afectan a esta población."
     foto: /img/uploads/comision-pueblos-3.jpg
     foto_texto: "Franck Schneider / Wikimedia Commons, CC BY-SA 3.0. Recorte horizontal."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 El Senado aprobó por unanimidad el miércoles 11 de noviembre la creación de una comisión especial para fiscalizar las políticas públicas dirigidas a los pueblos indígenas u originarios, las comunidades campesinas y nativas y el pueblo afroperuano. La comisión estará integrada por **doce senadores titulares** y ejercerá sus funciones durante el periodo parlamentario **2026-2027**. [Comunicado del Congreso](https://comunicaciones.congreso.gob.pe/noticias/aprueban-acuerdo-que-crea-la-comision-especial-de-pueblos-indigenas-u-originarios-comunidades-campesinas-y-nativas-y-pueblo-afroperuano/).
 

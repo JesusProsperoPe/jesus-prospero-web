@@ -47,6 +47,8 @@ carrusel:
     texto: "La votación del Senado autorizó la prórroga solicitada por el Ejecutivo."
     foto: /img/uploads/pisco-agenda.png
     foto_texto: "Agenda del pleno del Senado, 11 de noviembre, p. 4."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 El pleno del Senado aprobó el miércoles 11 de noviembre, por unanimidad, el pedido del Ejecutivo para **prorrogar por 60 días el estado de emergencia en los distritos de Pisco y San Andrés**, en Ica. La medida vigente, dictada mediante el Decreto Supremo 132-2026-PCM, vence el **18 de noviembre**. [Comunicado del Congreso](https://comunicaciones.congreso.gob.pe/noticias/senado-autorizo-prorroga-de-estado-de-emergencia-en-distritos-de-pisco-y-san-andres/) · [Cobertura de La Lupa](https://lalupa.pe/ica/senado-aprueba-por-unanimidad-prorrogar-emergencia-en-pisco-y-san-andres-125277).
 

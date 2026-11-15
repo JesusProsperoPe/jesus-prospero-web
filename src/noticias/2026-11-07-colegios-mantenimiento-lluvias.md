@@ -47,6 +47,8 @@ carrusel:
     texto: "Verificar los desembolsos y el mantenimiento ejecutado en cada colegio."
     foto: /img/uploads/colegios-lluvias-norma.png
     foto_texto: "Captura de la resolución oficial publicada en El Peruano."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 Pronied aprobó el listado de locales educativos beneficiarios del programa de mantenimiento ante las lluvias de El Niño 2026-2027. La resolución se publicó este sábado 7 de noviembre, como parte de un programa con **S/460.154.449 asignados**. [Resolución del listado](https://busquedas.elperuano.pe/dispositivo/NL/2572820-1) · [Norma técnica](https://busquedas.elperuano.pe/dispositivo/NL/2572385-1).
 

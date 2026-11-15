@@ -47,6 +47,8 @@ carrusel:
     texto: "Que los compromisos se traduzcan en información comprobable y asistencia efectiva."
     foto: "/img/uploads/rusia-respuestas-comunicado.png"
     foto_texto: "Captura de la nota de prensa 268-26 de Cancillería, Gob.pe, 9/11/2026."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 El canciller **Carlos Espá pidió a Rusia facilitar la identificación y repatriación de los restos de peruanos fallecidos en la guerra con Ucrania**, así como asistir a los heridos. La solicitud fue planteada este lunes 9 de noviembre en Moscú, durante su reunión con el ministro ruso de Asuntos Exteriores, **Serguéi Lavrov**, informó [Cancillería](https://www.gob.pe/institucion/rree/noticias/1471356-canciller-espa-abordo-situacion-de-peruanos-en-rusia-con-su-homologo-serguei-lavrov).
 

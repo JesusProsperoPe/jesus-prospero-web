@@ -47,6 +47,8 @@ carrusel:
     texto: "El programa prevé un rito de coronación a las 8 a. m."
     foto: /img/uploads/leon-xiv-peru-2.jpg
     foto_texto: "Archivo: José Enrique Montes Seminario / Wikimedia Commons, CC BY-SA 4.0. Recorte."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 León XIV iniciará este miércoles 11 de noviembre su visita al Perú. El programa de la Santa Sede fija la llegada desde Buenos Aires a las **5:30 p. m. en la Base Aérea del Callao**, donde está prevista la recepción oficial. Los horarios corresponden a la hora peruana. [Programa del Vaticano](https://www.vatican.va/content/leo-xiv/es/travels/2026/documents/uruguay-argentina-peru-6-17novembre2026.html) · [Andina](https://andina.pe/agencia/noticia-papa-leon-xiv-peru-mira-aqui-su-agenda-oficial-del-miercoles-11-noviembre-1099371.aspx).
 

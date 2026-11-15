@@ -47,6 +47,8 @@ carrusel:
     texto: "Conocer el resultado técnico y el plazo de la medida elegida."
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Ministerio de la Producción. Dominio público. Archivo."
+# Nota corta: no se manda a Google hasta ampliarla
+noindex: true
 ---
 Familias damnificadas del asentamiento humano Puerto Perú, en Aguas Verdes, pidieron una defensa ribereña para poder regresar a sus viviendas. Keiko Fujimori recibió el pedido este viernes 6 de noviembre en el albergue Villa Primavera, en Zarumilla. Según el reporte de Andina, el pedido fue formulado por 120 familias. [Andina, recorrido presidencial](https://andina.pe/agencia/noticia-aca-hay-un-gobierno-esta-la-cancha-afirma-presidenta-fujimori-tumbes-1098909.aspx).
 
