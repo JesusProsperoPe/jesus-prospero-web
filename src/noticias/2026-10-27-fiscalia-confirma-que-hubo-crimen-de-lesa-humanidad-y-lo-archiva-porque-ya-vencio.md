@@ -6,8 +6,6 @@ date: 2026-10-27T01:10:00.000-05:00
 resumen: Un fiscal admite que más de cuatro mil personas fueron esterilizadas sin consentimiento como política de Estado y, en el mismo documento, decide que el delito caducó como yogurt olvidado en la refri.
 imagen: "/img/uploads/esterilizaciones-forzadas-protesta-exportacion-4k.jpg"
 imagen_texto: Protesta de víctimas de las esterilizaciones forzadas.
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 
 En el Perú hay cosas que nunca vencen. La deuda con Saga, el tío que te pide prestado en cada pollada y las ganas de Keiko de arruinarnos la vida. Pero **el crimen de lesa humanidad, según la Fiscalía, sí tiene fecha de caducidad.**

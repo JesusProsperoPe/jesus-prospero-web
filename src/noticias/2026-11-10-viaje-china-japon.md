@@ -47,8 +47,6 @@ carrusel:
     texto: "El reglamento da al jefe del gabinete 30 días calendario desde el fin del viaje para informar al Senado."
     foto: /img/uploads/viaje-china-japon-temas.png
     foto_texto: "Fragmento de la agenda oficial del Senado del 11 de noviembre de 2026. Fuente: Congreso."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 El pleno del Senado debatirá este miércoles 11 de noviembre, a las **11:30 a. m.**, el pedido de la presidenta **Keiko Fujimori** para viajar a China y Japón. La Junta de Portavoces incorporó la solicitud a la agenda este martes. El Congreso anunció 30 minutos de debate, distribuidos proporcionalmente entre las bancadas. [Comunicado del Congreso](https://comunicaciones.congreso.gob.pe/noticias/senado-analizara-este-miercoles-autorizacion-de-viaje-presidencial-a-china-y-japon/) · [El Comercio](https://elcomercio.pe/politica/congreso/keiko-fujimori-en-vivo-senado-permiso-presidenta-para-viajar-a-china-apec-y-japon-del-15-al-21-de-noviembre-detalles-votacion-papa-leon-xiv-apuesplan-noticia/).
 
@@ -65,6 +63,14 @@ El Reglamento del Senado exige que el pedido identifique el destino, el propósi
 ![Reglas del Senado para autorizar viajes presidenciales](/img/uploads/viaje-china-japon-temas.png "Fragmento del artículo 118 del Reglamento del Senado reproducido en la agenda del pleno. Fuente: Congreso, página 3.")
 
 Si la gira se realiza, el jefe del gabinete deberá presentar al Senado un informe sobre los objetivos del viaje y las actividades efectuadas **dentro de los 30 días calendario posteriores a su conclusión**. Ese informe permitirá contrastar el programa con las reuniones realizadas y los compromisos que se hayan asumido. [Agenda oficial](https://www3.congreso.gob.pe/Storage/modsnw/pdf/15989-Ky7Fj9Sa5Jd4Do4.pdf).
+
+## Actualización: el Senado aprobó el viaje
+
+El miércoles 11 de noviembre, el pleno del Senado aprobó la **Resolución Legislativa 00022-2026-2031-S**, que autoriza a Keiko Fujimori a salir del país del 15 al 21 de noviembre. La votación terminó con **44 votos a favor, uno en contra y cinco abstenciones**, según [Andina](https://andina.pe/ingles/noticia-president-of-peru-keiko-fujimori-will-travel-to-apec-forum-and-japan-1099529.aspx) y [El Peruano](https://elperuano.pe/noticia/308791--senado-aprueba-viaje-de-presidenta-keiko-fujimori-a-foro-apec). La presidenta agradeció la autorización en sus redes, informó [Canal N](https://canaln.pe/actualidad/keiko-fujimori-agradece-al-senado-autorizacion-viaje-china-y-japon-n496197).
+
+El permiso no estuvo libre de críticas. La salida coincide con la última etapa de la **visita del papa León XIV al Perú**, y varios sectores la calificaron como un desaire al pontífice, recogió [Caretas](https://caretas.pe/?p=844072). Como la mandataria no estará en el país, la despedida del papa quedará a cargo del primer vicepresidente, **Luis Galarreta**.
+
+Según el Gobierno, la agenda en Asia busca atraer inversiones y cooperación frente al fenómeno El Niño. El informe que la PCM debe presentar al Senado tras el viaje permitirá saber si esos objetivos se cumplieron o si la gira quedó en fotos y discursos.
 
 **Fuentes:** [Senado](https://comunicaciones.congreso.gob.pe/noticias/senado-analizara-este-miercoles-autorizacion-de-viaje-presidencial-a-china-y-japon/) · [Agenda del pleno](https://www3.congreso.gob.pe/Storage/modsnw/pdf/15989-Ky7Fj9Sa5Jd4Do4.pdf) · [El Comercio](https://elcomercio.pe/politica/congreso/keiko-fujimori-en-vivo-senado-permiso-presidenta-para-viajar-a-china-apec-y-japon-del-15-al-21-de-noviembre-detalles-votacion-papa-leon-xiv-apuesplan-noticia/).
 

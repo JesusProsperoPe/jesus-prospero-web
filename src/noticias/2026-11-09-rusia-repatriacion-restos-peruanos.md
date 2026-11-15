@@ -47,8 +47,6 @@ carrusel:
     texto: "Que los compromisos se traduzcan en información comprobable y asistencia efectiva."
     foto: "/img/uploads/rusia-respuestas-comunicado.png"
     foto_texto: "Captura de la nota de prensa 268-26 de Cancillería, Gob.pe, 9/11/2026."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 El canciller **Carlos Espá pidió a Rusia facilitar la identificación y repatriación de los restos de peruanos fallecidos en la guerra con Ucrania**, así como asistir a los heridos. La solicitud fue planteada este lunes 9 de noviembre en Moscú, durante su reunión con el ministro ruso de Asuntos Exteriores, **Serguéi Lavrov**, informó [Cancillería](https://www.gob.pe/institucion/rree/noticias/1471356-canciller-espa-abordo-situacion-de-peruanos-en-rusia-con-su-homologo-serguei-lavrov).
 
@@ -61,6 +59,12 @@ Espá solicitó datos oportunos y verificables sobre la situación y el paradero
 [DW, con información de AFP y EFE](https://amp.dw.com/es/per%C3%BA-pide-a-rusia-informaci%C3%B3n-sobre-sus-nacionales-reclutados-para-combatir-en-ucrania/a-79901298), informó que el canciller se refirió a 459 compatriotas vinculados al caso. Esa cifra no debe interpretarse como un número de fallecidos ni de desaparecidos: el reclamo comprende situaciones distintas que requieren esclarecimiento.
 
 ![Comunicado oficial sobre la reunión entre Espá y Lavrov](/img/uploads/rusia-respuestas-comunicado.png "Captura de la nota de prensa 268-26 del Ministerio de Relaciones Exteriores, publicada el 9 de noviembre de 2026 en Gob.pe. Documenta la reunión y las gestiones comunicadas por el Gobierno peruano.")
+
+## Las cifras del drama
+
+Las cifras oficiales más claras son de agosto. Entonces, Cancillería informó que **459 peruanos se enlistaron oficialmente** en las fuerzas armadas rusas, que **11 murieron**, que **114 estaban desaparecidos** y que tres fueron capturados por el ejército ucraniano, según [Gestión](https://gestion.pe/peru/cancilleria-anuncia-la-muerte-de-once-peruanos-que-luchaban-en-el-ejercito-ruso-contra-ucrania-noticia/) y [Forbes Perú](https://forbes.pe/actualidad/2026-08-10/cancilleria-reporto-la-muerte-de-once-peruanos-que-luchaban-en-el-ejercito-ruso-durante-su-invasion-a-ucrania/).
+
+El equipo legal de las familias maneja números más altos. En mayo aseguró que **635 peruanos** habían sido reclutados por Rusia, informó [Forbes Perú](https://forbes.pe/actualidad/2026-05-11/ya-son-635-los-peruanos-reclutados-por-rusia-para-ir-a-la-guerra-asegura-su-equipo-legal/). Muchos denunciaron que viajaron con la promesa de trabajos civiles y terminaron en el frente, según [La República](https://larepublica.pe/sociedad/2026/04/29/abogado-revela-que-ocho-peruanos-habrian-fallecido-en-zona-de-guerra-en-rusia-les-prometieron-trabajos-civiles-675729). Por esos casos, la Fiscalía peruana investiga el reclutamiento como posible **trata de personas**.
 
 ## La posición rusa y los contratos
 

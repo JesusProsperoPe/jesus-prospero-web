@@ -47,8 +47,6 @@ carrusel:
     texto: "Los dos promedios deben usar los mismos criterios de registro."
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Ministerio de la Producción, dominio público. Retrato de archivo."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 En su mensaje por los primeros cien días de gobierno, la noche del jueves 5 de noviembre, Keiko Fujimori afirmó que el promedio diario de crímenes pasó de **7,5 a 6,5**. Presentó la cifra al hacer su balance en seguridad y destacó la coordinación de policías y militares contra el crimen organizado. [Mensaje reproducido por El Peruano](https://elperuano.pe/noticia/308437-presidenta-fujimori-estamos-trabajando-por-el-peru-que-todos-anhelamos).
 
@@ -61,5 +59,13 @@ En el discurso, la presidenta habló de crímenes sin especificar qué delitos i
 ![Datos necesarios para contrastar la cifra](/img/uploads/balance-seguridad-verificar.png "Elaboración propia a partir de la revisión del mensaje presidencial del 5 de noviembre.")
 
 Para reproducir la comparación hacen falta el registro de origen, el periodo de cada promedio y una definición común de los casos contados. Un desglose territorial permitiría además identificar dónde se concentró la variación. Esos datos ayudarían a evaluar la afirmación presidencial y las medidas que el Gobierno presentó en el mismo mensaje.
+
+## Lo que dicen los registros de defunciones
+
+El Sistema Informático Nacional de Defunciones (Sinadef), que registra las muertes certificadas en el país, permite una comparación parcial. Al corte del 29 de octubre, contabilizaba **174 asesinatos en octubre**, con un promedio de **6,4 muertes violentas por día**, informó [Correo](https://diariocorreo.pe/politica/tasa-de-homicidios-subio-a-64-por-dia-en-octubre-noticia/). El mismo medio advirtió que existen alertas de subregistro. Entre el 28 de julio, día en que asumió Fujimori, y el 30 de agosto, el Sinadef ya sumaba **180 homicidios**, según [El Búho](https://elbuho.pe/2026/09/homicidios-siguen-imparables-en-el-peru-durante-la-gestion-de-keiko-fujimori/).
+
+La cifra de 6,5 que citó la presidenta está cerca del promedio de octubre del Sinadef, pero eso no muestra una mejora frente a gobiernos anteriores. Un análisis citado por [El Tiempo](https://eltiempo.pe/nacional/gobierno-de-jose-jeri-supera-el-promedio-de-muertes-por-dia-en-el-periodo-de-dina-boluarte/) calculó una media de **5,25 muertes diarias** durante el gobierno de Dina Boluarte y de 5,70 en el de José Jerí.
+
+El problema de fondo es que las fuentes no coinciden. La Policía, el Sinadef y el Ministerio Público usan registros distintos y llegan a cifras diferentes. Mientras el Gobierno no publique de dónde sale el «7,5» con el que compara, **su anuncio de que el crimen bajó no se puede comprobar**, y los registros independientes muestran que la violencia sigue por encima de los promedios del gobierno de Boluarte.
 
 **Portada:** [foto de Keiko Fujimori del 7 de octubre de 2026](https://commons.wikimedia.org/wiki/File:K._Fujimori_20261007_3.jpg), Ministerio de la Producción, dominio público.

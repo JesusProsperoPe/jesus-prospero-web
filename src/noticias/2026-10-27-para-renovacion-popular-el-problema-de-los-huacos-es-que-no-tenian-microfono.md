@@ -8,8 +8,6 @@ imagen: "/img/uploads/lopez-aliaga-carlos-alvarez-lurin-exportacion-4k.jpg"
 imagen_texto: "Rafael López Aliaga y Carlos Álvarez en el escenario de Lurín."
 exclusivo: true
 imagen_fuente: "Fuente: Transmisión del mitin en Lurín del 25 de octubre de 2026. Exportación 3840 × 2160; ampliación de archivo cuando procede, sin nueva reconstrucción generativa."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 
 El lunes, la senadora Milagros Jáuregui de Aguayo le pidió al ministro de Cultura **sacar los huacos eróticos de los espacios públicos.** Dijo que los niños "no están capacitados neurológicamente" para verlos. Y que, si los ven, sea en un museo y "acompañados de profesores o tutores".

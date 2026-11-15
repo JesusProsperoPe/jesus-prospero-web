@@ -31,8 +31,6 @@ carrusel:
     texto: "Así lo informó Telemundo. El conteo de varios escaños sigue en curso."
   - titular: "Las cifras **todavía pueden cambiar**"
     texto: "Los resultados son proyecciones de las cadenas de televisión. **¿Cambiará esto la política de Trump hacia América Latina?**"
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 
 **Los demócratas recuperaron el control de la Cámara de Representantes** en las elecciones de medio término celebradas este martes 3 de noviembre en Estados Unidos. Lo proyectan [CNN](https://edition.cnn.com/2026/11/03/politics/live-news/midterm-election-congress), [CBS News](https://www.cbsnews.com/live-updates/election-day-2026-midterms/), [NBC](https://www.nbcwashington.com/elections/election-day-2026-midterms-congress-results-live-updates/4175504/) y [Telemundo](https://www.telemundo.com/noticias/noticias-telemundo/elecciones-estados-unidos-2026/control-camara-representantes-democratas-rcna607357). Es la primera gran derrota electoral de Donald Trump en su segundo mandato.
@@ -58,6 +56,14 @@ En **Texas**, uno de los estados más republicanos del país, el demócrata **Ja
 CBS News describe el resultado como **un rechazo al presidente Trump**. Según Telemundo, el 62 % de los estadounidenses desaprueba su gestión. El mandatario dijo que aceptará los resultados, informó el mismo medio.
 
 Trump conserva el poder de veto: podrá bloquear las leyes que apruebe el nuevo Congreso. Pero desde enero ya no tendrá mayorías propias para impulsar su agenda.
+
+## Actualización: los demócratas ganan las dos cámaras
+
+Con el avance del conteo, la agencia AP confirmó que **el Partido Demócrata obtuvo la mayoría en el Senado** durante la noche del martes y **en la Cámara de Representantes** en la madrugada del miércoles, según [El Nuevo Día](https://www.elnuevodia.com/corresponsalias/washington-dc/notas/los-democratas-ganaron-mayoria-en-las-dos-camaras-del-congreso-en-medio-de-una-fuerte-reprimenda-al-presidente-trump/). Varios medios hablan de una «ola azul» que dejó a Trump sin mayorías en el Capitolio, como resumió [El Economista](https://eleconomista.com.ar/internacional/una-ola-azul-arrasa-trump-como-democratas-tomaron-control-capitolio-n99460).
+
+El número exacto de escaños todavía puede cambiar, porque el escrutinio continúa en algunos distritos. Pero el resultado político ya está claro. Desde enero, cada ley, cada presupuesto y cada nombramiento que necesite el Senado tendrá que negociarse con la oposición.
+
+Para América Latina, el cambio puede notarse en temas como migración, aranceles y ayuda exterior, donde el Congreso tiene la última palabra sobre el dinero. También en el control político. Con mayoría en la Cámara, los demócratas podrán abrir investigaciones sobre las decisiones del gobierno de Trump.
 
 ## Las preguntas que quedan
 
