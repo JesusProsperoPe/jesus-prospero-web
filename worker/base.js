@@ -21,17 +21,19 @@ const TABLAS = [
   `CREATE INDEX IF NOT EXISTS idx_pistas_origen ON pistas (origen, creado_en)`,
 ];
 
-let lista = null;
+// Solo se guarda un "sí, ya está lista". No se comparte una promesa entre visitas:
+// Cloudflare no deja que una visita espere una promesa creada por otra que ya terminó
+// (eso causaba el error 1101 "Worker threw exception").
+let lista = false;
 
-export function prepararBase(env) {
-  if (!env.DB) return Promise.resolve();
-  if (!lista) {
-    lista = preparar(env.DB).catch((e) => {
-      lista = null;   // se reintenta en la próxima visita
-      console.error(`preparar base: ${e.message}`);
-    });
+export async function prepararBase(env) {
+  if (!env.DB || lista) return;
+  try {
+    await preparar(env.DB);
+    lista = true;
+  } catch (e) {
+    console.error(`preparar base: ${e.message}`);   // se reintenta en la próxima visita
   }
-  return lista;
 }
 
 async function preparar(db) {

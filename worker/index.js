@@ -43,6 +43,8 @@ const PLANES = new Map(
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    // Los enlaces cortos no usan la base de datos
+    if (url.pathname.startsWith("/n/")) return enlaceCorto(url, env);
     await prepararBase(env);
 
     if (url.pathname === "/api/aporte/estado") {
@@ -76,8 +78,6 @@ export default {
     if (url.pathname.startsWith("/noticias/") && url.pathname.endsWith("/") && request.method === "GET") {
       return noticia(request, url, env);
     }
-    if (url.pathname.startsWith("/n/")) return enlaceCorto(url, env);
-
     return env.ASSETS.fetch(request);
   },
 };
