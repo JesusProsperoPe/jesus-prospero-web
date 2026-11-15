@@ -4,9 +4,9 @@ titulo_seo: "Alejandro Muñante organiza en el Congreso la instalación de Capit
 temas: ["Alejandro Muñante", "Renovación Popular", "Congreso"]
 date: 2026-11-14T19:00:00-05:00
 resumen: "El primer vicepresidente del Senado organiza para el 19 de noviembre, desde el Congreso, la «Ceremonia Oficial de Instalación de Capitol Ministries en el Perú». La organización estadounidense dicta estudios bíblicos a legisladores y ministros, y en Honduras, Paraguay y Brasil ha sido señalada por buscar influencia en el poder político."
-imagen: /img/uploads/munante-capitol-ministries-portada.jpg
-imagen_texto: "Alejandro Muñante, primer vicepresidente del Senado."
-imagen_fuente: "Foto de archivo. Fondo difuminado de la misma imagen."
+imagen: /img/uploads/munante-capitol-trump-portada-ia.jpg
+imagen_texto: "Alejandro Muñante, el logo de Capitol Ministries y Donald Trump."
+imagen_fuente: "Fotomontaje con IA (referencial)."
 tipo: Noticia
 exclusivo: false
 corto: "munante-capitol"
@@ -14,8 +14,8 @@ carrusel:
   - nota: "debe causar mucho impacto: titular gigante con la foto de Muñante"
     titular: "Muñante le abre el Congreso al **grupo evangélico del gabinete de Trump**"
     texto: "Mientras el Papa visita el Perú."
-    foto: /img/uploads/munante-capitol-ministries-portada.jpg
-    foto_texto: "Alejandro Muñante. Foto de archivo."
+    foto: /img/uploads/munante-capitol-trump-portada-ia.jpg
+    foto_texto: "Muñante, Capitol Ministries y Trump. Fotomontaje con IA (referencial)."
   - titular: "\"Ceremonia Oficial de Instalación de **Capitol Ministries** en el Perú\""
     texto: "Jueves **19 de noviembre**, en un auditorio del Congreso."
     foto: /img/uploads/capitol-ministries-invitacion-peru.jpg
