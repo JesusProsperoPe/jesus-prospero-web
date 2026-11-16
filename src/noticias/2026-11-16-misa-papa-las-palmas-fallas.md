@@ -4,19 +4,19 @@ titulo_seo: "Misa del papa León XIV en Las Palmas: fallas en pantallas y sonido
 temas: ["León XIV", "Lima"]
 date: 2026-11-16T15:00:00-05:00
 resumen: "La misa de cierre de León XIV en el Perú dejó a miles de asistentes de los bloques más alejados sin imagen y por momentos sin sonido. La comisión organizadora de la Arquidiócesis de Lima reconoció fallas técnicas, pero hasta ahora nadie ha explicado qué pasó ni quién responde."
-imagen: /img/uploads/base-las-palmas-explanada-portada.jpg
-imagen_texto: "La Base Aérea Las Palmas, en Surco, donde se celebró la misa. Foto de archivo."
-imagen_fuente: "Foto: Ministerio de Defensa / Wikimedia Commons (CC BY 2.0)."
+imagen: /img/uploads/misa-las-palmas-portada-ia.jpg
+imagen_texto: "León XIV y fieles en la Base Aérea Las Palmas."
+imagen_fuente: "Fotomontaje con IA (referencial)."
 tipo: Noticia
 exclusivo: false
 corto: "misa-las-palmas"
 carrusel_politica: false
 carrusel:
-  - nota: "debe causar mucho impacto: titular gigante sobre la foto de la Base Aérea Las Palmas"
+  - nota: "debe causar mucho impacto: titular gigante sobre la portada con el Papa en círculo y la multitud"
     titular: "**Sin pantallas y sin audio:** así despidieron al Papa en Las Palmas"
     texto: "Miles de fieles de los bloques del fondo **no pudieron ver ni escuchar** la misa."
-    foto: /img/uploads/base-las-palmas-explanada-portada.jpg
-    foto_texto: "Base Aérea Las Palmas. Foto: Ministerio de Defensa / Wikimedia Commons (CC BY 2.0)."
+    foto: /img/uploads/misa-las-palmas-portada-ia.jpg
+    foto_texto: "León XIV y fieles en Las Palmas. Fotomontaje con IA (referencial)."
   - titular: "**1,5 millones** de fieles"
     texto: "Es la cifra que dio el Vaticano para la última misa de León XIV en el Perú."
     foto: /img/uploads/misa-papa-multitud-pantallas.jpg
