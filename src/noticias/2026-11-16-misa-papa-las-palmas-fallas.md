@@ -4,19 +4,19 @@ titulo_seo: "Misa del papa León XIV en Las Palmas: fallas en pantallas y sonido
 temas: ["León XIV", "Lima"]
 date: 2026-11-16T15:00:00-05:00
 resumen: "La misa de cierre de León XIV en el Perú dejó a miles de asistentes de los bloques más alejados sin imagen y por momentos sin sonido. La comisión organizadora de la Arquidiócesis de Lima reconoció fallas técnicas, pero hasta ahora nadie ha explicado qué pasó ni quién responde."
-imagen: /img/uploads/misa-papa-pantalla-gigante-portada.jpg
-imagen_texto: "Pantalla gigante con León XIV en la vigilia del Estadio Nacional, el 12 de noviembre. En Las Palmas, varias no encendieron."
-imagen_fuente: "Foto: Aldair / Wikimedia Commons (CC BY-SA 4.0)."
+imagen: /img/uploads/base-las-palmas-explanada-portada.jpg
+imagen_texto: "La Base Aérea Las Palmas, en Surco, donde se celebró la misa. Foto de archivo."
+imagen_fuente: "Foto: Ministerio de Defensa / Wikimedia Commons (CC BY 2.0)."
 tipo: Noticia
 exclusivo: false
 corto: "misa-las-palmas"
 carrusel_politica: false
 carrusel:
-  - nota: "debe causar mucho impacto: titular gigante sobre la foto de la pantalla gigante con el Papa"
+  - nota: "debe causar mucho impacto: titular gigante sobre la foto de la Base Aérea Las Palmas"
     titular: "**Sin pantallas y sin audio:** así despidieron al Papa en Las Palmas"
     texto: "Miles de fieles de los bloques del fondo **no pudieron ver ni escuchar** la misa."
-    foto: /img/uploads/misa-papa-pantalla-gigante-portada.jpg
-    foto_texto: "Vigilia en el Estadio Nacional. Foto: Aldair / Wikimedia Commons (CC BY-SA 4.0)."
+    foto: /img/uploads/base-las-palmas-explanada-portada.jpg
+    foto_texto: "Base Aérea Las Palmas. Foto: Ministerio de Defensa / Wikimedia Commons (CC BY 2.0)."
   - titular: "**1,5 millones** de fieles"
     texto: "Es la cifra que dio el Vaticano para la última misa de León XIV en el Perú."
     foto: /img/uploads/misa-papa-multitud-pantallas.jpg
@@ -41,11 +41,11 @@ carrusel:
     foto_texto: "Foto: Aldair / Wikimedia Commons (CC BY-SA 4.0)."
   - titular: "Empujones y **niños perdidos**"
     texto: "Filas sin orden desde la madrugada, hasta **cuatro colas** en la puerta 8 y menores separados de sus padres."
-    foto: /img/uploads/base-aerea-las-palmas-surco.jpg
+    foto: /img/uploads/base-las-palmas-explanada-portada.jpg
     foto_texto: "Base Aérea Las Palmas. Foto: Ministerio de Defensa / Wikimedia Commons (CC BY 2.0)."
   - titular: "Nadie **da la cara**"
     texto: "Ni la Arquidiócesis, ni la Fuerza Aérea, ni el Gobierno explican qué falló ni quién responde."
-    foto: /img/uploads/base-aerea-las-palmas-surco.jpg
+    foto: /img/uploads/base-las-palmas-explanada-portada.jpg
     foto_texto: "Base Aérea Las Palmas. Foto: Ministerio de Defensa / Wikimedia Commons (CC BY 2.0)."
   - titular: "Los que más esperaron, **los que menos vieron**"
     texto: "Llegaron de madrugada y aguantaron el sol. **¿Quién les pide disculpas?**"
@@ -86,8 +86,6 @@ Lo que sí está confirmado es que hubo problemas. El padre **Arturo Alcos**, in
 Los problemas no se limitaron a la ceremonia. Las puertas se abrieron la noche del domingo y desde entonces se reportaron filas interminables, empujones y falta de orientación. En la puerta 8 llegaron a formarse hasta **cuatro colas distintas**. "Todo es un desorden. Nadie ha venido haciendo nada, nadie nos está orientando", dijo una asistente a RPP. En la puerta 7, un video difundido en redes mostró empujones mientras la policía intentaba contener a la multitud.
 
 Infobae confirmó casos de **niños que se separaron de sus padres** entre la multitud. Los asistentes también se quejaron de la escasa presencia de policías y voluntarios, de la mala señal telefónica y de la falta de buses del Metropolitano en las estaciones Naranjal y UNI.
-
-![La Base Aérea Las Palmas, en Surco](/img/uploads/base-aerea-las-palmas-surco.jpg "La Base Aérea Las Palmas, en Surco, administrada por la Fuerza Aérea. Foto: Ministerio de Defensa / Wikimedia Commons (CC BY 2.0).")
 
 Dentro de la base, con temperaturas cercanas a los **30 grados**, la situación se complicó para los más vulnerables. Familias con niños pequeños, adultos mayores y personas en silla de ruedas quedaron atrapados entre la gente que intentaba entrar y la que quería salir. "Hay mucha gente y no hemos podido salir. La gente entra y nosotros queríamos salir, ahí hay un cartel que dice salida", contó una mujer a América TV, que reportó puertas de salida a medio abrir.
 
