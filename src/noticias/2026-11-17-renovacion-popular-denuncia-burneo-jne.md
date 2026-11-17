@@ -4,18 +4,18 @@ titulo_seo: "Renovación Popular denuncia a Roberto Burneo, presidente del JNE, 
 temas: ["Rafael López Aliaga", "JNE", "Renovación Popular"]
 date: 2026-11-17T13:00:00-05:00
 resumen: "Doce diputados de la bancada denunciaron constitucionalmente a Roberto Burneo por usurpación de funciones y abuso de autoridad. Su supuesto delito fue votar una resolución que impide a exalcaldes volver al sillón municipal como primeros regidores, el camino que eligió el líder de su partido."
-imagen: /img/uploads/jne-fachada-letras-portada-4k.jpg
-imagen_texto: "Fachada de la sede del Jurado Nacional de Elecciones, en el Centro de Lima."
-imagen_fuente: "Foto: Brenda1611 / Wikimedia Commons (CC BY-SA 4.0)."
+imagen: /img/uploads/denuncia-burneo-portada-ia.jpg
+imagen_texto: "Rafael López Aliaga y Roberto Burneo, presidente del JNE."
+imagen_fuente: "Fotomontaje con IA (referencial)."
 tipo: Noticia
 exclusivo: false
 corto: "denuncia-burneo"
 carrusel:
-  - nota: "debe causar mucho impacto: titular gigante sobre la fachada del JNE"
+  - nota: "debe causar mucho impacto: titular gigante sobre López Aliaga y Burneo"
     titular: "Renovación Popular quiere **destituir al presidente del JNE**"
     texto: "Por frenar la reelección encubierta de López Aliaga."
-    foto: /img/uploads/jne-fachada-letras-portada-4k.jpg
-    foto_texto: "Sede del JNE. Foto: Brenda1611 / Wikimedia Commons (CC BY-SA 4.0)."
+    foto: /img/uploads/denuncia-burneo-portada-ia.jpg
+    foto_texto: "López Aliaga y Burneo. Fotomontaje con IA (referencial)."
   - titular: "**10 años** de inhabilitación"
     texto: "Lo acusan de **usurpación de funciones** y **abuso de autoridad**."
     foto: /img/uploads/denuncia-burneo-petitorio.jpg
