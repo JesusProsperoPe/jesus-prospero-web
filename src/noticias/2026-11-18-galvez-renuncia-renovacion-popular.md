@@ -4,18 +4,18 @@ titulo_seo: "Jesús Gálvez renuncia a Renovación Popular a pedido de López Al
 temas: ["Rafael López Aliaga", "Renovación Popular", "Lima"]
 date: 2026-11-18T12:00:00-05:00
 resumen: "Jesús Gálvez, alcalde de Jesús María y tercer regidor electo de Lima, renunció al partido a pedido de su líder. «En contra de mi voluntad», escribió. Si Jeanette Alonzo no asume o deja el cargo, la alcaldía le correspondería a él."
-imagen: /img/uploads/municipalidad-jesus-maria-portada-4k.jpg
-imagen_texto: "Sede de la Municipalidad de Jesús María, distrito que gobierna Jesús Gálvez."
-imagen_fuente: "Foto: AbrahamMendoza2021 / Wikimedia Commons (CC BY-SA 4.0)."
+imagen: /img/uploads/galvez-renuncia-portada-ia.jpg
+imagen_texto: "Jesús Gálvez y Rafael López Aliaga."
+imagen_fuente: "Fotomontaje con IA (referencial)."
 tipo: Noticia
 exclusivo: false
 corto: "galvez-renuncia"
 carrusel:
-  - nota: "debe causar mucho impacto: titular gigante sobre la fachada de la Municipalidad de Jesús María"
+  - nota: "debe causar mucho impacto: titular gigante sobre Gálvez y López Aliaga"
     titular: "López Aliaga **saca de su partido** al tercero en la sucesión de Lima"
     texto: "Jesús Gálvez renunció a Renovación Popular \"**en contra de mi voluntad**\"."
-    foto: /img/uploads/municipalidad-jesus-maria-portada-4k.jpg
-    foto_texto: "Municipalidad de Jesús María. Foto: AbrahamMendoza2021 / Wikimedia Commons (CC BY-SA 4.0)."
+    foto: /img/uploads/galvez-renuncia-portada-ia.jpg
+    foto_texto: "Gálvez y López Aliaga. Fotomontaje con IA (referencial)."
   - titular: "**15 años** de militancia"
     texto: "Terminaron con un mensaje de **WhatsApp**."
     foto: /img/uploads/municipalidad-jesus-maria-portada-4k.jpg
@@ -54,6 +54,8 @@ Quince años de militancia terminaron con un mensaje de WhatsApp. **Jesús Gálv
 En su carta, dirigida a la presidencia del partido, Gálvez dejó claro que la salida no fue voluntaria. Escribió que el pedido lo tomó "por sorpresa" y le generó "desconcierto". "Nunca imaginé que, después de tantos años de compartir un camino político y de trabajar con compromiso y lealtad, tendría que tomar una decisión como esta **en contra de mi voluntad**", se lee en el documento, citado por [RPP](https://rpp.pe/politica/actualidad/jesus-galvez-tercer-regidor-electo-por-lima-renuncio-a-renovacion-popular-a-pedido-de-rafael-lopez-aliaga-noticia-1718309).
 
 El pedido le llegó por escrito y sin conversación de por medio. "El día domingo tenemos una comunicación a través del WhatsApp —no hemos podido conversar de manera directa, verbalmente— donde me hace algunas aclaraciones y en las cuales no pude presentar mis descargos. Dentro de la comunicación me solicita que mejor **dé un paso al costado**", contó en el podcast "Siempre a las 8" de El Comercio, según recogió [Altavoz](https://altavoz.pe/politica/tercer-regidor-electo-por-lima-tras-renunciar-a-renovacion-popular-por-pedido-de-lopez-aliaga-le-llego-informacion-tergiversada/).
+
+![Fachada de la Municipalidad de Jesús María](/img/uploads/municipalidad-jesus-maria-portada-4k.jpg "Municipalidad de Jesús María, distrito que gobierna Gálvez. Foto: AbrahamMendoza2021 / Wikimedia Commons (CC BY-SA 4.0).")
 
 ## "Información distorsionada"
 
