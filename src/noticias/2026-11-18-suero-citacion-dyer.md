@@ -2,7 +2,7 @@
 title: "Sueros por más de S/31 millones bajo cuestionamiento: Congreso cita a Dyer"
 titulo_seo: "Congreso cita a Luis Dyer, Digemid, Cenares e INS por fallas reportadas en sueros fisiológicos"
 temas: ["Minsa", "Congreso", "Salud pública"]
-date: 2026-11-18T07:40:00-05:00
+date: 2026-11-18T07:33:00-05:00
 resumen: "La Comisión de Salud acordó por unanimidad invitar al ministro y a autoridades sanitarias. También llamó al exministro César Vásquez y al exviceministro Henry Rebaza por la compra y distribución cuestionadas."
 imagen: /img/uploads/suero-citacion-2026-0.jpg
 imagen_texto: "Sede del Ministerio de Salud en Lima, en una fotografía de archivo de abril de 2022."
