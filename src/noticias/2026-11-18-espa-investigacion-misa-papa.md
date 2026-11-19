@@ -4,9 +4,9 @@ titulo_seo: "Carlos Espá anuncia investigación por fallas en la misa del papa 
 temas: ["Carlos Espá", "León XIV", "Cancillería"]
 date: 2026-11-18T20:00:00-05:00
 resumen: "«Siempre tiene que haber responsables», dijo el canciller desde la cumbre APEC en China. Fue su despacho el que contrató sin licitación, por más de 11 millones de soles, el sonido, las pantallas y los generadores que fallaron en Las Palmas."
-imagen: /img/uploads/espa-atril-cancilleria-portada-4k.jpg
-imagen_texto: "El canciller Carlos Espá en la Cancillería, el 3 de agosto de 2026."
-imagen_fuente: "Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons (CC BY-SA 4.0)."
+imagen: /img/uploads/espa-apec-portada-4k.jpg
+imagen_texto: "El canciller Carlos Espá durante su enlace desde la cumbre APEC 2026 en China."
+imagen_fuente: "Captura del enlace desde la cumbre APEC 2026."
 tipo: Noticia
 exclusivo: false
 corto: "espa-misa-papa"
@@ -14,12 +14,12 @@ carrusel:
   - nota: "debe causar mucho impacto: titular gigante sobre la foto de Espá"
     titular: "Espá promete **\"últimas consecuencias\"** por la misa del Papa"
     texto: "Pero fue su Cancillería la que contrató **sin licitación** a las empresas de las fallas."
-    foto: /img/uploads/espa-atril-cancilleria-portada-4k.jpg
-    foto_texto: "Carlos Espá. Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons (CC BY-SA 4.0)."
+    foto: /img/uploads/espa-apec-portada-4k.jpg
+    foto_texto: "Espá en su enlace desde la cumbre APEC 2026."
   - titular: "\"Siempre tiene que haber **responsables**\""
     texto: "Lo dijo desde **China**, en la cumbre APEC."
-    foto: /img/uploads/espa-enlace-apec-2026.jpg
-    foto_texto: "Espá en su enlace desde la cumbre APEC 2026."
+    foto: /img/uploads/espa-atril-cancilleria-portada-4k.jpg
+    foto_texto: "Carlos Espá. Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons (CC BY-SA 4.0)."
   - titular: "**S/ 11 millones**"
     texto: "Es lo que comprometió el Estado en sonido, pantallas y generadores para Las Palmas."
     foto: /img/uploads/torre-tagle-balcones-4k.jpg
@@ -34,7 +34,7 @@ carrusel:
     foto_texto: "Carlos Espá en agosto de 2026. Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons (CC BY-SA 4.0)."
   - titular: "Fieles **sin imagen ni sonido**"
     texto: "Muchos se fueron antes del final. La Cancillería pidió disculpas."
-    foto: /img/uploads/espa-enlace-apec-2026.jpg
+    foto: /img/uploads/espa-apec-portada-4k.jpg
     foto_texto: "Espá en su enlace desde la cumbre APEC 2026."
   - titular: "\"No vale que una empresa diga **que fue otra empresa**\""
     texto: "Pero Pow Sang dice que cumplió y apunta al **Vaticano y al IRTP**."
@@ -51,10 +51,7 @@ carrusel:
 ---
 El canciller **Carlos Espá** anunció una investigación por las fallas de audio y video que arruinaron la misa de despedida del papa León XIV en la Base Aérea Las Palmas, el pasado lunes **16 de noviembre**. "**Siempre tiene que haber responsables**", afirmó desde China, donde participa en la cumbre del Foro de Cooperación Económica Asia-Pacífico. "Vamos a llegar hasta las últimas consecuencias", agregó, según [La República](https://larepublica.pe/politica/2026/11/18/carlos-espa-anuncia-investigacion-por-fallas-tecnicas-en-la-misa-del-papa-leon-xiv-siempre-hay-responsables-hnews-476388).
 
-<figure style="margin:1.5em auto;max-width:656px">
-<img src="/img/uploads/espa-enlace-apec-2026.jpg" alt="Carlos Espá en un enlace desde la cumbre APEC 2026 en China" style="width:100%;height:auto">
-<figcaption>Espá durante su enlace desde la cumbre APEC 2026, en China.</figcaption>
-</figure>
+![Carlos Espá habla en un atril junto a la bandera del Perú](/img/uploads/espa-atril-cancilleria-portada-4k.jpg "Espá en la Cancillería, el 3 de agosto de 2026. Foto: Ministerio de Relaciones Exteriores / Wikimedia Commons (CC BY-SA 4.0).")
 
 Espá preside la comisión de alto nivel que organizó la visita del pontífice y la Cancillería fue el sector encargado de coordinarla. El ministro aseguró que la investigación busca aplicar a las empresas las penalidades contempladas en los contratos y advirtió que "no vale ahora que una empresa diga que fue otra empresa". También dijo que el ministerio asumirá la parte de responsabilidad que le corresponde como ente coordinador.
 
