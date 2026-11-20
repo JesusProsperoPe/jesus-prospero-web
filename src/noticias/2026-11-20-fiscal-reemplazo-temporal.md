@@ -4,9 +4,9 @@ titulo_seo: "Fiscal de la Nación: nuevas reglas de reemplazo temporal según Re
 temas: ["Ministerio Público", "Fiscalía de la Nación", "Tomás Gálvez"]
 date: 2026-11-20T12:32:53.000-05:00
 resumen: "Hasta 15 días de ausencia, el despacho de la Fiscalía de la Nación dispondrá el reemplazo; por encima de ese plazo, decidirá la Junta de Fiscales Supremos. La resolución fue publicada hoy."
-imagen: /img/uploads/fiscal-reemplazo-20nov-portada.jpg
-imagen_texto: "Sede central del Ministerio Público en Lima. Fotografía de archivo de 2017."
-imagen_fuente: "Foto: Felipe Restrepo Acosta / Wikimedia Commons (CC BY-SA 4.0). Recorte a 16:9."
+imagen: /img/uploads/fiscal-reemplazo-inauguracion-portada-4k.jpg
+imagen_texto: "Inauguración de un despacho de Fiscal Adjunto Provincial del Ministerio Público."
+imagen_fuente: "Foto: Ministerio Público (difusión)."
 tipo: Noticia
 exclusivo: false
 corto: "fiscal-reemplazo-temporal"
@@ -71,7 +71,5 @@ Como sustento, la resolución señala que la Ley Orgánica del Ministerio Públi
 ## También afecta la conducción de las sesiones
 
 El artículo 20 queda vinculado al mismo procedimiento para determinar quién preside las sesiones de la Junta cuando falta el fiscal de la Nación. **La resolución no designa a una persona concreta como sustituta ni anuncia una ausencia del titular**: establece las reglas que se aplicarán cuando corresponda un reemplazo temporal.
-
-**Portada y licencia:** [Sede central del Ministerio Público, fotografía de Felipe Restrepo Acosta](https://commons.wikimedia.org/wiki/File:2017_Lima_-_Sede_central_del_Ministerio_P%C3%BAblico_del_Per%C3%BA.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Imagen de archivo de 2017, recortada a formato horizontal.
 
 **Fuentes:** [Resolución oficial — El Peruano](https://busquedas.elperuano.pe/dispositivo/NL/2576674-1) · [El Peruano: explicación de las nuevas reglas](https://www.elperuano.pe/noticia/309382-quien-reemplaza-al-fiscal-de-la-nacion-si-se-ausenta-conoce-las-nuevas-reglas) · [LP: texto y análisis del cambio reglamentario](https://lpderecho.pe/junta-de-fiscales-supremos-establece-nuevos-criterios-de-reemplazo-temporal-del-fiscal-de-la-nacion-resolucion-120-2026-mp-fn-jfs/).
