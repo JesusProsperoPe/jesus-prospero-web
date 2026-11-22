@@ -4,9 +4,9 @@ titulo_seo: "Presupuesto 2027 suspende la Ley de Idoneidad 31419: gobierno de Ke
 temas: ["Congreso", "Presupuesto 2027", "Keiko Fujimori", "Fuerza Popular"]
 date: 2026-11-21T12:30:00-05:00
 resumen: "Una disposición incluida en el texto final suspende durante todo 2027 la exigencia de experiencia laboral específica que impone la Ley de Idoneidad a los cargos de confianza del Ejecutivo. Fuerza Popular votó en bloque a favor, y parte de la oposición le allanó el camino."
-imagen: /img/uploads/idoneidad-arista-portada-4k.jpg
-imagen_texto: "José Arista, de Fuerza Popular, presidente de la Comisión Bicameral de Presupuesto, sustentó el texto final."
-imagen_fuente: "Foto: Congreso de la República (difusión)."
+imagen: /img/uploads/idoneidad-keiko-dyer-portada-4k.jpg
+imagen_texto: "Keiko Fujimori y Allan Dyer Quiñonez, con el Congreso y Palacio de Gobierno de fondo."
+imagen_fuente: "Fotomontaje elaborado con inteligencia artificial (referencial). No muestra un hecho real."
 tipo: Noticia
 exclusivo: false
 corto: "ley-idoneidad"
@@ -34,6 +34,8 @@ En aquel momento, buena parte del Congreso, con el fujimorismo a la cabeza, cues
 ## El texto lo trajo Fuerza Popular
 
 El texto sustitutorio final fue sustentado ante el Pleno por **José Arista**, de Fuerza Popular, presidente de la Comisión Bicameral de Presupuesto y exministro de Economía. Según la información oficial del Congreso, Arista explicó que evaluó las propuestas del debate conjuntamente con el Ministerio de Economía y Finanzas del gobierno de Keiko Fujimori.
+
+![José Arista en el Congreso](/img/uploads/idoneidad-jose-arista.jpg "José Arista, de Fuerza Popular, presidente de la Comisión Bicameral de Presupuesto, sustentó el texto final. Foto: Congreso de la República (difusión).")
 
 ## Cómo votó cada partido
 
