@@ -4,9 +4,9 @@ titulo_seo: "Keiko Fujimori y Xi Jinping: la pesca de pota de la flota china fre
 temas: ["Keiko Fujimori", "China", "Pesca"]
 date: 2026-11-25T08:00:00-05:00
 resumen: "Mientras el gobierno celebra una donación de 22.5 millones de dólares, cientos de barcos chinos siguen llevándose la pota en el límite de nuestras 200 millas. Un excongresista estima el perjuicio en más de 4 mil millones de dólares."
-imagen: /img/uploads/flota-china-muelle-paita-4k.jpg
-imagen_texto: "Muelle de Paita, en Piura, uno de los principales puertos de la pesca artesanal de pota en el norte del Perú."
-imagen_fuente: "Foto: La Libertad KRC / Wikimedia Commons (CC BY-SA 2.0). Recorte a 16:9."
+imagen: /img/uploads/flota-china-barco-portada-4k.jpg
+imagen_texto: "Un barco pesquero con bandera china frente a una bandera peruana, con más embarcaciones al fondo."
+imagen_fuente: "Imagen elaborada con inteligencia artificial (referencial). No muestra un hecho real."
 tipo: Noticia
 exclusivo: false
 corto: "flota-china-pota"
@@ -20,6 +20,8 @@ Así lo advirtió el excongresista y especialista en temas pesqueros **Roberto V
 Vieira va más allá y le pone un número al daño. "China nos ha robado recursos pesqueros por encima de los **US$ 4,000 millones** de dólares, una cifra que duplica lo invertido en Chancay", afirmó. El excongresista no ha detallado el periodo ni el método de su cálculo, pero la comparación es elocuente. Frente a ese perjuicio, la donación anunciada por el gobierno representa **poco más del medio por ciento**.
 
 Otras estimaciones son menores, aunque igual de preocupantes. La Sociedad Nacional de Pesquería Artesanal del Perú (Sonapescal) calcula que la pesca no declarada y no reglamentada de la flota china generó pérdidas por unos **300 millones de dólares** y afectó a más de 20 mil pescadores artesanales y sus familias, según [Expreso](https://www.expreso.com.pe/economia/barcos-ilegales-de-china-dejan-millonarias-perdidas-por-mas-us-300-millones-segun-sociedad-nacional-de-pesca-artesana-produce-noticia/1127099/).
+
+![Muelle de Paita](/img/uploads/flota-china-muelle-paita-4k.jpg "Muelle de Paita, en Piura, uno de los principales puertos de la pesca artesanal de pota. Foto: La Libertad KRC / Wikimedia Commons (CC BY-SA 2.0).")
 
 ## Más pota para China que para el Perú
 
