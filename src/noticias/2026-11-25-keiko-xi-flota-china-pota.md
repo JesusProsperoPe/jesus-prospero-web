@@ -1,6 +1,6 @@
 ---
-title: "Keiko no mencionó ante Xi Jinping la pesca de la flota china frente al Perú"
-titulo_seo: "Keiko Fujimori y Xi Jinping: la pesca de pota de la flota china frente al Perú quedó fuera de la agenda"
+title: "Flota china se habría llevado más de 4 mil millones de dólares en pota de manera ilegal"
+titulo_seo: "Flota china se habría llevado más de 4 mil millones de dólares en pota peruana de manera ilegal, y Keiko Fujimori no lo tocó ante Xi Jinping"
 temas: ["Keiko Fujimori", "China", "Pesca"]
 date: 2026-11-25T08:00:00-05:00
 resumen: "Mientras el gobierno celebra una donación de 22.5 millones de dólares, cientos de barcos chinos siguen llevándose la pota en el límite de nuestras 200 millas. Un excongresista estima el perjuicio en más de 4 mil millones de dólares."
