@@ -10,7 +10,6 @@ eleventyExcludeFromCollections: true
   {%- endif %}
   <url><loc>{{ site.url }}/columnas/</loc></url>
   <url><loc>{{ site.url }}/sobre-mi/</loc></url>
-  <url><loc>{{ site.url }}/suscribete/</loc></url>
   <url><loc>{{ site.url }}/contacto/</loc></url>
   <url><loc>{{ site.url }}/privacidad/</loc></url>
   <url><loc>{{ site.url }}/politica-editorial/</loc></url>
@@ -30,7 +29,4 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}{{ t.url }}</loc><lastmod>{{ t.date | fechaIso }}</lastmod></url>
   {%- endfor %}
   {%- endif %}
-  {%- for t in collections.temas %}{% if t.items.length >= 5 %}
-  <url><loc>{{ site.url }}/temas/{{ t.slug }}/</loc><lastmod>{{ t.items[0].date | fechaIso }}</lastmod></url>
-  {%- endif %}{% endfor %}
 </urlset>

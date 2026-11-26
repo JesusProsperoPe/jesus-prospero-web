@@ -9,8 +9,8 @@ eleventyComputed:
   title: "{{ tema.nombre }}"
   titulo_seo: "{{ tema.nombre }}: noticias, columnas y viñetas · Jesus Prospero"
   resumen: "Todo lo que Jesus Prospero ha publicado sobre {{ tema.nombre }}: columnas, noticias y viñetas de política peruana."
-  # Los temas con pocas publicaciones son listas muy cortas: Google no las indexa (ver sitemap.njk)
-  noindex: "{% if tema.items.length < 5 %}true{% endif %}"
+  # Las páginas de temas solo listan notas (sin texto propio): ocultas de Google desde el 26-11-2026 (AdSense)
+  noindex: "true"
 ---
 <section class="contenedor seccion seccion-archivo">
   <header class="pagina-cabeza">
