@@ -47,8 +47,6 @@ carrusel:
     texto: "La iniciativa propone modificar el artículo 23 de la Ley de Elecciones Municipales."
     foto: /img/uploads/balotaje-lima-congreso-archivo.jpg
     foto_texto: "Herwarth Morales / Wikimedia Commons, CC BY-SA 4.0."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 Una iniciativa de Ahora Nación propone que una lista necesite **al menos el 30 % de los votos válidos** para ganar la alcaldía de Lima Metropolitana en primera vuelta. El diputado César Muedas presentó el proyecto para modificar el artículo 23 de la Ley de Elecciones Municipales. [Proyecto 00757/2026-CD](https://img.lpderecho.pe/wp-content/uploads/2026/11/PL-00757-2026-2031-CD-LP-Derecho.pdf) · [RPP](https://rpp.pe/politica/elecciones/congreso-presentan-proyecto-de-ley-para-establecer-segunda-vuelta-en-elecciones-municipales-noticia-1715995).
 
@@ -66,6 +64,20 @@ Como sustento, el proyecto cita que Renovación Popular obtuvo 26,342 % de los v
 
 ![Porcentajes citados en la exposición de motivos frente al umbral propuesto](/img/uploads/balotaje-lima-votos.png "Elaboración propia con datos de la exposición de motivos. Para 2026 se reproduce el corte citado por los autores.")
 
+## Alcaldes con poco respaldo
+
+El problema que plantea el proyecto es concreto. Con el sistema actual, basta con quedar primero para gobernar una ciudad de casi 10 millones de habitantes, aunque tres de cada cuatro votantes hayan elegido a otro candidato. En las dos últimas elecciones, la lista ganadora en Lima obtuvo menos del 30 % de los votos válidos, según [El Comercio](https://elcomercio.pe/politica/congreso/diputado-de-ahora-nacion-cesar-muedas-presenta-proyecto-para-establecer-segunda-vuelta-en-la-alcaldia-de-lima-ultimas-apuesplan-noticia/).
+
+En ambos casos el beneficiado fue **Renovación Popular**. En 2022, Rafael López Aliaga ganó la alcaldía con alrededor de una cuarta parte de los votos válidos. Ese respaldo limitado no impidió que su gestión tomara decisiones de gran impacto, como el endeudamiento de la Municipalidad.
+
+## Lo que falta para que sea ley
+
+La segunda vuelta ya existe para las elecciones regionales: un candidato a gobernador necesita el 30 % para ganar en primera vuelta, como ocurre este año en quince regiones. El proyecto de Muedas extiende esa misma lógica solo a la capital y no toca al resto de municipalidades, según [La República](https://larepublica.pe/politica/2026/11/05/ahora-nacion-presenta-proyecto-de-ley-para-establecer-segunda-vuelta-electoral-en-lima-metropolitana-hnews-404580).
+
+Hasta ahora no se ha informado de un dictamen ni de su debate en comisión. Para aplicarse en las próximas elecciones municipales, la reforma tendría que aprobarse con anticipación, porque la ley electoral exige que los cambios estén vigentes con al menos un año de anticipación a la elección.
+
 La iniciativa está en trámite legislativo. Su exposición de motivos reconoce que organizar una segunda jornada implicaría gastos de logística, cédulas y fiscalización. [Proyecto de ley](https://img.lpderecho.pe/wp-content/uploads/2026/11/PL-00757-2026-2031-CD-LP-Derecho.pdf).
+
+**Fuentes:** [Proyecto de ley](https://img.lpderecho.pe/wp-content/uploads/2026/11/PL-00757-2026-2031-CD-LP-Derecho.pdf) · [RPP](https://rpp.pe/politica/elecciones/congreso-presentan-proyecto-de-ley-para-establecer-segunda-vuelta-en-elecciones-municipales-noticia-1715995) · [El Comercio](https://elcomercio.pe/politica/congreso/diputado-de-ahora-nacion-cesar-muedas-presenta-proyecto-para-establecer-segunda-vuelta-en-la-alcaldia-de-lima-ultimas-apuesplan-noticia/) · [La República](https://larepublica.pe/politica/2026/11/05/ahora-nacion-presenta-proyecto-de-ley-para-establecer-segunda-vuelta-electoral-en-lima-metropolitana-hnews-404580).
 
 **Portada:** [fotografía de Txolo](https://commons.wikimedia.org/wiki/File:Segunda_vuelta_elecciones_generales_de_Per%C3%BA_2021_14.jpg), CC BY-SA 4.0.

@@ -10,8 +10,6 @@ imagen_fuente: "Foto: Lenin Domínguez E / Wikimedia Commons, CC BY-SA 4.0. Reco
 tipo: Noticia
 exclusivo: false
 corto: "trabajo-el-nino"
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 
 El **Ministerio de Trabajo y Promoción del Empleo (MTPE) aprobó un protocolo nacional de seguridad y salud laboral ante el fenómeno El Niño**. La medida se oficializó este domingo 1 de noviembre mediante la [Resolución Ministerial 341-2026-TR, publicada en El Peruano](https://busquedas.elperuano.pe/dispositivo/NL/2570392-1), fechada el 30 de octubre.
@@ -34,7 +32,19 @@ Entre sus fundamentos, el MTPE recuerda que la Ley de Seguridad y Salud en el Tr
 
 Según la [información difundida por El Peruano](https://www.elperuano.pe/noticia/308084-fenomeno-el-nino-mtpe-aprueba-protocolo-para-prevenir-riesgos-y-proteger-a-trabajadores), la medida se enmarca en las acciones frente a El Niño 2026-2027. Su alcance comprende también el regreso seguro a las actividades, además de la atención durante la emergencia.
 
-**Fuentes:** [Resolución Ministerial 341-2026-TR](https://busquedas.elperuano.pe/dispositivo/NL/2570392-1) · [Gestión](https://gestion.pe/economia/el-nino-aprueban-protocolo-de-seguridad-y-salud-en-el-trabajo-para-enfrentar-el-fenomeno-noticia/) · [El Peruano](https://www.elperuano.pe/noticia/308084-fenomeno-el-nino-mtpe-aprueba-protocolo-para-prevenir-riesgos-y-proteger-a-trabajadores).
+## Qué deben revisar los empleadores
+
+Antes del protocolo, la Superintendencia Nacional de Fiscalización Laboral (Sunafil) ya había pedido a las empresas prepararse. Entre sus recomendaciones figura actualizar la **matriz IPERC**, el documento que identifica los peligros de cada puesto, para incluir lluvias, inundaciones, estrés térmico y cortes de luz, según [El Peruano](https://www.elperuano.pe/noticia/301835-el-nino-costero-seguiria-hasta-abril-de-2027-sunafil-alerta-sobre-medidas-en-los-centros-de-trabajo).
+
+Sunafil también pide inspeccionar techos, drenajes, instalaciones eléctricas y rutas de evacuación, y capacitar a los trabajadores sobre los riesgos y los procedimientos de emergencia. Las instalaciones eléctricas expuestas al agua deben ser revisadas y reparadas por personal calificado, según [El Peruano](https://elperuano.pe/noticia/302869-el-nino-costero-sunafil-pide-reforzar-la-prevencion-y-seguridad-ante-lluvias-calor-e-inundaciones).
+
+## Los más expuestos
+
+El riesgo no es igual para todos. Los trabajadores de la construcción, la agricultura, el transporte y la pesca, muchos de ellos informales, son los más expuestos a las lluvias, los huaicos y el calor extremo. En un país donde cerca de siete de cada diez ocupados trabajan en la informalidad, un protocolo que se aplica a través de los sistemas de seguridad de las empresas deja fuera a buena parte de ellos.
+
+Sunafil anunció talleres regionales sobre preparación y respuesta de los centros de trabajo frente a El Niño, empezando por el norte del país, según [El Peruano](https://elperuano.pe/noticia/307608-sunafil-fortalecera-gestion-de-riesgos). El [ENFEN](https://enfen.imarpe.gob.pe/2026/11/13/comunicado-oficial-enfen-n20-2026/) prevé que el evento mantenga magnitud extraordinaria hasta febrero de 2027, de modo que la prueba del protocolo serán los próximos meses.
+
+**Fuentes:** [Resolución Ministerial 341-2026-TR](https://busquedas.elperuano.pe/dispositivo/NL/2570392-1) · [Gestión](https://gestion.pe/economia/el-nino-aprueban-protocolo-de-seguridad-y-salud-en-el-trabajo-para-enfrentar-el-fenomeno-noticia/) · [El Peruano](https://www.elperuano.pe/noticia/308084-fenomeno-el-nino-mtpe-aprueba-protocolo-para-prevenir-riesgos-y-proteger-a-trabajadores) · [El Peruano: Sunafil](https://www.elperuano.pe/noticia/301835-el-nino-costero-seguiria-hasta-abril-de-2027-sunafil-alerta-sobre-medidas-en-los-centros-de-trabajo) · [ENFEN](https://enfen.imarpe.gob.pe/2026/11/13/comunicado-oficial-enfen-n20-2026/).
 
 
 **Procedencia de la portada:** [Fotografía original de la sede del MTPE](https://commons.wikimedia.org/wiki/File:Ministerio_del_trabajo.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Imagen de archivo del 10 de abril de 2022.

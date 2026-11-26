@@ -47,8 +47,6 @@ carrusel:
     texto: "La norma no prueba por sí sola que las obras o intervenciones ya se ejecutaron."
     foto: /img/uploads/piura-rio-archivo-2025.jpg
     foto_texto: "Río Piura con caudal bajo, febrero de 2025. El Surquillano / Wikimedia Commons, CC0. Archivo, no inundación actual."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 **El Gobierno declaró 60 días de emergencia ante El Niño, pero este decreto no incorpora recursos adicionales del Tesoro Público.** El artículo 3 del [DS 149-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2571017-4), publicado el 3 de noviembre, dispone utilizar los presupuestos institucionales de las entidades involucradas.
 
@@ -70,6 +68,18 @@ Corresponde actuar a gobiernos regionales y locales, con participación de diez 
 
 Indeci debe comunicar a la PCM los resultados de las acciones. **Ese reporte será una herramienta para exigir cuentas:** qué se hizo, con qué presupuesto y en qué distritos. La publicación de la norma es el inicio de esa obligación, no una certificación de resultados.
 
-**Fuentes:** [Decreto y anexo oficial](https://busquedas.elperuano.pe/dispositivo/NL/2571017-4) · [Infobae](https://www.infobae.com/peru/2026/11/03/peru-en-alerta-por-el-nino-declaran-emergencia-por-60-dias-ante-el-riesgo-de-lluvias-intensas-en-25-regiones/).
+## Un Niño extraordinario
+
+La emergencia responde a un evento que los científicos ya califican como excepcional. El [comunicado oficial 20-2026 del ENFEN](https://enfen.imarpe.gob.pe/2026/11/13/comunicado-oficial-enfen-n20-2026/), del 13 de noviembre, indica que El Niño costero, iniciado en marzo de 2026, se mantendría con **magnitud extraordinaria hasta febrero de 2027** y se debilitaría recién hacia julio de 2027. En el Pacífico central, El Niño seguiría con magnitud muy fuerte hasta febrero.
+
+Entre noviembre y enero se esperan lluvias por encima de lo normal en la costa norte, la sierra norte occidental, la costa central y la sierra central occidental, con más episodios de intensidad moderada a fuerte. [Gestión](https://gestion.pe/peru/el-nino-costero-extraordinario-se-extendera-hasta-febrero-de-2027-advierte-el-enfen-noticia/) advirtió también de ríos con caudales superiores a lo normal.
+
+## El recuerdo de 2017
+
+El antecedente más cercano es El Niño costero de 2017, cuando las lluvias e inundaciones en el norte dejaron más de un millón de afectados y obligaron a crear la Autoridad para la Reconstrucción con Cambios. Muchas de las obras de prevención prometidas entonces, como defensas ribereñas y drenajes pluviales, siguen sin terminarse casi una década después.
+
+Por eso el financiamiento importa. Si las entidades deben atender la emergencia con lo que ya tienen en su presupuesto, los gobiernos regionales y municipios con menos recursos serán los que tengan más dificultades para responder. El próximo comunicado del ENFEN está previsto para el 30 de noviembre.
+
+**Fuentes:** [Decreto y anexo oficial](https://busquedas.elperuano.pe/dispositivo/NL/2571017-4) · [Infobae](https://www.infobae.com/peru/2026/11/03/peru-en-alerta-por-el-nino-declaran-emergencia-por-60-dias-ante-el-riesgo-de-lluvias-intensas-en-25-regiones/) · [ENFEN](https://enfen.imarpe.gob.pe/2026/11/13/comunicado-oficial-enfen-n20-2026/) · [Gestión](https://gestion.pe/peru/el-nino-costero-extraordinario-se-extendera-hasta-febrero-de-2027-advierte-el-enfen-noticia/).
 
 **Imágenes:** la portada es una [fotografía aérea del Ministerio de Defensa en Piura, 2017](https://commons.wikimedia.org/wiki/File:ALISTAN_SEIS_REFUGIOS_EN_PIURA_PARA_ALBERGAR_A_DAMNIFICADOS_%2833570222966%29.jpg), CC BY 2.0. No documenta una inundación de 2026. Los dos gráficos son de elaboración propia a partir del decreto.

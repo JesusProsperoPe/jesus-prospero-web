@@ -47,8 +47,6 @@ carrusel:
     texto: "El mandato comprende el seguimiento de las políticas públicas que afectan a esta población."
     foto: /img/uploads/comision-pueblos-3.jpg
     foto_texto: "Franck Schneider / Wikimedia Commons, CC BY-SA 3.0. Recorte horizontal."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 El Senado aprobó por unanimidad el miércoles 11 de noviembre la creación de una comisión especial para fiscalizar las políticas públicas dirigidas a los pueblos indígenas u originarios, las comunidades campesinas y nativas y el pueblo afroperuano. La comisión estará integrada por **doce senadores titulares** y ejercerá sus funciones durante el periodo parlamentario **2026-2027**. [Comunicado del Congreso](https://comunicaciones.congreso.gob.pe/noticias/aprueban-acuerdo-que-crea-la-comision-especial-de-pueblos-indigenas-u-originarios-comunidades-campesinas-y-nativas-y-pueblo-afroperuano/).
 
@@ -64,6 +62,18 @@ La senadora **Mirtha Vásquez** sustentó la moción 00012-2026-2031-S. Durante 
 
 ![Músico en el distrito de El Carmen, Chincha](/img/uploads/comision-pueblos-3.jpg "Músico en El Carmen, Chincha, durante el rodaje del documental Negra, en 2005. Franck Schneider / Wikimedia Commons, CC BY-SA 3.0. Recorte horizontal.")
 
-**Fuentes:** [Congreso](https://comunicaciones.congreso.gob.pe/noticias/aprueban-acuerdo-que-crea-la-comision-especial-de-pueblos-indigenas-u-originarios-comunidades-campesinas-y-nativas-y-pueblo-afroperuano/) · [AIDESEP](https://aidesep.org.pe/noticias/senado-aprueba-por-unanimidad-la-creacion-de-comision-especial-de-pueblos-indigenas-y-afroperuano/) · [Servindi](https://www.servindi.org/seccion-pueblos-indigenas-actualidad-noticias/11/11/2026/buena-noticia-senado-acuerda-comision).
+## Un vacío que dejó la bicameralidad
+
+La nueva comisión nace para cubrir un hueco. Con el paso al Congreso bicameral desapareció la antigua **Comisión de Pueblos Andinos, Amazónicos y Afroperuanos**, que existía en el Parlamento unicameral, y estas poblaciones se quedaron sin un grupo de trabajo propio en el Senado, según [Servindi](https://www.servindi.org/seccion-pueblos-indigenas-actualidad-noticias/11/11/2026/buena-noticia-senado-acuerda-comision).
+
+La votación fue de **50 votos a favor**, sin votos en contra. Según [AIDESEP](https://aidesep.org.pe/noticias/senado-aprueba-por-unanimidad-la-creacion-de-comision-especial-de-pueblos-indigenas-y-afroperuano/), la comisión tendrá vigencia inicial hasta julio de 2027 y funciones parecidas a las de una comisión ordinaria, aunque será especial y no permanente. Funcionará con el apoyo del servicio parlamentario, por lo que no debería generar gasto adicional.
+
+## Lo que falta
+
+La aprobación es solo el primer paso. La comisión todavía debe instalarse y elegir a su presidencia, y hasta ahora el Senado no ha informado una fecha. Vásquez pidió que se instale pronto para fiscalizar las decisiones que afectan a estos pueblos, según [La República](https://larepublica.pe/politica/2026/11/11/pleno-del-senado-aprueba-la-creacion-de-una-comision-especial-de-pueblos-indigenas-hnews-998437).
+
+Los temas pendientes no son menores. Las organizaciones indígenas amazónicas vienen denunciando el avance de la minería ilegal, la tala y el narcotráfico en sus territorios, además de los derrames de petróleo. Que los doce senadores se elijan con pluralidad será clave para que la comisión no quede en manos de quienes impulsan esas actividades.
+
+**Fuentes:** [Congreso](https://comunicaciones.congreso.gob.pe/noticias/aprueban-acuerdo-que-crea-la-comision-especial-de-pueblos-indigenas-u-originarios-comunidades-campesinas-y-nativas-y-pueblo-afroperuano/) · [AIDESEP](https://aidesep.org.pe/noticias/senado-aprueba-por-unanimidad-la-creacion-de-comision-especial-de-pueblos-indigenas-y-afroperuano/) · [Servindi](https://www.servindi.org/seccion-pueblos-indigenas-actualidad-noticias/11/11/2026/buena-noticia-senado-acuerda-comision) · [La República](https://larepublica.pe/politica/2026/11/11/pleno-del-senado-aprueba-la-creacion-de-una-comision-especial-de-pueblos-indigenas-hnews-998437).
 
 **Créditos:** [Palacio Legislativo](https://commons.wikimedia.org/wiki/File:Palacio_del_congreso-5.jpg) y [Nuevo San Juan](https://commons.wikimedia.org/wiki/File:Elaboraci%C3%B3n_de_l%C3%ADnea_de_tiempo_en_Comunidad_Nativa_Nuevo_San_Juan_01.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [El Carmen](https://commons.wikimedia.org/wiki/File:Musiciens_%C3%A0_El_Carmen.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Fotografías de archivo.

@@ -47,8 +47,6 @@ carrusel:
     texto: "El proyecto dispone que Defensa informe al concluir las actividades."
     foto: /img/uploads/hansando-callao-temas.png
     foto_texto: "Fragmento del proyecto 00017-2026-2031-S. Fuente: Congreso."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 El pleno del Senado aprobó este miércoles **con 39 votos a favor y 11 en contra** el permiso para el ingreso y tránsito del buque de entrenamiento surcoreano **ROKS Hansando (ATH-81)** y su dotación. La propuesta, presentada por el Ejecutivo, contempla el ingreso con armamento a bordo como parte de un crucero de instrucción de la Marina de Corea del Sur. [Comunicado del Congreso](https://comunicaciones.congreso.gob.pe/noticias/senado-autoriza-ingreso-de-personal-militar-extranjero-al-territorio-peruano/).
 
@@ -64,6 +62,20 @@ El texto presentado por el Ejecutivo permite modificar la fecha de inicio median
 
 ![Disposiciones sobre cambios de fecha e informe al Senado](/img/uploads/hansando-callao-temas.png "Artículo 2 del proyecto presentado por el Ejecutivo. Fuente: Congreso.")
 
-**Fuentes:** [Resultado de la votación publicado por el Senado](https://comunicaciones.congreso.gob.pe/noticias/senado-autoriza-ingreso-de-personal-militar-extranjero-al-territorio-peruano/) · [Proyecto y anexo](https://api.congreso.gob.pe/spley-portal-service/archivo/NDE1NDUz/pdf).
+## La resolución ya se publicó
+
+Tras la votación, el permiso se oficializó mediante una [resolución legislativa publicada en El Peruano](https://busquedas.elperuano.pe/dispositivo/NL/2574993-1). La norma autoriza el ingreso y tránsito por aguas territoriales del ROKS Hansando y su dotación, con armas de guerra, y repite las fechas del proyecto: ingreso el 21 de noviembre y salida el 30.
+
+Según la ficha anexa, el objetivo es el **crucero de instrucción y entrenamiento de cadetes** de la Marina de la República de Corea. No se trata de ejercicios conjuntos con la Marina de Guerra del Perú.
+
+## Un viaje por siete países
+
+El Hansando, en servicio desde 2020, es el buque escuela más moderno de la Armada surcoreana. Zarpó el 11 de septiembre para un crucero de **130 días** que recorre siete países y diez puertos, y es la primera vez que este barco visita Chile y Perú, según [Defensa.com](https://www.defensa.com/chile/buque-hansando-ath-81-armada-corea-sur-hara-escala-chile-defensa) y [Zona Militar](https://www.zona-militar.com/2026/09/14/por-primera-vez-el-mas-avanzado-buque-de-entrenamiento-de-la-armada-de-corea-del-sur-visitara-chile-y-peru/).
+
+## Por qué vota el Senado
+
+La Constitución exige que el Congreso autorice el ingreso de tropas extranjeras con armas al territorio nacional, siempre que no afecte la soberanía. Desde la bicameralidad, esa autorización le corresponde al Senado. Los 11 votos en contra muestran que, aunque se trate de una visita de instrucción, una parte de la cámara mantiene reparos a este tipo de permisos.
+
+**Fuentes:** [Resultado de la votación publicado por el Senado](https://comunicaciones.congreso.gob.pe/noticias/senado-autoriza-ingreso-de-personal-militar-extranjero-al-territorio-peruano/) · [Proyecto y anexo](https://api.congreso.gob.pe/spley-portal-service/archivo/NDE1NDUz/pdf) · [Resolución legislativa](https://busquedas.elperuano.pe/dispositivo/NL/2574993-1) · [Defensa.com](https://www.defensa.com/chile/buque-hansando-ath-81-armada-corea-sur-hara-escala-chile-defensa) · [Zona Militar](https://www.zona-militar.com/2026/09/14/por-primera-vez-el-mas-avanzado-buque-de-entrenamiento-de-la-armada-de-corea-del-sur-visitara-chile-y-peru/).
 
 **Portada:** [Fotografía original de Chris Williamson](https://commons.wikimedia.org/wiki/File:U.S._and_ROK_Navy_Conduct_PASSEX_(8023122).jpg), Marina de Estados Unidos, dominio público.

@@ -47,8 +47,6 @@ carrusel:
     texto: "La votación del Senado autorizó la prórroga solicitada por el Ejecutivo."
     foto: /img/uploads/pisco-agenda.png
     foto_texto: "Agenda del pleno del Senado, 11 de noviembre, p. 4."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 El pleno del Senado aprobó el miércoles 11 de noviembre, por unanimidad, el pedido del Ejecutivo para **prorrogar por 60 días el estado de emergencia en los distritos de Pisco y San Andrés**, en Ica. La medida vigente, dictada mediante el Decreto Supremo 132-2026-PCM, vence el **18 de noviembre**. [Comunicado del Congreso](https://comunicaciones.congreso.gob.pe/noticias/senado-autorizo-prorroga-de-estado-de-emergencia-en-distritos-de-pisco-y-san-andres/) · [Cobertura de La Lupa](https://lalupa.pe/ica/senado-aprueba-por-unanimidad-prorrogar-emergencia-en-pisco-y-san-andres-125277).
 
@@ -63,5 +61,17 @@ Según el oficio del Ejecutivo reseñado por el Congreso, **la Policía Nacional
 ## Senadores piden cifras sobre los operativos
 
 Nora Bonifaz, Ruth Luque y Hugo Ccahuana pidieron al Ejecutivo que informe qué resultados han dejado los estados de emergencia en el país. Bonifaz preguntó cuántos operativos se realizaron, qué se consiguió y con qué indicadores se mide su efecto. Martha Moyano, presidenta de la Comisión de Control Político, dijo que había trasladado el pedido de información. El comunicado del Senado recoge esas intervenciones sin publicar cifras de operativos ni resultados para Pisco y San Andrés. [Comunicado del Congreso](https://comunicaciones.congreso.gob.pe/noticias/senado-autorizo-prorroga-de-estado-de-emergencia-en-distritos-de-pisco-y-san-andres/).
+
+## La prórroga ya está vigente
+
+El Ejecutivo oficializó la extensión con el [Decreto Supremo 151-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2574991-1), publicado el 14 de noviembre. La prórroga rige por 60 días calendario **desde el 19 de noviembre**, es decir, hasta mediados de enero de 2027, y mantiene las medidas de los artículos 4, 5 y 6 del decreto anterior, según [Radio Nacional](https://www.radionacional.gob.pe/noticias/politica/pisco-gobierno-prorroga-estado-de-emergencia-por-60-dias).
+
+## Casi un año en emergencia
+
+No es la primera extensión. Según [AP Noticias](https://www.apnoticias.pe/ica-gobierno-amplia-estado-de-emergencia-por-60-dias-en-los-distritos-de-pisco-y-san-andres-1523813), Pisco está bajo régimen de excepción desde el **9 de enero**, con renovaciones sucesivas. En julio, el Decreto Supremo 105-2026-PCM llegó a incluir cinco distritos de la provincia, entre ellos Paracas, San Clemente y Túpac Amaru Inca. Hoy la medida se concentra en Pisco y San Andrés.
+
+Durante un estado de emergencia se restringen derechos como la libertad de reunión y la inviolabilidad del domicilio. Por eso la pregunta de los senadores es pertinente: después de casi once meses de medidas excepcionales, **el Gobierno no ha presentado públicamente cifras** que muestren cuánto bajaron las extorsiones, los robos o los homicidios en la provincia.
+
+**Fuentes:** [Congreso](https://comunicaciones.congreso.gob.pe/noticias/senado-autorizo-prorroga-de-estado-de-emergencia-en-distritos-de-pisco-y-san-andres/) · [La Lupa](https://lalupa.pe/ica/senado-aprueba-por-unanimidad-prorrogar-emergencia-en-pisco-y-san-andres-125277) · [DS 132-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2556353-1) · [DS 151-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2574991-1) · [Radio Nacional](https://www.radionacional.gob.pe/noticias/politica/pisco-gobierno-prorroga-estado-de-emergencia-por-60-dias) · [AP Noticias](https://www.apnoticias.pe/ica-gobierno-amplia-estado-de-emergencia-por-60-dias-en-los-distritos-de-pisco-y-san-andres-1523813).
 
 **Créditos de las fotografías:** [Plaza de Armas de Pisco, Okumura4](https://commons.wikimedia.org/wiki/File:Plaza_moderna_de_pisco.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Playa de Pisco, Dtarazona](https://commons.wikimedia.org/wiki/File:Pisco_playa.jpg), dominio público.

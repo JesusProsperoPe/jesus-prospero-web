@@ -47,8 +47,6 @@ carrusel:
     texto: "Verificar los desembolsos y el mantenimiento ejecutado en cada colegio."
     foto: /img/uploads/colegios-lluvias-norma.png
     foto_texto: "Captura de la resolución oficial publicada en El Peruano."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 Pronied aprobó el listado de locales educativos beneficiarios del programa de mantenimiento ante las lluvias de El Niño 2026-2027. La resolución se publicó este sábado 7 de noviembre, como parte de un programa con **S/460.154.449 asignados**. [Resolución del listado](https://busquedas.elperuano.pe/dispositivo/NL/2572820-1) · [Norma técnica](https://busquedas.elperuano.pe/dispositivo/NL/2572385-1).
 
@@ -68,6 +66,18 @@ La Ley 32744 autoriza subvenciones mediante abonos en cuentas del Banco de la Na
 
 La resolución de Pronied ordena publicar el listado y su anexo en la sede digital de la entidad. Ese documento debe servir para que directores y familias contrasten la inclusión de su local educativo y puedan seguir el uso de los recursos. [Resolución del listado](https://busquedas.elperuano.pe/dispositivo/NL/2572820-1).
 
-**Fuentes:** [Pronied, resolución del listado](https://busquedas.elperuano.pe/dispositivo/NL/2572820-1) · [Minedu, norma técnica](https://busquedas.elperuano.pe/dispositivo/NL/2572385-1) · [Tu Diario Huánuco](https://tudiariohuanuco.pe/de-tu-interes/minedu-aprueba-mantenimiento-de-colegios-ante-el-nino-2026-2027-con-s-460-millones-y-obras-por-impuestos/).
+## Cuánto recibe cada colegio y cuándo
+
+El monto depende del estado del local. Los colegios sin canaletas ni bajantes pueden recibir hasta **S/36.809 por aula**, mientras que los que están en mejores condiciones reciben S/3.681 por aula, solo para limpieza. Ningún local puede recibir más de ocho UIT, según el resumen de la norma publicado por [Grupo Docente Perú](https://www.grupodocenteperu.com/blog/minedu-aprueba-norma-para-mantenimiento-de-colegios-ante-el-fenomeno-del-nino-2026-2027).
+
+Los directores tienen plazo hasta el **1 de diciembre** para registrar los trabajos que harán, y la transferencia del dinero está prevista para el **17 de diciembre**. El calendario es ajustado: el [ENFEN](https://enfen.imarpe.gob.pe/2026/11/13/comunicado-oficial-enfen-n20-2026/) prevé lluvias por encima de lo normal en la costa norte entre noviembre y enero, de modo que parte de los trabajos podría hacerse con las lluvias ya encima.
+
+## Quiénes quedaron fuera
+
+El programa solo cubre ocho ámbitos. Regiones como **San Martín** quedaron fuera del listado, según [Diario Voces](https://diariovoces.com.pe/san-martin-queda-fuera-de-los-s-460-millones-para-el-mantenimiento-de-colegios-ante-el-fenomeno-el-nino-2026-2027/), pese a que también sufren lluvias intensas en esta temporada.
+
+En Tumbes y Piura, El Niño ya obligó a adelantar el fin del año escolar desde noviembre, informó [RPP](https://rpp.pe/peru/actualidad/el-nino-adelanta-fin-del-ano-escolar-clases-terminaran-desde-noviembre-en-tumbes-y-piura-noticia-1718411). Los directores y las APAFA pueden consultar en su UGEL o DRE si su local está incluido.
+
+**Fuentes:** [Pronied, resolución del listado](https://busquedas.elperuano.pe/dispositivo/NL/2572820-1) · [Minedu, norma técnica](https://busquedas.elperuano.pe/dispositivo/NL/2572385-1) · [Tu Diario Huánuco](https://tudiariohuanuco.pe/de-tu-interes/minedu-aprueba-mantenimiento-de-colegios-ante-el-nino-2026-2027-con-s-460-millones-y-obras-por-impuestos/) · [Grupo Docente Perú](https://www.grupodocenteperu.com/blog/minedu-aprueba-norma-para-mantenimiento-de-colegios-ante-el-fenomeno-del-nino-2026-2027) · [Diario Voces](https://diariovoces.com.pe/san-martin-queda-fuera-de-los-s-460-millones-para-el-mantenimiento-de-colegios-ante-el-fenomeno-el-nino-2026-2027/) · [RPP](https://rpp.pe/peru/actualidad/el-nino-adelanta-fin-del-ano-escolar-clases-terminaran-desde-noviembre-en-tumbes-y-piura-noticia-1718411) · [ENFEN](https://enfen.imarpe.gob.pe/2026/11/13/comunicado-oficial-enfen-n20-2026/).
 
 **Imágenes:** portada de [BrunoLocatelli](https://commons.wikimedia.org/wiki/File:Ministerio_de_Educaci%C3%B3n,_Lima,_Peru.jpg), bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), recortada de su fotografía de 2015. Las imágenes interiores son capturas de las resoluciones oficiales.

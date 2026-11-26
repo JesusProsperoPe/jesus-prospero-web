@@ -47,8 +47,6 @@ carrusel:
     texto: "El Decreto Supremo 150-2026-PCM se publicó el 11 de noviembre."
     foto: /img/uploads/segunda-vuelta-regional-sesion.png
     foto_texto: "Fragmento del Decreto Supremo 150-2026-PCM. Fuente: El Peruano."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 El Ejecutivo convocó para el **domingo 6 de diciembre** a la segunda vuelta de las Elecciones Regionales 2026. La votación definirá quiénes ocuparán los cargos de gobernador y vicegobernador en **15 regiones**, según el informe del Jurado Nacional de Elecciones citado en el decreto publicado este miércoles. [Decreto Supremo 150-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2573674-1) · [RPP](https://rpp.pe/politica/elecciones/gobierno-convoca-oficialmente-a-segunda-vuelta-regional-en-15-regiones-para-el-6-de-diciembre-noticia-1717213).
 
@@ -62,6 +60,20 @@ La convocatoria abarca las circunscripciones donde ninguna fórmula alcanzó el 
 
 En diciembre se elegirá conjuntamente a gobernador y vicegobernador. La fórmula que obtenga la **mayoría simple de los votos válidos** será proclamada ganadora. Las autoridades electas ejercerán durante el período **2027–2030**. [Decreto de convocatoria](https://busquedas.elperuano.pe/dispositivo/NL/2573674-1) · [RPP](https://rpp.pe/politica/elecciones/gobierno-convoca-oficialmente-a-segunda-vuelta-regional-en-15-regiones-para-el-6-de-diciembre-noticia-1717213).
 
-**Fuentes:** [El Peruano, decreto de convocatoria](https://busquedas.elperuano.pe/dispositivo/NL/2573674-1) · [RPP](https://rpp.pe/politica/elecciones/gobierno-convoca-oficialmente-a-segunda-vuelta-regional-en-15-regiones-para-el-6-de-diciembre-noticia-1717213).
+## Por qué el 6 de diciembre
+
+El Jurado Nacional de Elecciones había fijado inicialmente el **29 de noviembre** como fecha tentativa para la segunda elección regional. La ONPE pidió trasladarla una semana por razones logísticas, y el decreto recogió finalmente el 6 de diciembre, según [Infobae](https://www.infobae.com/peru/2026/10/06/segunda-vuelta-regional-2026-cuando-seria-y-cuales-son-las-regiones-que-tendrian-que-volver-a-las-urnas-para-elegir-a-su-proximo-gobernador/).
+
+Tras la primera vuelta del 4 de octubre, diez regiones ya tienen gobernador electo. En las otras quince, ninguna fórmula superó el umbral del 30 %, de acuerdo con el [cómputo final de la ONPE reseñado por RPP](https://rpp.pe/politica/elecciones/onpe-culmina-el-computo-de-las-erm-2026-15-regiones-elegiran-gobernador-en-segunda-vuelta-noticia-1719364).
+
+## Algunos de los duelos
+
+Entre las regiones que vuelven a las urnas están Amazonas, Áncash, Arequipa, Cajamarca, Junín, La Libertad, Lambayeque, Lima Provincias, Loreto, Moquegua, Pasco, Piura y Tumbes. Según [La República](https://larepublica.pe/politica/2026/10/10/segunda-vuelta-regional-somos-peru-lidera-en-seis-de-las-15-regiones-que-definiran-a-sus-gobernadores-hnews-261440), **Somos Perú** encabezaba la votación en seis de las quince regiones tras la primera vuelta.
+
+En Arequipa se enfrentarán Alfredo Zegarra, de Fuerza Arequipeña, y Henry Huisa, de Ahora Nación. En Piura, Reynaldo Hilbck, de Alianza para el Progreso, y Roddy La Torre, de Podemos Perú. En La Libertad, Aldo Mariños, de Somos Perú, y Elías Rodríguez, de Podemos Perú, según la relación de candidatos publicada por [Andina](https://andina.pe/agencia/noticia-segunda-vuelta-regional-estas-son-las-regiones-donde-habra-comicios-6-diciembre-1101144.aspx).
+
+El voto es obligatorio para los electores de esas quince regiones. Quien no vote deberá pagar la multa que fija el JNE según la clasificación de pobreza de su distrito.
+
+**Fuentes:** [El Peruano, decreto de convocatoria](https://busquedas.elperuano.pe/dispositivo/NL/2573674-1) · [RPP](https://rpp.pe/politica/elecciones/gobierno-convoca-oficialmente-a-segunda-vuelta-regional-en-15-regiones-para-el-6-de-diciembre-noticia-1717213) · [Infobae](https://www.infobae.com/peru/2026/10/06/segunda-vuelta-regional-2026-cuando-seria-y-cuales-son-las-regiones-que-tendrian-que-volver-a-las-urnas-para-elegir-a-su-proximo-gobernador/) · [La República](https://larepublica.pe/politica/2026/10/10/segunda-vuelta-regional-somos-peru-lidera-en-seis-de-las-15-regiones-que-definiran-a-sus-gobernadores-hnews-261440) · [Andina](https://andina.pe/agencia/noticia-segunda-vuelta-regional-estas-son-las-regiones-donde-habra-comicios-6-diciembre-1101144.aspx).
 
 **Portada:** [Fotografía original de Omar Vega Ramos](https://commons.wikimedia.org/wiki/File:Edificio_del_Jurado_Nacional_de_Elecciones_en_Lima_09.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

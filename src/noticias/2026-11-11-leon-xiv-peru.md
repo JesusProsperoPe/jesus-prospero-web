@@ -47,8 +47,6 @@ carrusel:
     texto: "El programa prevé un rito de coronación a las 8 a. m."
     foto: /img/uploads/leon-xiv-peru-2.jpg
     foto_texto: "Archivo: José Enrique Montes Seminario / Wikimedia Commons, CC BY-SA 4.0. Recorte."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 León XIV iniciará este miércoles 11 de noviembre su visita al Perú. El programa de la Santa Sede fija la llegada desde Buenos Aires a las **5:30 p. m. en la Base Aérea del Callao**, donde está prevista la recepción oficial. Los horarios corresponden a la hora peruana. [Programa del Vaticano](https://www.vatican.va/content/leo-xiv/es/travels/2026/documents/uruguay-argentina-peru-6-17novembre2026.html) · [Andina](https://andina.pe/agencia/noticia-papa-leon-xiv-peru-mira-aqui-su-agenda-oficial-del-miercoles-11-noviembre-1099371.aspx).
 
@@ -66,6 +64,18 @@ La agenda del sábado 14 incluye un rito de coronación de la Virgen Inmaculada 
 
 ![Torres y fachada de la Catedral de Chiclayo](/img/uploads/leon-xiv-peru-2.jpg "Catedral de Santa María de Chiclayo, sede de una actividad del sábado. Foto de archivo: José Enrique Montes Seminario / Wikimedia Commons, CC BY-SA 4.0. Recorte.")
 
-**Fuentes:** [Santa Sede](https://www.vatican.va/content/leo-xiv/es/travels/2026/documents/uruguay-argentina-peru-6-17novembre2026.html) · [Andina](https://andina.pe/agencia/noticia-papa-leon-xiv-peru-mira-aqui-su-agenda-oficial-del-miercoles-11-noviembre-1099371.aspx).
+## Cómo terminó la visita
+
+*Actualización.* León XIV cumplió la agenda prevista. En su discurso ante la presidenta Keiko Fujimori, las autoridades y la sociedad civil en el Gran Teatro Nacional, llamó a la unidad, el diálogo, la honestidad, la justicia y el respeto a la dignidad humana, según [Vatican News](https://www.vaticannews.va/es/papa/news/2026-11/papa-leon-xiv-discurso-autoridades-sociedad-civil-lima-peru.html). "Regreso como Sucesor de Pedro", dijo al iniciar su etapa peruana, en referencia a los años que vivió en el país como misionero y obispo de Chiclayo.
+
+La gira peruana sumó **seis días, nueve misas y 36 discursos** en la costa, la sierra y la selva, según [Willax](https://willax.pe/actualidad/papa-leon-xiv-concluyo-visita-peru-tras-recorrer-tres-regiones). En Pucallpa escuchó a comunidades amazónicas que denunciaron la contaminación de sus ríos, los derrames de petróleo y el avance del narcotráfico.
+
+## Los mensajes que dejó
+
+Una de sus frases más citadas durante la gira fue que el Perú necesita "más oasis fraternos y menos desiertos individualistas", recogió [Infobae](https://www.infobae.com/peru/2026/11/18/las-ensenanzas-del-papa-leon-xiv-en-sus-emotivos-discursos-y-su-gran-amor-por-el-peru/).
+
+Con los obispos peruanos tocó el tema de los abusos en la Iglesia. Les pidió verdad, justicia, reparación y medidas para prevenir nuevos casos, según [EWTN](https://www.ewtnnews.com/es/vaticano/texto-encuentro-papa-leon-obispos-peru). Un análisis de [Diálogo Político](https://dialogopolitico.org/agenda/analisis/leon-xiv-sudamerica-balance-gira/) destacó que tanto oficialistas como opositores lo escucharon y lo citaron, en un país muy polarizado.
+
+**Fuentes:** [Santa Sede](https://www.vatican.va/content/leo-xiv/es/travels/2026/documents/uruguay-argentina-peru-6-17novembre2026.html) · [Vatican News](https://www.vaticannews.va/es/papa/news/2026-11/papa-leon-xiv-discurso-autoridades-sociedad-civil-lima-peru.html) · [Willax](https://willax.pe/actualidad/papa-leon-xiv-concluyo-visita-peru-tras-recorrer-tres-regiones) · [Infobae](https://www.infobae.com/peru/2026/11/18/las-ensenanzas-del-papa-leon-xiv-en-sus-emotivos-discursos-y-su-gran-amor-por-el-peru/) · [EWTN](https://www.ewtnnews.com/es/vaticano/texto-encuentro-papa-leon-obispos-peru) · [Andina](https://andina.pe/agencia/noticia-papa-leon-xiv-peru-mira-aqui-su-agenda-oficial-del-miercoles-11-noviembre-1099371.aspx).
 
 **Créditos de archivo:** [León XIV en el Quirinal](https://commons.wikimedia.org/wiki/File:First_official_visit_of_Pope_Leo_XIV_to_the_Quirinale_Palace_in_Italy.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [Gran Teatro Nacional](https://commons.wikimedia.org/wiki/File:Gran_Teatro_Nacional_del_Per%C3%BA.jpg) y [Catedral de Chiclayo](https://commons.wikimedia.org/wiki/File:Cathedral_of_Chiclayo.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

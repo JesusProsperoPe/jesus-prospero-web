@@ -47,8 +47,6 @@ carrusel:
     texto: "Conocer el resultado técnico y el plazo de la medida elegida."
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Ministerio de la Producción. Dominio público. Archivo."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 Familias damnificadas del asentamiento humano Puerto Perú, en Aguas Verdes, pidieron una defensa ribereña para poder regresar a sus viviendas. Keiko Fujimori recibió el pedido este viernes 6 de noviembre en el albergue Villa Primavera, en Zarumilla. Según el reporte de Andina, el pedido fue formulado por 120 familias. [Andina, recorrido presidencial](https://andina.pe/agencia/noticia-aca-hay-un-gobierno-esta-la-cancha-afirma-presidenta-fujimori-tumbes-1098909.aspx).
 
@@ -62,6 +60,20 @@ Indeci llevó agua y alimentos no perecibles al albergue Villa Primavera. Fujimo
 
 ![Puntos de atención temporal en Tumbes](/img/uploads/tumbes-puerto-peru-atencion.png "Elaboración propia con información de Andina sobre los albergues y el hospital de campaña.")
 
+## Defensa ya habla de reubicación
+
+La evaluación todavía no se ha publicado, pero dentro del propio Gobierno ya hay una postura. El ministro de Defensa, **Rafael Belaúnde**, sostuvo que Puerto Perú está por debajo del nivel del río Zarumilla y que la única salida es la reubicación definitiva, según [Exitosa](https://www.exitosanoticias.pe/exitosa-peru/ministro-defensa-advierte-puerto-peru-debe-ser-reubicado-definitivamente-riesgo-inundaciones-n187680).
+
+La presidenta, por su parte, ofreció que si se opta por el traslado el ministro de Vivienda trabajará en una vivienda para cada familia, según [El Peruano](https://elperuano.pe/noticia/308486-presidenta-fujimori-aca-hay-un-gobierno-que-esta-en-la-cancha-y-responde-a-la-poblacion). No se ha informado dónde estaría el nuevo terreno, cuánto costaría ni en qué plazo se entregarían las casas.
+
+## Lo que viene
+
+El riesgo no ha pasado. El [comunicado oficial 20-2026 del ENFEN](https://enfen.imarpe.gob.pe/2026/11/13/comunicado-oficial-enfen-n20-2026/), del 13 de noviembre, prevé que El Niño costero siga con **magnitud extraordinaria hasta febrero de 2027** y que entre noviembre y enero las lluvias superen lo normal en la costa norte. Para Tumbes eso significa ríos más cargados justo en los meses en que las familias siguen en albergues.
+
+La experiencia de otros desastres muestra que las reubicaciones suelen tardar años. Por eso, además del anuncio, las familias necesitan un padrón público, un terreno identificado y un cronograma con responsables.
+
 La atención temporal cubre necesidades inmediatas de alojamiento y salud. Para las familias de Puerto Perú, el siguiente hito será conocer la evaluación del riesgo y el plazo de la medida que se elija.
+
+**Fuentes:** [Andina](https://andina.pe/agencia/noticia-aca-hay-un-gobierno-esta-la-cancha-afirma-presidenta-fujimori-tumbes-1098909.aspx) · [El Peruano](https://elperuano.pe/noticia/308486-presidenta-fujimori-aca-hay-un-gobierno-que-esta-en-la-cancha-y-responde-a-la-poblacion) · [Exitosa](https://www.exitosanoticias.pe/exitosa-peru/ministro-defensa-advierte-puerto-peru-debe-ser-reubicado-definitivamente-riesgo-inundaciones-n187680) · [El Comercio](https://elcomercio.pe/peru/tumbes/fenomeno-el-nino-keiko-fujimori-lleva-ayuda-humanitaria-a-afectados-por-lluvias-en-tumbes-apuesplan-ultimas-noticia/) · [ENFEN](https://enfen.imarpe.gob.pe/2026/11/13/comunicado-oficial-enfen-n20-2026/).
 
 **Portada:** [fotografía del Congreso de la República en Tumbes](https://commons.wikimedia.org/wiki/File:Congresista_Merino_visita_lugares_afectados_por_el_r%C3%ADo_Tumbes_%286881854862%29.jpg), CC BY 2.0.

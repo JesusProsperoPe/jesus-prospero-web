@@ -47,8 +47,6 @@ carrusel:
     texto: "La reducción debe comprobarse con mediciones comparables."
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Keiko Fujimori, archivo de octubre de 2026. Ministerio de la Producción / Wikimedia Commons, dominio público. No corresponde a la firma del pacto."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 El Gobierno de Keiko Fujimori fijó como meta **reducir la prevalencia de anemia infantil al 17,4 % para 2031**, según [Andina](https://andina.pe/agencia/noticia-pacto-contra-anemia-como-llegara-a-los-hogares-y-metas-tendra-1098727.aspx). El pacto multisectorial se firmó el 4 de noviembre en Palacio de Gobierno, con participación de 12 ministerios. Prioriza a los menores de tres años, en especial a los menores de un año, y a las gestantes.
 
@@ -64,8 +62,20 @@ Entre los compromisos figuran el seguimiento individual de niños y gestantes, l
 
 ![Meta del pacto contra la anemia y año previsto](/img/uploads/anemia-meta.png "Elaboración propia con datos del INEI y Andina. El 17,4 % es una meta anunciada, no un resultado.")
 
+## Tres millones para empezar
+
+Para arrancar, el ministro de Salud, **Luis Dyer**, anunció **S/3 millones** para reforzar la prevención y atención de la anemia en cinco ámbitos priorizados, según [Gestión](https://gestion.pe/peru/politica/gobierno-anuncia-s-3-millones-para-combatir-la-anemia-y-establece-meta-de-reduccion-al-50-noticia/). Es un monto pequeño frente a la meta: el propio Minsa la formula como reducir a la mitad la anemia en menores de 36 meses hacia 2031.
+
+El Minsa también anunció que hará seguimiento individual a cada niño y gestante con anemia hasta su recuperación, según [Ahora](https://ahora.com.pe/sociedad/minsa-seguimiento-ninos-gestantes-anemia). El pacto se organiza en ocho objetivos y pone el foco en los menores de 12 meses.
+
+## Las observaciones
+
+La cifra que usó la presidenta para presentar el pacto fue cuestionada. El verificador PerúCheck calificó como imprecisa su afirmación de que la anemia infantil llega al 40 %, cuando la ENDES 2025 la ubica en 34,9 %.
+
+Un [editorial de Gestión](https://gestion.pe/opinion/editorial/editorial-de-gestion-contra-la-anemia-noticia/) recordó además que el pacto no es una novedad, porque el país ya tiene políticas contra la anemia a cargo del Minsa, y que su población objetivo es más acotada que la del plan vigente.
+
 Para evaluar el nuevo pacto, habrá que comparar cifras del mismo grupo de edad y con la misma metodología, además de conocer qué acciones se ejecutan en los territorios con mayor prevalencia. La firma establece el compromiso; la reducción se comprobará con los resultados.
 
-**Fuentes:** [Andina: metas del pacto](https://andina.pe/agencia/noticia-pacto-contra-anemia-como-llegara-a-los-hogares-y-metas-tendra-1098727.aspx) · [INEI: ENDES 2025](https://www.gob.pe/institucion/inei/noticias/1392685-el-34-9-de-la-poblacion-de-6-a-35-meses-de-edad-sufrio-de-anemia-en-el-2025) · [Minsa: plan 2024-2030](https://www.gob.pe/institucion/minsa/normas-legales/5093832-002-2024-sa).
+**Fuentes:** [Andina: metas del pacto](https://andina.pe/agencia/noticia-pacto-contra-anemia-como-llegara-a-los-hogares-y-metas-tendra-1098727.aspx) · [INEI: ENDES 2025](https://www.gob.pe/institucion/inei/noticias/1392685-el-34-9-de-la-poblacion-de-6-a-35-meses-de-edad-sufrio-de-anemia-en-el-2025) · [Minsa: plan 2024-2030](https://www.gob.pe/institucion/minsa/normas-legales/5093832-002-2024-sa) · [Gestión: S/3 millones](https://gestion.pe/peru/politica/gobierno-anuncia-s-3-millones-para-combatir-la-anemia-y-establece-meta-de-reduccion-al-50-noticia/) · [Gestión: editorial](https://gestion.pe/opinion/editorial/editorial-de-gestion-contra-la-anemia-noticia/) · [Ahora](https://ahora.com.pe/sociedad/minsa-seguimiento-ninos-gestantes-anemia).
 
 **Portada:** [retrato oficial de Keiko Fujimori](https://commons.wikimedia.org/wiki/File:Pdta._Keiko_Fujimori.jpg), Ministerio de la Producción, dominio público.

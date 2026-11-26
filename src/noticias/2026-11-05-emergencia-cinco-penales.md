@@ -47,8 +47,6 @@ carrusel:
     texto: "La PNP debe informar al ministro del Interior después de la prórroga."
     foto: /img/uploads/keiko-fujimori-octubre-2026.jpg
     foto_texto: "Ministerio de la Producción / Wikimedia Commons, dominio público. Archivo de octubre de 2026."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 Desde este jueves 5 de noviembre, **cinco penales continúan en emergencia por otros 60 días**. El gobierno de Keiko Fujimori prolonga una medida excepcional cuyo propio sustento admite que los controles siguen siendo vulnerables.
 
@@ -70,6 +68,18 @@ Las restricciones de tránsito, reunión y libertad personal alcanzan a quienes 
 
 La PNP deberá entregar al ministro del Interior un informe de resultados dentro de los cinco días hábiles posteriores al término de la prórroga. **Ese balance permitirá contrastar la nueva extensión con sus resultados**, más allá del anuncio de operativos.
 
-**Fuentes:** [Decreto Supremo 148-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2571017-3) · [El Peruano, 3 de noviembre](https://elperuano.pe/noticia/308200-estado-de-emergencia-en-penales-conoce-donde-regira-y-que-medidas-se-aplicaran-durante-60-dias).
+## Una emergencia que ya venía de septiembre
+
+Esta es una prórroga. La emergencia en los cinco penales se declaró en septiembre con el Decreto Supremo 128-2026-PCM, con el objetivo declarado de **cortar las comunicaciones clandestinas** desde las cárceles, según [El Comercio](https://elcomercio.pe/lima/estado-de-emergencia-en-cinco-penales-del-pais-que-antecedentes-se-registraron-en-cada-uno-de-los-establecimientos-penitenciarios-apuesplan--noticia/), que repasó los antecedentes de cada establecimiento.
+
+Las requisas han mostrado el tamaño del problema. En Ancón I, un operativo en el pabellón vinculado a la banda La Confederación halló **más de 35 celulares**, además de drogas y armas blancas, según [Trome](https://trome.com/actualidad/policiales/requisa-en-ancon-i-hallan-mas-de-35-celulares-drogas-y-armas-en-pabellon-ligado-a-la-confederacion-video-historias-de-policiales-noticia/). En Castro Castro, los agentes rompieron parte de un muro y encontraron una caleta con teléfonos.
+
+## La pregunta de fondo
+
+A nivel nacional, el problema va más allá de estos cinco penales. [La República](https://larepublica.pe/sociedad/2026/11/05/como-entraron-434-celulares-de-las-carceles-del-pais-carceles-hnews-479115) se preguntó cómo ingresaron **434 celulares** a las cárceles del país, una cifra que apunta a fallas de control en los accesos y a posibles complicidades internas.
+
+Gran parte de las extorsiones que golpean a transportistas y comerciantes se coordinan desde prisión. Por eso, más allá de las incautaciones, la medida debería evaluarse por su efecto fuera de los muros: si bajan o no las denuncias de extorsión vinculadas a internos de estos penales.
+
+**Fuentes:** [Decreto Supremo 148-2026-PCM](https://busquedas.elperuano.pe/dispositivo/NL/2571017-3) · [El Peruano, 3 de noviembre](https://elperuano.pe/noticia/308200-estado-de-emergencia-en-penales-conoce-donde-regira-y-que-medidas-se-aplicaran-durante-60-dias) · [El Comercio](https://elcomercio.pe/lima/estado-de-emergencia-en-cinco-penales-del-pais-que-antecedentes-se-registraron-en-cada-uno-de-los-establecimientos-penitenciarios-apuesplan--noticia/) · [Trome](https://trome.com/actualidad/policiales/requisa-en-ancon-i-hallan-mas-de-35-celulares-drogas-y-armas-en-pabellon-ligado-a-la-confederacion-video-historias-de-policiales-noticia/) · [La República](https://larepublica.pe/sociedad/2026/11/05/como-entraron-434-celulares-de-las-carceles-del-pais-carceles-hnews-479115).
 
 **Imágenes:** la portada es una [fotografía del penal de Abancay de Thayne Tuason](https://commons.wikimedia.org/wiki/File:Abancay_Peru-_penitentiary.jpg), CC BY 4.0, usada como referencia. Los gráficos son propios y sintetizan el decreto; no representan escenas dentro de las cárceles.

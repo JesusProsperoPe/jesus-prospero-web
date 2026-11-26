@@ -47,8 +47,6 @@ carrusel:
     texto: "Habrá que seguir la versión que apruebe el Congreso."
     foto: /img/uploads/balotaje-lima-congreso-archivo.jpg
     foto_texto: "Herwarth Morales / Wikimedia Commons, CC BY-SA 4.0. Archivo."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 La Comisión Bicameral de Presupuesto aprobó el 5 de noviembre el dictamen del Presupuesto Público 2027, por **S/266.506 millones**, con 29 votos a favor, uno en contra y cuatro abstenciones. El texto contempla un mecanismo para financiar obligaciones laborales del personal CAS. [Andina](https://andina.pe/agencia/noticia-comision-bicameral-aprueba-dictamen-presupuesto-2027-mas-s266500-millones-1098746.aspx) · [La República](https://larepublica.pe/amp/economia/2026/11/05/presupuesto-publico-2027-congreso-aprueba-dictamen-por-mas-de-s266500-millones-hnews-371465).
 
@@ -66,6 +64,18 @@ El proceso incluye tres normas. El 2 de noviembre, la comisión ya había aproba
 
 En salud, el dictamen contempla incorporar profesionales, técnicos y auxiliares mediante concurso a plazas presupuestadas vacantes. También prevé restricciones a nuevas contrataciones CAS y por locación para labores asistenciales permanentes, manteniendo la posibilidad de renovar los CAS vigentes, según el resumen de Andina.
 
-**Fuentes:** [Andina](https://andina.pe/agencia/noticia-comision-bicameral-aprueba-dictamen-presupuesto-2027-mas-s266500-millones-1098746.aspx) · [La República](https://larepublica.pe/amp/economia/2026/11/05/presupuesto-publico-2027-congreso-aprueba-dictamen-por-mas-de-s266500-millones-hnews-371465) · [Congreso](https://comunicaciones.congreso.gob.pe/noticias/comision-bicameral-de-presupuesto-aprueba-dictamenes-de-endeudamiento-y-equilibrio-financiero-para-el-2027/).
+## Lo que pasó en el Pleno
+
+El 20 de noviembre el Pleno aprobó la Ley de Presupuesto 2027, con el financiamiento de la gratificación y la CTS del personal CAS, como [informamos aquí](/n/presupuesto-2027-aprobado). Pero varias demandas de los trabajadores quedaron fuera.
+
+Según [La República](https://larepublica.pe/economia/2026/11/22/congreso-aprueba-presupuesto-2027-sin-cts-completa-para-cas-ni-pase-a-regimen-728-1864346), no prosperó la propuesta del diputado Ernesto Zunini para que los CAS que cumplan 70 años y cesen en 2026 o 2027 cobren el **100 % de su CTS**. Tampoco se aprobó el nombramiento de los ex CAS COVID ni el paso al régimen 728 en cinco entidades, según [ATV](https://www.atv.pe/noticia/presupuesto-2027-deja-fuera-100-cts-trabajadores-cas-frena-pase-regimen/).
+
+## Un beneficio a cuentagotas
+
+La CTS de los CAS se paga de forma gradual. Según La República, con base en la Ley 32563 y el Decreto Supremo 142-2026-EF, el porcentaje es de **10 % en 2026, 20 % en 2027, 30 % en 2028 y 50 % en 2029**. Es decir, un trabajador CAS que se jubile el próximo año recibirá solo una quinta parte de lo que le correspondería a un trabajador del régimen 728.
+
+En la práctica, el régimen CAS sigue con beneficios recortados frente a otros regímenes, aunque muchos de sus trabajadores cumplen labores permanentes.
+
+**Fuentes:** [Andina](https://andina.pe/agencia/noticia-comision-bicameral-aprueba-dictamen-presupuesto-2027-mas-s266500-millones-1098746.aspx) · [La República (CTS)](https://larepublica.pe/economia/2026/11/22/congreso-aprueba-presupuesto-2027-sin-cts-completa-para-cas-ni-pase-a-regimen-728-1864346) · [ATV](https://www.atv.pe/noticia/presupuesto-2027-deja-fuera-100-cts-trabajadores-cas-frena-pase-regimen/) · [La República](https://larepublica.pe/amp/economia/2026/11/05/presupuesto-publico-2027-congreso-aprueba-dictamen-por-mas-de-s266500-millones-hnews-371465) · [Congreso](https://comunicaciones.congreso.gob.pe/noticias/comision-bicameral-de-presupuesto-aprueba-dictamenes-de-endeudamiento-y-equilibrio-financiero-para-el-2027/).
 
 **Portada:** adaptación editorial con IA de una [foto del Palacio Legislativo de Herwarth Morales](https://commons.wikimedia.org/wiki/File:Palacio_del_congreso_de_la_Rep%C3%BAblica_del_Per%C3%BA.jpg), bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

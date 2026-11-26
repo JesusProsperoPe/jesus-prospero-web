@@ -47,8 +47,6 @@ carrusel:
     texto: "Conocer cuánto duran los empleos y cómo se distribuyen por región."
     foto: /img/uploads/mtpe-sede-foto-real.jpg
     foto_texto: "Lenin Domínguez E / Wikimedia Commons, CC BY-SA 4.0. Sede del MTPE, archivo de 2022."
-# Nota corta: no se manda a Google hasta ampliarla
-noindex: true
 ---
 El Ministerio de Trabajo y Promoción del Empleo informó que **24.100 personas accedieron a empleos formales mediante sus servicios** durante los primeros cien días del Gobierno de Keiko Fujimori. El balance incluye la intermediación de los Centros de Empleo, las ferias laborales y los encuentros con empresas. [El Peruano, 7 de noviembre](https://www.elperuano.pe/noticia/308517-derecho-al-trabajo-mas-de-24000-personas-accedieron-a-empleos-formales-con-apoyo-del-mtpe).
 
@@ -66,6 +64,18 @@ Para noviembre, el ministro Juan Sheput anunció el relanzamiento de CAPACÍTA-T
 
 ![Capacitación reportada y oferta anunciada](/img/uploads/mtpe-empleo-capacitacion.png "Elaboración propia con datos del balance del MTPE difundido por Andina. Las becas corresponden al anuncio para noviembre.")
 
+## La cifra en contexto
+
+Las 24.100 colocaciones son una fracción pequeña del mercado laboral. Según el INEI, entre abril de 2025 y marzo de 2026 el **69,8 % de la población ocupada** del país trabajaba en la informalidad, sin contrato ni seguro, según [Ceplan](https://observatorio.ceplan.gob.pe/ficha/tg18). En Lima Metropolitana y el Callao, la tasa de desempleo bajó a 4,4 % en el tercer trimestre de 2026, de acuerdo con [Notilaboral](https://notilaboral.com/tasa-de-desempleo-en-peru-2026-segun-el-inei/), que cita el informe del INEI.
+
+El empleo formal sí venía creciendo antes del cambio de gobierno. En junio de 2026, el empleo formal sumó **251.000 puestos** frente al año anterior, según [La República](https://larepublica.pe/economia/2026/08/21/desempleo-en-lima-cae-a-47-y-empleo-formal-en-peru-suma-251000-puestos-en-junio-hnews-1172262), con datos del BCRP. Las colocaciones del ministerio son parte de esa tendencia, no su causa principal.
+
+## Lo que el balance no dice
+
+El reporte del MTPE no detalla cuántos de esos empleos son a plazo fijo o por pocos meses, cuál es el sueldo promedio ni en qué regiones se concentran. Tampoco informa cuántas personas siguen en esos puestos después de tres o seis meses. Sin esos datos, es difícil saber si las colocaciones sacan a la gente de la informalidad o solo la mueven entre trabajos temporales.
+
 El seguimiento de la oferta permitirá conocer cuántas personas participan, completan los cursos y consiguen un empleo después de capacitarse.
+
+**Fuentes:** [El Peruano](https://www.elperuano.pe/noticia/308517-derecho-al-trabajo-mas-de-24000-personas-accedieron-a-empleos-formales-con-apoyo-del-mtpe) · [Andina vía Notiperú](https://www.notiperu.com.pe/economia/noticia-peru-mtpe-mas-24000-personas-accedieron-empleos-formales-100-dias-gobierno-20261107170122.html) · [Ceplan](https://observatorio.ceplan.gob.pe/ficha/tg18) · [Notilaboral](https://notilaboral.com/tasa-de-desempleo-en-peru-2026-segun-el-inei/) · [La República](https://larepublica.pe/economia/2026/08/21/desempleo-en-lima-cae-a-47-y-empleo-formal-en-peru-suma-251000-puestos-en-junio-hnews-1172262).
 
 **Portada:** edición referencial con IA de una [fotografía de la sede del MTPE de Lenin Domínguez E](https://commons.wikimedia.org/wiki/File:Ministerio_del_trabajo.jpg), bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
