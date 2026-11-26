@@ -1,40 +1,6 @@
 ---
 layout: base.njk
 ---
-{% if tipo == "Noticia" %}
-<dialog id="aviso-apoyo" class="aviso-yape" aria-labelledby="aviso-apoyo-titulo" aria-describedby="aviso-apoyo-texto">
-  <div class="modal">
-    <p class="etiqueta">Un mensaje para ti</p>
-    <h2 id="aviso-apoyo-titulo">Nuestras noticias son gratis y lo seguirán siendo</h2>
-    <div id="aviso-apoyo-texto">
-      <p>No tenemos muro de pago ni dueños con intereses. No recibimos dinero de grupos económicos. Contamos lo que otros medios no cuentan, y lo hacemos gracias a lectores como tú.</p>
-      <p><strong>Si esta nota te sirve y puedes aportar, apóyanos con un Yape.</strong> Lo que cuesta un café nos ayuda a seguir investigando. Todo suma.</p>
-    </div>
-    <div class="aviso-yape-pago">
-      <img src="/img/yape-qr.jpg" alt="Código QR de Yape de {{ site.nombre }}" width="826" height="792">
-      <div>
-        <p class="aviso-yape-marca">Yape</p>
-        <p class="aviso-yape-numero">{{ site.yape_numero }}</p>
-        <p class="aviso-yape-nombre">{{ site.yape_nombre }}</p>
-      </div>
-    </div>
-    <div class="modal-botones">
-      <button type="button" class="boton boton-yape" id="aviso-copiar-yape" data-numero="{{ site.yape_numero | replace(' ', '') }}">Copiar número</button>
-      <form method="dialog"><button type="submit" class="boton boton-secundario" autofocus>Seguir leyendo</button></form>
-    </div>
-  </div>
-</dialog>
-<script>
-  document.getElementById("aviso-apoyo").showModal();
-  document.getElementById("aviso-copiar-yape").addEventListener("click", function () {
-    var b = this;
-    navigator.clipboard.writeText(b.dataset.numero).then(function () {
-      b.textContent = "Número copiado";
-      setTimeout(function () { b.textContent = "Copiar número"; }, 2000);
-    }).catch(function () { window.prompt("Copia este número:", b.dataset.numero); });
-  });
-</script>
-{% endif %}
 <article class="nota">
   <header class="contenedor nota-cabecera">
     <p class="etiqueta">{% if tipo == "Noticia" %}<a href="/noticias/">Noticias</a>{% else %}<a href="/columnas/">Columnas</a>{% endif %}{% if tipo %}<span class="tipo-nota">{{ tipo }}</span>{% endif %}{% if exclusivo %}<span class="sello-exclusivo">Solo para suscriptores</span>{% endif %}</p>
@@ -84,8 +50,6 @@ layout: base.njk
       <a href="https://twitter.com/intent/tweet?url={{ enlace | urlencode }}&amp;text={{ title | urlencode }}" target="_blank" rel="noopener">X</a>
       <button type="button" id="copiar" data-enlace="{{ enlace }}">Copiar enlace</button>
     </div>
-
-    {% include "yape.njk" %}
 
     <section class="comentarios" id="comentarios" data-nota="{{ page.url }}" aria-labelledby="comentarios-titulo">
       <div class="seccion-cabeza"><h2 class="seccion-titulo" id="comentarios-titulo">Comentarios</h2></div>
@@ -144,13 +108,5 @@ layout: base.njk
       b.textContent = "Enlace copiado";
       setTimeout(function () { b.textContent = "Copiar enlace"; }, 2000);
     }).catch(function () { window.prompt("Copia este enlace:", b.dataset.enlace); });
-  });
-  var yape = document.getElementById("copiar-yape");
-  if (yape) yape.addEventListener("click", function () {
-    var b = this;
-    navigator.clipboard.writeText(b.dataset.numero).then(function () {
-      b.textContent = "Número copiado";
-      setTimeout(function () { b.textContent = "Copiar número"; }, 2000);
-    }).catch(function () { window.prompt("Copia este número:", b.dataset.numero); });
   });
 </script>
