@@ -4,9 +4,9 @@ titulo_seo: "Tomás Gálvez, fiscal de la Nación, fue abogado de Víctor Gálve
 temas: ["Tomás Gálvez", "Ministerio Público", "Extinción de dominio"]
 date: 2026-11-25T12:00:00-05:00
 resumen: "Documentos judiciales revelan que el hoy fiscal de la Nación peleó para que el Estado no se quedara con el dinero de un empresario sentenciado a 26 años de cárcel. Ahora, desde la Fiscalía, impulsa una reforma que debilita esa misma herramienta."
-imagen: /img/uploads/galvez-abogado-senado-portada-4k.jpg
-imagen_texto: "Tomás Gálvez Villegas expone ante la Comisión de Justicia del Senado su propuesta para cambiar la ley de extinción de dominio."
-imagen_fuente: "Foto: Congreso de la República (difusión)."
+imagen: /img/uploads/galvez-abogado-montaje-portada-4k.jpg
+imagen_texto: "Tomás Gálvez, su excliente Víctor Gálvez Gálvez tras su detención y la mochila con un millón de dólares hallada en Aguas Verdes."
+imagen_fuente: "Fotomontaje elaborado a partir de fotos reales (referencial). Fotos de Víctor Gálvez y la mochila: Policía Nacional (difusión)."
 tipo: Noticia
 exclusivo: false
 corto: "galvez-abogado-lavado"
@@ -47,13 +47,15 @@ El escrito está fechado en Piura el **27 de marzo de 2025**, seis meses despué
 
 ![Firma de Tomás Gálvez como abogado](/img/uploads/galvez-abogado-firma.jpg "Firma de Gálvez Villegas como abogado, el 27 de marzo de 2025. Documento difundido por Territorio Tomado.")
 
-Dos meses después de que la Corte de Piura confirmara la condena de su cliente, Gálvez volvió al Ministerio Público. El Tribunal Constitucional había anulado su destitución y en junio de 2025 fue reincorporado como fiscal supremo. En septiembre de ese año asumió como fiscal de la Nación interino, y en 2026 fue elegido para el periodo 2026-2029.
+Dos meses después de que la Corte de Piura confirmara la condena de su cliente, Gálvez volvió al Ministerio Público. El Tribunal Constitucional había anulado su destitución, dictada en 2021 por sus presuntos vínculos con Los Cuellos Blancos del Puerto, y en junio de 2025 fue reincorporado como fiscal supremo. En septiembre de ese año asumió como fiscal de la Nación interino, y en 2026 fue elegido para el periodo 2026-2029.
 
 ![Juramentación de Tomás Gálvez como fiscal de la Nación](/img/uploads/galvez-abogado-juramentacion.jpg "Ceremonia de juramentación de Tomás Gálvez como fiscal de la Nación. Foto: Ministerio Público (difusión).")
 
 ## De defensor a reformador de la ley
 
 En agosto de este año, Gálvez creó una comisión para elaborar una reforma integral de la extinción de dominio, según [El Comercio](https://elcomercio.pe/politica/fiscalia-de-la-nacion-crean-comision-para-elaborar-propuesta-de-reforma-sobre-procesos-de-extincion-de-dominio-noticia/). Esta semana, ante la Comisión de Justicia del Senado, presidida por la senadora **Katherine Ampuero**, de Renovación Popular, expuso su postura, según [La República](https://larepublica.pe/politica/2026/11/24/tomas-galvez-plantea-cambiar-la-ley-de-extincion-de-dominio-se-dejo-de-lado-el-decomiso-hnews-1999560).
+
+![Tomás Gálvez en la Comisión de Justicia del Senado](/img/uploads/galvez-abogado-senado.jpg "Gálvez expone ante la Comisión de Justicia del Senado su propuesta para cambiar la extinción de dominio. Foto: Congreso de la República (difusión).")
 
 "En todos los procesos tiene que ejercitarse la acción de decomiso e incautarse los bienes, efectos, ganancias e instrumentos del delito", dijo. "Complementariamente, obviamente, la extinción de dominio para los casos en que no puede haber proceso o se dilata". Planteó además que la extinción no proceda cuando un bien ya fue incautado o decomisado en un proceso penal.
 
@@ -64,8 +66,6 @@ En la práctica, la propuesta vuelve a atar la extinción de dominio al proceso 
 La fuerza de la extinción de dominio es su rapidez. El subsistema especializado del Poder Judicial registra **932 sentencias** y **227,9 millones de dólares** recuperados para el Estado, según [El Peruano](https://elperuano.pe/noticia/308685-peru-fortalece-su-modelo-de-extincion-de-dominio). Territorio Tomado añade que la Evaluación Nacional de Riesgos de 2025, elaborada por la SBS, identificó las modificaciones a esta herramienta como una vulnerabilidad alta en la lucha contra el lavado de activos.
 
 La herramienta ya venía golpeada. El Congreso anterior exigió una sentencia penal previa para aplicarla y el Tribunal Constitucional limitó su uso a hechos ocurridos desde 2019. Ese fallo terminó favoreciendo al cliente de Gálvez. Según el reportaje, este año el Poder Judicial de Piura archivó la extinción de los 190 mil euros por ese criterio. El proceso por el millón de dólares volvió a cero, luego de que la Corte de La Libertad anulara la sentencia de primera instancia y ordenara un nuevo pronunciamiento.
-
-![Tomás Gálvez en una foto de archivo](/img/uploads/galvez-abogado-archivo.jpg "Tomás Gálvez fue destituido en 2021 por sus presuntos vínculos con Los Cuellos Blancos del Puerto. El TC anuló esa decisión en 2025. Foto de archivo.")
 
 No es la primera vez que Gálvez defiende a un cliente polémico. En 2023 fue abogado de **Alejandro Sánchez**, entonces prófugo e investigado en el caso Sarratea, según [RPP](https://rpp.pe/politica/judiciales/abogado-de-alejandro-sanchez-admite-que-situacion-juridica-de-su-defendido-se-ha-complicado-tras-detencion-en-eeuu-noticia-1504772). Territorio Tomado solicitó una entrevista al fiscal de la Nación, **sin obtener respuesta** hasta el cierre de su reportaje.
 
