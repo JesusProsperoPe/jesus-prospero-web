@@ -4,14 +4,19 @@ titulo_seo: "Tomás Gálvez admite que un locador de la Fiscalía manejaba sus r
 temas: ["Tomás Gálvez", "Fiscalía", "Ministerio Público"]
 date: 2026-11-27T10:00:00-05:00
 resumen: "En Willax, el fiscal de la Nación reconoció que sus cuentas personales difundieron material del Ministerio Público. Fuentes internas revelan que Luis Gallardo sigue en la institución y que un segundo locador, Juan Huarcaya, cubre operativos para alimentar las redes del fiscal."
-imagen: /img/uploads/galvez-contracorriente-willax-portada-4k.jpg
-imagen_texto: "Tomás Gálvez durante su entrevista en el programa Contracorriente, de Willax, el jueves 19 de noviembre."
-imagen_fuente: "Captura de Willax."
+imagen: /img/uploads/galvez-locadores-montaje-portada-4k.jpg
+imagen_texto: "Tomás Gálvez, al centro, con los protagonistas de esta nota."
+imagen_fuente: "Fotomontaje elaborado con inteligencia artificial (referencial)."
 tipo: Noticia
 exclusivo: false
 corto: "galvez-locador"
 ---
 El fiscal de la Nación, Tomás Gálvez, terminó confirmando lo que [jesusprospero.pe reveló el 13 de noviembre](/n/galvez-redes). En una entrevista con Willax, **admitió que la Oficina de Imagen del Ministerio Público usó sus cuentas personales para difundir material institucional** y que la persona que las manejaba fue contratada por la Fiscalía.
+
+<figure style="margin:1.5em auto">
+<img src="/img/uploads/galvez-contracorriente-willax-portada-4k.jpg" alt="Tomás Gálvez en el programa Contracorriente de Willax" style="width:100%;height:auto">
+<figcaption>Gálvez en Contracorriente, de Willax, el jueves 19 de noviembre. Captura de Willax.</figcaption>
+</figure>
 
 Pero Gálvez intentó deslindar. Dijo que todo fue iniciativa de la Oficina de Imagen y que él recién se enteró cuando les preguntó. Fuentes del Ministerio Público consultadas por este medio sostienen lo contrario. Según su versión, **el esquema sigue funcionando, ahora con otro locador**.
 
