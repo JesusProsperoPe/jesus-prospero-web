@@ -1,80 +1,105 @@
 ---
-title: "Tomás Gálvez admite en televisión que un locador pagado por la Fiscalía manejaba sus redes personales"
-titulo_seo: "Tomás Gálvez admite que un locador pagado por el Ministerio Público manejaba sus redes personales"
+title: "Tomás Gálvez admite que un locador de la Fiscalía manejaba sus redes y ahora otro haría el mismo trabajo"
+titulo_seo: "Tomás Gálvez admite que un locador de la Fiscalía manejaba sus redes; ahora otro haría el mismo trabajo"
 temas: ["Tomás Gálvez", "Fiscalía", "Ministerio Público"]
 date: 2026-11-27T10:00:00-05:00
-resumen: "El fiscal de la Nación dijo que sus cuentas comunicaban mejor que las del Ministerio Público. Fuentes de la institución aseguran que el contratista sigue trabajando ahí y que otro locador de la Oficina de Imagen ya hace el mismo trabajo."
+resumen: "En Willax, el fiscal de la Nación reconoció que sus cuentas personales difundieron material del Ministerio Público. Fuentes internas revelan que Luis Gallardo sigue en la institución y que un segundo locador, Juan Huarcaya, cubre operativos para alimentar las redes del fiscal."
 imagen: /img/uploads/galvez-contracorriente-willax-portada-4k.jpg
-imagen_texto: "Tomás Gálvez en el programa Contracorriente, de Willax, el jueves 19 de noviembre."
+imagen_texto: "Tomás Gálvez durante su entrevista en el programa Contracorriente, de Willax, el jueves 19 de noviembre."
 imagen_fuente: "Captura de Willax."
 tipo: Noticia
 exclusivo: false
 corto: "galvez-locador"
 ---
-Tomás Gálvez ya no lo niega. El jueves 19 de noviembre, en el programa Contracorriente de Willax, el fiscal de la Nación **reconoció que su cuenta personal fue usada para difundir material del Ministerio Público** y que la persona que la manejaba fue contratada por la institución.
+El fiscal de la Nación, Tomás Gálvez, terminó confirmando lo que [jesusprospero.pe reveló el 13 de noviembre](/n/galvez-redes). En una entrevista con Willax, **admitió que la Oficina de Imagen del Ministerio Público usó sus cuentas personales para difundir material institucional** y que la persona que las manejaba fue contratada por la Fiscalía.
 
-"Como nuestra cuenta del Ministerio Público no rebotaba y se dieron cuenta de que las cuentas que estaban a mi nombre sí rebotaban muy bien y comunicaban muy bien, entonces **también utilizaron mis cuentas para posicionar al Ministerio Público**", dijo.
+Pero Gálvez intentó deslindar. Dijo que todo fue iniciativa de la Oficina de Imagen y que él recién se enteró cuando les preguntó. Fuentes del Ministerio Público consultadas por este medio sostienen lo contrario. Según su versión, **el esquema sigue funcionando, ahora con otro locador**.
 
-La respuesta llegó una semana después de que [este medio revelara](/n/galvez-redes) que Luis Ángel Gallardo Arévalo, productor audiovisual contratado por la Fiscalía, editaba en horario laboral los videos que aparecían en las redes personales del fiscal y manejaba cuentas de TikTok dedicadas a aplaudirlo.
+## Lo que dijo en Willax
 
-## "No es ni siquiera un trabajador"
+Consultado por el uso de material del Ministerio Público en sus redes privadas, Gálvez explicó que la cuenta institucional "no rebotaba" y que en cambio las cuentas a su nombre "sí rebotaba muy bien y comunicaba muy bien". Por eso, afirmó, "**también utilizaron mis cuentas para posicionar al Ministerio Público**".
 
-En la entrevista, Gálvez intentó tomar distancia de Gallardo, sin mencionar su nombre. "La persona encargada de las redes es un tercero, no es ni siquiera un trabajador del Ministerio Público", afirmó. Segundos después admitió que "**lo ha contratado el Ministerio Público**".
+"En imagen, según lo que ya me han comunicado ahora, porque ellos lo han hecho por su propia cuenta, pero ahora cuando a raíz de esto yo he tenido que preguntarles, me dicen que trabajan de esta manera", declaró.
 
-Gallardo figura en el Buscador de Proveedores del Estado con varias órdenes de servicio de la Fiscalía por **S/ 5,200 cada una**. La más reciente empezó el 30 de octubre de 2026. Según fuentes de la Oficina de Imagen consultadas por este medio, **sigue trabajando para la institución**.
+Sobre quien administraba sus redes, primero aseguró que "es un tercero, no es ni siquiera un trabajador del Ministerio Público". Segundos después admitió que "**lo ha contratado el Ministerio Público**". Añadió que esa persona "trabaja con su propio material, tiene sus computadoras, su dron, sus cámaras". También negó que se haya eliminado contenido. "No se ha borrado, sino ellos lo estaban trabajando para ver las fechas y en qué hora se han hecho", dijo.
 
-El fiscal también aseguró que Gallardo "trabaja con su propio material, tiene sus computadoras, su dron, sus cámaras". Trabajadores de la Fiscalía lo vieron editar en la oficina de prensa los videos que luego salían en las cuentas del fiscal, con material grabado por el equipo institucional.
+Cerró con una frase. "**Yo no soy candidato**, yo no estoy postulando, yo no necesito que me levanten la imagen, lo que necesitamos es que se levante la imagen del Ministerio Público".
 
-Gálvez sostuvo además que él no sabía nada. "En Imagen, según lo que ya me han comunicado ahora, porque ellos lo han hecho por su propia cuenta", dijo. El gerente de Imagen, Javier Galindo Calderón, fue designado en abril con la Resolución de la Fiscalía de la Nación N.° 1026-2026-MP-FN, que **lleva la firma del propio Gálvez**.
+## Las cifras no cuadran
 
-## Más alcance que la Fiscalía
+La explicación del alcance choca con los números. La cuenta del Ministerio Público en X supera los **800 mil seguidores**. La cuenta personal de Gálvez apenas pasa los **2,600**.
 
-La explicación del fiscal no cuadra con las cifras. La cuenta oficial del Ministerio Público en X supera los **800 mil seguidores**, mientras la cuenta personal de Gálvez apenas pasa los **2,600**.
+Fuentes de la institución explican la diferencia de otra manera. Según su testimonio, cuando algunas publicaciones de las cuentas de Gálvez en X y TikTok tenían más alcance era porque se les pagaba pauta. "Publicaciones que no tenían alcance, de pronto lo tenían porque le metían dinero", señalaron.
 
-Fuentes de la institución aseguran que si algunas publicaciones de las cuentas del fiscal en X y TikTok lograron más alcance fue porque se les pagaba publicidad. "Publicaciones que no tenían alcance, de pronto lo tenían", explicó una de ellas.
+Además, la propia investigación previa identificó eventos cubiertos por la Oficina de Imagen cuyo material apareció en las cuentas personales del fiscal y no en las institucionales. Si el objetivo era posicionar al Ministerio Público, ese material no llegó a la cuenta del Ministerio Público.
 
-Gálvez negó también que se haya eliminado contenido. "No se ha borrado, sino que ellos lo estaban trabajando para ver las fechas y en qué hora se han hecho", dijo. Las mismas fuentes afirman que Gallardo sí borró videos de las cuentas, aunque las capturas de ese material ya circulan dentro de la institución.
+## Gallardo sigue en la Fiscalía
 
-## Un nuevo locador
+Luis Ángel Gallardo Arévalo es el productor audiovisual que, según testimonios recogidos por este medio, editaba en horario laboral los videos de las cuentas personales de Gálvez y manejaba cuentas de TikTok que lo aplaudían. Figura en el Buscador de Proveedores del Estado con órdenes de servicio del Ministerio Público de **S/ 5,200 cada una**. La más reciente se inició el 30 de octubre de 2026.
 
-Según trabajadores de la Oficina de Imagen, el trabajo que hacía Gallardo lo cumpliría ahora otro locador de confianza de Galindo, **Juan Víctor Huarcaya Mamani**.
+Gálvez lo presentó como un tercero sin vínculo con la institución. Las fuentes consultadas lo desmienten. "Así sea locador, trabaja para la institución e igual ha utilizado videos y contenidos institucionales para fines personales", sostienen. Según su versión, **Gallardo sigue trabajando en el Ministerio Público** y borró videos de las cuentas, aunque existen capturas de ese material.
 
-Huarcaya figura en el Buscador de Proveedores del Estado con un "Servicio para Ministerio Público" por S/ 5,200, **el mismo monto de cada orden de Gallardo**.
+## El nuevo locador
 
-<figure style="margin:1.5em auto;max-width:520px">
+Las fuentes revelan que ahora otro locador hace el trabajo que hacía Gallardo. Se trata de **Juan Víctor Huarcaya Mamani**, a quien describen como persona de confianza del gerente de Imagen, Javier Galindo.
+
+En el Buscador de Proveedores del Estado, Huarcaya registra como último proyecto un "Servicio para Ministerio Público" por S/ 5,200, **el mismo monto de cada orden de Gallardo**.
+
+<figure style="margin:1.5em auto;max-width:460px">
 <img src="/img/uploads/huarcaya-buscador-proveedores-mp.jpg" alt="Registro de Juan Víctor Huarcaya Mamani en el Buscador de Proveedores del Estado" style="width:100%;height:auto;border:1px solid #ddd">
 <figcaption>Orden de servicio a Huarcaya para el Ministerio Público, por S/ 5,200. Fuente: Buscador de Proveedores.</figcaption>
 </figure>
 
-Además, Huarcaya es tiktoker. En su cuenta @juanvitoh, con **más de 42 mil seguidores**, se presenta como "comunicador" y "fotógrafo". Entre sus videos fijados están "Un día siendo fotógrafo de gu3rr4", con cientos de miles de reproducciones, grabados en operativos.
+Según las fuentes, Huarcaya también alimentaría las cuentas del fiscal de la Nación con material grabado en comisiones durante el horario de trabajo. Cuando ha ido a cubrir interdicciones, afirman, se le han pagado viáticos.
 
-<figure style="margin:1.5em auto;max-width:420px">
-<img src="/img/uploads/huarcaya-tiktok-juanvitoh-perfil.jpg" alt="Cuenta de TikTok de Juan Huarcaya" style="width:100%;height:auto;border:1px solid #ddd">
-<figcaption>Cuenta de TikTok de Huarcaya, con videos grabados en operativos. Captura de TikTok.</figcaption>
-</figure>
+Huarcaya tiene una cuenta personal de TikTok, "juanvito" (@juanvitoh), con **42,5 mil seguidores**, donde se presenta como comunicador y fotógrafo. Ahí publica material inédito de operativos, con videos fijados como "Un día siendo fotógrafo de gu3rr4", que suman millones de reproducciones. Para las fuentes consultadas, eso es irregular.
 
-Las fuentes sostienen que Huarcaya publica en su cuenta personal material inédito de las comisiones que cubre para la Fiscalía y que también alimentaría las cuentas del fiscal con contenido grabado en horario de trabajo. Cuando ha ido a cubrir interdicciones, añaden, se le han pagado viáticos.
-
-En una de sus historias aparece en una playa, con cámara al hombro, junto a motocicletas. En la mano sostiene un chaleco. Según los trabajadores, es un **chaleco del Ministerio Público, cuyo logo del brazo izquierdo fue borrado de la imagen**.
+En una de sus historias, Huarcaya aparece en una zona de arena, con cámara y un chaleco en la mano. De acuerdo con las fuentes, en esa imagen **se borró el logo del Ministerio Público del chaleco**, que llevaba en el brazo izquierdo.
 
 <figure style="margin:1.5em auto">
 <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
-<img src="/img/uploads/huarcaya-historia-playa-chaleco.jpg" alt="Historia de Juan Huarcaya en una playa" style="flex:1 1 220px;max-width:320px;height:auto;border:1px solid #ddd">
-<img src="/img/uploads/huarcaya-chaleco-detalle.jpg" alt="Detalle del chaleco que sostiene Huarcaya" style="flex:1 1 220px;max-width:320px;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/huarcaya-historia-playa-chaleco.jpg" alt="Historia de Juan Huarcaya con un chaleco en la mano" style="flex:1 1 220px;max-width:320px;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/huarcaya-tiktok-juanvitoh-perfil.jpg" alt="Perfil de TikTok de Juan Huarcaya" style="flex:1 1 220px;max-width:320px;height:auto;border:1px solid #ddd">
 </div>
-<figcaption>Historia de Huarcaya; a la derecha, el chaleco que sostiene. Capturas de TikTok.</figcaption>
+<figcaption>Historia de Huarcaya donde, según fuentes internas, se borró el logo del chaleco. A la derecha, su TikTok.</figcaption>
 </figure>
 
-Huarcaya y Gallardo tienen un recorrido parecido. Antes de llegar a la Fiscalía, Gallardo produjo material audiovisual para la Policía y el Ministerio del Interior. Huarcaya publicó en septiembre de 2025 fotos desde la sede del Ministerio del Interior. Según las fuentes, ambos trabajaron para la Policía y son amigos.
+## Dos amigos que vienen de la Policía
 
-## "Yo no soy candidato"
+Gallardo y Huarcaya no son desconocidos. Según las fuentes, ambos trabajaron para la Policía Nacional y son amigos. Antes de llegar a la Fiscalía, Gallardo produjo y editó material audiovisual para la PNP y el Ministerio del Interior.
 
-Gálvez cerró su defensa asegurando que la estrategia benefició a la institución y no a él. "**Yo no soy candidato**, yo no estoy postulando, yo no necesito que me levanten la imagen, lo que necesitamos es que se levante la imagen del Ministerio Público", dijo.
+En su cuenta de Instagram, juanvito121, Huarcaya publicó el 19 de septiembre de 2025 fotos geolocalizadas en el Ministerio del Interior, en las que aparece de corbata roja junto a otros jóvenes. "Hoy sostengo con orgullo estos reconocimientos", escribió.
 
-Pero el material de **al menos cinco actividades** cubiertas por la Oficina de Imagen entre junio y octubre apareció en las cuentas personales del fiscal y no en las de la institución. Si se comprobara que trabajadores y recursos públicos se usaron para fines particulares, podría configurarse el delito de **peculado de uso**, que se castiga con cárcel e inhabilitación.
+<figure style="margin:1.5em auto;max-width:460px">
+<img src="/img/uploads/huarcaya-instagram-mininter.jpg" alt="Publicación de Juan Huarcaya en el Ministerio del Interior" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>Huarcaya, de corbata roja, en el Ministerio del Interior. Captura de Instagram; se difuminó a los demás.</figcaption>
+</figure>
+
+Según las fuentes, así como Gallardo, Huarcaya cubre operativos para nutrir las cuentas del fiscal de la Nación con material institucional.
+
+## El gerente de Imagen y sus registros fiscales
+
+Detrás de ambos locadores está Javier Miguel Galindo Calderón, gerente central de la Oficina de Imagen Institucional, designado en abril de 2026 mediante la Resolución de la Fiscalía de la Nación N.° 1026-2026-MP-FN, **firmada por Gálvez**. Según los testimonios recogidos en la investigación anterior, fue Galindo quien promovió la contratación de Gallardo.
+
+jesusprospero.pe accedió a los registros de la consulta de casos del Ministerio Público, actualizados a agosto de 2026, donde aparece Galindo. En la Fiscalía Supraprovincial Especializada en Delitos de Corrupción de Funcionarios de Lima figura como **imputado en un caso por concusión (colusión ilegal) iniciado en 2010**, cuyo estado aparece como "expediente pendiente".
+
+En el distrito fiscal de Lima Este figuró como imputado en un caso por asociación ilícita y estafa de 2017, que fue archivado en diciembre de 2021. En los demás registros, de Moquegua, Lambayeque y Lima, aparece como denunciante, y en uno de Ayacucho como agraviado. Todos esos casos están archivados.
+
+<figure style="margin:1.5em auto">
+<img src="/img/uploads/galindo-consulta-casos-mp.jpg" alt="Registros de la consulta de casos del Ministerio Público a nombre de Javier Miguel Galindo Calderón" style="width:100%;height:auto;border:1px solid #ddd">
+<figcaption>Consulta de casos del Ministerio Público a nombre de Galindo, a agosto de 2026. Documento informativo.</figcaption>
+</figure>
+
+Que una persona figure en estos registros no implica responsabilidad penal. Galindo, como todo investigado, goza de la presunción de inocencia.
+
+## Un posible delito
+
+Si se comprobara que personal y recursos del Ministerio Público se usan para alimentar las cuentas personales del fiscal de la Nación, podría configurarse el delito de **peculado de uso**, que sanciona con cárcel e inhabilitación al funcionario que utiliza bienes, trabajadores o recursos del Estado para fines particulares.
+
+Gálvez no habló de Huarcaya en la entrevista. Sobre Gallardo, insistió en que solo ayudó a la institución. "Con eso nos ha ayudado muy bien al Ministerio Público, no a mí", dijo.
 
 *Los mencionados en esta nota pueden enviar sus descargos a esta redacción.*
 
-Lee también: [El productor que edita los videos de Tomás Gálvez maneja las cuentas que lo aplauden en TikTok](/n/galvez-redes).
+Lee también la primera parte de esta investigación: [El productor que edita los videos de Tomás Gálvez maneja las cuentas que lo aplauden en TikTok](/n/galvez-redes).
 
-**Fuentes:** Entrevista a Tomás Gálvez en Contracorriente (Willax), 19 de noviembre de 2026 · Testimonios de trabajadores de la Oficina de Imagen recogidos por este medio · Buscador de Proveedores del Estado · Resolución de la Fiscalía de la Nación N.° 1026-2026-MP-FN
+**Fuentes:** Entrevista a Tomás Gálvez en Contracorriente (Willax), 19 de noviembre de 2026 · Testimonios de fuentes del Ministerio Público recogidos por este medio · Buscador de Proveedores del Estado · Consulta de casos del Ministerio Público · Resolución de la Fiscalía de la Nación N.° 1026-2026-MP-FN
