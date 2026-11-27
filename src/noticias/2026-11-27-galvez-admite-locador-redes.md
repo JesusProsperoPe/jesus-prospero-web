@@ -5,7 +5,7 @@ temas: ["Tomás Gálvez", "Fiscalía", "Ministerio Público"]
 date: 2026-11-27T10:00:00-05:00
 resumen: "En Willax, el fiscal de la Nación reconoció que sus cuentas personales difundieron material del Ministerio Público. Fuentes internas revelan que Luis Gallardo sigue en la institución y que un segundo locador, Juan Huarcaya, cubre operativos para alimentar las redes del fiscal."
 imagen: /img/uploads/galvez-locadores-montaje-portada-4k.jpg
-imagen_texto: "Tomás Gálvez, al centro, con los protagonistas de esta nota."
+imagen_texto: "Tomás Gálvez, al centro; a la izquierda, Juan Huarcaya, y a la derecha, Luis Gallardo."
 imagen_fuente: "Fotomontaje elaborado con inteligencia artificial (referencial)."
 tipo: Noticia
 exclusivo: false
@@ -34,6 +34,14 @@ Cerró con una frase. "**Yo no soy candidato**, yo no estoy postulando, yo no ne
 
 La explicación del alcance choca con los números. La cuenta del Ministerio Público en X supera los **800 mil seguidores**. La cuenta personal de Gálvez apenas pasa los **2,600**.
 
+<figure style="margin:1.5em auto">
+<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:flex-start">
+<img src="/img/uploads/x-fiscaliaperu-seguidores.jpg" alt="Cuenta del Ministerio Público en X, con 817,658 seguidores" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+<img src="/img/uploads/x-aladinotomas-seguidores.jpg" alt="Cuenta de Tomás Gálvez en X, con 2,623 seguidores" style="flex:1 1 260px;max-width:100%;height:auto;border:1px solid #ddd">
+</div>
+<figcaption>El Ministerio Público tiene 817,658 seguidores en X; Gálvez, 2,623. Capturas de X.</figcaption>
+</figure>
+
 Fuentes de la institución explican la diferencia de otra manera. Según su testimonio, cuando algunas publicaciones de las cuentas de Gálvez en X y TikTok tenían más alcance era porque se les pagaba pauta. "Publicaciones que no tenían alcance, de pronto lo tenían porque le metían dinero", señalaron.
 
 Además, la propia investigación previa identificó eventos cubiertos por la Oficina de Imagen cuyo material apareció en las cuentas personales del fiscal y no en las institucionales. Si el objetivo era posicionar al Ministerio Público, ese material no llegó a la cuenta del Ministerio Público.
@@ -48,6 +56,11 @@ Gálvez lo presentó como un tercero sin vínculo con la institución. Las fuent
 
 Las fuentes revelan que ahora otro locador hace el trabajo que hacía Gallardo. Se trata de **Juan Víctor Huarcaya Mamani**, a quien describen como persona de confianza del gerente de Imagen, Javier Galindo.
 
+<figure style="margin:1.5em auto;max-width:380px">
+<img src="/img/uploads/huarcaya-retrato-rio.jpg" alt="Juan Víctor Huarcaya Mamani" style="width:100%;height:auto">
+<figcaption>Juan Víctor Huarcaya Mamani. Foto: redes sociales de Huarcaya.</figcaption>
+</figure>
+
 En el Buscador de Proveedores del Estado, Huarcaya registra como último proyecto un "Servicio para Ministerio Público" por S/ 5,200, **el mismo monto de cada orden de Gallardo**.
 
 <figure style="margin:1.5em auto;max-width:460px">
@@ -57,7 +70,7 @@ En el Buscador de Proveedores del Estado, Huarcaya registra como último proyect
 
 Según las fuentes, Huarcaya también alimentaría las cuentas del fiscal de la Nación con material grabado en comisiones durante el horario de trabajo. Cuando ha ido a cubrir interdicciones, afirman, se le han pagado viáticos.
 
-Huarcaya tiene una cuenta personal de TikTok, "juanvito" (@juanvitoh), con **42,5 mil seguidores**, donde se presenta como comunicador y fotógrafo. Ahí publica material inédito de operativos, con videos fijados como "Un día siendo fotógrafo de gu3rr4", que suman millones de reproducciones. Para las fuentes consultadas, eso es irregular.
+Huarcaya tiene una cuenta personal de TikTok, "juanvito" (@juanvitoh), con **más de 43 mil seguidores**, donde se presenta como comunicador y fotógrafo. Ahí publica material inédito de operativos, con videos fijados como "Un día siendo fotógrafo de gu3rr4", que suman millones de reproducciones. Para las fuentes consultadas, eso es irregular.
 
 En una de sus historias, Huarcaya aparece en una zona de arena, con cámara y un chaleco en la mano. De acuerdo con las fuentes, en esa imagen **se borró el logo del Ministerio Público del chaleco**, que llevaba en el brazo izquierdo.
 
